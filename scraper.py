@@ -65,17 +65,36 @@ def get_top_google_news_topics(limit=15):
     return topics
 
 def search_topic_and_group(topic):
+    import urllib.request
+    
     # Encode for URL
     query = urllib.parse.quote(topic)
-    # Search Google News for all articles about this specific top story
-    search_rss = f"https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
-    feed = feedparser.parse(search_rss)
+    search_rss = f"https://www.bing.com/news/search?q={query}&format=rss"
     
-    # 5-track buckets
     grouped_entries = {"left": [], "left-center": [], "center": [], "right-center": [], "right": []}
     
-    for entry in feed.entries:
-        source_title = entry.source.title.lower().strip() if hasattr(entry, 'source') else ""
+    req = urllib.request.Request(search_rss, headers={'User-Agent': 'Mozilla/5.0'})
+    try:
+        with urllib.request.urlopen(req) as response:
+            xml_data = response.read().decode('utf-8')
+    except Exception as e:
+        print(f"Error fetching Bing RSS: {e}")
+        return grouped_entries
+
+    items = re.findall(r'<item>([\s\S]*?)</item>', xml_data, re.IGNORECASE)
+
+    for item in items:
+        # extract source
+        source_match = re.search(r'<News:Source>(.*?)</News:Source>', item, re.IGNORECASE)
+        if not source_match:
+            continue
+        source_title = source_match.group(1).lower().strip()
+        
+        # extract url
+        url_match = re.search(r'url=(https?%3A%2F%2F[^&<]+)', item, re.IGNORECASE)
+        if not url_match:
+            continue
+        article_url = urllib.parse.unquote(url_match.group(1))
         
         # Match against our large source bias map
         matched_bias = None
@@ -89,7 +108,7 @@ def search_topic_and_group(topic):
                     break
         
         if matched_bias and matched_bias in grouped_entries:
-            grouped_entries[matched_bias].append(entry.link)
+            grouped_entries[matched_bias].append(article_url)
             
     return grouped_entries
 
@@ -125,6 +144,7 @@ for idx, topic in enumerate(topics):
     }
 
     has_center = False
+    has_any = False
     for cat, json_key in mapping.items():
         for link in grouped_links[cat]:
             try:
@@ -136,16 +156,20 @@ for idx, topic in enumerate(topics):
                     final_data[json_key] = highlight_bias(text, cat)
                     if cat == "center":
                         has_center = True
+                    has_any = True
                     break # Move to next category
             except Exception as e:
                 continue
                 
-    # We only include topics where we successfully pulled at least a center article
-    if has_center:
+    if not has_center:
+        final_data["centerText"] = "Neutral baseline article could not be scraped for this topic. Check other perspectives."
+
+    # We include topics where we successfully pulled at least one article
+    if has_any:
         output_data.append(final_data)
-        print(" -> Successfully aggregated top perspectives.")
+        print(" -> Successfully aggregated perspectives.")
     else:
-        print(" -> Skipped: Could not find/parse a valid center article.")
+        print(" -> Skipped: Could not find/parse any valid articles.")
 
 # Ensure output directory exists
 os.makedirs("data", exist_ok=True)
