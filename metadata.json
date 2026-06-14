@@ -1,0 +1,6 @@
+{
+  "name": "Bias Slider News",
+  "description": "Compare media framing on top news stories. Toggle/slide between neutral, left-leaning, and right-leaning reports, highlighting visual adjective overlays and omitted facts in real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
