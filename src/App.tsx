@@ -16,7 +16,10 @@ export default function App() {
   const [isSideBySide, setIsSideBySide] = useState(false);
 
   useEffect(() => {
-    fetch('/data/daily-slider.json')
+    // Fetch directly from the Github repository so that changes made by the GitHub Actions worker
+    // immediately reflect in the Google AI Studio preview without needing a local workspace sync.
+    const url = `https://raw.githubusercontent.com/OmarAj1/BiasFree/main/data/daily-slider.json?t=${new Date().getTime()}`;
+    fetch(url)
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) {
@@ -28,7 +31,14 @@ export default function App() {
       })
       .catch(err => {
         console.error("Failed to load daily slider data:", err);
-        setIsLoading(false);
+        // Fallback to local if github fails
+        fetch('/data/daily-slider.json')
+          .then(res => res.json())
+          .then(fallbackData => {
+            if (Array.isArray(fallbackData)) setDailyDataList(fallbackData);
+            else if (fallbackData) setDailyDataList([fallbackData]);
+            setIsLoading(false);
+          }).catch(() => setIsLoading(false));
       });
   }, []);
 
