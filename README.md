@@ -19,10 +19,9 @@ The entire process is automated via `scraper.py`, which is triggered by a cron j
 5. **Cross-Referencing**: Using a simple set-intersection NLP algorithm, it pairs one Center story with the most topically similar Left and Right counterpart. 
 6. **Publishing**: The results are dumped into `data/daily-slider.json` and committed automatically back to the repository via the GitHub Action.
 
-### 3. How to Edit and Improve This Setup
+### 3. How to Edit and Test This Setup
 If you are an "Other Entity" aiming to enhance this platform:
 
-* **Enhancing the Grammar matching**: Right now, `scraper.py` replaces words exactly. You can improve it by adding lemmatization (using Python's `nltk` or `spacy`) to catch plurals and verb-tense variations of the loaded words.
-* **Adding Outlets & Feeds**: The currently imported `sources.csv` was adapted from AllSides bias ratings—**however, the CSV doesn't yet contain an RSS `feed_url` column.** Adding direct RSS feeds to that CSV is the first priority to get data flowing. 
-* **Updating the Lexicon**: Whenever users complain about undetected biased language, append row entries directly into `data/lexicon.csv` natively. 
-* **Frontend Modifications**: The React App `src/App.tsx` must only make basic `fetch()` requests to `data/daily-slider.json`. Avoid adding React state for API keys or polling.
+* **Testing Locally**: You can manually trigger the worker. Just run `python scraper.py` in your terminal. It will immediately generate a fresh `data/daily-slider.json`. Make sure you run `pip install feedparser newspaper3k` first!
+* **Testing via GitHub Actions**: Go to the "Actions" tab in your GitHub repository, click on "Daily News Ghost Worker" and click "Run workflow" to force a manual scrape right now, without waiting an hour.
+* **The Smart Google News Pipeline**: The scraper automatically parses all 500+ news labels in `data/sources.csv`. It fetches the #1 trending topic via Google News, then searches that exact topic *again* through Google News to isolate articles precisely mapped to your Left, Right, and Center sources. This ensures the articles align flawlessly!

@@ -2,30 +2,28 @@ import React, { useState, useEffect } from "react";
 import { 
   AlertTriangle, 
   BookOpen, 
-  SlidersHorizontal
+  SlidersHorizontal,
+  Clock
 } from "lucide-react";
 import { BIAS_EDUCATIONAL_TIPS } from "./data";
 
 export default function App() {
-  const [dailyData, setDailyData] = useState<{
-    date: string;
-    topic: string;
-    farLeftText: string;
-    centerLeftText: string;
-    centerText: string;
-    centerRightText: string;
-    farRightText: string;
-  } | null>(null);
-
+  const [dailyDataList, setDailyDataList] = useState<any[]>([]);
+  const [activeStoryIndex, setActiveStoryIndex] = useState(0);
   const [biasValue, setBiasValue] = useState<number>(0);
   const [isLoading, setIsLoading] = useState(true);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const [isSideBySide, setIsSideBySide] = useState(false);
 
   useEffect(() => {
     fetch('/data/daily-slider.json')
       .then(res => res.json())
       .then(data => {
-        setDailyData(data);
+        if (Array.isArray(data)) {
+          setDailyDataList(data);
+        } else if (data) {
+          setDailyDataList([data]);
+        }
         setIsLoading(false);
       })
       .catch(err => {
@@ -33,6 +31,8 @@ export default function App() {
         setIsLoading(false);
       });
   }, []);
+
+  const dailyData = dailyDataList[activeStoryIndex] || null;
 
   const showToast = (msg: string) => {
     setToastMessage(msg);
@@ -70,6 +70,13 @@ export default function App() {
         words.push(match[1]);
     }
     return [...new Set(words)]; // Unique words
+  };
+
+  const calculateReadingTime = (text: string) => {
+    if (!text) return 0;
+    const rawText = text.replace(/<[^>]*>?/gm, ''); // strip HTML tags
+    const words = rawText.split(/\s+/).length;
+    return Math.max(1, Math.ceil(words / 200));
   };
 
   const allBiasedWords = dailyData ? [
@@ -149,11 +156,33 @@ export default function App() {
                 <span className="px-2 py-1 bg-indigo-50 text-indigo-700 text-[10px] font-bold rounded uppercase">
                   No APIs
                 </span>
+                <span className="px-2 py-1 bg-emerald-50 text-emerald-700 text-[10px] items-center flex font-bold rounded uppercase border border-emerald-100">
+                  <Clock className="w-3 h-3 mr-1" />
+                  {calculateReadingTime(getCurrentHtml())} min read
+                </span>
               </div>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif font-bold text-slate-900 leading-tight">
                 {dailyData.topic || "Current Top Story"}
               </h2>
+              
+              {/* Daily stories picker (if multiple) */}
+              {dailyDataList.length > 1 && (
+                <div role="group" aria-label="News Topics Selector" className="flex bg-white rounded-lg p-1.5 shadow-sm border border-slate-200 mt-5 overflow-x-auto gap-2">
+                  <span className="text-[10px] uppercase font-bold text-slate-400 py-1.5 px-2">Top Stories:</span>
+                  {dailyDataList.map((story, i) => (
+                    <button 
+                      key={i} 
+                      onClick={() => setActiveStoryIndex(i)}
+                      aria-current={i === activeStoryIndex ? "true" : "false"}
+                      className={`whitespace-nowrap px-3 py-1 text-xs font-bold rounded-md transition-colors ${i === activeStoryIndex ? 'bg-slate-800 text-white shadow-sm' : 'bg-slate-50 text-slate-500 hover:bg-slate-200'}`}
+                    >
+                      Topic {i + 1}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
+            
             <p className="text-slate-500 text-xs md:text-sm mt-3">
               Automated offline bias analysis. Scraped on: {dailyData.date}.
             </p>
@@ -182,18 +211,21 @@ export default function App() {
             <div className="flex justify-between items-center mb-4">
               <button 
                 onClick={() => setBiasValue(-75)}
+                aria-label="Set to Progressive Lens"
                 className={`text-xs font-black uppercase tracking-tighter transition-all px-3 py-1 rounded-full ${biasValue < -10 ? "text-blue-600 bg-blue-50 border border-blue-100" : "text-slate-400 hover:text-slate-600"}`}
               >
                 Progressive Lens
               </button>
               <button 
                 onClick={() => setBiasValue(0)}
+                aria-label="Set to Neutral Core"
                 className={`text-xs font-black uppercase tracking-tighter transition-all px-3 py-1 rounded-full ${biasValue >= -10 && biasValue <= 10 ? "text-slate-800 bg-slate-100 border border-slate-200 shadow-inner" : "text-slate-400 hover:text-slate-605"}`}
               >
                 Neutral Core
               </button>
               <button 
                 onClick={() => setBiasValue(75)}
+                aria-label="Set to Conservative Lens"
                 className={`text-xs font-black uppercase tracking-tighter transition-all px-3 py-1 rounded-full ${biasValue > 10 ? "text-red-600 bg-red-50 border border-red-100" : "text-slate-400 hover:text-slate-600"}`}
               >
                 Conservative Lens
@@ -206,17 +238,27 @@ export default function App() {
               <input
                 type="range"
                 id="bias-slider"
+                aria-label="Adjust Political Bias Lens"
+                aria-valuemin={-100}
+                aria-valuemax={100}
+                aria-valuenow={biasValue}
+                title="Bias Slider"
                 min="-100"
                 max="100"
+                step="1"
                 value={biasValue}
                 onChange={(e) => setBiasValue(parseInt(e.target.value))}
-                className="w-full h-2 bg-transparent cursor-pointer appearance-none z-10 relative outline-none focus:ring-2 focus:ring-slate-300"
+                onKeyDown={(e) => {
+                  if (e.key === 'ArrowRight') setBiasValue(Math.min(100, biasValue + 10));
+                  if (e.key === 'ArrowLeft') setBiasValue(Math.max(-100, biasValue - 10));
+                }}
+                className="w-full h-2 bg-transparent cursor-pointer appearance-none z-10 relative outline-none focus:ring-4 focus:ring-slate-300 rounded"
                 style={{
                   accentColor: biasValue === 0 ? "#475569" : biasValue < 0 ? "#2563eb" : "#dc2626"
                 }}
               />
             </div>
-            <div className="flex justify-between items-center text-[10px] font-mono text-slate-400 uppercase tracking-wider mt-1">
+            <div className="flex justify-between items-center text-[10px] font-mono text-slate-400 uppercase tracking-wider mt-1" aria-hidden="true">
               <span>Far-Left (-100)</span>
               <div className="flex items-center gap-2">
                 <span className="font-bold text-slate-500">Current Overlay:</span>
@@ -228,61 +270,85 @@ export default function App() {
             </div>
           </div>
 
-          {/* Neutral Fact Summary Baseline */}
-          <div id="neutral-baseline-card" className="col-span-1 md:col-span-4 bg-white rounded-3xl p-6 border-l-4 border-slate-900 shadow-sm flex flex-col justify-between space-y-4">
-            <div>
-              <h3 className="font-black text-xs uppercase mb-4 tracking-widest text-slate-500 font-mono">Neutral Summary Facts</h3>
-              <p className="text-xs md:text-sm leading-relaxed text-slate-800 italic">
-                {dailyData.centerText}
-              </p>
-            </div>
-            
-            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200/60 mt-3">
-              <span className="text-[9px] font-mono uppercase text-slate-400 block font-bold">Lexical Scanner</span>
-              <p className="text-[11px] mt-2 text-slate-600 leading-relaxed font-sans">
-                This center feed explicitly avoids the offline loaded vocabulary matched across {totalUniqueBiasedWords} flagged terms in the highly polarized partisan outlets.
-              </p>
-            </div>
-          </div>
-
           {/* Active Perspective Frame View */}
-          <div id="active-perspective-card" className={`col-span-1 md:col-span-5 rounded-3xl p-6 border shadow-sm flex flex-col justify-between relative ${
+          <div id="active-perspective-card" className={`col-span-1 md:col-span-9 rounded-3xl p-6 border shadow-sm flex flex-col justify-between relative ${
             biasValue >= -10 && biasValue <= 10 
               ? "bg-stone-50/70 border-stone-200" 
               : biasValue < 0 
                 ? "bg-blue-50 border-blue-100 highlight-bias-left" 
                 : "bg-red-50 border-red-100 highlight-bias-right"
           }`}>
-            {biasValue >= -10 && biasValue <= 10 ? (
+            {biasValue >= -10 && biasValue <= 10 && !isSideBySide ? (
               <div className="absolute inset-0 bg-stone-50/90 rounded-3xl z-20 flex flex-col items-center justify-center p-6 text-center">
                 <SlidersHorizontal className="w-12 h-12 text-slate-400 mb-2 animate-pulse" />
                 <h4 className="text-base font-bold text-slate-800">Partisan Slant Lens Inactive</h4>
                 <p className="text-xs text-slate-500 max-w-xs mt-1">
                   Slide spectrum slider left or right above to overlay highlighted slanted articles. 
+                  <br/><br/>
+                  Or click 'Side-by-Side View' to compare neutrally next to partisan sources.
                 </p>
+                <button 
+                  onClick={() => setIsSideBySide(true)}
+                  aria-label="Enable Side-by-Side View"
+                  className="mt-6 px-4 py-2 rounded-lg text-sm font-bold bg-white border border-slate-300 text-slate-700 shadow-sm hover:bg-slate-50"
+                 >
+                   Enable Side-by-Side View
+                </button>
               </div>
             ) : null}
 
-            <div className="space-y-4">
-              <div className="flex justify-between items-center">
-                <span className="text-[10px] font-mono uppercase tracking-widest text-slate-400 font-bold">
-                  {biasState.outlet}
-                </span>
-                <span className={`text-[9px] font-bold px-2 py-0.5 rounded font-mono uppercase ${
-                  biasValue < 0 ? "bg-blue-100 text-blue-700" : "bg-red-100 text-red-700"
-                }`}>
-                  {biasValue < 0 ? "Left Narrative" : "Right Narrative"}
-                </span>
+            <div className="flex flex-col h-full w-full">
+              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center w-full mb-4 gap-4">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-[10px] font-mono uppercase tracking-widest text-slate-400 font-bold">
+                    {biasState.outlet}
+                  </span>
+                  <span className={`text-[9px] font-bold px-2 py-0.5 rounded font-mono uppercase ${
+                    biasValue < 0 ? "bg-blue-100 text-blue-700" : biasValue > 0 ? "bg-red-100 text-red-700" : "bg-slate-200 text-slate-700"
+                  }`}>
+                    {biasValue < 0 ? "Left Narrative" : biasValue > 0 ? "Right Narrative" : "Neutral Perspective"}
+                  </span>
+                </div>
+                
+                <button 
+                  onClick={() => setIsSideBySide(!isSideBySide)}
+                  aria-label="Toggle Side-by-Side View"
+                  aria-pressed={isSideBySide}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${isSideBySide ? "bg-slate-800 text-white shadow" : "bg-white border border-slate-300 text-slate-600 hover:bg-slate-50"}`}
+                >
+                  {isSideBySide ? "Exit Side-by-Side View" : "Enable Side-by-Side View"}
+                </button>
               </div>
 
-              <div className="space-y-3">
-                <h4 className="text-xl font-serif font-bold text-slate-900 leading-tight italic">
-                  Headline: {dailyData.topic}
-                </h4>
-                <div className="bg-white/90 border border-slate-200/80 p-4 rounded-2xl min-h-[160px] shadow-inner text-slate-800 leading-relaxed whitespace-pre-line font-serif text-lg tracking-normal max-h-[300px] overflow-y-auto"
-                     dangerouslySetInnerHTML={{__html: getCurrentHtml().replace(/<span class='highlight-bias'>/g, `<span class='highlight-bias ${biasValue < 0 ? "highlight-bias-left" : "highlight-bias-right"}'>`)}}
-                />
-              </div>
+              {isSideBySide ? (
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 w-full flex-grow">
+                  {/* Neutral Pane */}
+                  <div className="flex flex-col gap-2 h-full">
+                    <h5 className="text-[10px] font-bold uppercase text-slate-400 font-mono tracking-wider">Neutral Baseline</h5>
+                    <div className="bg-slate-50/80 border border-slate-200 p-4 rounded-xl shadow-inner text-slate-700 leading-relaxed font-serif text-[15px] tracking-normal flex-grow overflow-y-auto">
+                      {dailyData.centerText}
+                    </div>
+                  </div>
+                  {/* Partisan Pane */}
+                  <div className="flex flex-col gap-2 h-full">
+                    <h5 className="text-[10px] font-bold uppercase tracking-wider" style={{ color: biasValue < 0 ? '#2563eb' : biasValue > 0 ? '#dc2626' : '#64748b' }}>
+                      Selected Overlay: {biasState.label}
+                    </h5>
+                    <div className="bg-white border border-slate-200 p-4 rounded-xl shadow-sm text-slate-800 leading-relaxed whitespace-pre-line font-serif text-[15px] tracking-normal flex-grow overflow-y-auto"
+                         dangerouslySetInnerHTML={{__html: getCurrentHtml().replace(/<span class='highlight-bias'>/g, `<span class='highlight-bias ${biasValue < 0 ? "highlight-bias-left" : "highlight-bias-right"}'>`)}}
+                    />
+                  </div>
+                </div>
+              ) : (
+                <div className="flex-grow">
+                  <h4 className="text-xl font-serif font-bold text-slate-900 leading-tight italic mb-3">
+                    Headline: {dailyData.topic}
+                  </h4>
+                  <div className="bg-white border border-slate-200 p-4 rounded-2xl shadow-sm text-slate-800 leading-relaxed whitespace-pre-line font-serif text-[17px] tracking-normal min-h-[160px] max-h-[300px] overflow-y-auto"
+                       dangerouslySetInnerHTML={{__html: getCurrentHtml().replace(/<span class='highlight-bias'>/g, `<span class='highlight-bias ${biasValue < 0 ? "highlight-bias-left" : "highlight-bias-right"}'>`)}}
+                  />
+                </div>
+              )}
             </div>
           </div>
 
@@ -291,7 +357,7 @@ export default function App() {
             <div>
               <h3 className="font-black text-xs uppercase mb-4 tracking-widest text-slate-400 font-mono">Found Modifiers</h3>
               
-              <div className="flex flex-wrap gap-1.5 max-h-[160px] overflow-y-auto pr-1">
+              <div aria-live="polite" className="flex flex-wrap gap-1.5 max-h-[160px] overflow-y-auto pr-1">
                 {currentWords.length > 0 ? currentWords.map((word, i) => (
                     <span 
                       key={i}
@@ -366,7 +432,7 @@ export default function App() {
       </footer>
 
       {toastMessage && (
-        <div className="fixed bottom-6 right-6 bg-slate-900 text-white py-3 px-5 rounded-2xl shadow-xl z-50 text-xs font-mono font-bold">
+        <div className="fixed bottom-6 right-6 bg-slate-900 text-white py-3 px-5 rounded-2xl shadow-xl z-50 text-xs font-mono font-bold" role="alert">
           <span>{toastMessage}</span>
         </div>
       )}
@@ -374,3 +440,4 @@ export default function App() {
     </div>
   );
 }
+
