@@ -16,10 +16,10 @@ try:
         reader = csv.DictReader(file)
         for row in reader:
             if "news_source" in row and "rating" in row:
-                # Clean and lower for better matching
                 source_name = row["news_source"].lower().strip()
-                # Remove common prefixes/suffixes for matching
-                source_name = source_name.replace(" - news", "").replace(" online news", "").replace(".com", "")
+                # Clean up known AllSides suffixes
+                source_name = re.sub(r'\s*\(.*?\)\s*', '', source_name)
+                source_name = source_name.replace(" - news", "").replace(" online news", "").replace(".com", "").replace(" news", "")
                 bias_map[source_name.strip()] = row["rating"].lower().strip()
 except Exception as e:
     print(f"Error loading sources: {e}")
@@ -66,50 +66,54 @@ def get_top_google_news_topics(limit=15):
 
 def search_topic_and_group(topic):
     import urllib.request
-    
-    # Encode for URL
-    query = urllib.parse.quote(topic)
-    search_rss = f"https://www.bing.com/news/search?q={query}&format=rss"
-    
     grouped_entries = {"left": [], "left-center": [], "center": [], "right-center": [], "right": []}
     
-    req = urllib.request.Request(search_rss, headers={'User-Agent': 'Mozilla/5.0'})
-    try:
-        with urllib.request.urlopen(req) as response:
-            xml_data = response.read().decode('utf-8')
-    except Exception as e:
-        print(f"Error fetching Bing RSS: {e}")
-        return grouped_entries
+    def fetch_query(q):
+        query_url = f"https://www.bing.com/news/search?q={urllib.parse.quote(q)}&format=rss"
+        req = urllib.request.Request(query_url, headers={'User-Agent': 'Mozilla/5.0'})
+        try:
+            with urllib.request.urlopen(req) as response:
+                xml_data = response.read().decode('utf-8')
+        except Exception:
+            return
 
-    items = re.findall(r'<item>([\s\S]*?)</item>', xml_data, re.IGNORECASE)
-
-    for item in items:
-        # extract source
-        source_match = re.search(r'<News:Source>(.*?)</News:Source>', item, re.IGNORECASE)
-        if not source_match:
-            continue
-        source_title = source_match.group(1).lower().strip()
-        
-        # extract url
-        url_match = re.search(r'url=(https?%3A%2F%2F[^&<]+)', item, re.IGNORECASE)
-        if not url_match:
-            continue
-        article_url = urllib.parse.unquote(url_match.group(1))
-        
-        # Match against our large source bias map
-        matched_bias = None
-        if source_title in bias_map:
-            matched_bias = bias_map[source_title]
-        else:
-            # Try partial matching
-            for known_source, bias in bias_map.items():
-                if known_source in source_title or source_title in known_source:
-                    matched_bias = bias
-                    break
-        
-        if matched_bias and matched_bias in grouped_entries:
-            grouped_entries[matched_bias].append(article_url)
+        items = re.findall(r'<item>([\s\S]*?)</item>', xml_data, re.IGNORECASE)
+        for item in items:
+            source_match = re.search(r'<News:Source>(.*?)</News:Source>', item, re.IGNORECASE)
+            url_match = re.search(r'url=(https?%3A%2F%2F[^&<]+)', item, re.IGNORECASE)
+            if not source_match or not url_match:
+                continue
+                
+            source_title = source_match.group(1).lower().replace(" on msn", "").replace(" on yahoo", "").replace(" news", "").strip()
+            article_url = urllib.parse.unquote(url_match.group(1))
             
+            matched_bias = None
+            if source_title in bias_map:
+                matched_bias = bias_map[source_title]
+            else:
+                for known_source, bias in bias_map.items():
+                    if known_source in source_title or source_title in known_source:
+                        matched_bias = bias
+                        break
+            
+            if matched_bias and article_url not in grouped_entries[matched_bias]:
+                grouped_entries[matched_bias].append(article_url)
+
+    # 1. Base topic query
+    fetch_query(topic)
+    
+    # 2. Add perspective queries if buckets are empty
+    if not grouped_entries["left"]:
+        fetch_query(f"{topic} MSNBC")
+    if not grouped_entries["left-center"]:
+        fetch_query(f"{topic} CNN")
+    if not grouped_entries["center"]:
+        fetch_query(f"{topic} Reuters")
+    if not grouped_entries["right-center"]:
+        fetch_query(f"{topic} Fox News")
+    if not grouped_entries["right"]:
+        fetch_query(f"{topic} Breitbart OR New York Post")
+        
     return grouped_entries
 
 # --- 4. EXECUTE ---
@@ -159,6 +163,7 @@ for idx, topic in enumerate(topics):
                     has_any = True
                     break # Move to next category
             except Exception as e:
+                print(f"Skipping link {link} due to error: {e}")
                 continue
                 
     if not has_center:
