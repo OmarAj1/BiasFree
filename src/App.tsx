@@ -16,26 +16,66 @@ export default function App() {
   const [isSideBySide, setIsSideBySide] = useState(false);
 
   useEffect(() => {
-    // 1. We fetch from Github directly to ensure the view stays updated when the GitHub Ghost Worker runs.
-    const url = `https://raw.githubusercontent.com/OmarAj1/BiasFree/main/data/daily-slider.json?t=${new Date().getTime()}`;
-    fetch(url)
-      .then(res => res.json())
-      .then(data => {
-        if (Array.isArray(data)) setDailyDataList(data);
-        else if (data) setDailyDataList([data]);
-        setIsLoading(false);
-      })
-      .catch(err => {
-        console.warn("Failed to load daily slider from github, falling back locally:", err);
-        fetch('/data/daily-slider.json')
-          .then(res => res.json())
-          .then(data => {
-            if (Array.isArray(data)) setDailyDataList(data);
-            else if (data) setDailyDataList([data]);
-            setIsLoading(false);
-          })
-          .catch(() => setIsLoading(false));
-      });
+    const fetchData = async () => {
+      const urls = [
+        `https://raw.githubusercontent.com/OmarAj1/BiasFree/main/data/daily-slider-history.json?t=${new Date().getTime()}`,
+        '/data/daily-slider-history.json',
+        `https://raw.githubusercontent.com/OmarAj1/BiasFree/main/data/daily-slider.json?t=${new Date().getTime()}`,
+        '/data/daily-slider.json'
+      ];
+
+      for (const url of urls) {
+        try {
+          const res = await fetch(url);
+          if (!res.ok) continue;
+          
+          let text = await res.text();
+          if (!text || text.trim() === "404: Not Found" || text.trim().toLowerCase().startsWith("<!doctype html>")) continue;
+          
+          let data;
+          try {
+            data = JSON.parse(text);
+          } catch (initialError) {
+            console.warn(`Initial JSON parse failed for ${url}, attempting to extract JSON...`);
+            const firstBrace = text.indexOf('{');
+            const firstBracket = text.indexOf('[');
+            const startIndex = (firstBrace !== -1 && firstBracket !== -1) 
+              ? Math.min(firstBrace, firstBracket) 
+              : Math.max(firstBrace, firstBracket);
+              
+            const lastBrace = text.lastIndexOf('}');
+            const lastBracket = text.lastIndexOf(']');
+            const endIndex = Math.max(lastBrace, lastBracket);
+            
+            if (startIndex !== -1 && endIndex !== -1 && endIndex >= startIndex) {
+              try {
+                const cleanedText = text.substring(startIndex, endIndex + 1);
+                data = JSON.parse(cleanedText);
+              } catch (secondError) {
+                console.warn(`Failed to parse extracted JSON from ${url}`);
+                continue;
+              }
+            } else {
+              console.warn(`No valid JSON structure found in response from ${url}`);
+              continue;
+            }
+          }
+
+          if (Array.isArray(data)) setDailyDataList(data.reverse());
+          else if (data) setDailyDataList([data]);
+          
+          setIsLoading(false);
+          return; // Success, stop trying other URLs
+        } catch (err) {
+          console.warn(`Failed to process data from ${url}:`, err);
+        }
+      }
+      
+      setIsLoading(false);
+      console.error("All data sources failed to load.");
+    };
+
+    fetchData();
   }, []);
 
   const dailyData = dailyDataList[activeStoryIndex] || null;
@@ -69,7 +109,7 @@ export default function App() {
   // Helper to extract highlighted words
   const extractLoadedWords = (html: string) => {
     if (!html) return [];
-    const regex = /<span class=["']?highlight-bias(?:-left|-right)?["']?>([^<]+)<\/span>/gi;
+    const regex = /<span[^>]*class=["'][^"']*highlight-bias[^"']*["'][^>]*>([^<]+)<\/span>/gi;
     const words: string[] = [];
     let match;
     while ((match = regex.exec(html)) !== null) {
@@ -121,22 +161,16 @@ export default function App() {
       `}</style>
       
       {/* Header Section */}
-      <header className="flex flex-col sm:flex-row justify-between items-center mb-6 bg-white p-4 rounded-2xl border border-slate-200 shadow-sm gap-4 w-full">
+      <header className="flex flex-col sm:flex-row justify-between items-center mb-6 bg-white p-4 rounded-2xl border border-orange-200 shadow-sm gap-4 w-full">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-sm">
+          <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-sm">
             BF
           </div>
           <div>
             <h1 className="text-2xl font-black tracking-tight text-slate-800">
-              BIAS<span className="text-slate-500">FREE</span>
+              BIAS<span className="text-orange-500">FREE</span>
             </h1>
-            <p className="text-[10px] text-slate-400 font-mono tracking-wider uppercase">Zero-API Static News Aggregator</p>
           </div>
-        </div>
-        <div className="flex flex-wrap gap-4 items-center justify-center">
-          <span className="text-xs font-semibold uppercase tracking-widest text-slate-400">
-            Automated via GitHub Actions
-          </span>
         </div>
       </header>
 
@@ -156,13 +190,10 @@ export default function App() {
           <div id="core-headline-card" className="col-span-1 md:col-span-8 bg-white rounded-3xl p-6 border-b-4 border-slate-300 shadow-sm flex flex-col justify-between min-h-[180px]">
             <div>
               <div className="flex flex-wrap gap-2 mb-3">
-                <span className="px-2 py-1 bg-slate-100 text-slate-600 text-[10px] font-bold rounded uppercase">
-                  Daily Automatic Scan
+                <span className="px-2 py-1 bg-orange-50 text-orange-700 text-[10px] font-bold rounded uppercase">
+                  Daily Scan
                 </span>
-                <span className="px-2 py-1 bg-indigo-50 text-indigo-700 text-[10px] font-bold rounded uppercase">
-                  No APIs
-                </span>
-                <span className="px-2 py-1 bg-emerald-50 text-emerald-700 text-[10px] items-center flex font-bold rounded uppercase border border-emerald-100">
+                <span className="px-2 py-1 bg-orange-50 text-orange-700 text-[10px] items-center flex font-bold rounded uppercase border border-orange-100">
                   <Clock className="w-3 h-3 mr-1" />
                   {calculateReadingTime(getCurrentHtml())} min read
                 </span>
@@ -195,7 +226,7 @@ export default function App() {
           </div>
 
           {/* Stats Card */}
-          <div id="stats-card" className="col-span-1 md:col-span-4 bg-slate-800 rounded-3xl p-6 text-white relative overflow-hidden flex flex-col justify-between shadow-sm min-h-[180px]">
+          <div id="stats-card" className="col-span-1 md:col-span-4 bg-orange-500 rounded-3xl p-6 text-white relative overflow-hidden flex flex-col justify-between shadow-sm min-h-[180px]">
             <div className="relative z-10 space-y-4">
               <h3 className="text-xs font-bold uppercase opacity-80 tracking-widest font-mono">
                 Detected Bias Modifiers
@@ -288,10 +319,8 @@ export default function App() {
               <div className="absolute inset-0 bg-stone-50/90 rounded-3xl z-20 flex flex-col items-center justify-center p-6 text-center">
                 <SlidersHorizontal className="w-12 h-12 text-slate-400 mb-2 animate-pulse" />
                 <h4 className="text-base font-bold text-slate-800">Partisan Slant Lens Inactive</h4>
-                <p className="text-xs text-slate-500 max-w-xs mt-1">
-                  Slide spectrum slider left or right above to overlay highlighted slanted articles. 
-                  <br/><br/>
-                  Or click 'Side-by-Side View' to compare neutrally next to partisan sources.
+                <p className="text-xs text-slate-500 mt-1">
+                  Use the slider above to view slanted articles. Or use Side-by-Side View.
                 </p>
                 <button 
                   onClick={() => setIsSideBySide(true)}
@@ -341,7 +370,7 @@ export default function App() {
                       Selected Overlay: {biasState.label}
                     </h5>
                     <div className="bg-white border border-slate-200 p-4 rounded-xl shadow-sm text-slate-800 leading-relaxed whitespace-pre-line font-serif text-[15px] tracking-normal flex-grow overflow-y-auto"
-                         dangerouslySetInnerHTML={{__html: getCurrentHtml().replace(/<span class='highlight-bias'>/g, `<span class='highlight-bias ${biasValue < 0 ? "highlight-bias-left" : "highlight-bias-right"}'>`)}}
+                         dangerouslySetInnerHTML={{__html: getCurrentHtml()}}
                     />
                   </div>
                 </div>
@@ -351,7 +380,7 @@ export default function App() {
                     Headline: {dailyData.topic}
                   </h4>
                   <div className="bg-white border border-slate-200 p-4 rounded-2xl shadow-sm text-slate-800 leading-relaxed whitespace-pre-line font-serif text-[17px] tracking-normal min-h-[160px] max-h-[300px] overflow-y-auto"
-                       dangerouslySetInnerHTML={{__html: getCurrentHtml().replace(/<span class='highlight-bias'>/g, `<span class='highlight-bias ${biasValue < 0 ? "highlight-bias-left" : "highlight-bias-right"}'>`)}}
+                       dangerouslySetInnerHTML={{__html: getCurrentHtml()}}
                   />
                 </div>
               )}
@@ -386,7 +415,7 @@ export default function App() {
 
             <div className="mt-6 pt-4 border-t border-slate-800">
               <p className="text-[10px] text-slate-400 uppercase font-mono leading-relaxed">
-                Lexicon match logic <span className="text-emerald-400">ACTIVE</span>. Modifiers highlight partisan leaning based on <span className="text-indigo-300">data/lexicon.csv</span>.
+                Lexicon match logic <span className="text-emerald-400">ACTIVE</span>.
               </p>
             </div>
           </div>
@@ -395,7 +424,7 @@ export default function App() {
           <div id="integrity-sandbox-guide" className="col-span-1 md:col-span-12 bg-white rounded-3xl p-6 border border-slate-200 shadow-sm">
             <h3 className="font-bold text-xs uppercase mb-4 tracking-widest text-slate-500 font-mono flex items-center gap-1.5 border-b pb-2 border-slate-100">
               <BookOpen className="w-4 h-4 text-slate-500" />
-              Understanding Media Bias (Static Local List)
+              Understanding Media Bias
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {BIAS_EDUCATIONAL_TIPS.map((tip, i) => (
@@ -420,8 +449,7 @@ export default function App() {
       {/* Footer / CTA links */}
       <footer className="mt-6 flex justify-between items-center text-[11px] text-slate-400 font-medium font-mono pt-6 gap-4 border-t border-slate-200/50 pb-6 w-full">
         <div className="flex gap-4">
-          <span>Static Offline Pipeline</span>
-          <span>Zero-API Engine</span>
+          <span>Objective News Aggregator</span>
         </div>
         <div className="flex items-center gap-2">
           <span>Share analyzer:</span>

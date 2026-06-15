@@ -1,5 +1,4 @@
-import feedparser
-from newspaper import Article
+from newspaper import Article, Config
 import json
 import csv
 import re
@@ -70,11 +69,18 @@ def search_topic_and_group(topic):
     
     def fetch_query(q):
         query_url = f"https://www.bing.com/news/search?q={urllib.parse.quote(q)}&format=rss"
-        req = urllib.request.Request(query_url, headers={'User-Agent': 'Mozilla/5.0'})
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Referer': 'https://www.bing.com'
+        }
+        req = urllib.request.Request(query_url, headers=headers)
         try:
-            with urllib.request.urlopen(req) as response:
+            with urllib.request.urlopen(req, timeout=10) as response:
                 xml_data = response.read().decode('utf-8')
-        except Exception:
+        except Exception as e:
+            print(f"HTTP Error querying Bing for {q}: {e}")
             return
 
         items = re.findall(r'<item>([\s\S]*?)</item>', xml_data, re.IGNORECASE)
@@ -147,41 +153,69 @@ for idx, topic in enumerate(topics):
         "right": "farRightText"
     }
 
+    has_left = False
     has_center = False
-    has_any = False
+    has_right = False
+
+    newspaper_config = Config()
+    newspaper_config.browser_user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    newspaper_config.request_timeout = 10
+
     for cat, json_key in mapping.items():
         for link in grouped_links[cat]:
             try:
-                article = Article(link)
+                article = Article(link, config=newspaper_config)
                 article.download()
                 article.parse()
                 text = article.text
                 if len(text) > 300:
                     final_data[json_key] = highlight_bias(text, cat)
-                    if cat == "center":
+                    if cat in ["left", "left-center"]:
+                        has_left = True
+                    elif cat == "center":
                         has_center = True
-                    has_any = True
+                    elif cat in ["right", "right-center"]:
+                        has_right = True
                     break # Move to next category
             except Exception as e:
                 print(f"Skipping link {link} due to error: {e}")
                 continue
                 
-    if not has_center:
-        final_data["centerText"] = "Neutral baseline article could not be scraped for this topic. Check other perspectives."
-
-    # We include topics where we successfully pulled at least one article
-    if has_any:
+    # We include topics where we successfully pulled at least left, right, and center perspectives
+    if has_left and has_center and has_right:
         output_data.append(final_data)
         print(" -> Successfully aggregated perspectives.")
     else:
-        print(" -> Skipped: Could not find/parse any valid articles.")
+        print(f" -> Skipped: Missing perspectives (Left: {has_left}, Center: {has_center}, Right: {has_right}).")
 
 # Ensure output directory exists
 os.makedirs("data", exist_ok=True)
 
 if output_data:
+    history_file = "data/daily-slider-history.json"
+    history = []
+    
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, "r", encoding="utf-8") as f:
+                history = json.load(f)
+        except Exception:
+            pass
+            
+    history.extend(output_data)
+    
+    # Keep only last 7 days
+    from datetime import timedelta
+    cutoff_date = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
+    history = [item for item in history if item["date"] >= cutoff_date]
+    
+    with open(history_file, "w", encoding="utf-8") as f:
+        json.dump(history, f, indent=2)
+    
+    # Still save today's data separately
     with open("data/daily-slider.json", "w", encoding="utf-8") as file:
         json.dump(output_data, file, indent=2)
+
     print(f"\n--- Scraped, Aggregated, and Highlighted {len(output_data)} Topics Complete ---")
     print("Results saved to data/daily-slider.json")
 else:

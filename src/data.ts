@@ -331,7 +331,7 @@ export const PRE_PACKAGED_STORIES: BiasStory[] = [
 export const BIAS_EDUCATIONAL_TIPS = [
   {
     title: "Bias-by-Adjective",
-    description: "Look for highly emotional modifiers (e.g. 'courageous stance' vs 'bizarre crusade') that instruct the reader exactly HOW to feel about a standard action."
+    description: "Look for emotional modifiers that instruct the reader how to feel."
   },
   {
     title: "Bias-by-Omission",
