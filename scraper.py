@@ -1,3 +1,4 @@
+import feedparser
 from newspaper import Article, Config
 import json
 import csv
