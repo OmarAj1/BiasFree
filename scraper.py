@@ -131,59 +131,81 @@ class HighVolumeMatcher:
         return boosted
     
     def cluster_by_keywords(self, articles_by_bias):
-        keyword_clusters = defaultdict(lambda: defaultdict(list))
+        clusters = []
         
+        all_articles = []
         for bias, articles in articles_by_bias.items():
-            for article in articles:
-                keywords = self.extract_keywords(article['title'])
-                top_keywords = Counter(keywords).most_common(4)
-                if len(top_keywords) < 2:
-                    continue
+            for a in articles:
+                all_articles.append(a)
+                
+        for article in all_articles:
+            kw = set(self.extract_keywords(article['title']))
+            if len(kw) < 2:
+                continue
+            
+            placed = False
+            for cluster in clusters:
+                ckw = cluster['core_keywords']
+                intersection = kw.intersection(ckw)
+                union = kw.union(ckw)
+                
+                if len(union) > 0 and (len(intersection) / len(union) >= 0.3 or len(intersection) >= 3):
+                    if article['bias'] not in cluster['articles']:
+                        cluster['articles'][article['bias']] = []
+                    cluster['articles'][article['bias']].append(article)
+                    placed = True
+                    break
                     
-                signature = tuple(sorted([kw for kw, _ in top_keywords]))
-                keyword_clusters[signature][bias].append(article)
+            if not placed:
+                clusters.append({
+                    'topic': article['title'],
+                    'core_keywords': kw,
+                    'articles': {article['bias']: [article]}
+                })
         
         complete_clusters = []
         partial_clusters = []
         
-        for signature, bias_articles in keyword_clusters.items():
+        for cluster in clusters:
+            bias_articles = cluster['articles']
             categories_present = len(bias_articles)
             
             selected = {}
             for bias in bias_articles:
                 best = min(bias_articles[bias], key=lambda x: x.get('priority', 99))
                 selected[bias] = best
-                    
+                
+            all_kw = []
+            for b, a in selected.items():
+                all_kw.extend(self.extract_keywords(a['title']))
+            top_kw = [k for k, v in Counter(all_kw).most_common(6)]
+            topic_name = ' '.join(top_kw).title()
+            if not topic_name:
+                topic_name = cluster['topic']
+                
+            cluster_size = sum(len(a) for a in bias_articles.values())
+                
             if categories_present == 5:
                 complete_clusters.append({
-                    'topic': ' '.join(signature[:5]).title(),
+                    'topic': topic_name,
                     'articles': selected,
                     'match_score': 1.0,
-                    'keywords': signature
+                    'keywords': tuple(top_kw),
+                    'cluster_size': cluster_size
                 })
             elif categories_present >= 3:
                 partial_clusters.append({
-                    'topic': ' '.join(signature[:5]).title(),
+                    'topic': topic_name,
                     'articles': selected,
                     'match_score': len(selected) / 5.0,
-                    'keywords': signature
+                    'keywords': tuple(top_kw),
+                    'cluster_size': cluster_size
                 })
                 
-        complete_clusters.sort(key=lambda x: sum(len(articles) for articles in keyword_clusters[x['keywords']].values()), reverse=True)
-        partial_clusters.sort(key=lambda x: sum(len(articles) for articles in keyword_clusters[x['keywords']].values()), reverse=True)
+        complete_clusters.sort(key=lambda x: x['cluster_size'], reverse=True)
+        partial_clusters.sort(key=lambda x: x['cluster_size'], reverse=True)
         
-        # Deduplicate overlapping topics
-        def deduplicate(clusters):
-            seen_urls = set()
-            unique = []
-            for c in clusters:
-                urls = [a['url'] for a in c['articles'].values()]
-                if not any(u in seen_urls for u in urls):
-                    unique.append(c)
-                    seen_urls.update(urls)
-            return unique
-            
-        return deduplicate(complete_clusters)[:15], deduplicate(partial_clusters)[:10]
+        return complete_clusters[:15], partial_clusters[:10]
 
 # --- 4. EXECUTE ---
 print("Starting High Volume BiasFree Smart Scraper...")
