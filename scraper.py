@@ -107,7 +107,7 @@ class HighVolumeScraper:
         try:
             feed = feedparser.parse(source['url'])
             articles = []
-            for entry in feed.entries[:150]:  # Up to 150 per source
+            for entry in feed.entries[:5000]:  # Up to 5000 per source
                 articles.append({
                     'title': entry.get('title', ''),
                     'url': entry.get('link', ''),
