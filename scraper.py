@@ -263,20 +263,13 @@ for cluster in all_matches:
     
     has_content = False
     
-    # We can parallelize the newspaper fetching per topic to speed up
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        future_map = {}
-        for bias_key, article_info in cluster['articles'].items():
-            future = executor.submit(fetch_article_text, article_info['url'])
-            future_map[future] = bias_key
-            
-        for future in as_completed(future_map):
-            bias_key = future_map[future]
-            text = future.result()
-            if text and len(text) > 300:
-                json_key = mapping[bias_key]
-                final_data[json_key] = highlight_bias(text, bias_key)
-                has_content = True
+    # Process articles sequentially to avoid thread safety issues with newspaper3k/lxml
+    for bias_key, article_info in cluster['articles'].items():
+        text = fetch_article_text(article_info['url'])
+        if text and len(text) > 300:
+            json_key = mapping[bias_key]
+            final_data[json_key] = highlight_bias(text, bias_key)
+            has_content = True
             
     if has_content:
         output_data.append(final_data)
