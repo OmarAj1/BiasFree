@@ -1,11 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { 
   AlertTriangle, 
   BookOpen, 
   SlidersHorizontal,
-  Clock
+  Clock,
+  Calendar,
+  Share2,
+  Twitter,
+  Facebook,
+  Linkedin,
+  ArrowLeft
 } from "lucide-react";
 import { BIAS_EDUCATIONAL_TIPS } from "./data";
+import BiasSpectrum from "./components/BiasSpectrum";
 
 export default function App() {
   const [dailyDataList, setDailyDataList] = useState<any[]>([]);
@@ -14,14 +21,17 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [isSideBySide, setIsSideBySide] = useState(false);
+  const [selectedDate, setSelectedDate] = useState<string | null>(null);
+  const [activeView, setActiveView] = useState<'directory' | 'lexicon'>('directory');
+  const [activeTab, setActiveTab] = useState<'complete' | 'partial'>('complete');
 
   useEffect(() => {
     const fetchData = async () => {
       const urls = [
         `https://raw.githubusercontent.com/OmarAj1/BiasFree/main/data/daily-slider-history.json?t=${new Date().getTime()}`,
-        '/data/daily-slider-history.json',
+        '/daily-slider-history.json',
         `https://raw.githubusercontent.com/OmarAj1/BiasFree/main/data/daily-slider.json?t=${new Date().getTime()}`,
-        '/data/daily-slider.json'
+        '/daily-slider.json'
       ];
 
       for (const url of urls) {
@@ -61,8 +71,17 @@ export default function App() {
             }
           }
 
-          if (Array.isArray(data)) setDailyDataList(data.reverse());
-          else if (data) setDailyDataList([data]);
+          if (Array.isArray(data)) {
+            const reversed = data.reverse();
+            setDailyDataList(reversed);
+            if (reversed.length > 0) {
+              setSelectedDate(reversed[0].date);
+            }
+          }
+          else if (data) {
+            setDailyDataList([data]);
+            setSelectedDate(data.date);
+          }
           
           setIsLoading(false);
           return; // Success, stop trying other URLs
@@ -78,7 +97,20 @@ export default function App() {
     fetchData();
   }, []);
 
-  const dailyData = dailyDataList[activeStoryIndex] || null;
+  const uniqueDates = useMemo(() => {
+    return [...new Set(dailyDataList.map(item => item.date))];
+  }, [dailyDataList]);
+
+  const filteredStories = useMemo(() => {
+    if (!selectedDate) return [];
+    return dailyDataList.filter(item => item.date === selectedDate);
+  }, [dailyDataList, selectedDate]);
+
+  useEffect(() => {
+    setActiveStoryIndex(0);
+  }, [selectedDate]);
+
+  const dailyData = filteredStories[activeStoryIndex] || null;
 
   const showToast = (msg: string) => {
     setToastMessage(msg);
@@ -135,6 +167,9 @@ export default function App() {
   
   const currentWords = dailyData ? extractLoadedWords(getCurrentHtml()) : [];
 
+  const completeStories = filteredStories.filter(s => s.match_score >= 1) || [];
+  const partialStories = filteredStories.filter(s => s.match_score < 1) || [];
+
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col p-4 md:p-6 lg:p-8 font-sans items-center">
       <div className="max-w-7xl w-full flex flex-col flex-grow">
@@ -172,6 +207,32 @@ export default function App() {
             </h1>
           </div>
         </div>
+
+        {uniqueDates.length > 0 && (
+          <div className="flex items-center gap-4 flex-wrap">
+            <div className="flex gap-2">
+              <span className="px-3 py-1.5 bg-emerald-50 text-emerald-700 rounded-lg text-xs font-bold border border-emerald-200 shadow-sm">
+                🎯 Complete: {completeStories.length}
+              </span>
+              <span className="px-3 py-1.5 bg-amber-50 text-amber-700 rounded-lg text-xs font-bold border border-amber-200 shadow-sm">
+                ⚠️ Partial: {partialStories.length}
+              </span>
+            </div>
+            <div className="flex items-center gap-2 bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-lg shadow-sm">
+              <Calendar className="w-4 h-4 text-slate-400" />
+              <select
+                value={selectedDate || ''}
+                onChange={(e) => setSelectedDate(e.target.value)}
+                className="bg-transparent text-xs font-bold text-slate-700 outline-none cursor-pointer uppercase tracking-wider"
+                aria-label="Select Date"
+              >
+                {uniqueDates.map(date => (
+                  <option key={date} value={date}>{date}</option>
+                ))}
+              </select>
+            </div>
+          </div>
+        )}
       </header>
 
       {isLoading ? (
@@ -183,9 +244,82 @@ export default function App() {
           <AlertTriangle className="w-5 h-5 mr-2 text-amber-500" />
           No daily data found. Wait for the ghost worker to scrape.
         </div>
+      ) : activeView === 'directory' ? (
+        <div className="flex flex-col flex-grow">
+          {/* Tabs for Directory View */}
+          <div className="flex gap-2 mb-6 bg-white p-2 rounded-xl shadow-sm border border-slate-200">
+            <button 
+              className={`flex-1 py-3 px-4 rounded-lg font-bold transition-colors ${activeTab === 'complete' ? 'bg-slate-800 text-white' : 'hover:bg-slate-50 text-slate-600'}`}
+              onClick={() => setActiveTab('complete')}
+            >
+              Complete 5-Way Matches ({completeStories.length})
+            </button>
+            <button 
+              className={`flex-1 py-3 px-4 rounded-lg font-bold transition-colors ${activeTab === 'partial' ? 'bg-slate-800 text-white' : 'hover:bg-slate-50 text-slate-600'}`}
+              onClick={() => setActiveTab('partial')}
+            >
+              Partial Matches ({partialStories.length})
+            </button>
+          </div>
+
+          <div className="flex flex-col gap-6">
+            {activeTab === 'complete' && (
+              completeStories.length === 0 ? (
+                <div className="text-center py-20 bg-white rounded-2xl border border-slate-200">
+                  <h3 className="text-lg font-bold text-slate-800 mb-2">No complete 5-way matches today 😢</h3>
+                  <p className="text-slate-500">Check back tomorrow when more topics have coverage from all perspectives!</p>
+                </div>
+              ) : (
+                completeStories.map((story) => (
+                  <BiasSpectrum 
+                    key={story.id} 
+                    story={story} 
+                    onSelectStory={() => {
+                      const idx = filteredStories.findIndex(s => s.id === story.id);
+                      setActiveStoryIndex(idx);
+                      setActiveView('lexicon');
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }} 
+                  />
+                ))
+              )
+            )}
+
+            {activeTab === 'partial' && (
+              partialStories.length === 0 ? (
+                <div className="text-center py-20 bg-white rounded-2xl border border-slate-200">
+                  <h3 className="text-lg font-bold text-slate-800 mb-2">No partial matches today</h3>
+                  <p className="text-slate-500">Every topic has complete coverage? That's rare!</p>
+                </div>
+              ) : (
+                partialStories.map((story) => (
+                  <BiasSpectrum 
+                    key={story.id} 
+                    story={story} 
+                    onSelectStory={() => {
+                      const idx = filteredStories.findIndex(s => s.id === story.id);
+                      setActiveStoryIndex(idx);
+                      setActiveView('lexicon');
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }} 
+                  />
+                ))
+              )
+            )}
+          </div>
+        </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4 flex-grow items-stretch">
           
+          <div className="col-span-1 md:col-span-12 mb-2 flex justify-between items-center">
+            <button 
+              onClick={() => setActiveView('directory')}
+              className="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors shadow-sm"
+            >
+              <ArrowLeft className="w-4 h-4" /> Back to News Directory
+            </button>
+          </div>
+
           {/* Core Headline Card */}
           <div id="core-headline-card" className="col-span-1 md:col-span-8 bg-white rounded-3xl p-6 border-b-4 border-slate-300 shadow-sm flex flex-col justify-between min-h-[180px]">
             <div>
@@ -203,10 +337,10 @@ export default function App() {
               </h2>
               
               {/* Daily stories picker (if multiple) */}
-              {dailyDataList.length > 1 && (
+              {filteredStories.length > 1 && (
                 <div role="group" aria-label="News Topics Selector" className="flex bg-white rounded-lg p-1.5 shadow-sm border border-slate-200 mt-5 overflow-x-auto gap-2">
                   <span className="text-[10px] uppercase font-bold text-slate-400 py-1.5 px-2">Top Stories:</span>
-                  {dailyDataList.map((story, i) => (
+                  {filteredStories.map((story, i) => (
                     <button 
                       key={i} 
                       onClick={() => setActiveStoryIndex(i)}
@@ -447,21 +581,43 @@ export default function App() {
       )}
 
       {/* Footer / CTA links */}
-      <footer className="mt-6 flex justify-between items-center text-[11px] text-slate-400 font-medium font-mono pt-6 gap-4 border-t border-slate-200/50 pb-6 w-full">
+      <footer className="mt-6 flex flex-col sm:flex-row justify-between items-center text-[11px] text-slate-400 font-medium font-mono pt-6 gap-4 border-t border-slate-200/50 pb-6 w-full">
         <div className="flex gap-4">
           <span>Objective News Aggregator</span>
         </div>
-        <div className="flex items-center gap-2">
-          <span>Share analyzer:</span>
-          <button 
-            onClick={() => {
-              navigator.clipboard.writeText(window.location.href);
-              showToast("Link copied to clipboard!");
-            }}
-            className="px-2.5 py-1 bg-slate-200 hover:bg-slate-300 text-slate-700 rounded transition-colors text-[10px] font-bold"
-          >
-            Copy App Link
-          </button>
+        <div className="flex items-center gap-3 bg-white p-1.5 rounded-xl border border-slate-200 shadow-sm">
+          <span className="px-2">Share analysis:</span>
+          <div className="flex gap-1.5">
+            <button 
+              onClick={() => {
+                const text = `Explore partisan bias in today's news on BiasFree.\n\n${window.location.href}`;
+                window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank');
+              }}
+              className="p-2 bg-slate-50 hover:bg-slate-100 text-[#1DA1F2] rounded-lg transition-colors border border-slate-100"
+              aria-label="Share on Twitter"
+            >
+              <Twitter className="w-4 h-4" />
+            </button>
+            <button 
+              onClick={() => {
+                window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`, '_blank');
+              }}
+              className="p-2 bg-slate-50 hover:bg-slate-100 text-[#0A66C2] rounded-lg transition-colors border border-slate-100"
+              aria-label="Share on LinkedIn"
+            >
+              <Linkedin className="w-4 h-4" />
+            </button>
+            <button 
+              onClick={() => {
+                navigator.clipboard.writeText(window.location.href);
+                showToast("Link copied to clipboard!");
+              }}
+              className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg transition-colors text-[10px] font-bold flex items-center gap-1.5"
+            >
+              <Share2 className="w-3.5 h-3.5" />
+              Copy Link
+            </button>
+          </div>
         </div>
       </footer>
 

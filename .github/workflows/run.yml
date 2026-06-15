@@ -22,7 +22,8 @@ jobs:
           
       - name: Install Dependencies
         run: |
-          pip install feedparser newspaper3k lxml_html_clean
+          pip install feedparser newspaper3k lxml_html_clean textblob
+          python -m textblob.download_corpora lite
           
       - name: Run BiasFree Scraper
         run: python scraper.py

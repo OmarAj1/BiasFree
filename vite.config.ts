@@ -28,6 +28,7 @@ function serveDataDir(): Plugin {
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss(), serveDataDir()],
+    publicDir: 'data',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),

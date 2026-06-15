@@ -3,27 +3,14 @@ from newspaper import Article, Config
 import json
 import csv
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 import urllib.parse
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from collections import Counter, defaultdict
 import time
 
 # --- 1. LOAD DATASETS ---
-# Load the sources CSV to map publisher names to their bias rating
-bias_map = {}
-try:
-    with open("data/sources.csv", "r", encoding="utf-8") as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            if "news_source" in row and "rating" in row:
-                source_name = row["news_source"].lower().strip()
-                # Clean up known AllSides suffixes
-                source_name = re.sub(r'\s*\(.*?\)\s*', '', source_name)
-                source_name = source_name.replace(" - news", "").replace(" online news", "").replace(".com", "").replace(" news", "")
-                bias_map[source_name.strip()] = row["rating"].lower().strip()
-except Exception as e:
-    print(f"Error loading sources: {e}")
-
 loaded_words = []
 try:
     with open("data/lexicon.csv", "r", encoding="utf-8") as file:
@@ -35,159 +22,242 @@ except Exception as e:
     print(f"Error loading lexicon: {e}")
 
 # --- 2. HIGHLIGHT FUNCTION ---
-# Finds any loaded word in the text and wraps it in a red HTML tag
 def highlight_bias(text, category):
     for word in loaded_words:
-        # Regex \b ensures we only match whole words, case-insensitive
         pattern = r'\b(' + re.escape(word) + r')\b'
-        # Add dynamic class based on the bias category
         class_name = f"highlight-bias highlight-bias-{category.replace('-center', '')}"
         text = re.sub(pattern, rf"<span class='{class_name}'>\1</span>", text, flags=re.IGNORECASE)
     return text
 
-# --- 3. GOOGLE NEWS TOPIC PIPELINE ---
-def get_top_google_news_topics(limit=15):
-    # Fetch top US news from Google
-    top_news_rss = "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en"
-    feed = feedparser.parse(top_news_rss)
-    if not feed.entries:
-        return []
-    
-    topics = []
-    # Deduplicate loosely similar titles
-    for entry in feed.entries:
-        title = entry.title.rsplit(" - ", 1)[0]
-        if title not in topics:
-            topics.append(title)
-        if len(topics) >= limit:
-            break
-            
-    return topics
+# --- 3. HIGH VOLUME SCRAPER ---
 
-def search_topic_and_group(topic):
-    import urllib.request
-    grouped_entries = {"left": [], "left-center": [], "center": [], "right-center": [], "right": []}
+SOURCES = [
+    {"name": "The Guardian", "url": "https://www.theguardian.com/world/rss", "bias_category": "left", "priority": 1},
+    {"name": "Mother Jones", "url": "https://www.motherjones.com/feed", "bias_category": "left", "priority": 2},
+    {"name": "The Nation", "url": "https://www.thenation.com/feed", "bias_category": "left", "priority": 3},
+    {"name": "Jacobin", "url": "https://jacobin.com/feed", "bias_category": "left", "priority": 4},
+    {"name": "The Intercept", "url": "https://theintercept.com/feed/?lang=en", "bias_category": "left", "priority": 5},
+    {"name": "Democracy Now", "url": "https://www.democracynow.org/democracynow.rss", "bias_category": "left", "priority": 6},
     
-    def fetch_query(q):
-        query_url = f"https://www.bing.com/news/search?q={urllib.parse.quote(q)}&format=rss"
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.5',
-            'Referer': 'https://www.bing.com'
-        }
-        req = urllib.request.Request(query_url, headers=headers)
+    {"name": "MSNBC", "url": "https://www.msnbc.com/feeds/latest", "bias_category": "left-center", "priority": 1},
+    {"name": "CNN", "url": "http://rss.cnn.com/rss/edition.rss", "bias_category": "left-center", "priority": 2},
+    {"name": "Politico", "url": "https://rss.politico.com/politics-news.xml", "bias_category": "left-center", "priority": 3},
+    {"name": "HuffPost", "url": "https://www.huffpost.com/section/front-page/feed", "bias_category": "left-center", "priority": 4},
+    {"name": "Vox", "url": "https://www.vox.com/rss/index.xml", "bias_category": "left-center", "priority": 5},
+    {"name": "The Atlantic", "url": "https://www.theatlantic.com/feed/all", "bias_category": "left-center", "priority": 6},
+    
+    {"name": "Reuters", "url": "https://www.reutersagency.com/feed/?best-topics=political-general&type=rx", "bias_category": "center", "priority": 1},
+    {"name": "BBC News", "url": "http://feeds.bbci.co.uk/news/rss.xml", "bias_category": "center", "priority": 3},
+    {"name": "NPR", "url": "https://feeds.npr.org/1001/rss.xml", "bias_category": "center", "priority": 4},
+    {"name": "PBS", "url": "https://www.pbs.org/newshour/feeds/rss/headlines", "bias_category": "center", "priority": 5},
+    {"name": "The Hill", "url": "https://thehill.com/feed", "bias_category": "center", "priority": 6},
+    
+    {"name": "The Wall Street Journal", "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml", "bias_category": "right-center", "priority": 1},
+    {"name": "Fox News", "url": "http://feeds.foxnews.com/foxnews/latest", "bias_category": "right-center", "priority": 2},
+    {"name": "New York Post", "url": "https://nypost.com/feed", "bias_category": "right-center", "priority": 3},
+    {"name": "Washington Examiner", "url": "https://www.washingtonexaminer.com/rss", "bias_category": "right-center", "priority": 4},
+    {"name": "National Review", "url": "https://www.nationalreview.com/feed", "bias_category": "right-center", "priority": 5},
+    
+    {"name": "Breitbart", "url": "http://feeds.feedburner.com/breitbart", "bias_category": "right", "priority": 1},
+    {"name": "The Federalist", "url": "https://thefederalist.com/feed", "bias_category": "right", "priority": 2},
+    {"name": "Daily Wire", "url": "https://www.dailywire.com/feed", "bias_category": "right", "priority": 3},
+    {"name": "InfoWars", "url": "http://feeds.feedburner.com/infowars", "bias_category": "right", "priority": 4},
+    {"name": "Zero Hedge", "url": "http://feeds.feedburner.com/zerohedge", "bias_category": "right", "priority": 6},
+]
+
+class HighVolumeScraper:
+    def fetch_feed(self, source):
+        """Fetch single RSS feed"""
         try:
-            with urllib.request.urlopen(req, timeout=10) as response:
-                xml_data = response.read().decode('utf-8')
+            feed = feedparser.parse(source['url'])
+            articles = []
+            for entry in feed.entries[:40]:  # Up to 40 per source
+                articles.append({
+                    'title': entry.get('title', ''),
+                    'url': entry.get('link', ''),
+                    'source': source['name'],
+                    'bias': source['bias_category'],
+                    'priority': source['priority']
+                })
+            return articles
         except Exception as e:
-            print(f"HTTP Error querying Bing for {q}: {e}")
-            return
-
-        items = re.findall(r'<item>([\s\S]*?)</item>', xml_data, re.IGNORECASE)
-        for item in items:
-            source_match = re.search(r'<News:Source>(.*?)</News:Source>', item, re.IGNORECASE)
-            url_match = re.search(r'url=(https?%3A%2F%2F[^&<]+)', item, re.IGNORECASE)
-            if not source_match or not url_match:
-                continue
-                
-            source_title = source_match.group(1).lower().replace(" on msn", "").replace(" on yahoo", "").replace(" news", "").strip()
-            article_url = urllib.parse.unquote(url_match.group(1))
-            
-            matched_bias = None
-            if source_title in bias_map:
-                matched_bias = bias_map[source_title]
-            else:
-                for known_source, bias in bias_map.items():
-                    if known_source in source_title or source_title in known_source:
-                        matched_bias = bias
-                        break
-            
-            if matched_bias and article_url not in grouped_entries[matched_bias]:
-                grouped_entries[matched_bias].append(article_url)
-
-    # 1. Base topic query
-    fetch_query(topic)
+            print(f"Error fetching {source['name']}: {e}")
+            return []
     
-    # 2. Add perspective queries if buckets are empty
-    if not grouped_entries["left"]:
-        fetch_query(f"{topic} MSNBC")
-    if not grouped_entries["left-center"]:
-        fetch_query(f"{topic} CNN")
-    if not grouped_entries["center"]:
-        fetch_query(f"{topic} Reuters")
-    if not grouped_entries["right-center"]:
-        fetch_query(f"{topic} Fox News")
-    if not grouped_entries["right"]:
-        fetch_query(f"{topic} Breitbart OR New York Post")
+    def fetch_all(self):
+        articles_by_bias = {
+            'left': [], 'left-center': [], 'center': [], 
+            'right-center': [], 'right': []
+        }
         
-    return grouped_entries
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            future_to_source = {executor.submit(self.fetch_feed, s): s for s in SOURCES}
+            for future in as_completed(future_to_source):
+                source = future_to_source[future]
+                try:
+                    articles = future.result()
+                    for article in articles:
+                        if article['bias'] in articles_by_bias:
+                            articles_by_bias[article['bias']].append(article)
+                except Exception as e:
+                    print(f"Source {source['name']} generated an exception: {e}")
+                    
+        return articles_by_bias
+
+class HighVolumeMatcher:
+    def __init__(self):
+        self.stop_words = {'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'is', 'are', 'was', 'were', 'it', 'that', 'this', 'as', 'from', 'be', 'have', 'has', 'had', 'not'}
+        self.keyword_boost = {
+            'trump': 2.0, 'biden': 2.0, 'election': 1.5, 'congress': 1.5,
+            'supreme court': 1.5, 'ukraine': 1.3, 'israel': 1.3, 'gaza': 1.3,
+            'china': 1.3, 'russia': 1.3, 'economy': 1.2, 'inflation': 1.2
+        }
+    
+    def extract_keywords(self, title):
+        cleaned = re.sub(r'[^\w\s]', '', title.lower())
+        words = cleaned.split()
+        
+        keywords = [w for w in words if w not in self.stop_words and len(w) > 3]
+        
+        boosted = []
+        for kw in keywords:
+            boost = 1.0
+            for pattern, factor in self.keyword_boost.items():
+                if pattern in ' '.join(keywords):
+                    boost = factor
+                    break
+            boosted.extend([kw] * int(boost))
+        
+        return boosted
+    
+    def cluster_by_keywords(self, articles_by_bias):
+        keyword_clusters = defaultdict(lambda: defaultdict(list))
+        
+        for bias, articles in articles_by_bias.items():
+            for article in articles:
+                keywords = self.extract_keywords(article['title'])
+                top_keywords = Counter(keywords).most_common(4)
+                if len(top_keywords) < 2:
+                    continue
+                    
+                signature = tuple(sorted([kw for kw, _ in top_keywords]))
+                keyword_clusters[signature][bias].append(article)
+        
+        complete_clusters = []
+        partial_clusters = []
+        
+        for signature, bias_articles in keyword_clusters.items():
+            categories_present = len(bias_articles)
+            
+            selected = {}
+            for bias in bias_articles:
+                best = min(bias_articles[bias], key=lambda x: x.get('priority', 99))
+                selected[bias] = best
+                    
+            if categories_present == 5:
+                complete_clusters.append({
+                    'topic': ' '.join(signature[:5]).title(),
+                    'articles': selected,
+                    'match_score': 1.0,
+                    'keywords': signature
+                })
+            elif categories_present >= 3:
+                partial_clusters.append({
+                    'topic': ' '.join(signature[:5]).title(),
+                    'articles': selected,
+                    'match_score': len(selected) / 5.0,
+                    'keywords': signature
+                })
+                
+        complete_clusters.sort(key=lambda x: sum(len(articles) for articles in keyword_clusters[x['keywords']].values()), reverse=True)
+        partial_clusters.sort(key=lambda x: sum(len(articles) for articles in keyword_clusters[x['keywords']].values()), reverse=True)
+        
+        # Deduplicate overlapping topics
+        def deduplicate(clusters):
+            seen_urls = set()
+            unique = []
+            for c in clusters:
+                urls = [a['url'] for a in c['articles'].values()]
+                if not any(u in seen_urls for u in urls):
+                    unique.append(c)
+                    seen_urls.update(urls)
+            return unique
+            
+        return deduplicate(complete_clusters)[:15], deduplicate(partial_clusters)[:10]
 
 # --- 4. EXECUTE ---
-print("Starting BiasFree Smart Scraper...")
-topics = get_top_google_news_topics(15)
-if not topics:
-    print("Could not fetch top news.")
-    exit(1)
+print("Starting High Volume BiasFree Smart Scraper...")
+scraper = HighVolumeScraper()
+articles = scraper.fetch_all()
 
+print(f"Fetched articles: Left: {len(articles['left'])}, Left-Center: {len(articles['left-center'])}, Center: {len(articles['center'])}, Right-Center: {len(articles['right-center'])}, Right: {len(articles['right'])}")
+
+matcher = HighVolumeMatcher()
+complete, partial = matcher.cluster_by_keywords(articles)
+
+print(f"\nFound {len(complete)} complete 5-way matches and {len(partial)} partial matches.")
+
+all_matches = complete + partial
 output_data = []
 
-for idx, topic in enumerate(topics):
-    print(f"\nProcessing Topic {idx + 1}/{len(topics)}: {topic}")
-    grouped_links = search_topic_and_group(topic)
+newspaper_config = Config()
+newspaper_config.browser_user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+newspaper_config.request_timeout = 8
+
+# Helper to fetch and parse article text safely
+def fetch_article_text(url):
+    try:
+        article = Article(url, config=newspaper_config)
+        article.download()
+        article.parse()
+        return article.text
+    except Exception:
+        return ""
+
+mapping = {
+    "left": "farLeftText",
+    "left-center": "centerLeftText",
+    "center": "centerText",
+    "right-center": "centerRightText",
+    "right": "farRightText"
+}
+
+# Process the top matches
+for cluster in all_matches:
+    print(f"\nProcessing Topic: {cluster['topic']}")
     
     final_data = {
+        "id": hash(cluster['topic']) % 10000000,
         "date": datetime.today().strftime('%Y-%m-%d'),
-        "topic": topic,
+        "topic": cluster['topic'],
+        "match_score": cluster['match_score'],
+        "articles": cluster['articles'],
         "farLeftText": "No article found in this category for this topic.",
         "centerLeftText": "No article found in this category for this topic.",
         "centerText": "No article found in this category for this topic.",
         "centerRightText": "No article found in this category for this topic.",
         "farRightText": "No article found in this category for this topic."
     }
-
-    mapping = {
-        "left": "farLeftText",
-        "left-center": "centerLeftText",
-        "center": "centerText",
-        "right-center": "centerRightText",
-        "right": "farRightText"
-    }
-
-    has_left = False
-    has_center = False
-    has_right = False
-
-    newspaper_config = Config()
-    newspaper_config.browser_user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    newspaper_config.request_timeout = 10
-
-    for cat, json_key in mapping.items():
-        for link in grouped_links[cat]:
-            try:
-                article = Article(link, config=newspaper_config)
-                article.download()
-                article.parse()
-                text = article.text
-                if len(text) > 300:
-                    final_data[json_key] = highlight_bias(text, cat)
-                    if cat in ["left", "left-center"]:
-                        has_left = True
-                    elif cat == "center":
-                        has_center = True
-                    elif cat in ["right", "right-center"]:
-                        has_right = True
-                    break # Move to next category
-            except Exception as e:
-                print(f"Skipping link {link} due to error: {e}")
-                continue
-                
-    # We include topics where we successfully pulled at least left, right, and center perspectives
-    if has_left and has_center and has_right:
+    
+    has_content = False
+    
+    # We can parallelize the newspaper fetching per topic to speed up
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        future_map = {}
+        for bias_key, article_info in cluster['articles'].items():
+            future = executor.submit(fetch_article_text, article_info['url'])
+            future_map[future] = bias_key
+            
+        for future in as_completed(future_map):
+            bias_key = future_map[future]
+            text = future.result()
+            if text and len(text) > 300:
+                json_key = mapping[bias_key]
+                final_data[json_key] = highlight_bias(text, bias_key)
+                has_content = True
+            
+    if has_content:
         output_data.append(final_data)
-        print(" -> Successfully aggregated perspectives.")
-    else:
-        print(f" -> Skipped: Missing perspectives (Left: {has_left}, Center: {has_center}, Right: {has_right}).")
 
 # Ensure output directory exists
 os.makedirs("data", exist_ok=True)
@@ -205,15 +275,23 @@ if output_data:
             
     history.extend(output_data)
     
-    # Keep only last 7 days
-    from datetime import timedelta
+    # Deduplicate history based on topic and date combinations
+    seen_history = set()
+    deduped_history = []
+    for item in history:
+        sig = f"{item['date']}-{item['topic']}"
+        if sig not in seen_history:
+            seen_history.add(sig)
+            deduped_history.append(item)
+    
+    history = deduped_history
+    
     cutoff_date = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
-    history = [item for item in history if item["date"] >= cutoff_date]
+    history = [item for item in history if item.get("date", "") >= cutoff_date]
     
     with open(history_file, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2)
     
-    # Still save today's data separately
     with open("data/daily-slider.json", "w", encoding="utf-8") as file:
         json.dump(output_data, file, indent=2)
 
@@ -221,4 +299,5 @@ if output_data:
     print("Results saved to data/daily-slider.json")
 else:
     print("\n--- Failed to scrape complete cross-partisan data for any topic. ---")
+
 
