@@ -37,7 +37,7 @@ jobs:
             git pull --rebase origin main && break || sleep 5
           done
           
-          git add data/daily-slider.json
+          git add -f data/daily-slider.json data/daily-slider-history.json
           git commit -m "Automated update: new daily unbiased coverage" || echo "No changes to commit"
           
           for i in {1..3}; do
