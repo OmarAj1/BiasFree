@@ -35,7 +35,6 @@ SOURCES = [
     # LEFT
     {"name": "The Guardian (World)", "url": "https://www.theguardian.com/world/rss", "bias_category": "left", "priority": 1},
     {"name": "The Guardian (US)", "url": "https://www.theguardian.com/us-news/rss", "bias_category": "left", "priority": 1},
-    {"name": "The Guardian (Politics)", "url": "https://www.theguardian.com/politics/rss", "bias_category": "left", "priority": 1},
     {"name": "Mother Jones", "url": "https://www.motherjones.com/feed", "bias_category": "left", "priority": 2},
     {"name": "The Nation", "url": "https://www.thenation.com/feed", "bias_category": "left", "priority": 3},
     {"name": "Jacobin", "url": "https://jacobin.com/feed", "bias_category": "left", "priority": 4},
@@ -45,19 +44,12 @@ SOURCES = [
     {"name": "Daily Kos", "url": "https://feeds.dailykos.com", "bias_category": "left", "priority": 8},
     {"name": "AlterNet", "url": "https://www.alternet.org/feeds/feed.rss", "bias_category": "left", "priority": 9},
     {"name": "Raw Story", "url": "https://www.rawstory.com/feeds/feed.rss", "bias_category": "left", "priority": 10},
-    {"name": "Jezebel", "url": "https://jezebel.com/rss", "bias_category": "left", "priority": 11},
-    {"name": "Salon", "url": "https://www.salon.com/feed/", "bias_category": "left", "priority": 12},
-    {"name": "The New Yorker", "url": "https://www.newyorker.com/feed/everything", "bias_category": "left", "priority": 13},
-    {"name": "Rolling Stone", "url": "https://www.rollingstone.com/feed/", "bias_category": "left", "priority": 14},
 
     # LEFT-CENTER
     {"name": "MSNBC", "url": "https://www.msnbc.com/feeds/latest", "bias_category": "left-center", "priority": 1},
     {"name": "CNN Top Stories", "url": "http://rss.cnn.com/rss/edition.rss", "bias_category": "left-center", "priority": 2},
     {"name": "CNN Politics", "url": "http://rss.cnn.com/rss/cnn_allpolitics.rss", "bias_category": "left-center", "priority": 2},
-    {"name": "CNN World", "url": "http://rss.cnn.com/rss/edition_world.rss", "bias_category": "left-center", "priority": 2},
-    {"name": "CNN US", "url": "http://rss.cnn.com/rss/edition_us.rss", "bias_category": "left-center", "priority": 2},
     {"name": "Politico", "url": "https://rss.politico.com/politics-news.xml", "bias_category": "left-center", "priority": 3},
-    {"name": "Politico Congress", "url": "https://rss.politico.com/congress.xml", "bias_category": "left-center", "priority": 3},
     {"name": "HuffPost", "url": "https://www.huffpost.com/section/front-page/feed", "bias_category": "left-center", "priority": 4},
     {"name": "HuffPost Politics", "url": "https://www.huffpost.com/section/politics/feed", "bias_category": "left-center", "priority": 4},
     {"name": "Vox", "url": "https://www.vox.com/rss/index.xml", "bias_category": "left-center", "priority": 5},
@@ -65,55 +57,36 @@ SOURCES = [
     {"name": "NYT World", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "bias_category": "left-center", "priority": 7},
     {"name": "NYT US", "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml", "bias_category": "left-center", "priority": 7},
     {"name": "NYT Politics", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml", "bias_category": "left-center", "priority": 7},
-    {"name": "NYT Business", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml", "bias_category": "left-center", "priority": 7},
     {"name": "CBS News", "url": "https://www.cbsnews.com/latest/rss/main", "bias_category": "left-center", "priority": 8},
-    {"name": "CBS Politics", "url": "https://www.cbsnews.com/latest/rss/politics", "bias_category": "left-center", "priority": 8},
     {"name": "NBC News", "url": "https://feeds.nbcnews.com/nbcnews/public/news", "bias_category": "left-center", "priority": 9},
-    {"name": "NBC Politics", "url": "https://feeds.nbcnews.com/nbcnews/public/politics", "bias_category": "left-center", "priority": 9},
     {"name": "ABC News", "url": "https://abcnews.go.com/abcnews/topstories", "bias_category": "left-center", "priority": 10},
-    {"name": "ABC Politics", "url": "https://abcnews.go.com/abcnews/politicsheadlines", "bias_category": "left-center", "priority": 10},
-    {"name": "TIME", "url": "https://time.com/feed/", "bias_category": "left-center", "priority": 11},
-    {"name": "Washington Post Top", "url": "https://feeds.washingtonpost.com/rss/politics", "bias_category": "left-center", "priority": 12},
-    {"name": "Washington Post National", "url": "https://feeds.washingtonpost.com/rss/national", "bias_category": "left-center", "priority": 12},
 
     # CENTER
     {"name": "Reuters General", "url": "https://www.reutersagency.com/feed/?best-topics=political-general&type=rx", "bias_category": "center", "priority": 1},
-    {"name": "Reuters World", "url": "https://www.reutersagency.com/feed/?best-topics=world&type=rx", "bias_category": "center", "priority": 1},
     {"name": "BBC News Front", "url": "http://feeds.bbci.co.uk/news/rss.xml", "bias_category": "center", "priority": 2},
     {"name": "BBC News World", "url": "http://feeds.bbci.co.uk/news/world/rss.xml", "bias_category": "center", "priority": 2},
-    {"name": "BBC News Business", "url": "http://feeds.bbci.co.uk/news/business/rss.xml", "bias_category": "center", "priority": 2},
     {"name": "NPR", "url": "https://feeds.npr.org/1001/rss.xml", "bias_category": "center", "priority": 3},
     {"name": "NPR Politics", "url": "https://feeds.npr.org/1014/rss.xml", "bias_category": "center", "priority": 3},
-    {"name": "NPR World", "url": "https://feeds.npr.org/1004/rss.xml", "bias_category": "center", "priority": 3},
     {"name": "PBS", "url": "https://www.pbs.org/newshour/feeds/rss/headlines", "bias_category": "center", "priority": 4},
     {"name": "The Hill Top", "url": "https://thehill.com/feed", "bias_category": "center", "priority": 5},
     {"name": "The Hill Senate", "url": "https://thehill.com/homenews/senate/feed", "bias_category": "center", "priority": 5},
     {"name": "The Hill House", "url": "https://thehill.com/homenews/house/feed", "bias_category": "center", "priority": 5},
     {"name": "Newsweek", "url": "https://www.newsweek.com/rss", "bias_category": "center", "priority": 6},
     {"name": "USA Today Wash", "url": "https://www.usatoday.com/washington/rss", "bias_category": "center", "priority": 7},
-    {"name": "USA Today Nation", "url": "https://www.usatoday.com/news/nation/rss", "bias_category": "center", "priority": 7},
     {"name": "AP Top", "url": "https://apnews.com/rss/world", "bias_category": "center", "priority": 8},
-    {"name": "Forbes", "url": "https://www.forbes.com/business/feed/", "bias_category": "center", "priority": 9},
-    {"name": "Christian Science Monitor", "url": "https://www.csmonitor.com/rss/top", "bias_category": "center", "priority": 10},
-    {"name": "Axios", "url": "https://api.axios.com/feed/", "bias_category": "center", "priority": 11},
 
     # RIGHT-CENTER
     {"name": "The Wall Street Journal", "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml", "bias_category": "right-center", "priority": 1},
     {"name": "WSJ US", "url": "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml", "bias_category": "right-center", "priority": 1},
-    {"name": "WSJ Politics", "url": "https://feeds.a.dj.com/rss/RSSOpinion.xml", "bias_category": "right-center", "priority": 1},
     {"name": "Fox News Latest", "url": "http://feeds.foxnews.com/foxnews/latest", "bias_category": "right-center", "priority": 2},
     {"name": "Fox News Politics", "url": "http://feeds.foxnews.com/foxnews/politics", "bias_category": "right-center", "priority": 2},
     {"name": "Fox News US", "url": "http://feeds.foxnews.com/foxnews/national", "bias_category": "right-center", "priority": 2},
-    {"name": "Fox News World", "url": "http://feeds.foxnews.com/foxnews/world", "bias_category": "right-center", "priority": 2},
     {"name": "New York Post", "url": "https://nypost.com/feed", "bias_category": "right-center", "priority": 3},
-    {"name": "New York Post News", "url": "https://nypost.com/news/feed", "bias_category": "right-center", "priority": 3},
     {"name": "Washington Examiner", "url": "https://www.washingtonexaminer.com/rss", "bias_category": "right-center", "priority": 4},
     {"name": "National Review", "url": "https://www.nationalreview.com/feed", "bias_category": "right-center", "priority": 5},
     {"name": "Reason", "url": "https://reason.com/feed", "bias_category": "right-center", "priority": 6},
     {"name": "The Spectator", "url": "https://thespectator.com/feed/", "bias_category": "right-center", "priority": 7},
     {"name": "Washington Times", "url": "https://www.washingtontimes.com/rss/headlines/news/", "bias_category": "right-center", "priority": 8},
-    {"name": "The Dispatch", "url": "https://thedispatch.com/feed/", "bias_category": "right-center", "priority": 9},
-    {"name": "NY Sun", "url": "https://www.nysun.com/rss", "bias_category": "right-center", "priority": 10},
     
     # RIGHT
     {"name": "Breitbart", "url": "http://feeds.feedburner.com/breitbart", "bias_category": "right", "priority": 1},
@@ -122,16 +95,10 @@ SOURCES = [
     {"name": "Daily Wire", "url": "https://www.dailywire.com/feed", "bias_category": "right", "priority": 3},
     {"name": "Zero Hedge", "url": "http://feeds.feedburner.com/zerohedge", "bias_category": "right", "priority": 4},
     {"name": "Newsmax", "url": "https://www.newsmax.com/rss/Politics/1/", "bias_category": "right", "priority": 5},
-    {"name": "Newsmax US", "url": "https://www.newsmax.com/rss/Newsfront/16/", "bias_category": "right", "priority": 5},
     {"name": "Townhall", "url": "https://townhall.com/api/feed/columnists", "bias_category": "right", "priority": 6},
     {"name": "Daily Caller", "url": "https://feeds.dailycaller.com/dailycaller", "bias_category": "right", "priority": 7},
     {"name": "PJ Media", "url": "https://pjmedia.com/feed", "bias_category": "right", "priority": 8},
     {"name": "RedState", "url": "https://redstate.com/feed", "bias_category": "right", "priority": 9},
-    {"name": "OANN", "url": "https://www.oann.com/feed/", "bias_category": "right", "priority": 10},
-    {"name": "The Blaze", "url": "https://www.theblaze.com/feeds/feed.rss", "bias_category": "right", "priority": 11},
-    {"name": "Western Journal", "url": "https://www.westernjournal.com/feed/", "bias_category": "right", "priority": 12},
-    {"name": "American Thinker", "url": "https://www.americanthinker.com/feeds/articles.rss", "bias_category": "right", "priority": 13},
-    {"name": "Gateway Pundit", "url": "https://www.thegatewaypundit.com/feed", "bias_category": "right", "priority": 14},
 ]
 
 class HighVolumeScraper:
@@ -140,7 +107,7 @@ class HighVolumeScraper:
         try:
             feed = feedparser.parse(source['url'])
             articles = []
-            for entry in feed.entries[:150]:  # Up to 150 per source
+            for entry in feed.entries[:5000]:  # Up to 5000 per source
                 articles.append({
                     'title': entry.get('title', ''),
                     'url': entry.get('link', ''),
@@ -218,7 +185,7 @@ class HighVolumeMatcher:
                 intersection = kw.intersection(ckw)
                 union = kw.union(ckw)
                 
-                if len(union) > 0 and (len(intersection) / len(union) >= 0.3 or len(intersection) >= 3):
+                if len(union) > 0 and (len(intersection) / len(union) >= 0.15 or len(intersection) >= 2):
                     if article['bias'] not in cluster['articles']:
                         cluster['articles'][article['bias']] = []
                     cluster['articles'][article['bias']].append(article)
@@ -262,7 +229,7 @@ class HighVolumeMatcher:
                     'keywords': tuple(top_kw),
                     'cluster_size': cluster_size
                 })
-            elif categories_present >= 3:
+            elif categories_present >= 2:
                 partial_clusters.append({
                     'topic': topic_name,
                     'articles': selected,
@@ -289,13 +256,27 @@ complete, partial = matcher.cluster_by_keywords(articles)
 print(f"\nFound {len(complete)} complete 5-way matches and {len(partial)} partial matches.")
 
 all_matches = complete + partial
+
+if not all_matches:
+    print("\nNo overlapping topics found. Falling back to top headlines per category.")
+    fallback_articles = {}
+    for bias, article_list in articles.items():
+        if article_list:
+            fallback_articles[bias] = article_list[0]
+            
+    if fallback_articles:
+        all_matches.append({
+            'topic': 'Latest Global Headlines',
+            'articles': {bias: {"url": a['url'], "title": a['title'], "source": a['source'], "priority": a['priority']} for bias, a in fallback_articles.items()},
+            'match_score': len(fallback_articles) / 5.0
+        })
+
 output_data = []
 
 newspaper_config = Config()
 newspaper_config.browser_user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 newspaper_config.request_timeout = 8
 
-# Helper to fetch and parse article text safely
 def fetch_article_text(url):
     try:
         article = Article(url, config=newspaper_config)
@@ -363,7 +344,7 @@ if output_data:
     seen_history = set()
     deduped_history = []
     for item in history:
-        sig = f"{item['date']}-{item['topic']}"
+        sig = f"{item.get('date', '')}-{item.get('topic', '')}"
         if sig not in seen_history:
             seen_history.add(sig)
             deduped_history.append(item)
@@ -376,6 +357,7 @@ if output_data:
     with open(history_file, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2)
     
+    # Also write straight to daily-slider.json for immediate use
     with open("data/daily-slider.json", "w", encoding="utf-8") as file:
         json.dump(output_data, file, indent=2)
 
@@ -383,5 +365,3 @@ if output_data:
     print("Results saved to data/daily-slider.json")
 else:
     print("\n--- Failed to scrape complete cross-partisan data for any topic. ---")
-
-
