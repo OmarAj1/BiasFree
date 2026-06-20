@@ -22,6 +22,7 @@ The entire process is automated via `scraper.py`, which is triggered by a cron j
 ### 3. How to Edit and Test This Setup
 If you are an "Other Entity" aiming to enhance this platform:
 
-* **Testing Locally**: You can manually trigger the worker. Just run `python scraper.py` in your terminal. It will immediately generate a fresh `data/daily-slider.json`. Make sure you run `pip install feedparser newspaper3k` first!
+* **CRITICAL RULE**: Do not manually commit or push `data/daily-slider.json` or `data/daily-slider-history.json` to the repository. These files are ignored locally by `.gitignore` and must only be generated, updated, and committed automatically by the "Daily News Ghost Worker" GitHub Action.
+* **Testing Locally**: You can manually trigger the worker. Just run `python scraper.py` in your terminal. It will immediately generate a fresh `data/daily-slider.json` for local validation. Make sure you run `pip install feedparser newspaper3k` first!
 * **Testing via GitHub Actions**: Go to the "Actions" tab in your GitHub repository, click on "Daily News Ghost Worker" and click "Run workflow" to force a manual scrape right now, without waiting an hour.
 * **The Smart Google News Pipeline**: The scraper automatically parses all 500+ news labels in `data/sources.csv`. It fetches the #1 trending topic via Google News, then searches that exact topic *again* through Google News to isolate articles precisely mapped to your Left, Right, and Center sources. This ensures the articles align flawlessly!

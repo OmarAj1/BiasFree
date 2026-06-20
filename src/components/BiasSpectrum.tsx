@@ -25,6 +25,17 @@ interface BiasSpectrumProps {
   onSelectStory: () => void;
 }
 
+const cleanArticleHeadline = (title: string): string => {
+  if (!title) return "";
+  let cleaned = title.split(" - ")[0].split(" | ")[0].split(" – ")[0].split(" : ")[0].trim();
+  cleaned = cleaned.replace(/^["']|["']$/g, '');
+  const words = cleaned.split(/\s+/);
+  if (words.length > 7) {
+    return words.slice(0, 7).join(" ") + "...";
+  }
+  return cleaned;
+};
+
 const BiasSpectrum: React.FC<BiasSpectrumProps> = ({ story, onSelectStory }) => {
   // Using the exact keys from scraper.py
   const categories = [
@@ -38,7 +49,7 @@ const BiasSpectrum: React.FC<BiasSpectrumProps> = ({ story, onSelectStory }) => 
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 transition-all hover:shadow-md">
       <div className="p-4 bg-slate-50 border-b border-slate-200 flex justify-between items-center flex-wrap gap-3">
-        <h3 className="font-serif text-lg font-bold text-slate-800">{story.topic}</h3>
+        <h3 className="font-serif text-lg font-bold text-slate-800">{cleanArticleHeadline(story.topic)}</h3>
         <div>
           <span className={`px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider ${story.match_score === 1 ? 'bg-orange-50 text-orange-700 border border-orange-200' : 'bg-slate-100 text-slate-600 border border-slate-200'}`}>
             {story.match_score === 1 ? '🎯 Complete 5-way' : `⚠️ ${Math.round(story.match_score * 100)}% Match`}
@@ -68,7 +79,7 @@ const BiasSpectrum: React.FC<BiasSpectrumProps> = ({ story, onSelectStory }) => 
               ) : (
                 <a href={article.url} target="_blank" rel="noopener noreferrer" className="flex-grow flex flex-col group no-underline hover:opacity-80 transition-opacity">
                   <div className="text-xs font-medium text-slate-800 mb-2 leading-relaxed flex-grow">
-                    {article.title.substring(0, 80)}{article.title.length > 80 ? '...' : ''}
+                    {cleanArticleHeadline(article.title)}
                   </div>
                   <div className="text-[9px] font-bold font-mono text-slate-400 uppercase tracking-wider mt-auto pt-2 border-t border-slate-100">
                     {article.source}

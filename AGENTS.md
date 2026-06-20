@@ -6,5 +6,6 @@ When operating on this repository, you **MUST** follow these structural constrai
 2. **No Live Backend**: Do not create or run an Express/Node backend to fetch news. News fetching and bias analyzing are executed by the `.github/workflows/run.yml` worker.
 3. **The Static Contract**: The React frontend must exclusively consume `data/daily-slider.json`. Do not implement CORS, database proxies, or live fetching mechanisms.
 4. **Scraping Code Language**: The scraper is exclusively handled in `scraper.py`. Do not attempt to migrate parsing to the UI using NodeJS tools due to browser constraints and CORS.
+5. **No Direct JSON Commit or Modification**: Do not modify, create, or commit `data/daily-slider.json` or `data/daily-slider-history.json` manually or via frontend edits. These files must only be generated, updated, and committed automatically by the "Daily News Ghost Worker" GitHub Action. Ensure these files remain in `.gitignore` so they are not accidentally staged.
 
 Follow these rules for all future edits unless the user explicitly requests moving away from the "Ghost Worker / Zero API" methodology.

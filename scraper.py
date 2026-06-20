@@ -142,7 +142,21 @@ class HighVolumeScraper:
 
 class HighVolumeMatcher:
     def __init__(self):
-        self.stop_words = {'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'is', 'are', 'was', 'were', 'it', 'that', 'this', 'as', 'from', 'be', 'have', 'has', 'had', 'not'}
+        self.stop_words = {
+            'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'is', 'are', 'was', 'were', 'it', 'that', 'this', 'as', 'from', 'be', 'have', 'has', 'had', 'not',
+            'about', 'above', 'after', 'again', 'against', 'all', 'am', 'any', 'arent', 'because', 'been', 'before', 'being', 'below', 'between', 'both', 'cant', 'cannot', 'could', 'couldnt', 'did', 'didnt',
+            'do', 'does', 'doesnt', 'doing', 'dont', 'down', 'during', 'each', 'few', 'further', 'hadnt', 'hasnt', 'havent', 'having', 'he', 'hed', 'hell', 'hes', 'her', 'here', 'heres', 'hers', 'herself',
+            'him', 'himself', 'his', 'how', 'hows', 'i', 'id', 'ill', 'im', 'ive', 'if', 'into', 'isnt', 'its', 'itself', 'lets', 'me', 'more', 'most', 'mustnt', 'my', 'myself', 'no', 'nor', 'off', 'once',
+            'only', 'other', 'ought', 'our', 'ours', 'ourselves', 'out', 'over', 'own', 'same', 'shant', 'she', 'shed', 'shell', 'shes', 'should', 'shouldnt', 'so', 'some', 'such', 'than', 'thats', 'their',
+            'theirs', 'them', 'themselves', 'then', 'there', 'theres', 'these', 'they', 'theyd', 'theyll', 'theyre', 'theyve', 'those', 'through', 'too', 'under', 'until', 'up', 'very', 'wasnt', 'we', 'wed',
+            'well', 'werent', 'what', 'whats', 'when', 'whens', 'where', 'wheres', 'which', 'while', 'who', 'whos', 'whom', 'why', 'whys', 'wont', 'would', 'wouldnt', 'you', 'youd', 'youll', 'youre', 'youve',
+            'your', 'yours', 'yourself', 'yourselves', 'says', 'said', 'will', 'also', 'new', 'news', 'first', 'two', 'three', 'years', 'year', 'week', 'weeks', 'day', 'days', 'time', 'calls', 'called',
+            'proposes', 'proposed', 'every', 'everyone', 'another', 'many', 'much', 'some', 'any', 'might', 'may', 'must', 'should', 'could', 'would', 'done', 'get', 'got', 'make', 'makes', 'made', 'us',
+            'nearly', 'about', 'over', 'than', 'under', 'more', 'less', 'most', 'least', 'up', 'down', 'high', 'low', 'rise', 'rises', 'fall', 'falls', 'toll', 'cases', 'week', 'dead', 'bill', 'due', 'during'
+        }
+        self.generic_words = {
+            'trump', 'biden', 'obama', 'clinton', 'harris', 'desantis', 'kennedy', 'politician', 'president', 'vice', 'governor', 'house', 'senate', 'congress', 'supreme', 'court', 'judge', 'justice', 'white', 'administration', 'gop', 'democrats', 'democrat', 'republicans', 'republican', 'election', 'voters', 'campaign', 'debate', 'poll', 'polls', 'rally', 'rallies', 'state', 'bill', 'law', 'legal', 'lawsuit', 'federal', 'official', 'officials', 'government', 'news', 'report', 'claims', 'warns', 'announces', 'accuses', 'investigation', 'probe', 'ruling', 'case', 'trial', 'jury', 'verdict', 'charged', 'charges'
+        }
         self.keyword_boost = {
             'trump': 2.0, 'biden': 2.0, 'election': 1.5, 'congress': 1.5,
             'supreme court': 1.5, 'ukraine': 1.3, 'israel': 1.3, 'gaza': 1.3,
@@ -185,12 +199,24 @@ class HighVolumeMatcher:
                 intersection = kw.intersection(ckw)
                 union = kw.union(ckw)
                 
-                if len(union) > 0 and (len(intersection) / len(union) >= 0.15 or len(intersection) >= 2):
-                    if article['bias'] not in cluster['articles']:
-                        cluster['articles'][article['bias']] = []
-                    cluster['articles'][article['bias']].append(article)
-                    placed = True
-                    break
+                if len(union) > 0:
+                    jaccard = len(intersection) / len(union)
+                    specific_intersection = intersection - self.generic_words
+                    
+                    is_match = False
+                    if jaccard >= 0.50:
+                        is_match = True
+                    elif jaccard >= 0.35 and len(specific_intersection) >= 2:
+                        is_match = True
+                    elif len(specific_intersection) >= 3 and len(intersection) >= 4:
+                        is_match = True
+                        
+                    if is_match:
+                        if article['bias'] not in cluster['articles']:
+                            cluster['articles'][article['bias']] = []
+                        cluster['articles'][article['bias']].append(article)
+                        placed = True
+                        break
                     
             if not placed:
                 clusters.append({
@@ -204,22 +230,64 @@ class HighVolumeMatcher:
         
         for cluster in clusters:
             bias_articles = cluster['articles']
-            categories_present = len(bias_articles)
             
             selected = {}
             for bias in bias_articles:
                 best = min(bias_articles[bias], key=lambda x: x.get('priority', 99))
                 selected[bias] = best
                 
+            # --- Strict Topic Adherence Check ---
+            # 1. Aggregate keywords from the initially selected articles
             all_kw = []
             for b, a in selected.items():
                 all_kw.extend(self.extract_keywords(a['title']))
-            top_kw = [k for k, v in Counter(all_kw).most_common(6)]
+                
+            # 2. Identify the true core words of this cluster (words appearing in multiple sources)
+            kw_counts = Counter(all_kw)
+            core_words = {k for k, v in kw_counts.items() if v >= 2}
+            if len(core_words) < 2:
+                core_words = {k for k, v in kw_counts.most_common(4)}
+                
+            # 3. Re-evaluate each selected article to ensure it actually matches the established core
+            strictly_selected = {}
+            for bias, a in selected.items():
+                akw = set(self.extract_keywords(a['title']))
+                intersection = akw.intersection(core_words)
+                specific = intersection - self.generic_words
+                
+                union = akw.union(core_words)
+                jaccard = len(intersection) / len(union) if union else 0
+                
+                # Strict criteria: must share specific keywords, or have a significant overlap
+                is_valid = False
+                if len(specific) >= 2:
+                    is_valid = True
+                elif len(intersection) >= 3:
+                    is_valid = True
+                elif jaccard >= 0.25 and len(intersection) >= 1:
+                    is_valid = True
+                    
+                if is_valid:
+                    strictly_selected[bias] = a
+                    
+            selected = strictly_selected
+            categories_present = len(selected)
+            
+            # If after removing outliers we no longer have a comparison (needs at least 2), discard cluster
+            if categories_present < 2:
+                continue
+            # ------------------------------------
+                
+            all_kw_final = []
+            for b, a in selected.items():
+                all_kw_final.extend(self.extract_keywords(a['title']))
+            top_kw = [k for k, v in Counter(all_kw_final).most_common(6)]
             topic_name = ' '.join(top_kw).title()
             if not topic_name:
                 topic_name = cluster['topic']
                 
-            cluster_size = sum(len(a) for a in bias_articles.values())
+            # Only count the size of the articles that actually belong to the validated biases
+            cluster_size = sum(len(bias_articles[b]) for b in selected.keys() if b in bias_articles)
                 
             if categories_present == 5:
                 complete_clusters.append({
@@ -233,7 +301,7 @@ class HighVolumeMatcher:
                 partial_clusters.append({
                     'topic': topic_name,
                     'articles': selected,
-                    'match_score': len(selected) / 5.0,
+                    'match_score': categories_present / 5.0,
                     'keywords': tuple(top_kw),
                     'cluster_size': cluster_size
                 })
@@ -241,7 +309,7 @@ class HighVolumeMatcher:
         complete_clusters.sort(key=lambda x: x['cluster_size'], reverse=True)
         partial_clusters.sort(key=lambda x: x['cluster_size'], reverse=True)
         
-        return complete_clusters[:15], partial_clusters[:10]
+        return complete_clusters[:25], partial_clusters[:20]
 
 # --- 4. EXECUTE ---
 print("Starting High Volume BiasFree Smart Scraper...")
@@ -258,18 +326,16 @@ print(f"\nFound {len(complete)} complete 5-way matches and {len(partial)} partia
 all_matches = complete + partial
 
 if not all_matches:
-    print("\nNo overlapping topics found. Falling back to top headlines per category.")
-    fallback_articles = {}
+    print("\nNo overlapping topics found. Falling back to top headlines per category as separate stories.")
     for bias, article_list in articles.items():
         if article_list:
-            fallback_articles[bias] = article_list[0]
-            
-    if fallback_articles:
-        all_matches.append({
-            'topic': 'Latest Global Headlines',
-            'articles': {bias: {"url": a['url'], "title": a['title'], "source": a['source'], "priority": a['priority']} for bias, a in fallback_articles.items()},
-            'match_score': len(fallback_articles) / 5.0
-        })
+            a = article_list[0]
+            all_matches.append({
+                'topic': a['title'],
+                'articles': {bias: {"url": a['url'], "title": a['title'], "source": a['source'], "priority": a['priority']}},
+                'match_score': 0.2,
+                'cluster_size': 1
+            })
 
 output_data = []
 
@@ -358,33 +424,57 @@ if output_data:
         except Exception:
             pass
             
-    # Overwrite old topics if newer ones have a better match score or size
-    history_dict = {}
-    for item in history:
-        sig = f"{item.get('date', '')}-{item.get('topic', '')}"
-        history_dict[sig] = item
-        
-    for item in output_data:
-        sig = f"{item.get('date', '')}-{item.get('topic', '')}"
-        if sig in history_dict:
-            old_item = history_dict[sig]
-            if item.get('match_score', 0) > old_item.get('match_score', 0) or \
-               (item.get('match_score', 0) == old_item.get('match_score', 0) and item.get('cluster_size', 0) > old_item.get('cluster_size', 0)):
-                history_dict[sig] = item
-        else:
-            history_dict[sig] = item
+    # Overwrite old topics if newer ones represent the same story and have better or equal score/size, preventing messy duplications across hourly runs
+    def is_same_story(item1, item2):
+        if item1.get('date') != item2.get('date'):
+            return False
             
-    history = list(history_dict.values())
+        urls1 = set(art.get('url') for art in item1.get('articles', {}).values() if isinstance(art, dict) and art.get('url'))
+        urls2 = set(art.get('url') for art in item2.get('articles', {}).values() if isinstance(art, dict) and art.get('url'))
+        if urls1.intersection(urls2):
+            return True
+            
+        t1 = set(re.sub(r'[^\w\s]', '', item1.get('topic', '').lower()).split())
+        t2 = set(re.sub(r'[^\w\s]', '', item2.get('topic', '').lower()).split())
+        t1_clean = {w for w in t1 if w not in matcher.stop_words and len(w) > 3}
+        t2_clean = {w for w in t2 if w not in matcher.stop_words and len(w) > 3}
+        
+        if t1_clean and t2_clean:
+            intersection = t1_clean.intersection(t2_clean)
+            union = t1_clean.union(t2_clean)
+            jaccard = len(intersection) / len(union)
+            if jaccard >= 0.55 or (jaccard >= 0.40 and len(intersection) >= 3) or len(intersection) >= 4:
+                return True
+        return False
+
+    new_history = list(history)
+    for new_item in output_data:
+        matched_idx = -1
+        for idx, old_item in enumerate(new_history):
+            if is_same_story(new_item, old_item):
+                matched_idx = idx
+                break
+                
+        if matched_idx >= 0:
+            old_item = new_history[matched_idx]
+            if new_item.get('match_score', 0) >= old_item.get('match_score', 0):
+                new_history[matched_idx] = new_item
+        else:
+            new_history.append(new_item)
+            
+    history = new_history
     
     # Sort history daily by match_score and size to keep best on top
     history.sort(key=lambda x: (x.get('date', ''), x.get('match_score', 0), x.get('cluster_size', 0)), reverse=True)
     
-    # Deduplicate and limit topics strictly to best 15 per day
+    # Deduplicate and limit topics strictly to best 15 per day, allow more if 4+ matching
     daily_counts = {}
     limited_history = []
     for item in history:
         d = item.get('date', '')
-        if daily_counts.get(d, 0) < 15:
+        score = item.get('match_score', 0)
+        # Allow if we haven't reached 15, or if score is >= 0.8 (4 out of 5 matched biases)
+        if daily_counts.get(d, 0) < 15 or score >= 0.8:
             limited_history.append(item)
             daily_counts[d] = daily_counts.get(d, 0) + 1
             
