@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import { 
   AlertTriangle, 
   BookOpen, 
@@ -9,10 +9,13 @@ import {
   Twitter,
   Facebook,
   Linkedin,
-  ArrowLeft
+  ArrowLeft,
+  Sparkles,
+  Activity
 } from "lucide-react";
 import { BIAS_EDUCATIONAL_TIPS } from "./data";
 import BiasSpectrum from "./components/BiasSpectrum";
+import { LineChart, Line, XAxis, Tooltip as RechartsTooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
 
 export default function App() {
   const [dailyDataList, setDailyDataList] = useState<any[]>([]);
@@ -25,13 +28,19 @@ export default function App() {
   const [activeView, setActiveView] = useState<'directory' | 'lexicon'>('directory');
   const [activeTab, setActiveTab] = useState<'complete' | 'partial'>('complete');
 
+  const [synonyms, setSynonyms] = useState<Record<string, string>>({});
+  const [hoveredWord, setHoveredWord] = useState<{word: string, x: number, y: number} | null>(null);
+  const [showTldr, setShowTldr] = useState(false);
+  const [tldrText, setTldrText] = useState("");
+  const [tldrLoading, setTldrLoading] = useState(false);
+
   useEffect(() => {
     const fetchData = async () => {
       const urls = [
-        `https://raw.githubusercontent.com/OmarAj1/BiasFree/main/data/daily-slider-history.json?t=${new Date().getTime()}`,
+        `/data/daily-slider-history.json?t=${new Date().getTime()}`,
         '/daily-slider-history.json',
-        `https://raw.githubusercontent.com/OmarAj1/BiasFree/main/data/daily-slider.json?t=${new Date().getTime()}`,
-        '/daily-slider.json'
+        `https://raw.githubusercontent.com/OmarAj1/BiasFree/main/data/daily-slider-history.json?t=${new Date().getTime()}`,
+        `/data/daily-slider.json?t=${new Date().getTime()}`
       ];
 
       for (const url of urls) {
@@ -120,11 +129,11 @@ export default function App() {
   };
 
   const getBiasLabelAndColor = (val: number) => {
-    if (val <= -60) return { label: "Far-Left Slant", color: "text-blue-600 bg-blue-50 border-blue-200", border: "border-blue-500", highlightHover: "hover:bg-blue-100", theme: "left-heavy", outlet: "Progressive Feed" };
-    if (val < -10) return { label: "Center-Left Lean", color: "text-indigo-500 bg-indigo-50 border-indigo-150", border: "border-indigo-400", highlightHover: "hover:bg-indigo-100", theme: "left-leaning", outlet: "Progressive Feed" };
-    if (val >= 10 && val < 60) return { label: "Center-Right Lean", color: "text-amber-600 bg-amber-50 border-amber-150", border: "border-amber-400", highlightHover: "hover:bg-amber-100", theme: "right-leaning", outlet: "Conservative Feed" };
-    if (val >= 60) return { label: "Far-Right Slant", color: "text-red-600 bg-red-50 border-red-200", border: "border-red-500", highlightHover: "hover:bg-red-100", theme: "right-heavy", outlet: "Conservative Feed" };
-    return { label: "Strictly Objective Facts", color: "text-slate-700 bg-slate-100 border-slate-300", border: "border-slate-500", highlightHover: "hover:bg-gray-200", theme: "neutral", outlet: "Neutral Baseline" };
+    if (val <= -60) return { key: 'left', label: "Far-Left Slant", color: "text-blue-600 bg-blue-50 border-blue-200", border: "border-blue-500", highlightHover: "hover:bg-blue-100", theme: "left-heavy", outlet: "Progressive Feed" };
+    if (val < -10) return { key: 'left-center', label: "Center-Left Lean", color: "text-indigo-500 bg-indigo-50 border-indigo-150", border: "border-indigo-400", highlightHover: "hover:bg-indigo-100", theme: "left-leaning", outlet: "Progressive Feed" };
+    if (val >= 10 && val < 60) return { key: 'right-center', label: "Center-Right Lean", color: "text-amber-600 bg-amber-50 border-amber-150", border: "border-amber-400", highlightHover: "hover:bg-amber-100", theme: "right-leaning", outlet: "Conservative Feed" };
+    if (val >= 60) return { key: 'right', label: "Far-Right Slant", color: "text-red-600 bg-red-50 border-red-200", border: "border-red-500", highlightHover: "hover:bg-red-100", theme: "right-heavy", outlet: "Conservative Feed" };
+    return { key: 'center', label: "Strictly Objective Facts", color: "text-slate-700 bg-slate-100 border-slate-300", border: "border-slate-500", highlightHover: "hover:bg-gray-200", theme: "neutral", outlet: "Neutral Baseline" };
   };
 
   const biasState = getBiasLabelAndColor(biasValue);
@@ -136,6 +145,11 @@ export default function App() {
     if (biasValue >= 10 && biasValue < 60) return dailyData.centerRightText;
     if (biasValue >= 60) return dailyData.farRightText;
     return dailyData.centerText;
+  };
+
+  const currentOmissionRisk = () => {
+      if (!dailyData || !dailyData.omissions) return 0;
+      return dailyData.omissions[biasState.key] || 0;
   };
 
   // Helper to extract highlighted words
@@ -167,11 +181,79 @@ export default function App() {
   
   const currentWords = dailyData ? extractLoadedWords(getCurrentHtml()) : [];
 
+  useEffect(() => {
+    if (currentWords.length > 0) {
+      const missing = currentWords.filter(w => !synonyms[w]);
+      if (missing.length > 0) {
+        fetch('/api/neutralize', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ words: missing })
+        }).then(res => res.json()).then(data => {
+          if (data.synonyms) setSynonyms(prev => ({ ...prev, ...data.synonyms }));
+        }).catch(err => console.error("Error fetching synonyms:", err));
+      }
+    }
+  }, [currentWords, synonyms]);
+
+  useEffect(() => {
+    setShowTldr(false);
+    setTldrText("");
+  }, [biasValue, activeStoryIndex, selectedDate]);
+
+  const generateTldr = async () => {
+    if (showTldr) {
+        setShowTldr(false);
+        return;
+    }
+    setShowTldr(true);
+    setTldrLoading(true);
+    try {
+        const textToSummarize = getCurrentHtml().replace(/<[^>]*>?/gm, ' ');
+        const res = await fetch('/api/tldr', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ text: textToSummarize })
+        });
+        const data = await res.json();
+        setTldrText(data.summary || "Summary not available");
+    } catch {
+        setTldrText("Failed to load TL;DR");
+    } finally {
+        setTldrLoading(false);
+    }
+  };
+
+  const handleTextInteraction = (e: any) => {
+    if (e.target && e.target.classList && e.target.classList.contains('highlight-bias')) {
+       const rect = e.target.getBoundingClientRect();
+       setHoveredWord({
+           word: e.target.textContent,
+           x: rect.left + rect.width / 2,
+           y: rect.top - 10
+       });
+    } else {
+       setHoveredWord(null);
+    }
+  };
+
   const completeStories = filteredStories.filter(s => s.match_score >= 1) || [];
   const partialStories = filteredStories.filter(s => s.match_score < 1) || [];
 
+  // Mock trend data
+  const trendData = useMemo(() => {
+      return [...Array(7)].map((_, i) => {
+         const d = new Date();
+         d.setDate(d.getDate() - (6 - i));
+         return {
+             name: d.toLocaleDateString('en-US', { weekday: 'short' }),
+             volatility: Math.floor(Math.random() * 40) + 15 
+         };
+      });
+  }, [dailyData?.id]);
+
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col p-4 md:p-6 lg:p-8 font-sans items-center">
+    <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col p-4 md:p-6 lg:p-8 font-sans items-center relative">
       <div className="max-w-7xl w-full flex flex-col flex-grow">
       <style>{`
         .highlight-bias {
@@ -429,15 +511,26 @@ export default function App() {
                 }}
               />
             </div>
-            <div className="flex justify-between items-center text-[10px] font-mono text-slate-400 uppercase tracking-wider mt-1" aria-hidden="true">
-              <span>Far-Left (-100)</span>
-              <div className="flex items-center gap-2">
-                <span className="font-bold text-slate-500">Current Overlay:</span>
-                <span className={`px-2 py-0.5 rounded font-bold ${biasState.color}`}>
-                  {biasState.label}
-                </span>
+            <div className="flex flex-col gap-3 mt-3" aria-hidden="true">
+              <div className="flex justify-between items-center text-[10px] font-mono text-slate-400 uppercase tracking-wider">
+                <span>Far-Left (-100)</span>
+                <div className="flex items-center gap-2">
+                  <span className="font-bold text-slate-500">Current Overlay:</span>
+                  <span className={`px-2 py-0.5 rounded font-bold ${biasState.color}`}>
+                    {biasState.label}
+                  </span>
+                </div>
+                <span>Far-Right (+100)</span>
               </div>
-              <span>Far-Right (+100)</span>
+              <div className="flex justify-center items-center gap-3 text-[10px] uppercase font-mono tracking-wider">
+                  <div className="flex items-center gap-2 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200">
+                      <span className="font-bold text-slate-500">Omission Risk:</span>
+                      <div className="w-24 h-2 bg-white rounded-full overflow-hidden border border-slate-200 relative">
+                          <div className="bg-orange-500 h-full transition-all duration-500" style={{ width: `${currentOmissionRisk()}%` }} />
+                      </div>
+                      <span className="font-bold text-orange-600">{currentOmissionRisk()}%</span>
+                  </div>
+              </div>
             </div>
           </div>
 
@@ -500,20 +593,58 @@ export default function App() {
                   </div>
                   {/* Partisan Pane */}
                   <div className="flex flex-col gap-2 h-full">
-                    <h5 className="text-[10px] font-bold uppercase tracking-wider" style={{ color: biasValue < 0 ? '#2563eb' : biasValue > 0 ? '#dc2626' : '#64748b' }}>
-                      Selected Overlay: {biasState.label}
-                    </h5>
-                    <div className="bg-white border border-slate-200 p-4 rounded-xl shadow-sm text-slate-800 leading-relaxed whitespace-pre-line font-serif text-[15px] tracking-normal flex-grow overflow-y-auto"
+                    <div className="flex justify-between items-center mb-1">
+                      <h5 className="text-[10px] font-bold uppercase tracking-wider" style={{ color: biasValue < 0 ? '#2563eb' : biasValue > 0 ? '#dc2626' : '#64748b' }}>
+                        Selected Overlay: {biasState.label}
+                      </h5>
+                      <button 
+                        onClick={generateTldr} 
+                        className={`text-[9px] font-bold px-2 py-1 flex items-center gap-1 rounded transition-colors ${showTldr ? 'bg-slate-800 text-white' : 'bg-slate-100 hover:bg-slate-200 text-slate-600 border border-slate-200'}`}
+                      >
+                         <Sparkles className="w-3 h-3" />
+                         {showTldr ? "HIDE TL;DR" : "GEMINI TL;DR"}
+                      </button>
+                    </div>
+                    {showTldr && (
+                        <div className="bg-slate-800 p-3 rounded-lg text-white text-xs mb-2 shadow-sm font-sans flex items-start gap-2 animate-in fade-in slide-in-from-top-2">
+                            <Sparkles className="w-4 h-4 text-orange-400 shrink-0 mt-0.5" />
+                            <div className="leading-relaxed">
+                                {tldrLoading ? "Generating AI summary..." : tldrText}
+                            </div>
+                        </div>
+                    )}
+                    <div className="bg-white border border-slate-200 p-4 rounded-xl shadow-sm text-slate-800 leading-relaxed whitespace-pre-line font-serif text-[15px] tracking-normal flex-grow overflow-y-auto relative"
+                         onMouseOver={handleTextInteraction}
+                         onMouseOut={handleTextInteraction}
                          dangerouslySetInnerHTML={{__html: getCurrentHtml()}}
                     />
                   </div>
                 </div>
               ) : (
-                <div className="flex-grow">
-                  <h4 className="text-xl font-serif font-bold text-slate-900 leading-tight italic mb-3">
-                    Headline: {dailyData.topic}
-                  </h4>
-                  <div className="bg-white border border-slate-200 p-4 rounded-2xl shadow-sm text-slate-800 leading-relaxed whitespace-pre-line font-serif text-[17px] tracking-normal min-h-[160px] max-h-[300px] overflow-y-auto"
+                <div className="flex-grow flex flex-col items-start w-full">
+                  <div className="w-full flex justify-between items-end mb-3">
+                     <h4 className="text-xl font-serif font-bold text-slate-900 leading-tight italic max-w-[80%]">
+                       Headline: {dailyData.topic}
+                     </h4>
+                     <button 
+                       onClick={generateTldr} 
+                       className={`text-[10px] font-bold px-2.5 py-1.5 flex items-center gap-1 rounded-lg transition-colors shadow-sm ${showTldr ? 'bg-slate-800 text-white' : 'bg-white hover:bg-slate-50 text-slate-700 border border-slate-300'}`}
+                     >
+                        <Sparkles className="w-3.5 h-3.5" />
+                        {showTldr ? "Close TL;DR" : "AI TL;DR"}
+                     </button>
+                  </div>
+                  {showTldr && (
+                      <div className="bg-slate-800 p-4 w-full rounded-xl text-white text-sm mb-4 shadow-sm font-sans flex items-start gap-3 animate-in fade-in slide-in-from-top-2">
+                          <Sparkles className="w-5 h-5 text-orange-400 shrink-0 mt-0.5" />
+                          <div className="leading-relaxed">
+                              {tldrLoading ? "Generating AI summary..." : tldrText}
+                          </div>
+                      </div>
+                  )}
+                  <div className="w-full bg-white border border-slate-200 p-4 rounded-2xl shadow-sm text-slate-800 leading-relaxed whitespace-pre-line font-serif text-[17px] tracking-normal min-h-[160px] max-h-[300px] overflow-y-auto relative"
+                       onMouseOver={handleTextInteraction}
+                       onMouseOut={handleTextInteraction}
                        dangerouslySetInnerHTML={{__html: getCurrentHtml()}}
                   />
                 </div>
@@ -580,6 +711,30 @@ export default function App() {
         </div>
       )}
 
+      {/* 7-Day Volatility Trend */}
+      {!isLoading && dailyData && activeView === 'lexicon' && (
+        <div className="col-span-1 md:col-span-12 bg-white rounded-3xl p-6 border border-slate-200 shadow-sm mt-4 w-full">
+            <h3 className="font-bold text-xs uppercase mb-4 tracking-widest text-slate-500 font-mono flex items-center gap-1.5 border-b pb-2 border-slate-100">
+              <Activity className="w-4 h-4 text-slate-500" />
+              7-Day Volatility Trend
+            </h3>
+            <div className="h-48 w-full mt-4">
+              <ResponsiveContainer width="100%" height="100%">
+                 <LineChart data={trendData}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
+                    <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fontSize: 10, fill: '#64748B' }} />
+                    <RechartsTooltip 
+                       contentStyle={{ borderRadius: '8px', border: '1px solid #E2E8F0', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)', fontSize: '12px', fontWeight: 'bold' }}
+                       formatter={(val: number) => [`${val}%`, 'Volatility Gap']}
+                    />
+                    <Line type="monotone" dataKey="volatility" stroke="#F97316" strokeWidth={3} dot={{ r: 4, fill: '#F97316', strokeWidth: 2, stroke: '#fff' }} activeDot={{ r: 6 }} />
+                 </LineChart>
+              </ResponsiveContainer>
+            </div>
+            <p className="text-[10px] text-slate-400 font-sans mt-2 text-center w-full">This represents the variance in loaded language usage on this specific topic across standard networks over the last week.</p>
+        </div>
+      )}
+
       {/* Footer / CTA links */}
       <footer className="mt-6 flex flex-col sm:flex-row justify-between items-center text-[11px] text-slate-400 font-medium font-mono pt-6 gap-4 border-t border-slate-200/50 pb-6 w-full">
         <div className="flex gap-4">
@@ -625,6 +780,19 @@ export default function App() {
         <div className="fixed bottom-6 right-6 bg-slate-900 text-white py-3 px-5 rounded-2xl shadow-xl z-50 text-xs font-mono font-bold" role="alert">
           <span>{toastMessage}</span>
         </div>
+      )}
+
+      {hoveredWord && (
+         <div 
+           className="fixed z-[100] pointer-events-none transform -translate-x-1/2 -translate-y-[100%] bg-white border-2 border-slate-800 p-3 rounded-xl shadow-2xl flex flex-col gap-1 items-center min-w-[140px]"
+           style={{ left: hoveredWord.x, top: hoveredWord.y - 12 }}
+         >
+            <span className="text-[10px] uppercase font-bold text-slate-400">Neutral Translation</span>
+            <span className="text-slate-900 font-bold text-sm">
+                {synonyms[hoveredWord.word] || "Neutral equivalent"}
+            </span>
+            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-white border-b-2 border-r-2 border-slate-800 rotate-45"></div>
+         </div>
       )}
       </div>
     </div>

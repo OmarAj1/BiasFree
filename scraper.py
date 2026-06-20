@@ -294,6 +294,16 @@ mapping = {
     "right": "farRightText"
 }
 
+def get_omissions(center_text, partisan_text):
+    if not center_text or not partisan_text: return 50
+    # Naive entity matching
+    center_words = set(re.findall(r'\b[A-Z][a-z]+\b', center_text))
+    partisan_words = set(re.findall(r'\b[A-Z][a-z]+\b', partisan_text))
+    if not center_words: return 0
+    missing = center_words - partisan_words
+    risk = (len(missing) / len(center_words)) * 100
+    return min(100, int(risk))
+
 # Process the top matches
 for cluster in all_matches:
     print(f"\nProcessing Topic: {cluster['topic']}")
@@ -303,23 +313,33 @@ for cluster in all_matches:
         "date": datetime.today().strftime('%Y-%m-%d'),
         "topic": cluster['topic'],
         "match_score": cluster['match_score'],
+        "cluster_size": cluster.get('cluster_size', 1),
         "articles": cluster['articles'],
         "farLeftText": "No article found in this category for this topic.",
         "centerLeftText": "No article found in this category for this topic.",
         "centerText": "No article found in this category for this topic.",
         "centerRightText": "No article found in this category for this topic.",
-        "farRightText": "No article found in this category for this topic."
+        "farRightText": "No article found in this category for this topic.",
+        "omissions": {}
     }
     
     has_content = False
     
-    # Process articles sequentially to avoid thread safety issues with newspaper3k/lxml
+    # Process articles sequentially
+    fetched_texts = {}
     for bias_key, article_info in cluster['articles'].items():
         text = fetch_article_text(article_info['url'])
         if text and len(text) > 300:
             json_key = mapping[bias_key]
             final_data[json_key] = highlight_bias(text, bias_key)
+            fetched_texts[bias_key] = text
             has_content = True
+            
+    # Calculate omissions
+    center_text = fetched_texts.get('center', '')
+    for bias_key in cluster['articles'].keys():
+        if bias_key != 'center':
+           final_data['omissions'][bias_key] = get_omissions(center_text, fetched_texts.get(bias_key, ''))
             
     if has_content:
         output_data.append(final_data)
@@ -338,18 +358,38 @@ if output_data:
         except Exception:
             pass
             
-    history.extend(output_data)
-    
-    # Deduplicate history based on topic and date combinations
-    seen_history = set()
-    deduped_history = []
+    # Overwrite old topics if newer ones have a better match score or size
+    history_dict = {}
     for item in history:
         sig = f"{item.get('date', '')}-{item.get('topic', '')}"
-        if sig not in seen_history:
-            seen_history.add(sig)
-            deduped_history.append(item)
+        history_dict[sig] = item
+        
+    for item in output_data:
+        sig = f"{item.get('date', '')}-{item.get('topic', '')}"
+        if sig in history_dict:
+            old_item = history_dict[sig]
+            if item.get('match_score', 0) > old_item.get('match_score', 0) or \
+               (item.get('match_score', 0) == old_item.get('match_score', 0) and item.get('cluster_size', 0) > old_item.get('cluster_size', 0)):
+                history_dict[sig] = item
+        else:
+            history_dict[sig] = item
+            
+    history = list(history_dict.values())
     
-    history = deduped_history
+    # Sort history daily by match_score and size to keep best on top
+    history.sort(key=lambda x: (x.get('date', ''), x.get('match_score', 0), x.get('cluster_size', 0)), reverse=True)
+    
+    # Deduplicate and limit topics strictly to best 15 per day
+    daily_counts = {}
+    limited_history = []
+    for item in history:
+        d = item.get('date', '')
+        if daily_counts.get(d, 0) < 15:
+            limited_history.append(item)
+            daily_counts[d] = daily_counts.get(d, 0) + 1
+            
+    history = limited_history
+
     
     cutoff_date = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
     history = [item for item in history if item.get("date", "") >= cutoff_date]
