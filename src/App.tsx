@@ -718,8 +718,8 @@ export default function App() {
               <Activity className="w-4 h-4 text-slate-500" />
               7-Day Volatility Trend
             </h3>
-            <div className="h-48 w-full mt-4">
-              <ResponsiveContainer width="100%" height="100%">
+            <div className="w-full mt-4">
+              <ResponsiveContainer width="100%" height={192}>
                  <LineChart data={trendData}>
                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
                     <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fontSize: 10, fill: '#64748B' }} />
