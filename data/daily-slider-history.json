@@ -55,11 +55,11 @@
     }
   },
   {
-    "id": 9367160,
+    "id": 3873310,
     "date": "2026-06-23",
     "topic": "Alan Greenspan Federal Reserve Dies Aged",
     "match_score": 0.8,
-    "cluster_size": 8,
+    "cluster_size": 6,
     "articles": {
       "left": {
         "title": "Alan Greenspan, longtime head of the US federal reserve, dies aged 100",
@@ -102,11 +102,11 @@
     }
   },
   {
-    "id": 9461852,
+    "id": 4870437,
     "date": "2026-06-23",
     "topic": "Nancy Guthrie Ransom Note Died Bombshell",
     "match_score": 0.8,
-    "cluster_size": 7,
+    "cluster_size": 6,
     "articles": {
       "left": {
         "title": "Bombshell Nancy Guthrie revelation emerges in ransom note",
@@ -149,7 +149,7 @@
     }
   },
   {
-    "id": 5938489,
+    "id": 7033900,
     "date": "2026-06-23",
     "topic": "Senate Passes Housing Costs Bipartisan Lower",
     "match_score": 0.8,
@@ -158,7 +158,7 @@
       "left": {
         "title": "US Senate passes bipartisan bill to lower housing costs",
         "url": "https://www.theguardian.com/us-news/2026/jun/22/us-senate-housing-bill",
-        "source": "The Guardian (US)",
+        "source": "The Guardian (World)",
         "bias": "left",
         "priority": 1
       },
@@ -197,7 +197,7 @@
     }
   },
   {
-    "id": 5045693,
+    "id": 5897035,
     "date": "2026-06-23",
     "topic": "Supreme Court Conviction Murder Etan Patz",
     "match_score": 0.8,
@@ -206,7 +206,7 @@
       "left-center": {
         "title": "Supreme Court Restores Conviction in 1979 Murder of Etan Patz",
         "url": "https://www.nytimes.com/2026/06/22/us/politics/etan-patz-pedro-hernandez.html",
-        "source": "NYT Politics",
+        "source": "NYT US",
         "bias": "left-center",
         "priority": 7
       },
@@ -244,11 +244,50 @@
     }
   },
   {
-    "id": 2358707,
+    "id": 7321973,
+    "date": "2026-06-23",
+    "topic": "Reflecting Pool Drained Trump Vandalism Claims",
+    "match_score": 0.6,
+    "cluster_size": 7,
+    "articles": {
+      "left": {
+        "title": "Reflecting pool to be drained again as Trump claims five vandalism arrests",
+        "url": "https://www.theguardian.com/us-news/2026/jun/22/reflecting-pool-trump-drained",
+        "source": "The Guardian (World)",
+        "bias": "left",
+        "priority": 1
+      },
+      "left-center": {
+        "title": "Trump Tries To Blame Reflecting Pool Woes On Vandalism, Says It Will Likely Be Drained Again For Repairs",
+        "url": "https://www.huffpost.com/entry/trump-tries-to-blame-reflecting-pool-on-vandalism-says-it-will-have-to-be-drained-again-for-repairs_n_6a37517de4b057a50cee3653",
+        "source": "HuffPost Politics",
+        "bias": "left-center",
+        "priority": 4
+      },
+      "center": {
+        "title": "Reflecting Pool to be drained as Trump again blames 'vandals' for recent troubles",
+        "url": "https://www.bbc.com/news/articles/c5yzpjd1njpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News Front",
+        "bias": "center",
+        "priority": 2
+      }
+    },
+    "farLeftText": "The Lincoln Memorial reflecting pool is set to be drained again after Donald Trump said on Monday \u2013 without providing proof \u2013 that five people were arrested for vandalism and five more are under investigation in connection to the algae blooms and peeling paint that appeared weeks after his ill-fated $14m renovation attempt.\n\n\u201cIt\u2019s not a lot of damage, but we\u2019ll probably have to let the water out and refix it. They went in there with a knife,\u201d Trump told reporters, describing what he first said was a 290- to 300ft slit in the paint but then later amended to a 350ft slit. He also said someone had put fertilizer into the water, which caused the algae to grow.\n\nReporters who visited the pool on Sunday could see no evidence of such damage, the Washington Post reported.\n\nThe newspaper also interviewed three-time Olympic cyclist David Hearn, who said he had been arrested by US park police on a misdemeanor charge after stopping by the refurbished pool and, out of curiosity, touching one of the pieces of peeling paint liner.\n\nTrump has sought to turn the monument \u201cAmerican flag blue\u201d in time for the for the country\u2019s 250th birthday, which included painting the bottom of the pool a dark shade of navy officially called \u201cOld Glory Blue\u201d.\n\nHe awarded a no-bid contract to a company he said had previously done work on swimming pools at one of his golf clubs, and within days of the completion of the work, the water started to appear green from algae plaguing the standing water and the coating of paint applied during the renovation also started to detach.\n\nOn Monday, Trump was adamant it was not the pool company to blame for the algae blooms and peeling paint, but \u201cvandals\u201d. When pushed to provide evidence of his claims, he told reporters to call the Department of the Interior and the National Park Service. Neither agency responded immediately to a request for comment, nor did the US park police.\n\nWhen asked how alleged vandals were able to get so close to one of Washington DC\u2019s most historically symbolic attractions, where there is a heavy police presence, Trump responded that \u201cwe didn\u2019t have a lot\u201d of police then.\n\n\u201cWho would think that somebody would go into a pool and take a knife and start cutting it?\u201d he asked.\n\nIt\u2019s unclear when the pool will be drained, but a spokesperson with the DC Water Authority said the agency has issued the national parks service a temporary permit to discharge water into a sewer that flows into a local treatment facility. The permit was issued 16 June and expires 2 July, the spokesperson said.\n\nTrump had earlier posted on social media that \u201cthere is a 10-year prison sentence for the destruction, or even the attempted destruction, of such things - Which will be fully enforced!\u201d\n\nDestruction of federal property \u2060can carry a maximum prison sentence of 10 years.",
+    "centerLeftText": "LOADING ERROR LOADING\n\nWASHINGTON (AP) \u2014 President Donald Trump on Saturday announced that federal authorities had made \u201cmultiple arrests\u201d of people he said were vandalizing the Reflecting Pool as he struggled to explain why the $14-million-plus rehabilitation project he launched for the nation\u2019s 250th anniversary seemingly backfired.\n\nTrump said his predecessors had let the pool turn an algae-stained green and that he\u2019d line it with \u201cAmerican flag blue\u201d so it better reflected the Washington Monument. But after the new pool was unveiled, its blue tinge quickly became a familiar green. Workers treated it with chemicals to kill the algae, but then the painted blue lining on the bottom began to peel.\n\nAdvertisement\n\nOn Friday night, Trump posted about the pool.\n\n\u201cWe\u2019ve had some real problems with Vandalism at the beautiful Reflecting Pool,\u201d he posted on his social media site Friday night. \u201cJust like three days ago, they destroyed the grass outside of the Pool, they\u2019ve also done everything possible to hurt the inside surface that was just installed.\u201d\n\nHe offered no details to substantiate his claim.\n\nA National Park Service employee uses a vacuum to clean the Lincoln Memorial Reflecting Pool, Saturday, June 20, 2026, in Washington. (AP Photo/Mark Schiefelbein) via Associated Press\n\nNational Park Service employees and contractors use vacuums to remove green algae from the bottom of the Lincoln Memorial Reflecting Pool on June 18, 2026 in Washington, DC. (Photo by Chip Somodevilla/Getty Images) Chip Somodevilla via Getty Images\n\nAdvertisement\n\nAgencies responsible for law enforcement and upkeep on the National Mall \u2014 the U.S. Park Police, National Park Service and Interior Department \u2014 did not respond to requests for comment. Trump on Saturday followed up by posting that Park Police \u201chave arrested multiple individuals for vandalizing our Nations magnificent Reflecting Poll,\u201d correcting his spelling to \u201cPool\u201d later.\n\nHe went on: \u201cWho would do such a thing? These are very serious crimes having to do with the destruction of National Monuments. Years in jail!\u201d\n\nTrump later acknowledged in a post that the Reflecting Pool will need to be repaired, yet again, to restore it to \u201can equal level of Beauty\u201d as before. \u201cWe met with contractors today, will probably be forced to release and drain much of the water in order to do the necessary repairs, but will have them done as quickly as possible,\u201d he wrote.\n\nAdvertisement\n\nOne man arrested was David Hearn, 67, of Bethesda, Maryland, who owned a company that made composite used to build watercraft. He said he stopped by the pool during his 64-mile bike ride Friday to see what was going on.\n\nHearn, a former Olympic canoe racer, told The Associated Press that he reached into the pool because he wanted to examine the peeling new coating. He said he briefly touched a chunk that was still attached to the side of the pool, then let go shortly after a park worker told him to.\n\nBut, Hearn said, he was then detained by National Guard troops and Park Police for five hours before being released Friday night.\n\nAdvertisement\n\n\u201cI\u2019m a curious citizen,\u201d Hearn said in a telephone interview. \u201cI reached down to see what it felt like. It was very rubbery.\u201d\n\nSeen through algae-laden green water, a section of recently applied sealant can be seen peeling up from the bottom of the Lincoln Memorial Reflecting Pool on June 18, 2026 in Washington, DC. (Photo by Chip Somodevilla/Getty Images) Chip Somodevilla via Getty Images\n\nAlgae-ridden water is drained from the bottom of the Lincoln Memorial Reflecting Pool on June 20, 2026 in Washington, DC. (Photo by Anna Rose Layden/Getty Images) Anna Rose Layden via Getty Images\n\nAdvertisement\n\nThe Washington Post first reported Hearn\u2019s arrest, and he said he has a date to appear in court next month and is looking for legal help.\n\nEven if someone pulled ribbons of paint from the side of the pool, it would not explain the clouds of algae in green water and swaths of loose blue paint detached from the bottom.\n\nTrump insisted something <span class='highlight-bias highlight-bias-left'>nefarious</span> has been going on at the scene. \u201cNo different than the chemicals that were used on the National Mall, they used something similar in the Reflecting Pool to try to destroy and demean our beautiful work,\u201d he posted Friday evening.\n\nAdvertisement\n\nThat was an apparent reference to the discovery of large numbers etched in discolored grass on the National Mall the week before: \u201c86 47.\u201d Authorities said the numbers could have been meant as a threat to Trump, the 47th president. The number 86 can be slang for \u201cgetting rid of.\u201d They are investigating.\n\nTrump\u2019s claims came after days of negative attention to the state of the pool, which has drawn television cameras and curious onlookers.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 50,
+      "left-center": 50
+    }
+  },
+  {
+    "id": 233969,
     "date": "2026-06-23",
     "topic": "Keir Starmer Prime Minister Resigns Resigning",
     "match_score": 0.6,
-    "cluster_size": 7,
+    "cluster_size": 6,
     "articles": {
       "left-center": {
         "title": "Keir Starmer Says He's Resigning As U.K. Prime Minister",
@@ -283,11 +322,11 @@
     }
   },
   {
-    "id": 8217488,
+    "id": 1267759,
     "date": "2026-06-23",
     "topic": "Clive Davis Music Dies Whitney Houston",
     "match_score": 0.6,
-    "cluster_size": 6,
+    "cluster_size": 4,
     "articles": {
       "left-center": {
         "title": "Clive Davis, legendary music executive, dies at age 94",
@@ -299,7 +338,7 @@
       "center": {
         "title": "Clive Davis, music mogul behind Whitney Houston and Bruce Springsteen, dies aged 94",
         "url": "https://www.bbc.com/news/articles/c3vy3e6q90qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News Front",
+        "source": "BBC News World",
         "bias": "center",
         "priority": 2
       },
@@ -362,46 +401,47 @@
     }
   },
   {
-    "id": 1148910,
+    "id": 2492950,
     "date": "2026-06-23",
-    "topic": "Trump Reflecting Pool Repairs Tries Blame",
+    "topic": "Giannis Antetokounmpo Miami Heat Bucks Twotime",
     "match_score": 0.6,
     "cluster_size": 4,
     "articles": {
-      "left-center": {
-        "title": "Trump Tries To Blame Reflecting Pool Woes On Vandalism, Says It Will Likely Be Drained Again For Repairs",
-        "url": "https://www.huffpost.com/entry/trump-tries-to-blame-reflecting-pool-on-vandalism-says-it-will-have-to-be-drained-again-for-repairs_n_6a37517de4b057a50cee3653",
-        "source": "HuffPost Politics",
-        "bias": "left-center",
-        "priority": 4
-      },
-      "center": {
-        "title": "Trump says repairs to algae-plagued Reflecting Pool will begin immediately",
-        "url": "https://www.bbc.com/news/articles/c872e8d9el1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News World",
-        "bias": "center",
-        "priority": 2
-      },
-      "right": {
-        "title": "Whoopi Goldberg: Trump Should Go to Jail for Reflecting Pool Repairs",
-        "url": "https://www.breitbart.com/clips/2026/06/22/whoopi-goldberg-trump-should-go-to-jail-for-reflecting-pool-repairs/",
-        "source": "Breitbart",
-        "bias": "right",
+      "left": {
+        "title": "Bucks\u2019 Giannis Antetokounmpo reportedly headed to Miami Heat in blockbuster trade",
+        "url": "https://www.theguardian.com/sport/2026/jun/23/giannis-antetokounmpo-miami-heat-trade-milwaukee-bucks-blockbuster",
+        "source": "The Guardian (US)",
+        "bias": "left",
         "priority": 1
+      },
+      "left-center": {
+        "title": "Miami Heat acquire two-time NBA MVP Giannis Antetokounmpo, according to reports",
+        "url": "https://www.nbcnews.com/sports/nba/miami-heat-giannis-antetokounmpo-trade-rcna351169",
+        "source": "NBC News",
+        "bias": "left-center",
+        "priority": 9
+      },
+      "right-center": {
+        "title": "Giannis Antetokounmpo era to end in Milwaukee as Bucks will send two-time MVP to Miami Heat for young core",
+        "url": "https://www.foxnews.com/sports/giannis-antetokounmpo-era-ends-milwaukee-bucks-send-two-time-mvp-miami-heat-young-core",
+        "source": "Fox News Latest",
+        "bias": "right-center",
+        "priority": 2
       }
     },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "LOADING ERROR LOADING\n\nWASHINGTON (AP) \u2014 President Donald Trump on Saturday announced that federal authorities had made \u201cmultiple arrests\u201d of people he said were vandalizing the Reflecting Pool as he struggled to explain why the $14-million-plus rehabilitation project he launched for the nation\u2019s 250th anniversary seemingly backfired.\n\nTrump said his predecessors had let the pool turn an algae-stained green and that he\u2019d line it with \u201cAmerican flag blue\u201d so it better reflected the Washington Monument. But after the new pool was unveiled, its blue tinge quickly became a familiar green. Workers treated it with chemicals to kill the algae, but then the painted blue lining on the bottom began to peel.\n\nAdvertisement\n\nOn Friday night, Trump posted about the pool.\n\n\u201cWe\u2019ve had some real problems with Vandalism at the beautiful Reflecting Pool,\u201d he posted on his social media site Friday night. \u201cJust like three days ago, they destroyed the grass outside of the Pool, they\u2019ve also done everything possible to hurt the inside surface that was just installed.\u201d\n\nHe offered no details to substantiate his claim.\n\nA National Park Service employee uses a vacuum to clean the Lincoln Memorial Reflecting Pool, Saturday, June 20, 2026, in Washington. (AP Photo/Mark Schiefelbein) via Associated Press\n\nNational Park Service employees and contractors use vacuums to remove green algae from the bottom of the Lincoln Memorial Reflecting Pool on June 18, 2026 in Washington, DC. (Photo by Chip Somodevilla/Getty Images) Chip Somodevilla via Getty Images\n\nAdvertisement\n\nAgencies responsible for law enforcement and upkeep on the National Mall \u2014 the U.S. Park Police, National Park Service and Interior Department \u2014 did not respond to requests for comment. Trump on Saturday followed up by posting that Park Police \u201chave arrested multiple individuals for vandalizing our Nations magnificent Reflecting Poll,\u201d correcting his spelling to \u201cPool\u201d later.\n\nHe went on: \u201cWho would do such a thing? These are very serious crimes having to do with the destruction of National Monuments. Years in jail!\u201d\n\nTrump later acknowledged in a post that the Reflecting Pool will need to be repaired, yet again, to restore it to \u201can equal level of Beauty\u201d as before. \u201cWe met with contractors today, will probably be forced to release and drain much of the water in order to do the necessary repairs, but will have them done as quickly as possible,\u201d he wrote.\n\nAdvertisement\n\nOne man arrested was David Hearn, 67, of Bethesda, Maryland, who owned a company that made composite used to build watercraft. He said he stopped by the pool during his 64-mile bike ride Friday to see what was going on.\n\nHearn, a former Olympic canoe racer, told The Associated Press that he reached into the pool because he wanted to examine the peeling new coating. He said he briefly touched a chunk that was still attached to the side of the pool, then let go shortly after a park worker told him to.\n\nBut, Hearn said, he was then detained by National Guard troops and Park Police for five hours before being released Friday night.\n\nAdvertisement\n\n\u201cI\u2019m a curious citizen,\u201d Hearn said in a telephone interview. \u201cI reached down to see what it felt like. It was very rubbery.\u201d\n\nSeen through algae-laden green water, a section of recently applied sealant can be seen peeling up from the bottom of the Lincoln Memorial Reflecting Pool on June 18, 2026 in Washington, DC. (Photo by Chip Somodevilla/Getty Images) Chip Somodevilla via Getty Images\n\nAlgae-ridden water is drained from the bottom of the Lincoln Memorial Reflecting Pool on June 20, 2026 in Washington, DC. (Photo by Anna Rose Layden/Getty Images) Anna Rose Layden via Getty Images\n\nAdvertisement\n\nThe Washington Post first reported Hearn\u2019s arrest, and he said he has a date to appear in court next month and is looking for legal help.\n\nEven if someone pulled ribbons of paint from the side of the pool, it would not explain the clouds of algae in green water and swaths of loose blue paint detached from the bottom.\n\nTrump insisted something <span class='highlight-bias highlight-bias-left'>nefarious</span> has been going on at the scene. \u201cNo different than the chemicals that were used on the National Mall, they used something similar in the Reflecting Pool to try to destroy and demean our beautiful work,\u201d he posted Friday evening.\n\nAdvertisement\n\nThat was an apparent reference to the discovery of large numbers etched in discolored grass on the National Mall the week before: \u201c86 47.\u201d Authorities said the numbers could have been meant as a threat to Trump, the 47th president. The number 86 can be slang for \u201cgetting rid of.\u201d They are investigating.\n\nTrump\u2019s claims came after days of negative attention to the state of the pool, which has drawn television cameras and curious onlookers.",
+    "farLeftText": "Giannis Antetokounmpo wants more championships. So do the Miami Heat.\n\nAnd the Heat finally have another superstar.\n\nEnding a marathon watch for the next great Miami get, the Heat landed Antetokounmpo \u2013 a two-time NBA MVP and 10-time All-Star \u2013 from the Milwaukee Bucks on Monday night in exchange for a massive haul of players and draft picks.\n\nThe terms, according to a person who spoke to the Associated Press on condition of anonymity because the move has yet to receive the required league approval: Antetokounmpo and Bobby Portis are heading to Miami for Wisconsin native Tyler Herro, Jaime Jaquez Jr, Kel\u2019el Ware and Kasparas Jakucionis. Milwaukee also gets at least four picks, including the No 13 selection that will be made in Tuesday night\u2019s NBA draft.\n\nIt ends a wild back-and-forth in the final days of the saga, with the Bucks considering offers from both Miami and Boston for Antetokounmpo \u2013 who led Milwaukee to the 2021 NBA title, was on the NBA\u2019s 75th anniversary list of its greatest players ever, is a nine-time All-NBA selection and is coming off an injury-shortened season where he averaged 27.6 points per game.\n\nThere has been no secret that this is what Miami has sought, because this is what Miami usually seeks. The Heat pulled off similar moves by landing Shaquille O\u2019Neal in 2004 (helping lead to the 2006 NBA title) and by getting LeBron James and Chris Bosh to play alongside Dwyane Wade in 2010 (leading to four NBAfFinals runs in four seasons together, along with the 2012 and 2013 NBA titles).\n\nNow, it\u2019s Antetokounmpo\u2019s turn. At 31, the Heat <span class='highlight-bias highlight-bias-left'>clearly</span> believe he still has many good years left \u2013 and it\u2019s generally presumed that by making this deal they\u2019ll give the Greek superstar a massive extension later this year.",
+    "centerLeftText": "The Miami Heat have acquired two-time NBA MVP Giannis Antetokounmpo from the Milwaukee Bucks, according to multiple reports.\n\nSubscribe to read this story ad-free Get unlimited access to ad-free articles and exclusive content.\n\nIn exchange for the 10-time All-Star, the Bucks will reportedly receive Tyler Herro, Jaime Jaquez Jr., Kel\u2019el Ware, Kasparas Jaku\u010dionis and three first-round picks. The Heat will also reportedly receive forward Bobby Portis in the trade.\n\nAntetokounmpo, 31, averaged 27.6 points, 9.8 rebounds and 5.4 assists per game in an injury-riddled 2025-26 season. He played only 28.9 minutes per game, his fewest since his rookie season, and appeared in only 36 games, the lowest mark of his career.\n\nWithout their star, the Bucks finished the season 32-50, missing the playoffs for the first time since 2016.\n\nMiami also missed the playoffs in 2026, failing to make the postseason for the first time since 2019.\n\nAntetokounmpo, the league\u2019s Most Valuable Player in 2019 and 2020, has reportedly flirted with trade requests for much of the last year. Last summer, ESPN reported Milwaukee engaged in discussions with the New York Knicks about a potential trade. Antetokounmpo\u2019s name came up again at the February trade deadline, with the Bucks ultimately opting to keep him through the end of the regular season.\n\nAfter having won a championship in 2021, Antetokounmpo has struggled to find success in the playoffs, failing to make the conference finals since.\n\nIn 2022, Milwaukee lost to the Boston Celtics in a seven-game second-round series.\n\nIn 2023, the Bucks were upset by the eighth-seeded Heat in the first round.\n\nIn both 2024 and 2025, Milwaukee was eliminated in the first round by the Indiana Pacers.\n\nThe Bucks, meanwhile, made bold moves to <span class='highlight-bias highlight-bias-left'>placate</span> Antetokounmpo over the years.\n\nThree years ago, the team broke up its championship-winning core, trading guard Jrue Holiday for Damian Lillard. During the 2023-24 season, Milwaukee also fired head coach Adrian Griffin only 43 games into his tenure and replaced him with Doc Rivers.\n\nLast offseason, Lillard was waived to facilitate the signing of center Myles Turner. And this year, Rivers and the team agreed to part ways at the end of the regular season.\n\nMiami has also struggled to contend in recent years. After having reached the NBA Finals in 2023, the Heat have won only one playoff game over the last three years.\n\nAntetokounmpo, a member of the NBA\u2019s 75th anniversary team, is one of the best two-way players in league history. In addition to his two MVPs and 10 All-Star selections, he is a former Defensive Player of the Year and has earned seven All-NBA First Team and four All-Defensive First Team honors.\n\nIn 2021, Antetokounmpo led Milwaukee to its first NBA title since 1971. He won Finals MVP, averaging 35.2 points, 13.2 rebounds and 5.0 assists per game in a six-game series against the Phoenix Suns.",
     "centerText": "No article found in this category for this topic.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "Monday on ABC\u2019s \u201cThe View,\u201d co-host Whoopi Goldberg said President Donald Trump should go to jail or get sued for the Lincoln Memorial reflecting pool renovations.\n\nGoldberg said, \u201cHe is claiming that vandals are to blame. He says they illegally placed chemicals in the water and left a 300-foot gash in the pool. Now, five people are said to have been arrested. He says a ten-year prison sentence will be strictly enforced. Well, if he says he\u2019s going to jail for 10 years, I\u2019m going to let him go. It seems to me, that had he not messed with the pool, it would still be a reflecting pool instead of a liquid jungle, which is what it looks like. But to accuse five people of doing this, but seemingly there\u2019s no proof.\u201d\n\nShe added, \u201cI want somebody to sue because if a contractor did this at your house, this is what you would do. I think the country needs to say we\u2019re suing you, suing you for doing this without our permission and we\u2019re suing the people who did it because <span class='highlight-bias highlight-bias-right'>clearly</span> they didn\u2019t know what they were doing. <span class='highlight-bias highlight-bias-right'>Clearly</span>. But, you know, it\u2019s just a suggestion because, you know, a lot of money is going away.\u201d\n\nFollow Pam Key on X @pamkeyNEN",
+    "centerRightText": "NEW You can now listen to Fox News articles!\n\nThe Milwaukee Bucks are trading two-time MVP Giannis Antetokounmpo and forward Bobby Portis to the Miami Heat, closing the book on a historic run that delivered Milwaukee its first NBA title in 50 years.\n\nPer ESPN's Shams Charania, Miami will acquire Antetokounmpo and Portis in exchange for Tyler Herro, Kel'el Ware, Jaime Jaquez Jr. and Kasparas Jakucionis, along with three future first-round picks, the No. 13 pick in Tuesday's draft, a future pick swap and a second-round pick.\n\nThe Boston Celtics and Heat gained steam as the leading suitors in the Giannis sweepstakes on the eve of the NBA Draft.\n\nThe trade comes after years of uncertainty surrounding Milwaukee's direction following the departure of championship-winning head coach Mike Budenholzer in 2023 and caps a steady decline that culminated in the Bucks missing the 2026 playoffs.\n\nBUCKS APPEAR WILLING TO HEAR OFFERS FOR GIANNIS ANTETOKOUNMPO: REPORT\n\nAntetokounmpo, 31, delivered the franchise's first championship in 50 years in 2021 and cemented his place among the greatest players in team history. He was named one of the NBA's top 75 players ever and is a two time MVP and was MVP of the Finals.\n\nBut after several disappointing post-title seasons and an injury-plagued 2025-26 campaign, the Bucks chose to pivot toward the future. The team sidelined Giannis against his wishes toward the end of the season.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nRather than remain tied to an expensive roster with limited flexibility, Milwaukee capitalized on Antetokounmpo's value.\n\nMiami emerged from a crowded field of suitors to land one of the league's biggest stars, signaling Riley's continued willingness to sacrifice future assets in pursuit of another title. And Heat president Pat Riley finally landed the franchise cornerstone he has pursued for years.\n\nSend us your thoughts: alejandro.avila@outkick.com / Follow along on X: @alejandroaveela\n\nZERO BS. JUST DAKICH. TAKE THE DON'T @ ME PODCAST ON THE ROAD. DOWNLOAD NOW!",
+    "farRightText": "No article found in this category for this topic.",
     "omissions": {
+      "left": 50,
       "left-center": 50,
-      "right": 50
+      "right-center": 50
     }
   },
   {
-    "id": 6184975,
+    "id": 9546665,
     "date": "2026-06-23",
     "topic": "Wins Colombia Election Trumpbacked Presidential Outsider",
     "match_score": 0.6,
@@ -440,11 +480,11 @@
     }
   },
   {
-    "id": 6738720,
+    "id": 6290186,
     "date": "2026-06-23",
     "topic": "Messi Breaks Record World Lionel Career",
     "match_score": 0.4,
-    "cluster_size": 5,
+    "cluster_size": 4,
     "articles": {
       "left-center": {
         "title": "Lionel Messi breaks record for most career World Cup goals",
@@ -463,7 +503,7 @@
     },
     "farLeftText": "No article found in this category for this topic.",
     "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "Magnificent Messi makes history, breaks all-time World Cup scoring record\n\ntoggle caption Charlotte Wilson/Getty Images\n\nArgentine soccer superstar Lionel Messi has broken the record for most World Cup scoring.\n\nMessi made the record goal, his 17th, during the first half of Monday's game against Austria. It was a heated match. Austria attacked relentlessly, and Argentina relied on its defense and on goalkeeper Emiliano \"Dibu\" Martinez. And, near the end in stoppage time, Messi scored again, finishing off at 2-0.\n\nThe team captain started off the World Cup with a bang: in the opener against Algeria, Messi scored a hat trick: three goals. A rare feat in soccer. He has scored all five goals for Argentina this World Cup. With the win, Argentina advances to the knockout round.\n\nSponsor Message\n\nMessi hails from the province of Santa Fe, Argentina, an area known for producing excellent players. He faced challenges at an early age: he had a hormonal growth deficiency, which was difficult to treat in his hometown, given the severe economic crisis facing Argentina in the late 1990s. By 2001, the Messi family had decided to accept an offer for him to join La Masia, FC Barcelona's youth academy, in Spain. Messi was 13 years old.\n\nIt was at Barca that he rose to fame and developed his unique style of walking the pitch, patiently waiting for the right opportunity to jump on the ball, dribble skillfully past his opponents, and score.\n\ntoggle caption Francois Nel/Getty Images\n\nAlthough a legend of Barca and European soccer, he often expressed a desire to play for the Argentine national team in a World Cup. He got his chance in his 20's, but it wasn't smooth: he was widely seen as a foreigner who had not paid his dues in the Argentine soccer system. His measured, calculating style of play was often misunderstood in South America, where players tended to have a quicker, more aggressive technique.\n\nThere were several World Cup attempts that were disappointing, and after the 2016 World Cup , he announced he would not be playing again. \"It's over,\" he said outside the locker room, visibly shaken. \"I tried so hard, it is unbelievable, but it hasn't worked. Me and this team are through.\"\n\nThe tides turned under the leadership of Argentine Coach Lionel Scaloni, and Messi led the team to a Copa America victory in 2021. Argentina won the World Cup the following year.\n\nThis is Messi's sixth World Cup and he's considered one of the best players in soccer history.\n\nSponsor Message\n\nMessi also surpassed Brazilian superstar Marta, who had scored 17 goals at the Women's World Cup.",
+    "centerText": "Magnificent Messi makes history, breaks all-time World Cup scoring record\n\ntoggle caption Charlotte Wilson/Getty Images\n\nArgentine soccer superstar Lionel Messi has broken the record for most World Cup scoring.\n\nMessi made the record goal, his 17th, during the first half of Monday's game against Austria. It was a heated match. Austria attacked relentlessly, and Argentina relied on its defense and on goalkeeper Emiliano \"Dibu\" Martinez. And, near the end in stoppage time, Messi scored again, finishing off at 2-0.\n\nThe team captain started off the World Cup with a bang: in the opener against Algeria, Messi scored a hat trick: three goals. A rare feat in soccer. He has scored all five goals for Argentina this World Cup. With the win, Argentina advances to the knockout round.\n\nSponsor Message\n\nMessi hails from the province of Santa Fe, Argentina, an area known for producing excellent players. He faced challenges at an early age: he had a hormonal growth deficiency, which was difficult to treat in his hometown, given the severe economic crisis facing Argentina in the late 1990s. By 2001, the Messi family had decided to accept an offer for him to join La Masia, FC Barcelona's youth academy, in Spain. Messi was 13 years old.\n\nIt was at Bar\u00e7a that he rose to fame and developed his unique style of walking the pitch, patiently waiting for the right opportunity to jump on the ball, dribble skillfully past his opponents, and score.\n\ntoggle caption Francois Nel/Getty Images\n\nAlthough a legend of Bar\u00e7a and European soccer, he often expressed a desire to play for the Argentine national team in a World Cup. He got his chance in his 20's, but it wasn't smooth: he was widely seen as a foreigner who had not paid his dues in the Argentine soccer system. His measured, calculating style of play was often misunderstood in South America, where players tended to have a quicker, more aggressive technique.\n\nThere were several World Cup attempts that were disappointing, and after the 2016 World Cup, he announced he would not be playing again. \"It's over,\" he said outside the locker room, visibly shaken. \"I tried so hard, it is unbelievable, but it hasn't worked. Me and this team are through.\"\n\nThe tides turned under the leadership of Argentine Coach Lionel Scaloni, and Messi led the team to a Copa America victory in 2021. Argentina won the World Cup the following year.\n\nThis is Messi's sixth World Cup and he's considered one of the best players in soccer history.\n\nSponsor Message\n\nMessi also surpassed Brazilian superstar Marta, who had scored 17 goals at the Women's World Cup.",
     "centerRightText": "No article found in this category for this topic.",
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
@@ -471,7 +511,7 @@
     }
   },
   {
-    "id": 6831181,
+    "id": 949045,
     "date": "2026-06-23",
     "topic": "Trump Reflecting Pool Shabby Condition Fault",
     "match_score": 0.4,
@@ -480,7 +520,7 @@
       "left-center": {
         "title": "Trump on the Shabby Condition of the Reflecting Pool: Not My Fault",
         "url": "https://www.nytimes.com/2026/06/22/us/politics/trump-reflecting-pool-blame.html",
-        "source": "NYT Politics",
+        "source": "NYT US",
         "bias": "left-center",
         "priority": 7
       },
@@ -564,37 +604,6 @@
     "omissions": {
       "left-center": 50,
       "right-center": 50
-    }
-  },
-  {
-    "id": 391825,
-    "date": "2026-06-23",
-    "topic": "Temporarily Lifts Sanctions Iran Talks Citing",
-    "match_score": 0.4,
-    "cluster_size": 3,
-    "articles": {
-      "left-center": {
-        "title": "U.S. Temporarily Lifts Oil Sanctions Against Iran, Citing \u2018Productive\u2019 Talks",
-        "url": "https://www.nytimes.com/2026/06/22/world/middleeast/us-iran-oil-sanctions.html",
-        "source": "NYT World",
-        "bias": "left-center",
-        "priority": 7
-      },
-      "center": {
-        "title": "Vance touts progress in Iran talks as U.S. temporarily lifts oil sanctions",
-        "url": "https://www.pbs.org/newshour/show/vance-touts-progress-in-iran-talks-as-u-s-temporarily-lifts-oil-sanctions",
-        "source": "PBS",
-        "bias": "center",
-        "priority": 4
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "The U.S. temporarily removed oil sanctions on Iran Monday, creating the potential for an Iranian economic windfall in U.S. dollars as the first round of talks ended in Switzerland. Vance led the U.S. delegation, mediated by Qatar and Pakistan. The negotiations come as one of the main sticking points, the war in Lebanon, appeared to calm, at least for the day. Liz Landers reports.\n\nNotice: Transcripts are machine and human generated and lightly edited for accuracy. They may contain errors.\n\nNick Schifrin:\n\nWelcome to the \"News Hour.\"\n\nThe U.S. temporarily removed oil sanctions on Iran today, creating the potential for an Iranian economic windfall in U.S. dollars, as the first round of talks ended in Switzerland. Vice President J.D. Vance led the U.S. delegation mediated by Qatar and Pakistan.\n\nThe negotiations come as one of the main sticking points, the war in Lebanon appeared, to calm, at least for the day.\n\nLiz Landers begins our coverage.\n\nPresident Donald Trump:\n\nIf Iran doesn't live up to their agreement or if they're not behaving, I will do what I have to do.\n\nLiz Landers:\n\nPresident Donald Trump today making a veiled threat to Iran if they don't adhere to the memorandum of understanding that was struck last week.\n\nDonald Trump:\n\nWe're doing very well in terms of negotiating a fair and reasonable deal.\n\nLiz Landers:\n\nIn Switzerland earlier today, Vice President J.D. Vance said talks with Iran are already paving the way for more technical discussions about its nuclear program.\n\nVice President J.D. Vance:\n\nWe did exactly what we wanted to do, which is accomplish four things for the American people.\n\nLiz Landers:\n\nVance, touting progress, laid out those key points, establishing a mechanism for keeping the Strait of Hormuz open, coordination for the cease-fire between Israel and Hezbollah in Lebanon, a process for the technical negotiations that remain, and an agreement on IAEA inspection of nuclear facilities.\n\nBut Iran's Foreign Ministry today denied negotiations on nuclear issues, saying they did not accept any new commitments. Shortly after Vance's comments, Treasury Secretary Scott Bessent announced that his agency would waive sanctions on Iranian oil as part of an interim agreement to end the war.\n\nThe license authorizes the production, delivery and sale of Iranian oil in late August. Miad Maleki, a former top sanctions official at the Treasury Department, is now a senior fellow at the Foundation for Defense of Democracies. He called the dollar authorization, allowing Iran to get paid in U.S. dollars, a critical detail in the announcement.\n\nMiad Maleki, The Foundation for Defense of Democracies: Now, as far as cash, I think they have about 67, 68 million barrels of Iranian oil that are within international waters close to China, in Asia. So that becomes available to buyers. And if -- at current prices, that is $8 billion to $9 billion in floating inventory that now becomes available to buyers.\n\nLiz Landers:\n\nMeanwhile, there was a calm in Lebanon today, with no Israeli strikes reported overnight and into today. But it followed a bloody weekend of Israeli strikes.\n\nAt a funeral yesterday, a familiar chant, \"Death to Israel.\" Family members gathered to mourn four of the at least two dozen people killed in an Israeli strike on Saturday, including five children. Hours earlier, Israel and Hezbollah agreed to a cease-fire, but Israel refused to leave its occupation of Southern Lebanon.\n\nHezbollah Chief Naim Qassem yesterday adamant in refusing to back down if Israel doesn't.\n\nNaim Qassem, Hezbollah Secretary-General (through interpreter):\n\nIsrael will not stay in Lebanon, and we will defend ourselves. Any violation, we will deal with as we see fit.\n\nLiz Landers:\n\nIsraeli Prime Minister Benjamin Netanyahu today also <span class='highlight-bias highlight-bias-center'>resolute</span>.\n\nBenjamin Netanyahu, Israeli Prime Minister (through interpreter):\n\nThe directive is clear and has not changed. Our fighters in Southern Lebanon have full freedom of action to thwart any direct or emerging threat against them.\n\nLiz Landers:\n\nJust yesterday, Israelis in Tel Aviv mined the streets, bidding farewell to one of the four soldiers killed in Southern Lebanon last week. An attendee voiced frustrations over Israel's exclusion from the weekend negotiations.\n\nAsher Aronof, Herzliya, Israel, Resident:\n\nWith the talks of the negotiations between Iran, the United States, Israel is out of the question. We are with hands tied behind our back.\n\nLiz Landers:\n\nMeanwhile, at a natural gas export terminal in Qatar, officials said a blast killed at least 13 people, but there was no indication the incident was a planned attack. Operations had just resumed after the area was struck by Iran earlier in the war.\n\nTomorrow, Secretary of State Marco Rubio is set to travel to the Middle East to discuss the memorandum.\n\nFor the \"PBS News Hour,\" I'm Liz Landers.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 50
     }
   },
   {
