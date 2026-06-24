@@ -141,7 +141,7 @@
     }
   },
   {
-    "id": 7610908,
+    "id": 6526588,
     "date": "2026-06-24",
     "topic": "France Ebola Case Confirms Doctor Worked",
     "match_score": 0.8,
@@ -315,6 +315,45 @@
     }
   },
   {
+    "id": 7983130,
+    "date": "2026-06-24",
+    "topic": "Trump Housing Save Passes Sign Congress",
+    "match_score": 0.6,
+    "cluster_size": 6,
+    "articles": {
+      "left-center": {
+        "title": "Trump Refuses to Sign Housing Bill Until Divisive \u2018SAVE\u2019 Voting Act Passes Congress",
+        "url": "https://www.nytimes.com/2026/06/24/us/politics/trump-housing-bill-voting-restrictions.html",
+        "source": "NYT US",
+        "bias": "left-center",
+        "priority": 7
+      },
+      "center": {
+        "title": "Trump says he won't sign major housing bill until Congress passes SAVE Act",
+        "url": "https://www.pbs.org/newshour/politics/trump-says-he-wont-sign-major-housing-bill-until-congress-passes-save-act",
+        "source": "PBS",
+        "bias": "center",
+        "priority": 4
+      },
+      "right": {
+        "title": "Trump Cancels Signing Ceremony for Housing Bill Until Senate Passes SAVE America Act",
+        "url": "https://www.breitbart.com/politics/2026/06/24/trump-cancels-signing-ceremony-for-housing-bill-until-senate-passes-save-america-act/",
+        "source": "Breitbart",
+        "bias": "right",
+        "priority": 1
+      }
+    },
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "The president posted on social media that he would no longer be signing, as planned for Wednesday, a bipartisan measure to increase home construction .\n\n\"Today's Housing News Conference and Signing is hereby cancelled until such time as we pass the desperately needed SAVE AMERICA ACT, which I consider to be a National Emergency,\" Trump said.\n\nTrump has been pushing the Senate to remove the filibuster in order to pass the SAVE America Act, which would introduce new voter identification requirements.\n\nDemocratic lawmakers say the measure as written would be a form of voter suppression.\n\nTrump called off housing bill signing just as Republican leaders were <span class='highlight-bias highlight-bias-center'>praising</span> it\n\nThe president's announcement came at an awkward time for House Republican leadership, coming just as they were speaking at a press conference about the importance of the bill in addressing affordability \u2014 a key issue for voters this year.\n\nHouse Majority Leader Steve Scalise had just described it as \"really important bill to lower housing costs.\"\n\n\"Let's show the American people what legislating looks like,\" added Financial Services Committee Chairman French Hill. \"Let's show the American people how you bring together and do something on a bicameral basis, and we did that.\"\n\nREAD MORE: The Senate has passed a major housing reform bill. Here are 3 ways it could have a 'big impact'\n\nA reporter then asked about Trump's cancellation as they took questions. Speaker Mike Johnson said he had spoken with Trump earlier Wednesday and was confident he would sign the bill.\n\n\"The president, when we go through the details of the bill, he's going to understand that it's a good product,\" Johnson said.\n\nSen. Elizabeth Warren says Trump is showing he doesn't care about American families\n\nThe bipartisan housing bill was as close as it comes to a \"Kumbaya\" moment in Washington, but the Democratic senator who helped craft the measure said she couldn't understand why Trump thought canceling the signing ceremony was a smart idea.\n\n\"This just doesn't make any sense,\" Warren said on CNBC, saying the only conclusion she could draw is that Trump has \"a complete indifference to the cost squeeze on American families, and to genuine efforts to do something about it.\"\n\nThe Massachusetts lawmaker said Trump is his own worst enemy when it comes to lowering interest rates to help make housing more affordable.\n\nShe said his tariffs, his energy policies and his Iran war have kept inflation running hotter than it should, keeping borrowing costs high.\n\nHouse Democrat to Trump: 'Stop the nonsense'\n\nDemocratic Rep. Sharice Davids of Kansas said Trump refused to sign the bill \"all because of political games.\"\n\n\"Families are struggling to afford a home,\" she posted on X. \"Stop the nonsense and sign the BIPARTISAN bill.\"\n\nAn analysis by the Bipartisan Policy Center says the bill incorporates provisions from more than 60 measures introduced in the House, Senate, or both chambers\u201436 of which had bipartisan sponsors.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "President Donald Trump canceled a scheduled signing ceremony of the 21st Century ROAD to Housing Act at the Capitol on Wednesday until the Senate passes the SAVE America Act.\n\nTrump was scheduled to sign the housing bill into law at 1:00 p.m. ET, but announced in a Truth Social post on Wednesday morning that he would be canceling the ceremony.\n\n\u201cToday\u2019s Housing News Conference and Signing is hereby cancelled until such time as we pass the desperately needed SAVE AMERICA ACT, which I consider to be a National Emergency. Thank you for your attention to this matter!\u201d he wrote.\n\nThe legislation, championed by Sen Elizabeth Warren (D-MA), passed the Senate 89-10 and the House of Representatives 358-32, would ban institutional investors from buying single-family homes.\n\nWhile Trump is supportive of the bill and whipped the House on voting for it after it was passed by the Senate, he is now holding off on signing it into law in a move to leverage the advancement of the SAVE America Act.\n\nThe SAVE America Act focuses on securing elections, including measures that would require proof of citizenship when Americans register to vote, implement voter ID, and allow mail-in voting only for exceptions such as illness, disability, travel, and military service. It would also make transgender surgeries illegal and ban men from participating in women\u2019s athletics, codifying issues Trump has addressed through the executive branch.\n\nWhen asked on Wednesday about the SAVE America Act after canceling the signing of the housing bill, Trump said, \u201cEvery election is important. We\u2019re doing very well.\u201d\n\n\u201c[Democrats] want a lot of communists to come in. I\u2019m saying it a little bit differently, but the people that they\u2019re pushing are communists, and this country is not going to have communists,\u201d he added.",
+    "omissions": {
+      "left-center": 50,
+      "right": 67
+    }
+  },
+  {
     "id": 9048904,
     "date": "2026-06-24",
     "topic": "Camp Mystic Files Bankruptcy Texas Died",
@@ -351,45 +390,6 @@
     "omissions": {
       "left": 65,
       "left-center": 50
-    }
-  },
-  {
-    "id": 1899653,
-    "date": "2026-06-24",
-    "topic": "Trump Sign Housing Save Passes Congress",
-    "match_score": 0.6,
-    "cluster_size": 5,
-    "articles": {
-      "left-center": {
-        "title": "Trump Refuses to Sign Housing Bill Until Divisive \u2018SAVE\u2019 Voting Act Passes Congress",
-        "url": "https://www.nytimes.com/2026/06/24/us/politics/trump-housing-bill-voting-restrictions.html",
-        "source": "NYT Politics",
-        "bias": "left-center",
-        "priority": 7
-      },
-      "center": {
-        "title": "Trump says he won't sign major housing bill until Congress passes SAVE Act",
-        "url": "https://www.pbs.org/newshour/politics/trump-says-he-wont-sign-major-housing-bill-until-congress-passes-save-act",
-        "source": "PBS",
-        "bias": "center",
-        "priority": 4
-      },
-      "right": {
-        "title": "Trump Won't Sign Housing Bill Unless Save America Act Also Passed",
-        "url": "https://www.newsmax.com/politics/housing-bill-bipartisan-trump/2026/06/24/id/1260735",
-        "source": "Newsmax",
-        "bias": "right",
-        "priority": 5
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "The president posted on social media that he would no longer be signing, as planned for Wednesday, a bipartisan measure to increase home construction .\n\n\"Today's Housing News Conference and Signing is hereby cancelled until such time as we pass the desperately needed SAVE AMERICA ACT, which I consider to be a National Emergency,\" Trump said.\n\nTrump has been pushing the Senate to remove the filibuster in order to pass the SAVE America Act, which would introduce new voter identification requirements.\n\nDemocratic lawmakers say the measure as written would be a form of voter suppression.\n\nTrump called off housing bill signing just as Republican leaders were <span class='highlight-bias highlight-bias-center'>praising</span> it\n\nThe president's announcement came at an awkward time for House Republican leadership, coming just as they were speaking at a press conference about the importance of the bill in addressing affordability \u2014 a key issue for voters this year.\n\nHouse Majority Leader Steve Scalise had just described it as \"really important bill to lower housing costs.\"\n\n\"Let's show the American people what legislating looks like,\" added Financial Services Committee Chairman French Hill. \"Let's show the American people how you bring together and do something on a bicameral basis, and we did that.\"\n\nREAD MORE: The Senate has passed a major housing reform bill. Here are 3 ways it could have a 'big impact'\n\nA reporter then asked about Trump's cancellation as they took questions. Speaker Mike Johnson said he had spoken with Trump earlier Wednesday and was confident he would sign the bill.\n\n\"The president, when we go through the details of the bill, he's going to understand that it's a good product,\" Johnson said.\n\nSen. Elizabeth Warren says Trump is showing he doesn't care about American families\n\nThe bipartisan housing bill was as close as it comes to a \"Kumbaya\" moment in Washington, but the Democratic senator who helped craft the measure said she couldn't understand why Trump thought canceling the signing ceremony was a smart idea.\n\n\"This just doesn't make any sense,\" Warren said on CNBC, saying the only conclusion she could draw is that Trump has \"a complete indifference to the cost squeeze on American families, and to genuine efforts to do something about it.\"\n\nThe Massachusetts lawmaker said Trump is his own worst enemy when it comes to lowering interest rates to help make housing more affordable.\n\nShe said his tariffs, his energy policies and his Iran war have kept inflation running hotter than it should, keeping borrowing costs high.\n\nHouse Democrat to Trump: 'Stop the nonsense'\n\nDemocratic Rep. Sharice Davids of Kansas said Trump refused to sign the bill \"all because of political games.\"\n\n\"Families are struggling to afford a home,\" she posted on X. \"Stop the nonsense and sign the BIPARTISAN bill.\"\n\nAn analysis by the Bipartisan Policy Center says the bill incorporates provisions from more than 60 measures introduced in the House, Senate, or both chambers\u201436 of which had bipartisan sponsors.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 50,
-      "right": 50
     }
   },
   {
