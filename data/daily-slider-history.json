@@ -181,6 +181,46 @@
     }
   },
   {
+    "id": 9552620,
+    "date": "2026-06-24",
+    "topic": "Wins South Admiral Fired Democratic Primary",
+    "match_score": 0.6,
+    "cluster_size": 7,
+    "articles": {
+      "left": {
+        "title": "Admiral fired in Hegseth purge wins Democratic primary in South Carolina",
+        "url": "https://www.theguardian.com/us-news/2026/jun/23/admiral-nancy-lacore-democratic-primary-south-carolina",
+        "source": "The Guardian (US)",
+        "bias": "left",
+        "priority": 1
+      },
+      "left-center": {
+        "title": "Fired Navy Admiral Wins Democratic Runoff in South Carolina\u2019s 1st District",
+        "url": "https://www.nytimes.com/2026/06/23/us/politics/nancy-lacore-nancy-mace-south-carolina-house-democrats.html",
+        "source": "NYT US",
+        "bias": "left-center",
+        "priority": 7
+      },
+      "right": {
+        "title": "South Carolina Attorney General Alan Wilson Wins Republican Gubernatorial Primary Runoff",
+        "url": "https://www.breitbart.com/politics/2026/06/23/south-carolina-ag-alan-wilson-wins-republican-primary-gubernatorial-runoff/",
+        "source": "Breitbart",
+        "bias": "right",
+        "priority": 1
+      }
+    },
+    "farLeftText": "A three-star navy rear-admiral fired by Pete Hegseth last year in the defense secretary\u2019s purge of senior US military officials has won the Democratic primary in a closely watched congressional race.\n\nNancy Lacore secured the party\u2019s nomination for the US House of Representatives in South Carolina\u2019s first congressional district on Tuesday after defeating Mac Deford, a US Coast Guard veteran, in a runoff.\n\nLacore\u2019s focus will now turn to November, when she will lead an ambitious Democratic bid to flip the Republican seat in the US midterm elections.\n\nThe district is currently represented by the Republican Nancy Mace, who chose to forgo seeking re-election to focus on her failed challenge for South Carolina governor. Jenny Costa Honeycutt, a member of Charleston county council, secured the Republican nomination for the election on Tuesday.\n\nLacore was among dozens of officers fired during Hegseth\u2019s ongoing elimination from senior military roles of those considered to have crossed the Trump administration, or who do not fit the US defense secretary\u2019s vision for the makeup of the armed services.\n\nShe is backed by several veterans\u2019 groups, and Emilys List, which supports Democratic pro-choice candidates running for office. She raised $500,000 in her first two weeks as a candidate, and more than $1.4m through late May, according to a New York Times analysis of federal campaign finance records.\n\nShe is also one of 12 House candidates backed by the Bench, a Democratic strategy group advising candidates in districts seen as harder to win, the outlet said.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "South Carolina Attorney General Alan Wilson defeated his opponent, South Carolina Lt. Gov. Pam Evette, in the Republican gubernatorial primary runoff election.\n\nWith 10 percent of the votes counted, Wilson received 21,668 votes, or 65.3 percent of the vote, while Evette received 11,496 votes, or 34.7 percent of the vote.\n\nThe Associated Press called the race at 7:26 p.m.\n\nWilson\u2019s win comes days after President Donald Trump endorsed both Wilson and Evette in the runoff, stating that both candidates \u201chave had amazing careers\u201d and have supported him since \u201cthe beginning.\u201d\n\n\u201cBoth have had amazing careers, and have been with me from the beginning,\u201d Trump said in a Truth Social post on June 19. \u201cThey are MAGA and America First all the way! These were the two that I was hoping would get into a Runoff, and they did. I can\u2019t hurt one of the by only Endorsing the other, so, therefore, I am going to Endorse, for Governor of South Carolina, both Pam Evette and Alan Wilson!\u201d\n\nTrump\u2019s endorsement of both Wilson and Evette came after they both advanced to the runoff after neither one of them was able to earn a majority of votes in the election.\n\nTrump previously endorsed Evette at the end of May, describing her as a \u201cHighly Respected and very popular Lieutenant Governor of South Carolina,\u201d and a \u201csuccessful Entrepreneur, Businesswoman, and Civic Leader.\u201d\n\nWilson is described as having \u201cserved in the South Carolina Army National Guard for nearly 30 years\u201d and rose \u201cto the rank of Colonel,\u201d according to his website.\n\n\u201cHe\u2019s deployed to Iraq and supported military prosecutions at home,\u201d his website continues. \u201cHis military service and background as a prosecutor give him a unique perspective on justice, discipline, and the importance of defending American values.\u201d",
+    "omissions": {
+      "left": 50,
+      "left-center": 50,
+      "right": 50
+    }
+  },
+  {
     "id": 5825460,
     "date": "2026-06-24",
     "topic": "Mamdanibacked Candidates Sweep Democratic Primaries York",
@@ -220,11 +260,50 @@
     }
   },
   {
-    "id": 1661988,
+    "id": 9048904,
+    "date": "2026-06-24",
+    "topic": "Camp Mystic Files Bankruptcy Texas Died",
+    "match_score": 0.6,
+    "cluster_size": 5,
+    "articles": {
+      "left": {
+        "title": "Camp Mystic files for bankruptcy after 28 people died in 2025 Texas floods",
+        "url": "https://www.theguardian.com/us-news/2026/jun/24/camp-mystic-files-bankruptcy-texas-floods",
+        "source": "The Guardian (US)",
+        "bias": "left",
+        "priority": 1
+      },
+      "left-center": {
+        "title": "Camp Mystic, Where 28 Died in Texas Floods, Files for Bankruptcy",
+        "url": "https://www.nytimes.com/2026/06/24/us/camp-mystic-texas-flood-bankruptcy.html",
+        "source": "NYT US",
+        "bias": "left-center",
+        "priority": 7
+      },
+      "center": {
+        "title": "Camp Mystic in Texas files for bankruptcy weeks after halting plans to reopen this summer",
+        "url": "https://www.pbs.org/newshour/nation/camp-mystic-in-texas-files-for-bankruptcy-weeks-after-halting-plans-to-reopen-this-summer",
+        "source": "PBS",
+        "bias": "center",
+        "priority": 4
+      }
+    },
+    "farLeftText": "Camp Mystic, the Christian summer camp in Texas where 28 people died in a catastrophic flood last July, has filed for bankruptcy, according to court records.\n\nIn a Chapter 11 filing, submitted on Wednesday in the southern district of Texas, the camp\u2019s owners said that the camp\u2019s total debt \u201cexceeds $10m\u201d.\n\nThe filing comes several months after Camp Mystic halted plans to reopen this summer, amid mounting outrage and criticism from victims\u2019 families, and state officials. Since the disaster, the camp and its owners have faced intense questioning, scrutiny and criticism from victims\u2019 families and state lawmakers over their response to the devastating 4 July flood, which killed 25 campers, two teenage counselors, and the camp\u2019s owner, Dick Eastland.\n\nEarlier this month, state investigators released a report detailing their first findings on the tragedy. The investigators found that the camp \u201cdid not provide adequate training for staff in emergency situations\u201d and lacked adequate \u201cadvance emergency planning\u201d.\n\nThe report also found that there were at least \u201c39 adults present\u201d at the camp, in addition to the teenager counselors, \u201cwho could have been tasked to assist with an orderly flood evacuation\u201d but that \u201cthere was no plan for them to do so, and no training that would have prepared them for what to do\u201d.\n\nSeveral families of victims have filed lawsuits against the camp and the Eastland family, which owned and operated Camp Mystic, accusing them of \u201cgross negligence\u201d.\n\nAcross multiple lawsuits, several families have described the tragedy as \u201centirely preventable\u201d and allege that the camp leaders <span class='highlight-bias highlight-bias-left'>ignored</span> known flood risks, failed to implement adequate safety procedures, and failed to protect the campers and counselors.\n\nEarlier this year, a Texas judge ordered camp leaders to preserve the damaged cabins and land affected by the flooding while litigation continues.\n\nOne lawsuit, filed on behalf of the families of five campers and two counselors who died, accuses the camp of putting \u201cprofit over safety\u201d and alleges that it chose to house the campers \u201cin cabins sitting in flood-prone areas, despite the risk\u201d to \u201cavoid the cost\u201d of relocating the cabins.\n\nAn attorney for Camp Mystic said in a statement last year that the camp empathized \u201cwith the families of the campers and counselors and all families in the Hill Country who lost loved ones in the horrific and unprecedented flood of [4 July]\u201d.\n\nThe attorney said that they intend to \u201cdemonstrate and prove that this sudden surge of flood waters far exceeded any previous flood in the area by several magnitudes, that it was unexpected and that no adequate warning systems existed in the area\u201d.\n\n\u201cWe disagree with several accusations and misinformation in the legal filings regarding the actions of Camp Mystic and Dick Eastland, who lost his life as well,\u201d the lawyer added. \u201cWe will thoroughly respond to these accusations in due course.\u201d",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "Camp Mystic filed for Chapter 11 bankruptcy reorganization on Wednesday, nearly a year after catastrophic floods killed 25 girls and two teenage counselors at the all-girls Christian camp in Texas.\n\nIn paperwork filed with the U.S. Bankruptcy Court in the Southern District of Texas in Houston, the camp listed its debt as more than $10 million. The camp along the Guadalupe River said it had assets in the range of $100,001 to $500,000.\n\nREAD MORE: Texas officials investigating hundreds of complaints against Camp Mystic amid bid to renew license\n\nFamilies of the victims filed a lawsuit in November seeking more than $1 million in damages, saying the camp operators failed to take the necessary steps to protect the girls as life-threatening floodwaters approached on July 4. Camp owner Richard Eastland also died in the flood.\n\nAll told, the <span class='highlight-bias highlight-bias-center'>destructive</span> flooding killed at least 136 people along a several-mile stretch of the river, raising questions about how things went so <span class='highlight-bias highlight-bias-center'>terribly</span> wrong.\n\nThe Associated Press sent emails and left phone messages Wednesday requesting comment from an attorney representing Camp Mystic and the Eastland family. A phone message seeking comment also was left for a spokesperson for the families who sued the camp.\n\nThe bankruptcy filing comes weeks after Camp Mystic halted plans to reopen this summer in the face of outrage from victims' families and lawmakers that the century-old camp intended to welcome girls back while lawsuits and investigations remained ongoing.\n\nCamp Mystic's attorney had said it was ready to reopen for business for nearly 900 campers before the camp's reversal in April. The decision followed weeks of testimony in court hearings and legislative investigations that laid bare the camp's lack of detailed planning for a flood emergency and its reliance on poorly trained staff.\n\nFamilies of the victims packed the hearings, often wearing \"Heaven's 27\" pins with photographs of their daughters. They listened to the details of missed flood warning signs, the descriptions of the flood and the decision to leave the girls in their cabins until it was too late. Testimony included video of the raging floodwaters as a girl repeatedly screamed for \"help!\" somewhere in the distance.\n\nBefore halting the reopening plans, Camp Mystic invited journalists and lawmakers to review safety improvements at the camp and promised that no camp activities would take place in the low-lying area that was devastated by the flood. The Eastland family also stressed that hundreds of families wanted to return and described it as a special a place for generations of Texans.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 65,
+      "left-center": 50
+    }
+  },
+  {
+    "id": 4776958,
     "date": "2026-06-24",
     "topic": "France Ebola Case Confirms Doctor Worked",
     "match_score": 0.6,
-    "cluster_size": 5,
+    "cluster_size": 4,
     "articles": {
       "left": {
         "title": "France confirms first Ebola case in doctor who had worked in DRC",
@@ -416,7 +495,7 @@
     }
   },
   {
-    "id": 7204620,
+    "id": 2702275,
     "date": "2026-06-24",
     "topic": "Chevalier Primary Mamdanibacked Darializa Avila Wins",
     "match_score": 0.6,
@@ -456,6 +535,46 @@
     }
   },
   {
+    "id": 613730,
+    "date": "2026-06-24",
+    "topic": "Embarrassed American Larry David Trumps White",
+    "match_score": 0.6,
+    "cluster_size": 3,
+    "articles": {
+      "left": {
+        "title": "'Embarrassed to be an American': Larry David unleashes on Trump UFC 'travesty'",
+        "url": "https://www.alternet.org/larry-david-trump/",
+        "source": "AlterNet",
+        "bias": "left",
+        "priority": 9
+      },
+      "right-center": {
+        "title": "Larry David slams Trump's White House UFC fight, says it made him 'embarrassed to be an American'",
+        "url": "https://www.foxnews.com/media/larry-david-slams-trumps-white-house-ufc-fight-says-made-embarrassed-american",
+        "source": "Fox News Latest",
+        "bias": "right-center",
+        "priority": 2
+      },
+      "right": {
+        "title": "Video: Larry David Says Trump\u2019s UFC Fight at White House Left Him 'Embarrassed to Be an American'",
+        "url": "https://www.breitbart.com/entertainment/2026/06/24/larry-david-despairs-trumps-ufc-fight-at-white-house-left-him-embarrassed-to-be-an-american/",
+        "source": "Breitbart",
+        "bias": "right",
+        "priority": 1
+      }
+    },
+    "farLeftText": "Veteran television producer, writer and comedian Larry David, well-known for his work on the hit sitcom \"Seinfeld\" in the late 1980s and 1990s, has been a blistering critic of U.S. President Donald Trump. And now, he is speaking out against an event that Trump used to celebrate his 80th birthday on July 14: the widely publicized Ultimate Fighting Championship (UFC) event at the White House.\n\nVariety asked David, now 78, to weigh in on the UFC gathering at 1600 Pennsylvania Avenue, and he didn't mince words.\n\nDavid told Variety, \"It was a travesty. What else can you say about it? It was <span class='highlight-bias highlight-bias-left'>embarrassing</span>.\"\n\nThe former \"Seinfeld\" producer made it clear that he considered Trump's UFC event highly unpresidential.\n\n\"I was <span class='highlight-bias highlight-bias-left'>embarrassed</span> to be an American,\" David bluntly told Variety during the interview.\n\nDavid has a long resum\u00e9 in U.S. television.\n\nAfter working briefly on \"Saturday Night Live\" during the 1980s, the producer and writer went on to create the popular \"Seinfeld\" (starring Jerry Seinfeld) in 1989. And the show lasted almost a decade before concluding in 1998. David went on to star in another popular series, \"Curb Your Enthusiasm,\" on HBO from 1999-2024.\n\nDavid is a longtime supporter of liberal causes and the Democratic Party, vehemently <span class='highlight-bias highlight-bias-left'><span class='highlight-bias highlight-bias-left'>criticizing</span></span> Trump during the United States 2024 presidential election and continuing to <span class='highlight-bias highlight-bias-left'>criticize</span> Trump after his return to the White House on January 20, 2025.\n\nDavid was hardly alone in <span class='highlight-bias highlight-bias-left'><span class='highlight-bias highlight-bias-left'>criticizing</span></span> Trump's UFC event on July 14. Quite a few Democrats attacked it as unpresidential, and many Never Trump conservatives saw it as a metaphor for Trump's MAGA politics \u2014 which they view as style over substance and bad for the conservative movement.D avid has also been feuding with \"Real Time\" host Bill Maher, who is also a frequent critic of Trump.\n\nAfter Maher had dinner with Trump inside the White House, David <span class='highlight-bias highlight-bias-left'>criticized</span> the \"Real Time\" host for meeting with him. Maher countered, however, that he wasn't endorsing Trump's ideas \u2014 only trying to have some type of dialogue with a political figure he has major disagreements with.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "NEW You can now listen to Fox News articles!\n\nComedian Larry David is blasting President Donald Trump\u2019s celebration of the nation\u2019s 250th anniversary with a White House UFC fight, adding that the event made him feel \"<span class='highlight-bias highlight-bias-right'>embarrassed</span> to be an American.\"\n\nIn an interview with Variety, David had harsh words for the president.\n\n\"It was a travesty,\" David told the outlet, referring to Trump\u2019s UFC fight. \"What else can you say about it?\"\n\nThe 78-year-old comic went on to express how he is feeling unpatriotic in light of the event.\n\nTRUMP MARKS 80TH BIRTHDAY WITH PATRIOTIC UFC FREEDOM 250 SPECTACLE ON WHITE HOUSE SOUTH LAWN\n\n\"It was <span class='highlight-bias highlight-bias-right'>embarrassing</span>,\" he continued. \"I was <span class='highlight-bias highlight-bias-right'>embarrassed</span> to be an American.\"\n\nDavid\u2019s remarks came at the premiere of his new series on HBO, \"Life, Larry and the Pursuit of Unhappiness.\" The show features sketch comedy pieces satirizing pivotal points in U.S. history and is set to debut on June 26.\n\nThe series also features a long list of celebrity guests, including Jerry Seinfeld, Vince Vaughn, Rita Wilson, Lin-Manuel Miranda and Barack Obama.\n\nBILL MAHER TELLS <span class='highlight-bias highlight-bias-right'>LIBERALS</span> TO STOP 'PARTISAN SULKING' AND JOIN AMERICA 250 PARTY\n\nObama\u2019s company, Higher Ground, produced the series, with David telling the outlet the former president is \"really good at ad-libbing.\"\n\nCLICK HERE FOR MORE COVERAGE OF MEDIA AND CULTURE\n\nThe UFC Freedom 250 fight marked Trump\u2019s 80th birthday and boasted an attendance of roughly 4,300 spectators \u2014 including 1,200 active-duty service members.\n\nThe event also featured the Marine Band\u2019s performance of the national anthem alongside Zac Brown, and concluded with a flyover by the Navy\u2019s Blue Angels and Air Force Thunderbirds.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\n\"It was beyond anything that anybody's ever seen in sports,\" the president told reporters as he departed the White House ahead of the G7 summit in France.\n\nFox News Digital reached out to the White House for comment.",
+    "farRightText": "Comedian, Seinfeld co-creator and Curb Your Enthusiasm star Larry David is no supporter of President Donald Trump\u2018s spectacular recent UFC fight at the White House. To say the least.\n\nAt the Tuesday night premiere of the writer and actor\u2019s new series, Life, Larry and the Pursuit of Unhappiness, the 78-year-old Hollywood fixture despaired the event hurt his feelings and left him \u201c<span class='highlight-bias highlight-bias-right'>embarrassed</span>\u201d to be an American.\n\n\u201cIt was a travesty,\u201d David told Variety. \u201cWhat else can you say about it? It was <span class='highlight-bias highlight-bias-right'>embarrassing</span>. I was <span class='highlight-bias highlight-bias-right'>embarrassed</span> to be an American.\u201d\n\nAs Breitbart News reported, an octagon was built on the South Lawn for the UFC Freedom 250 event that celebrated the president\u2019s 80th birthday and the nation\u2019s 250th birthday as well, complete with ads for corporate sponsors.\n\nFor his part David \u2013 who was born and raised in Brooklyn, New York \u2013 has previously <span class='highlight-bias highlight-bias-right'>sneered</span> at Trump as a \u201csociopath\u201d and a \u201csick man.\u201d\n\nHe\u2019s also used Trump as a comic foil, <span class='highlight-bias highlight-bias-right'>mocking</span> the MAGA movement\u2019s red hats in one episode of \u201cCurb\u201d and Trump\u2019s mug shot in another.\n\nIn April, 2020 he told the New York Times that unlike Trump, \u201cthe worst dictators in history\u201d have at least one \u201cdecent quality\u201d about them.\n\n\u201cYou know, it\u2019s an amazing thing. The man has not one redeeming quality,\u201d David told the Times\u2019 Maureen Dowd of President Trump.\n\n\u201cYou could take some of the worst dictators in history and I\u2019m sure that all of them, you could find one decent quality. Stalin could have had one decent quality, we don\u2019t know!\u201d\n\n(For the record, Joseph Stalin\u2019s regime killed an estimated 20 million people).",
+    "omissions": {
+      "left": 50,
+      "right-center": 50,
+      "right": 50
+    }
+  },
+  {
     "id": 1024861,
     "date": "2026-06-24",
     "topic": "Wins Primary Hoyer Alum Adrian Boafo",
@@ -481,101 +600,6 @@
     "centerLeftText": "No article found in this category for this topic.",
     "centerText": "No article found in this category for this topic.",
     "centerRightText": "Micah Lasher won the competitive Democratic primary to replace retiring Rep. Jerry Nadler (D-NY), holding off Assemblyman Alex Bores in New York\u2018s 12th Congressional District.\n\nLasher led with 39% of the vote to Bores\u2019s 35% with 85% of the vote counted, according to the Associated Press. He prevailed over a crowded field that also featured Kennedy scion Jack Schlossberg and attorney-turned-activist George Conway.\n\nThe Upper East and West Side-anchored district leans heavily Democratic, meaning Lasher is all but certain to win the November election. New York City Mayor Zohran Mamdani, who votes in the district as a resident of Gracie Mansion, voted in the primary but did not endorse or disclose who he voted for.\n\nAdvertisement\n\nConway, the former husband of Kellyanne Conway, ran as a Trump provocateur, testing the limits of a stringent anti-Trump campaign in a Democratic primary. He focused his platform on impeaching President Donald Trump. He garnered 6.1% of the vote. Schlossberg, a progressive influencer and the grandson of former President John F. Kennedy, tried to use his celebrity to catapult him to Congress. He finished with 10.8% of the vote. Lasher, a former staffer to Nadler, ran with the backing of the retiring congressman. Bores worked at Palantir before his election to the Assembly. Advertisement Unlike in other Democratic primaries, where Israel has become a flash point, the leading contenders rarely differed in their views. All four refused to call Israel\u2019s actions in Gaza a genocide. Only Schlossberg expressed opposition to weapon sales to Israel, while Bores, Lasher, and Conway generally supported continued support. The district is home to the largest population of Jewish people in the United States. AI DEEPFAKE ADS INVADE MIDTERM ELECTION CAMPAIGNS Advertisement The race was also marked by the prevalence of AI interest group spending, which poured roughly $20 million into the race. Leading the Future, a group backed by pro-AI venture capitalists, spent more than $8 million against Bores due to his work on AI regulations in the New York Assembly. This was the second most expensive House primary on record, according to nonpartisan database AdImpact. Only this year\u2019s primary in Kentucky\u2019s 4th Congressional District, which saw Rep. Thomas Massie (R-KY) lose his seat, was more expensive.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 50,
-      "right-center": 50
-    }
-  },
-  {
-    "id": 7461022,
-    "date": "2026-06-24",
-    "topic": "Wins Primary Maryland House April Mcclain",
-    "match_score": 0.4,
-    "cluster_size": 8,
-    "articles": {
-      "left-center": {
-        "title": "Rep. April McClain Delaney wins bitter primary to keep her Maryland House seat",
-        "url": "https://www.politico.com/news/2026/06/23/mcclain-delaney-wins-maryland-house-primary-00973137",
-        "source": "Politico",
-        "bias": "left-center",
-        "priority": 3
-      },
-      "center": {
-        "title": "Maryland Democrats pick their U.S. House nominees as Moore wins primary for governor",
-        "url": "https://www.pbs.org/newshour/politics/maryland-democrats-pick-their-u-s-house-nominees-as-moore-wins-primary-for-governor",
-        "source": "PBS",
-        "bias": "center",
-        "priority": 4
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "That dynamic and Hoyer's departure attracted big spending and some familiar names to the most-watched Democratic primaries.\n\nWith polls closing at 8 p.m., the primaries in the left-leaning East Coast state are set to have an outsize impact. In many cases they will determine who is likely to win in heavily partisan districts this fall. Seven of Maryland's eight congressional districts are represented by Democrats, and one by a Republican.\n\nMeanwhile rising party star Gov. Wes Moore won the Democratic primary in his bid for reelection to a second term. Republican voters hope to return the state to GOP leadership by picking a candidate they think can unseat him.\n\nMaryland Democrats voted for their U.S. House nominees in a handful of consequential and contentious primaries Tuesday, including a battle between a congresswoman and her predecessor and a crowded race to replace retiring Rep. Steny Hoyer.\n\nAmong them was Harry Dunn, a former police officer who defended the U.S. Capitol from the riot on Jan. 6, 2021. He is running for Hoyer's seat on a platform that includes protecting democracy.\n\nSome races became proxy fights about how Democrats should behave in the current political climate. Maryland Senate President Bill Ferguson faced a tough primary challenge for the first time in years from a progressive who <span class='highlight-bias highlight-bias-center'>criticized</span> his decision to block a midcycle redistricting attempt.\n\nThe lead-up to Election Day has had some hiccups. Last month the State Board of Elections had to resend mail-in ballots to some voters in the closed primary after a vendor error caused some to receive a ballot for the wrong party.\n\nPresident Donald Trump seized on the issue, falsely claiming that Moore illegally sent the ballots to ensure victory for Democrats. The state administrator of elections <span class='highlight-bias highlight-bias-center'>derided</span> him for spreading misinformation.\n\nTwo dozen candidates compete to replace a Democratic fixture\n\nAs the longest-serving House Democrat and the longtime party No. 2 in the chamber, Hoyer is nothing short of an institution.\n\nHis retirement gives Maryland voters a chance to reflect on that leadership \u2014 and decide whether they want more of the same or a change of pace.\n\nOffering a degree of continuity is Adrian Boafo, a former Hoyer field director and campaign manager who was endorsed by the congressman, Moore and other prominent Democrats. The state delegate drew tech and cryptocurrency donations, and a major pro-Israel super PAC spent some $1 million to boost his campaign.\n\nOthers, such as Dunn and progressive attorney Wala Blegay, proposed change. Both Dunn and Blegay, who are vocally pro-Palestinian, <span class='highlight-bias highlight-bias-center'>criticized</span> Boafo for getting help from the American Israel Public Affairs Committee's super PAC and other special interests.\n\nThe best-funded candidate in the race for the 5th District was Quincy Bareebe, a home healthcare CEO who funneled more than $3 million of her own money into the primary. Twenty-four Democratic candidates are on the ballot.\n\n\"I just love what she is doing in the community,\" said Michelle Green, 59, who voted for Bareebe.\n\nA registered nurse and grandmother, Green said Hoyer's endorsement of a different candidate did not hold sway: \"I just figured that they were all in the same bed together.\"\n\nGreen also expressed a common theme among Prince George's County voters: that people need to protect the right to vote by voting. \"We should be progressing, not coming back,\" she said.\n\nNatasha Greensword, 45, and her husband Rodrick Greensword, 58, both voted for Moore in the gubernatorial primary and for Boafo to be the nominee to succeed Hoyer.\n\n\"We know the governor is governed by the pillars on which his culture is built,\" and he will work for the people, making <span class='highlight-bias highlight-bias-center'>moral</span> and humane choices, Natasha Greensword said.\n\nShe said Boafo seemed to share the same values as Moore and Hoyer. She added that she thought Hoyer's endorsement helped as well.\n\nA freshman in Congress gets a challenge from her predecessor\n\nFormer Democratic Rep. David Trone left his seat representing the sprawling 6th District in 2024. After an unsuccessful Senate bid, he wants it back.\n\nThe face-off between Trone and the current officeholder, Democratic Rep. April McClain Delaney, was expensive and contentious. Trone, the wealthy founder of Total Wine & More, lent his campaign some $25 million of his own money, while McClain Delaney lent herself over $7 million.\n\nTrone <span class='highlight-bias highlight-bias-center'>criticized</span> McClain Delaney on immigration. She was the only Maryland Democrat in Congress to vote for the Laken Riley Act, named after a Georgia student whose killing became an anti-immigrant rallying cry for Republicans.\n\nThe GOP still has no obvious heir to Hogan\n\nMaryland used to have a moderately conservative governor in Larry Hogan. In the years since he left office in 2023, Republicans have yet to find a clear successor.\n\nIn the GOP gubernatorial primary, nine candidates ranging from a Trump acolyte to a former Democrat vied for the chance to stop Moore from being reelected.\n\nDan Cox, an attorney and former state delegate who unsuccessfully ran for governor four years ago, was one of the candidates who leans further right. Cox has a photo of himself with Trump on his law practice's website, and he has pledged to slash taxes and beef up housing affordability programs if elected.\n\nOn the other side of the political spectrum was Ed Hale, a retired banking executive who owns the Baltimore Blast soccer team and switched from the Democratic Party to the Republican Party for this race. There were also various candidates in the political middle.\n\nJason Mangen, a lifelong Republican, said he backed Cox because he was <span class='highlight-bias highlight-bias-center'>concerned</span> about the state's budget, which has seen shortfalls over the years.\n\n\"You look at the economy, and hopefully get a governor who can guide the legislature and get a good budget,\" Mangen said. \"I think Dan Cox is good on the budget.\"\n\nSwenson reported from New York, and Kruesi from Providence, Rhode Island. Associated Press writer Gary Fields in Bowie, Maryland, contributed.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 50
-    }
-  },
-  {
-    "id": 1017010,
-    "date": "2026-06-24",
-    "topic": "Admiral Fired Wins Democratic South Hegseth",
-    "match_score": 0.4,
-    "cluster_size": 6,
-    "articles": {
-      "left": {
-        "title": "Admiral fired in Hegseth purge wins Democratic primary in South Carolina",
-        "url": "https://www.theguardian.com/us-news/2026/jun/23/admiral-nancy-lacore-democratic-primary-south-carolina",
-        "source": "The Guardian (US)",
-        "bias": "left",
-        "priority": 1
-      },
-      "left-center": {
-        "title": "Fired Navy Admiral Wins Democratic Runoff in South Carolina\u2019s 1st District",
-        "url": "https://www.nytimes.com/2026/06/23/us/politics/nancy-lacore-nancy-mace-south-carolina-house-democrats.html",
-        "source": "NYT Politics",
-        "bias": "left-center",
-        "priority": 7
-      }
-    },
-    "farLeftText": "A three-star navy rear-admiral fired by Pete Hegseth last year in the defense secretary\u2019s purge of senior US military officials has won the Democratic primary in a closely watched congressional race.\n\nNancy Lacore secured the party\u2019s nomination for the US House of Representatives in South Carolina\u2019s first congressional district on Tuesday after defeating Mac Deford, a US Coast Guard veteran, in a runoff.\n\nLacore\u2019s focus will now turn to November, when she will lead an ambitious Democratic bid to flip the Republican seat in the US midterm elections.\n\nThe district is currently represented by the Republican Nancy Mace, who chose to forgo seeking re-election to focus on her failed challenge for South Carolina governor. Jenny Costa Honeycutt, a member of Charleston county council, secured the Republican nomination for the election on Tuesday.\n\nLacore was among dozens of officers fired during Hegseth\u2019s ongoing elimination from senior military roles of those considered to have crossed the Trump administration, or who do not fit the US defense secretary\u2019s vision for the makeup of the armed services.\n\nShe is backed by several veterans\u2019 groups, and Emilys List, which supports Democratic pro-choice candidates running for office. She raised $500,000 in her first two weeks as a candidate, and more than $1.4m through late May, according to a New York Times analysis of federal campaign finance records.\n\nShe is also one of 12 House candidates backed by the Bench, a Democratic strategy group advising candidates in districts seen as harder to win, the outlet said.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 50,
-      "left-center": 50
-    }
-  },
-  {
-    "id": 7855346,
-    "date": "2026-06-24",
-    "topic": "Keir Starmer Prime Minister Resigning British",
-    "match_score": 0.4,
-    "cluster_size": 4,
-    "articles": {
-      "left-center": {
-        "title": "Keir Starmer Says He's Resigning As U.K. Prime Minister",
-        "url": "https://www.huffpost.com/entry/keir-starmer-resignation-statement_n_6a38ddbde4b0488a51ab7381",
-        "source": "HuffPost Politics",
-        "bias": "left-center",
-        "priority": 4
-      },
-      "right-center": {
-        "title": "British Prime Minister Keir Starmer Has Resigned. His Replacement Will Likely Be More of the Same.",
-        "url": "https://reason.com/2026/06/22/british-prime-minister-keir-starmer-has-resigned-his-replacement-will-likely-be-more-of-the-same/",
-        "source": "Reason",
-        "bias": "right-center",
-        "priority": 6
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "Britain's Prime Minister Keir Starmer announced he is resigning from office. Henry NICHOLLS / AFP via Getty Images\n\nBritish Prime Minister Keir Starmer announced his resignation on Monday morning, nearly two years after his Labour Party\u2019s historic victory in the 2024 U.K. general election.\n\nIn a speech outside Downing Street, Starmer acknowledged that he no longer has the backing of his party.\n\nAdvertisement\n\n\u201cThe question my party is asking now is whether I am best placed to lead us into the next general election. I have heard the answer of my parliamentary party to that question, and I accept that answer with good grace,\u201d Starmer said.\n\n\u201cEvery decision I have taken has been about putting the country I love first. That is why I will resign as leader of the Labour Party,\u201d Starmer continued, adding that he had notified King Charles of his decision earlier.\n\nAdvertisement\n\nStarmer said he would remain in office until his successor is chosen.\n\n\u201cI will also give my successor my full and unequivocal support, knowing that they will inherit a Britain that is far stronger and fairer than the one I inherited two years ago,\u201d he said.\n\nAndy Burnham, the former mayor of Greater Manchester who was sworn in as a lawmaker after winning a special election in Makerfield last week, is the clear favorite to succeed him as Labour Party leader and prime minister.\n\nStarmer had been under intense pressure to step down following Burnham\u2019s win. Burnham defeated a candidate from Reform UK, Nigel Farage\u2019s right-wing party, which has been leading in the polls for over a year, sparking concern.\n\nAdvertisement\n\nKeir Starmer had been under intense pressure to step down following the victory of Andy Burnham, the former mayor of Greater Manchester, in a special election in Makerfield last week. AP Photo/Jon Super\n\nWhile Starmer had originally defied calls to step down and insisted he would join a potential Labour leadership contest, his statement Monday made clear that he intends to leave office.\n\nStarmer said he will ask his party\u2019s National Executive Committee to open nominations for the party\u2019s new leader on July 9. If a contest happens, that leader would be in place by September, he explained.\n\nAdvertisement\n\nIf Burnham, who declared his intention to assume the party\u2019s leadership, were to run uncontested, he could become Labour\u2019s next leader once the nominations window closes.\n\n\u201cKeir has given huge service to our country and I want to thank him for his leadership and dedication during such a challenging period. His decision marks the beginning of a transition and it is important that this process is conducted in an orderly and responsible way,\u201d Burnham wrote on X, formerly Twitter. \u201cI will put myself forward as part of this process.\u201d\n\n\u201cThe country expects stability, seriousness and a continued focus on the issues that matter most and that is what it will get,\u201d he continued.\n\nAdvertisement\n\nMeanwhile, Wes Streeting, who resigned as U.K. health minister last month, said he will back Burnham despite previously pledging to join a potential Labour leadership contest.\n\n\u201cWe could spend the summer <span class='highlight-bias highlight-bias-left'>exaggerating</span> small differences, or we can roll up our sleeves and help him to deliver the change our Party and our country needs. That is the choice that I am making and I hope that everyone else will back Andy, too,\u201d Streeting said.\n\nAn ally of Wes Streeting, who resigned as U.K. health minister last month, told Sky News the former Cabinet minister would enter a Labour leadership election. Gareth Fuller/PA Images via Getty Images\n\nAdvertisement\n\nStarmer\u2019s premiership was facing significant headwinds even before Burnham\u2019s victory further intensified pressure on him to leave office. Starmer\u2019s personal popularity stood at historic lows, while his party\u2019s poor performance in the May local elections also raised questions about his leadership.\n\nStarmer, who won a landslide victory in the 2024 general election, is the sixth U.K. prime minister to announce his resignation in less than 10 years, reflecting voters\u2019 dissatisfaction.\n\nNearly two years after a landslide election victory, Starmer announced he will leave Downing Street as soon as his successor is chosen. AP Photo/Kin Cheung\n\nAdvertisement\n\nThe outgoing prime minister grew emotional toward the end of his speech as he mentioned his family.\n\n\u201cWhen I leave the biggest job in the country, I shall spend more time on the most important job, being the best husband I can to my fantastic wife, Vic, who has been a rock by my side through good times and bad, and being the best dad I can to my beautiful children, who are my pride and my joy,\u201d he said, fighting back tears.\n\nPrime Minister Keir Starmer hugs his wife, Victoria Starmer, after announcing his resignation as U.K. prime minister and Leader of the Labour Party, outside Downing Street on Monday. Peter Nicholls via Getty Images",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "After less than two years in office, British Prime Minister Keir Starmer has resigned. \"The question my party is asking now is whether I am best placed to lead us into the next general election. I have heard the answer of my parliamentary party to that question, and I accept that answer with good grace,\" he said at a press conference this morning. \"Every decision I've taken has been about putting the country I love first. That is why I will resign as leader of the Labour Party.\"\n\nStarmer said he had spoken to the king to inform him of the decision, and would ask the National Executive Committee, the Labour Party's governing body, to set out a timetable for the leadership race to decide his successor. Nominations will open on July 9, and if there is a contest, his successor will be chosen by the summer recess. Keir Starmer will remain as prime minister until the leadership contest is complete.\n\nThe announcement follows more than half a dozen cabinet ministers privately telling Starmer to leave No. 10 Downing Street, and a weekend of speculation that he was mulling over the decision with his wife at the Chequers country retreat. On Thursday, Andy Burnham, the former mayor of Greater Manchester and the favorite to replace Starmer, was elected as the member of Parliament for Makerfield. Burnham, nicknamed the \"King of the North,\" won 55 percent of the vote in the constituency and said in his victory speech that voters had issued a \"call for change.\" He is the public's preferred choice to replace Starmer, according to an IPSOS poll.\n\nStarmer's resignation is not especially surprising. The last few months have been nothing short of tumultuous for the British government, but Starmer himself has never been overwhelmingly popular with the general public. The main reason the Labour Party was elected to power in 2024 was not because of their appeal but \"to get rid of the Conservatives,\" according to YouGov polling. Since becoming prime minister, Starmer has overseen an ever-worsening economic outlook in the U.K.: Youth unemployment is soaring, with the number of young people aged 16\u201324 who are NEETs (Not in Employment, Education, or Training) increasing to 13.5 percent\u2014more than one million people\u2014in the first quarter of this year. Twenty-five percent of working-age people are out of work, and those who do have a job are set to pay the highest tax burden in British history. If Britain became America's 51st state, it would be the poorest state.\n\nAs the economy tanked, the Starmer administration was embroiled in scandal. Peter Mandelson's appointment to the role of U.S. ambassador and his friendship with Jeffrey Epstein were key. Perceptions of cash for access emerged in 2024 when Labour Party donor Lord Waheed Ali was issued a pass to Downing Street; reports emerged that Starmer had received more gifts than any other member of Parliament. Concerns about immigration fuelled the popularity of the Reform U.K. party. Immigration is still the most important issue for Brits (despite net migration falling sharply), according to an Ipsos poll.\n\nThese incidents, coupled with public disapproval of Labour's immigration policies, led to a wave of wins for Nigel Farage's Reform U.K. in May's local elections. Farage's party grabbed 1,455 council seats across England, 17 seats in the Scottish Parliament, and 34 seats in the Welsh Parliament. The Labour Party suffered the worst local election result on record.\n\nA series of resignations by Cabinet ministers followed, including Health Secretary Wes Streeting and Safeguarding Minister Jess Philips. Close to 100 Labour members of Parliament called for Starmer's resignation in May.\n\nAny candidate hoping to become leader of the Labour Party, and by consequence prime minister, will need the support of at least 20 percent of the ruling party's lawmakers to enter the contest. From there, a final decision will be made via a one-member-one-vote system in which Labour Party members, affiliated trade union supporters, and registered supporters all vote equally. There are a few Labour Party politicians with their eyes on the role of prime minister, all of whom are likely to make the size of the state even bigger.\n\nBurnham, Starmer's likely successor, has made headlines for promoting \"business-friendly socialism\" and the nationalization of \"basic things that people depend on.\" Reports suggest that one of the key influences on Burnham's economic thinking is Miatta Fahnbulleh, the former chief executive of the New Economics Foundation (NEF). A recent New Statesman profile described \"Fahnbullehism\" as a philosophy, rooted in the co-operative movement, that sees markets as incapable of delivering prosperity fairly without much greater state direction. During her time at NEF, the organization proposed a minimum income guarantee, higher taxes on wealth and investment income, tighter controls on consumer credit, and a larger role for public ownership and state-backed investment. More recently, Fahnbulleh has praised proposals associated with Burnham's emerging \"Manchesterism\" agenda, which argues for greater public control over housing, energy, water, and transport.\n\nBut Burnham is not the only Labour Party politician with his eyes on the keys to No. 10. Wes Streeting, the former health secretary, already launched his leadership bid at a press conference in May. He argued for \"a proper contest with the best candidates on the field\" and said that he would be standing. Streeting made headlines the day after the July 2024 general election for admitting that the U.K.'s socialized healthcare system, the National Health Service, was \"broken\" and promising radical \"reform.\" But his track record as health secretary has been much more of the same strategy his predecessors opted for: spending more taxpayer cash.\n\nAngela Rayner, the former deputy prime minister, is also a potential contender. She helped introduce some of Britain's most stringent labor market regulations, and is often seen at a nightclub or with a vape in her hand (although she recently quit). Rayner was forced to resign from the government over her tax affairs, and was later reappointed to a junior ministerial position.\n\nEd Miliband, the energy secretary who has championed net zero regulations and a ban on fracking in the North Sea, has increased his popularity within the Labour Party and could throw his hat in the ring. This wouldn't be the first time\u2014Miliband led the Labour Party into the 2015 general election, where he received a crushing defeat at the hands of David Cameron's Conservative Party.\n\nWith pressure mounting from the increasingly popular Green Party, whoever leads the Labour Party next will be pulled to the left. For voters hoping Keir Starmer's resignation might mark a turn away from higher taxes, heavier regulation, and a larger state, the likely field of successors offers little reason for optimism.",
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
       "left-center": 50,
