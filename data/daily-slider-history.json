@@ -1,6 +1,6 @@
 [
   {
-    "id": 8071385,
+    "id": 5295773,
     "date": "2026-06-28",
     "topic": "Trump Lance Schroyer Director Oklahoma Nominating",
     "match_score": 0.8,
@@ -510,11 +510,11 @@
     }
   },
   {
-    "id": 991459,
+    "id": 1891591,
     "date": "2026-06-28",
     "topic": "Great American State Fair Sean Duffy",
     "match_score": 0.4,
-    "cluster_size": 4,
+    "cluster_size": 5,
     "articles": {
       "left-center": {
         "title": "Sean Duffy Drops L-Word On Musicians Who Fled Great American State Fair",
@@ -541,7 +541,7 @@
     }
   },
   {
-    "id": 5445060,
+    "id": 1156712,
     "date": "2026-06-28",
     "topic": "White House Images Patriot Releases Trump",
     "match_score": 0.4,
