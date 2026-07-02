@@ -47,42 +47,43 @@
     }
   },
   {
-    "id": 9851183,
+    "id": 4186081,
     "date": "2026-07-02",
-    "topic": "Arrested Empire State Building People Apparent",
+    "topic": "Empire State Building Couple Arrested Apparent",
     "match_score": 0.6,
     "cluster_size": 6,
     "articles": {
       "left": {
-        "title": "Two people arrested in apparent marriage proposal atop Empire State Building",
-        "url": "https://www.theguardian.com/us-news/2026/jul/01/empire-state-building-banner-proposal",
+        "title": "Couple arrested on Empire State Building after apparent proposal \u2013 video",
+        "url": "https://www.theguardian.com/us-news/video/2026/jul/02/couple-arrested-on-empire-state-building-after-apparent-proposal-video",
         "source": "The Guardian (US)",
         "bias": "left",
         "priority": 1
       },
       "left-center": {
-        "title": "Two arrested after scaling Empire State Building in daring stunt",
-        "url": "https://www.nbcnews.com/nightly-news/video/two-arrested-after-scaling-empire-state-building-in-daring-stunt-266040901647",
-        "source": "NBC News",
+        "title": "2 Empire State Building climbers arrested after apparently getting engaged at the top",
+        "url": "https://www.cbsnews.com/news/empire-state-building-climbers-banner-nyc/",
+        "source": "CBS News",
         "bias": "left-center",
-        "priority": 9
+        "priority": 8
       },
-      "center": {
-        "title": "Watch: Couple scale Empire State Building, get engaged and are arrested",
-        "url": "https://www.bbc.co.uk/news/videos/cz75gz79pl2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News Front",
-        "bias": "center",
+      "right-center": {
+        "title": "Couple facing slew of charges after climbing to the top of Empire State Building with massive banner",
+        "url": "https://www.foxnews.com/us/two-people-climb-top-empire-state-building-massive-banner",
+        "source": "Fox News US",
+        "bias": "right-center",
         "priority": 2
       }
     },
-    "farLeftText": "Two people were arrested following an apparent marriage proposal atop the Empire State Building\u2019s spire on Wednesday, after they climbed to the very pinnacle of the New York City landmark \u2013 well above the level open to the public.\n\nThe two people were identified as Angela Nikolau and Ivan Beerkus, two Russian \u201crooftoppers\u201d who have conducted similar stunts in other cities including Tianjin, China, and Los Angeles. They were both wearing black clothing and appeared to be masked as they unfurled a large, black banner at the top of the skyscraper with the words: \u201cWhen the power of love beats the love of power the \u200cworld knows peace.\u201d\n\nIt remained unclear how the pair made their way up the final stages of the building, which towers above midtown Manhattan at a height of 1,454ft (443 metres). Local media outlets reported a New York police department (NYPD) drone in the air, in addition to an NYPD helicopter near the scene monitoring the breathtaking stunt.\n\nShortly after 12.30pm, the two climbed down to a slightly lower platform on the structure that holds the antenna atop the building. One person then got down on one knee, and after what appeared to be a proposal from a man to a woman, the two people hugged and kissed.\n\nBody-camera footage released by NYPD on Wednesday afternoon showed police apprehending the pair.\n\n\u201cYou can\u2019t be up here,\u201d an officer says.\n\nIn a statement on Wednesday afternoon, the NYPD said: \u201cOn Wednesday, July 1, 2026 at approximately 1200 hours, two unknown individuals were observed on the antenna of the Empire State Building located 20 West 34 Street, within the confines of Midtown South Precinct. NYPD\u2019s Emergency Services Unit responded.\n\n\u201cTwo individuals were taken into custody without incident. There are no reported injuries. Charges are pending, and the investigation remains ongoing,\u201d the statement added.\n\nCBS News later reported the charges include burglary, criminal trespass and <span class='highlight-bias highlight-bias-left'>reckless</span> endangerment.\n\nIn a story posted on Instagram and featuring a video apparently taken at the top of the skyscraper, Nikolau wrote: \u201cCurrently at the Empire State Building[,] you can watch on the city webcam.\u201d\n\nAround 1pm ET on Wednesday, Nikolau posted a series of photos appearing to show her atop the spire, including images of the apparent proposal and what appears to be an engagement ring on her hand.\n\nAnother photo appeared to show her hand clasped with what appeared to be Beerkus\u2019s against a backdrop of the city far below.\n\nBoth Nikolau\u2019s and Beerkus\u2019s social media pages feature dozens of photos and videos showing the pair standing on high rises and bridges around the world.\n\nThe NYPD recovered the banner, ABC reported.\n\nReuters contributed reporting",
-    "centerLeftText": "A couple is in police custody, charged with felonies including <span class='highlight-bias highlight-bias-left'>reckless</span> endangerment after they climbed to the top of the Empire State Building midday, drawing crowds with a banner and apparent marriage proposal, as investigators try to figure out how they gained access to the restricted area. NBC News\u2019 Valerie Castro reports.July 1, 2026",
-    "centerText": "A couple has been taken into custody after climbing the very top of New York City's Empire State Building, before getting engaged.\n\nRussian nationals Angela Nikolau, 33, and Ivan Beerkus, 32, unfurled a large banner at the tip of the skyscraper's needle that read: \"When the power of love beats the love of power the world knows peace.\"\n\nBeerkus got down on one knee and proposed to Nikolau, presenting a ring. They kissed before descending.\n\nRead more about the incident here.",
-    "centerRightText": "No article found in this category for this topic.",
+    "farLeftText": "Two people were arrested after an apparent marriage proposal atop the Empire State Building\u2019s spire on Wednesday, having climbed well above the section open to the public. The pair were identified as Angela Nikolau and Ivan Beerkus, Russian 'rooftoppers' known for carrying out similar stunts in cities including Los Angeles and Tianjin in China. Dressed in black and with their faces covered, they unfurled a large black banner bearing the words: 'When the power of love beats the love of power, the \u200cworld knows peace.'\n\nIt remains unclear how they reached the uppermost section of the building, which rises 1,454ft (443 metres) above midtown Manhattan. The New York police department said charges were pending and the investigation remained ongoing. CBS News later reported that the pair were facing charges including burglary, criminal trespass and <span class='highlight-bias highlight-bias-left'>reckless</span> endangerment",
+    "centerLeftText": "Editor's note: Follow the latest on the couple's arraignment and further court proceedings Thursday here.\n\nTwo people climbed to the very top of New York City's Empire State Building, unfurled a banner, and then apparently got engaged Wednesday afternoon.\n\nThe two were arrested and were arraigned at 9 a.m. Thursday.\n\nThe NYPD identified them as Ivan Kuznetsov, 32, and Angelina Nikolau, 33, of East Orange, New Jersey. Kuznetsov's social media page identifies him as Ivan Beerkus and Nikolau's page identifies her as Angela.\n\nThe couple has a history of conducting similar stunts known as \"rooftopping\" \u2014 climbing tall buildings without ropes or other safety equipment. They are featured in a popular Netflix documentary.\n\nThey face a host of charges, including burglary, <span class='highlight-bias highlight-bias-left'>reckless</span> endangerment, criminal mischief, violation of local law, possession of burglar's tools, criminal tampering, criminal trespass and disorderly conduct, sources said.\n\nThe climb\n\nIt was a wedding proposal that gripped the city.\n\nIt started at around noon Wednesday, when a man and a woman, who could be seen wearing masks, reached the very top of the Empire State Building and unfurled a large black banner with white lettering. There had no visible safety equipment, and clung to the spire by their fingertips.\n\n\"When the power of love beats the love of power the world knows peace,\" the banner read. The quote is often attributed to Jimi Hendrix.\n\nTwo people climbed to the top of the Empire State Building and flew a banner on July 1, 2026. CBS News New York\n\nPreliminary information indicates the two got in through a hatch on the 103rd floor used for water tower maintenance, law enforcement sources told CBS News.\n\nThe 103rd floor is not open to the public, though the 102nd is. The question is now how they got from 102 to 103, which allowed them to climb all the way to the top of the radio and television transmission tower for local stations.\n\nShortly after reaching the top and flying the banner, one of the two began to descend, but then made their way back to the top.\n\nThey were posting to social media while at the top.\n\nTwo people climbed to the top of the Empire State Building transmission tower on July 1, 2026. CBS News New York\n\n\"I just assumed they were allowed up there\"\n\nAt the start of the incident, other people could be seen milling about on building's observation deck below, as normal.\n\n\"They opened the gate and they went up to the top. So somebody said, are you allowed up the top? And he said, the security guard said, no, nobody's allowed up top. But because I'd seen them go up, I just assumed that they were allowed up there,\" witness Julie Morris said.\n\nMorris said they were not wearing masks when they began their climb up.\n\n\"Why would anyone want to propose on the top of a building?\" tourist Martin Mulgrew said.\n\nThe Mulgrew family was among the tourists on the observation deck.\n\n\"We're looking up, enjoying the view again, and they're waving down, just standing there, peering over,\" Maeve Mulgrew said. \"Then coming down to your arrest? They must've really been in love.\"\n\nThe observation deck was later cleared.\n\nThe proposal\n\nAn NYPD helicopter responded to the scene. At 12:35 p.m., the two began to descend from the top.\n\nTwo people climbed to the top of the Empire State Building transmission tower on July 1, 2026. CBS News New York\n\nIncredibly, once they hit one of the lower platforms on the tower, the man dropped to one knee and appeared to propose to the woman. The two then embraced, the woman removed her mask, and they kissed.\n\nA social media post appears to depict the proposal and its aftermath from Nikolau's point of view.\n\nThe man who climbed to the top of the Empire State Building on July 1, 2026 appears to propose to the woman. CBS News New York\n\nCBS News New York's Lisa Rozner reported the street below was closed off as the NYPD responded to the scene, including their elite Emergency Services Unit. The NYPD released police bodycam video of the moment officers took them into custody at the top of the building.\n\nThe NYPD personnel wore hard hats and utilized other safety equipment as they reached them. One of the ESU members had just graduated last week, the NYPD said.\n\nThe two were taken into custody just before 1 p.m. No injuries were reported.\n\n\"Of course, security is amazing, but it's a big concern as someone who works here,\" said Jessica Kaplan, who works in the iconic building.\n\nEmpire State Building on \"unauthorized incident\"\n\n\"The unauthorized incident at the building has been resolved with the constructive and helpful coordination of the NYPD. There was at no time danger to tenants, visitors, and Empire State Building Observation Deck guests,\" an Empire State Building spokesperson said.\n\nThey added, \"It is to be emphasized that the Empire State Building Observation Deck, atop the World's Most Famous Building in the center of New York City, does offer a practical way for the most memorable marriage proposals.\"\n\nTo find out more about that, click here.\n\n\"There's a lot of danger up there\"\n\nDue to the possibility of being exposed to radio waves, the Empire State Building shut down the antenna, a source familiar with the matter told CBS News New York.\n\n\"These guys are a little crazy. Climbing up and down that tower, especially in this heat, is very <span class='highlight-bias highlight-bias-left'>strenuous</span>. It's easy to make mistakes. It doesn't look like they're wearing any harnesses. There's a lot of RF, there's a lot of electrical energy up on that tower,\" former CBS News New York chief broadcast engineer John Cleary said.\n\n\"There's potential for danger up there. It's something that we're trained to do. We go to classes for this ... it's not like you climb rocks. This is a live transmission tower. There's a lot of danger up there.\"\n\nCleary discussed how the couple got access.\n\n\"That hatch is generally locked. And then, once you get inside, it's called the JJ level, and that's the level right before there's another hatch that you need a card to open. And I don't know how they got through that one, either,\" he said.\n\nEmpire State Building has previously been climbed\n\nIt's not the first time people have climbed the tower. In 2023, actor and singer Jared Leto climbed it to celebrate the launch of 30 Seconds to Mars' 2024 world tour. He did so with permission.\n\nOther skyscrapers and iconic structures in New York City have also been illegally climbed.\n\nA woman climbed the base of the Statue of Liberty in July of 2018. She said she was protesting President Trump's immigration policies, and remained on the monument for about three hours.\n\nIn 2016, a 20-year-old scaled the side of Trump Tower using suction cups. Traffic was stopped along Fifth Avenue and 56th street as onlookers gathered.\n\nAnd of course, in the iconic film \"King Kong,\" the eponymous giant ape famously scaled the Empire State Building.\n\nHow tall is the Empire State Building?\n\nThe Empire State Building's top floor is 1,250 feet high. Including the transmission tower, the building is 1,454 feet tall.\n\nThe winds at the top of the building were southwest at 5-10 mph, and the air temperature while the two were at the top was 89\u00b0.\n\nThe iconic building is one of the top 10 tallest in the U.S.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "NEW You can now listen to Fox News articles!\n\nAn East Orange, New Jersey, couple is facing a slew of criminal charges after climbing on top of the Empire State Building Wednesday while holding a banner reading \"When the power of love beats the love of power, the world knows peace.\"\n\nFollowing a response by the New York City Police Department (NYPD) Emergency Services Unit, the masked pair, later identified as Netflix stars Angelina Nikolau, 33, and Ivan Kuznetsov, 32, appeared to take down the banner and climb down from the antenna to a lower platform.\n\nKuznetsov then appeared to pull an engagement ring out of a backpack, get down on one knee and propose to Nikolau.\n\nThe couple was taken into custody and is charged with burglary, <span class='highlight-bias highlight-bias-right'>reckless</span> endangerment, criminal mischief, violation of local law, possession of burglar's tools, criminal tampering, criminal trespass and disorderly conduct, NYPD officials told Fox News Digital.\n\nNo injuries were reported.\n\nMAMDANI ALLOCATES $500K FOR REPARATIONS TALKS AS NYC FACES $5.4B DEFICIT\n\nBodycam video shared by NYPD Commissioner Jessica Tisch Wednesday afternoon showed at least two officers trekking up the skyscraper and meeting Nikolau and Kuznetsov, who appeared to be unharnessed.\n\n\"How you doing?\" one of the officers asked the couple. \"You can't be up here.\"\n\n\"I'm OK,\" Nikolau replied, noting she and Kuznetsov speak Russian.\n\nIn addition to the officers who climbed the tower, roughly 40 police officers responded to the front of the building and directed traffic. The entrance on Fifth Ave., between West 33rd and 34th streets, was blocked off.\n\nPedestrians were seen gathering on every corner surrounding the building watching the situation unfold.\n\nAn Empire State Building spokesperson described the incident as \"unauthorized,\" noting NYPD helped to resolve the situation.\n\n\"There was at no time danger to tenants, visitors, and Empire State Building Observation Deck guests,\" the spokesperson said. \"It is to be emphasized that the Empire State Building Observation Deck, atop the World's Most Famous Building in the center of New York City, does offer a practical way for the most memorable marriage proposals\u2026\"\n\nMAMDANI ALLOCATES $500K FOR REPARATIONS TALKS AS NYC FACES $5.4B DEFICIT\n\nIt remains unclear how Nikolau and Beerkus, previously featured on Netflix's \"Skywalkers: A Love Story,\" were able to scale the building.\n\nThey later posted photos of the engagement ring on Instagram from atop the tower.\n\nNetflix did not immediately respond to Fox News Digital's request for comment.\n\nCounting the spire and antenna, the skyscraper stands 1,454 feet tall.\n\nIt is currently the fourth-tallest building in New York City, the sixth-tallest in the U.S. and the 43rd tallest tower in the world.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nNew York City Mayor Zohran Mamdani has yet to publicly respond to the public stunt. His office did not immediately respond to Fox News Digital's request for comment.\n\nThis is a developing story. Please check back for updates.",
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
-      "left": 7,
-      "left-center": 78
+      "left": 50,
+      "left-center": 50,
+      "right-center": 50
     }
   },
   {
@@ -162,45 +163,6 @@
       "left": 50,
       "right-center": 50,
       "right": 50
-    }
-  },
-  {
-    "id": 4485353,
-    "date": "2026-07-02",
-    "topic": "Russian Missile Drone Strikes Ukraine Capital",
-    "match_score": 0.6,
-    "cluster_size": 5,
-    "articles": {
-      "left": {
-        "title": "Russian missile and drone strikes in Ukraine capital kill at least eight and injure dozens",
-        "url": "https://www.theguardian.com/world/2026/jul/02/russia-attacks-kyiv-missiles-drones-ukraine",
-        "source": "The Guardian (World)",
-        "bias": "left",
-        "priority": 1
-      },
-      "center": {
-        "title": "At least 13 killed in large-scale Russian missile and drone strikes on Kyiv",
-        "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News World",
-        "bias": "center",
-        "priority": 2
-      },
-      "right-center": {
-        "title": "Russian missiles and drones kill 8 and cause damage across Ukraine capital",
-        "url": "https://nypost.com/2026/07/02/world-news/russian-missiles-and-drones-kill-8-and-cause-damage-across-ukraine-capital/",
-        "source": "New York Post",
-        "bias": "right-center",
-        "priority": 3
-      }
-    },
-    "farLeftText": "Russia launched a large-scale attack on Ukraine\u2019s capital Kyiv with missiles and drones overnight into Thursday, killing at least eight people and injuring dozens more.\n\nThe intense strikes hit residential \u2060buildings and \u2060triggered \u200ba fire in a hotel on a central boulevard.\n\nTymur Tkachenko, head of the capital\u2019s military administration, said eight people had been killed, \u2060with about three dozen locations across the city damaged in the attacks. He did not elaborate.\n\nKyiv mayor Vitali Klitschko, writing on Telegram, said separately that 34 \u200bmore were injured, adding that among the damages, the first to \u200csixth floors of an apartment building \u200ccollapsed after a direct hit.\n\nEarlier he said that people were also \u200ctrapped in a damaged nine-storey residential building and a roof of another high-rise \u200bapartment building was on fire.\n\nWriting on Telegram, he urged residents to remain in shelters, describing an ongoing \u201cfurious enemy attack\u201d on the capital.\n\nThe attack with ballistic and cruise missiles and drones affected all of the city\u2019s 10 districts, on both sides of the Dnipro River. Many residents took shelter at metro stations after the Ukrainian president, Volodymyr Zelenskyy, and other authorities issued the first warnings of the attack.\n\nView image in fullscreen People take shelter at a metro station during Russian air attacks on Kyiv. Photograph: Roman Pilipey/AFP/Getty Images\n\nCarrying children, belongings, tents and pets, people crowded into underground stations, as air raid alerts were issued for most of Ukraine\u2019s territory on Thursday amid \u200bRussia\u2019s worst attack on the country since mid-June.\n\n\u201cAnother horrific night for the residents of the city, who were forced to spend it in shelters,\u201d Olha Stefanishyna, Ukraine\u2019s ambassador to the \u200bUS, said in a post on X.\n\nRussia conducted \u2060the massive attack on Kyiv and other locations using \u2060long-range, high-precision air-, land-, sea-launched weapons \u2060and drones, the Russian \u200bdefence \u200cministry \u200csaid in a \u200cTelegram post on Thursday.\n\nThe ministry added it hit military and \u200cenergy facilities around Kyiv, as well \u200bas military airports in several regions including in \u2060Poltava and Dnipropetrovsk, \u200bin what \u200bit said \u200bwas retaliation for \u200bUkraine\u2019s \u200cattack \u200bon \u200bcivil infrastructure.\n\nZelenskyy had earlier warned that intelligence \u2060reports showed an overnight attack on the \u200bcountry was \u200blikely and said he \u200bwas cutting short his stay in \u200bDublin, which \u200che visited for \u200bthe \u200bstart of Ireland\u2019s six-month term in charge of the rotating presidency of the EU.\n\nRussia has intensified its attacks on Kyiv in recent weeks, even as Ukraine\u2019s own long-range drone campaign against Russian military sites and energy facilities has caused fuel shortages and disrupted supply lines inside Russia.\n\nNato member Poland scrambled \u2060fighter \u200bjets \u2060as a preventive measure, \u200cthe \u200cPolish armed forces said \u200c on X.\n\n\u201cThese actions are of \u200ca preventive nature and \u200bare aimed at securing and protecting the \u2060airspace, especially \u200bin areas adjacent \u200bto the \u200bthreatened \u200bregions,\u201d \u200cthe post \u200bsaid.\n\nWith Reuters and Associated Press",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "On Thursday morning, daylight brought clearer images of a crater which appeared to be caused by the impact of explosions.\n\nSmouldering cars, buildings and infrastructure could also be seen next to bombed-out debris.\n\nMultiple fires broke out across the city and damage was reported at an ambulance station in the city, which left at least one person critically injured.\n\nFirefighters were also dousing a blaze destroying a hotel on a central boulevard.\n\nOvernight, tracer fire from air defence systems were spotted lighting up the sky, and explosions from drones, cruise and ballistic missiles were heard.\n\nThe country's state emergency service said 13 people have been killed and more than 30 others injured.\n\nSo far 34 people have been rescued, officials said, and rescue operations are ongoing at sites that have been hit, including in a high-rise apartment building and homes in the south-east of Kyiv.\n\nUkraine's US ambassador Olha Stefanishyna wrote in a post on X: \"Another horrific night for the residents of the city, who were forced to spend it in shelters.\"\n\n\"Fires and the destruction of civilian infrastructure and residential buildings in several districts of the city.\"\n\nIt marks the first large-scale missile and drone strike by Russia on Ukraine in more than a two weeks.",
-    "centerRightText": "See more of our coverage in your search results.\n\nRussia launched a large-scale attack on Ukraine\u2019s capital overnight into Thursday that killed at least eight people and injured dozens as loud explosions shook Kyiv for hours.\n\nThe attack with ballistic and cruise missiles and drones damaged buildings and civilian infrastructure across the city.\n\nMany residents took shelter at metro stations after Ukrainian President Volodymyr Zelenskyy and other authorities issued the first warnings of the attack.\n\n5 Smoke rises from the site of a Russian missile and drone strike in Kyiv, Ukraine, on July 2, 2026. REUTERS\n\nThe attack killed eight people, said Tymur Tkachenko, head of the Kyiv City Military Administration. Damage was recorded in 28 locations across the city, mainly residential buildings and civilian infrastructure, he added.\n\nMayor Vitali Klitschko said 34 people were injured.\n\nRussia has intensified its attacks on Kyiv in recent weeks, even as Ukraine\u2019s own long-range drone campaign against Russian military sites and energy facilities has caused fuel shortages and disrupted supply lines inside Russia.\n\nKlitschko urged residents to remain in shelters, describing an ongoing \u201cfurious enemy attack\u201d on the capital.\n\nHe said five people were injured in the Shevchenkivskyi district and one of the injured, a paramedic, was in extremely critical condition.\n\n5 An explosion lights up the night sky over Kyiv, Ukraine, during a Russian drone and missile strike on July 2, 2026. REUTERS\n\n5 A man walks through a street filled with debris after a Russian strike on a residential building on July 2, 2026. AFP via Getty Images\n\nUkraine\u2019s Emergency Service says a hotel and two five-story residential buildings were damaged in the district.\n\nIn the Desnianskyi district, people were trapped inside a damaged nine-story residential building and rescuers headed to the scene, Klitschko said.\n\nIn the Holosiivskyi district, a fire broke out on the roof of a 16-story building, according to the Emergency Service.\n\nIn the Sviatoshynskyi district, fire broke out in two private residencies, the Emergency Service said. Debris trapped people in one of them, according to the mayor.\n\n5 A firefighter works at a residential building struck by a Russian missile in Kyiv. AFP via Getty Images\n\n5 A man looks the remains of a residential building destroyed during a Russian air attack on July 2, 2026. AFP via Getty Images\n\nIn the Darnytskyi district, six levels of a nine-story building collapsed after a Russian strike and another five-story residential building was damaged, Klitschko said.\n\nThe Emergency Service said a 16-story building and private residencies were damaged in the area.\n\nTkachenko said the attack partially destroyed a residential building in the Desnianskyi district, sparked fires near residential buildings at two locations in the Pecherskyi district, and ignited a fire near an administrative building in the Solomianskyi district.\n\nHe said authorities were also recording damage in the Obolonskyi and Podilskyi districts.\n\nThe head of the Kyiv Regional Administration, Mykola Kalashnyk, said damage occurred in five regional districts.\n\nThere were no immediate reports of casualties in the region.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 50,
-      "right-center": 68
     }
   },
   {
@@ -322,7 +284,85 @@
     }
   },
   {
-    "id": 9437173,
+    "id": 8300691,
+    "date": "2026-07-02",
+    "topic": "Excia Preserve Records Trump Administration Chief",
+    "match_score": 0.6,
+    "cluster_size": 4,
+    "articles": {
+      "left-center": {
+        "title": "Ex-C.I.A. Chief Asks for Order Forcing Trump Administration to Preserve Records",
+        "url": "https://www.nytimes.com/2026/07/01/us/politics/john-brennan-investigations-records.html",
+        "source": "NYT Politics",
+        "bias": "left-center",
+        "priority": 7
+      },
+      "center": {
+        "title": "Ex-CIA Director John Brennan sues the Trump administration, demanding it preserve records of investigations into him",
+        "url": "https://www.pbs.org/newshour/politics/ex-cia-director-john-brennan-sues-the-trump-administration-demanding-it-preserve-records-of-investigations-into-him",
+        "source": "PBS",
+        "bias": "center",
+        "priority": 4
+      },
+      "right": {
+        "title": "Ex-CIA Chief Brennan Sues to Preserve DOJ Records",
+        "url": "https://www.newsmax.com/politics/cia-john-brennan-doj/2026/07/02/id/1261548",
+        "source": "Newsmax",
+        "bias": "right",
+        "priority": 5
+      }
+    },
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "The lawsuit says the records would shed light on the motivations of government officials who are investigating Brennan and would form the basis of defense efforts to dismiss any eventual indictment on grounds that it constitutes a <span class='highlight-bias highlight-bias-center'>vindictive</span> prosecution.\n\nWASHINGTON (AP) \u2014 Former CIA Director John Brennan sued the Trump administration Wednesday, demanding a court order that would require officials to preserve records from investigations that he says are targeting him for \"what amounts to phantom criminal conduct.\"\n\nSuch an argument, his lawyers said, would be supported by the more than 100 verbal or written statements that President Donald Trump has made since 2017 <span class='highlight-bias highlight-bias-center'>lambasting</span> Brennan. As well as by the Republican president's directives to his Department of Justice to initiate investigations of Brennan \"without regard to factual or legal justification.\"\n\n\"To fully consider those motions, the reviewing judge would need to scrutinize the motivations of the Justice Department officials who directed, oversaw, or undertook those actions to determine whether they violated Director Brennan's rights, and specifically whether they were motivated by a desire to vindictively prosecute him as an act of retribution,\" Brennan's lawyers wrote in the lawsuit filed in federal court in Washington.\n\nWithout an order, the lawsuit contends, the records are at risk of being lost or intentionally deleted.\n\nREAD MORE: AP sources: Witnesses subpoenaed to testify before D.C. grand jury in John Brennan investigation\n\nThe lawsuit amounts to a preemptive strike of sorts on months-long investigations into Brennan and other <span class='highlight-bias highlight-bias-center'>perceived</span> adversaries of the president, and represents another effort by Brennan's legal team to sound the alarm on inquiries they believe are part of a pattern of politically motivated probes driven by the White House. It asserts that Brennan is being targeted in a <span class='highlight-bias highlight-bias-center'>vindictive</span> and selective prosecution arising from Trump's \"obsession with <span class='highlight-bias highlight-bias-center'>punishing</span> him for his lawful conduct as CIA Director and for his constitutionally protected criticism of the President and the President's policies.\n\n\"That is the reason he is being singled out for investigation of concocted theories of criminal activity, and that will be the dominant reason for any criminal charges resulting from that investigation. That is also why Director Brennan will have an extremely strong basis to challenge those charges as the product of <span class='highlight-bias highlight-bias-center'>vindictive</span> and selective prosecution,\" the lawsuit says.\n\nInvestigators based in Florida are examining whether he made a false statement to Congress in 2023 related to an assessment by intelligence agencies documenting Russian interference in the 2016 presidential election, when Trump defeated Democrat Hillary Clinton. The other investigation aims to determine whether former law enforcement and intelligence officials conspired to <span class='highlight-bias highlight-bias-center'>undermine</span> Trump, including during the course of the Russian interference investigation.\n\nBrennan has denied any wrongdoing.\n\nThe complaint seeks a court order requiring the preservation of all government records relevant to the investigations, including emails, calendar entries and communications \u2014 whether public or private \u2014 from Trump or other White House officials about the inquiries and efforts to advance them.\n\nWATCH: Watch our full exit interview with CIA Director John Brennan\n\n\"Given these strong indicia of <span class='highlight-bias highlight-bias-center'>vindictiveness</span>, Director Brennan expects that he will forcefully challenge any eventual indictment as the product of an unconstitutionally <span class='highlight-bias highlight-bias-center'>vindictive</span> and selective prosecution,\" the lawsuit says, adding that the judge presiding over any criminal case would look to those records for a glimpse of the government's motives.\n\n\"Given the government's questionable recent history with respect to its record preservation and other legal obligations, however, Director Brennan has a well-founded concern that those records and communications will not be preserved until such time as the court can review them for evidence of unconstitutional <span class='highlight-bias highlight-bias-center'>vindictiveness</span>,\" Brennan's lawyers wrote.\n\nThe lawsuit names as defendants Trump and other top officials from his administration, including acting Attorney General Todd Blanche, FBI Director Kash Patel, White House chief of staff Susie Wiles and CIA Director John Ratcliffe.\n\nOther defendants include Jason Reding Qui\u00f1ones, the U.S. attorney for the Southern District of Florida, and Joe diGenova, a Reagan administration prosecutor who returned to the Justice Department in April to serve as a special counselor to the attorney general and help oversee the investigations.\n\nBrennan's lawyer, Ken Wainstein, wrote in December to the chief judge of the federal court in Florida asking that the Justice Department be prevented from steering the investigations to a \"favored\" Trump administration judge, Aileen Cannon, who in 2024 dismissed the classified documents prosecution against Trump.\n\nAsked about Brennan's lawsuit, Justice Department spokeswoman Emily Covington said, \"While we cannot comment on the existence, or lack thereof, of an investigation, it is certainly rich that John Brennan is accusing anyone of a 'retribution campaign.'\"\n\nAssociated Press writer Alanna Durkin Richer in Washington contributed to this report.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left-center": 50,
+      "right": 50
+    }
+  },
+  {
+    "id": 1045445,
+    "date": "2026-07-02",
+    "topic": "Russia Attack Launches Massive Drone Missile",
+    "match_score": 0.6,
+    "cluster_size": 3,
+    "articles": {
+      "left": {
+        "title": "At least 21 dead as Russia launches massive drone and missile attack on Kyiv",
+        "url": "https://www.theguardian.com/world/2026/jul/02/russia-attacks-kyiv-missiles-drones-ukraine",
+        "source": "The Guardian (World)",
+        "bias": "left",
+        "priority": 1
+      },
+      "left-center": {
+        "title": "Russia launches deadly hourslong  attack on Kyiv",
+        "url": "https://www.nbcnews.com/video/russia-launches-hourslong-attack-on-kyiv-266060357874",
+        "source": "NBC News",
+        "bias": "left-center",
+        "priority": 9
+      },
+      "center": {
+        "title": "Russia hits Ukraine's capital with a massive drone and missile attack, killing at least 18",
+        "url": "https://www.npr.org/2026/07/02/nx-s1-5878894/russia-attacks-ukraines-capital-killing-more-than-a-dozen-people",
+        "source": "NPR",
+        "bias": "center",
+        "priority": 3
+      }
+    },
+    "farLeftText": "At least 21 people were killed and dozens injured overnight in Kyiv, local authorities said, in what the city\u2019s mayor Vitali Klitschko called the worst Russian attack on the Ukrainian capital during more than four years of Russia\u2019s air assault on Ukraine.\n\nRussia used nearly 500 drones and more than 70 missiles in the hours-long attack on Kyiv and other parts of the country in the early hours of Thursday. Loud explosions shook the capital for several hours as waves of drones as well as cruise and ballistic missiles came towards the capital and Ukraine\u2019s air defence attempted to shoot them down.\n\nAs dawn broke, fires were burning at sites across Kyiv, with strikes or debris hitting residential buildings in several districts and a hotel on one of the central boulevards. In one location on the left bank of the Dnipro River, a large section of a nine-story apartment block was ripped open and reduced to a mound of rubble. Throughout the day, rescuers picked through the remains of the block hoping to find survivors.\n\nThe death toll steadily rose during the day, and may yet climb higher, with about 70 people admitted to hospital and rescuers still searching in the ruins.\n\nView image in fullscreen Residents look out of a broken window on Thursday morning after their apartment building was hit by a Russian missile. Photograph: Efrem Lukatsky/AP\n\nRussia regularly launches combined missile and drone attacks on the Ukrainian capital and there had been speculation for some days that another massive attack was coming. Volodymyr Zelenskyy warned Ukrainians on Wednesday that it could happen that night. \u201cI am asking all our people to be extra careful, take care of yourselves and your children, and use shelters, this is very important,\u201d the president said, speaking on a visit to Dublin.\n\nCity authorities said more than 50,000 people took shelter in metro stations across the capital overnight, after the warnings. Some of them brought mattresses and tents to get a few hours of sleep below ground, and at some stations there was no space to be had on the platforms as hundreds of people stretched out for the night.\n\n\u201cBy now we are pretty used to noisy nights, but they are getting worse and worse, and today was the first time in all these years of war that I decided maybe it would be safer not to spend the night at home,\u201d said Oleksandra Voloshyna, a medical student who slept in one of the central metro stations.\n\nZelenskyy, who returned early from his trip to Ireland to visit the site of one of the attacks in Kyiv on Thursday afternoon, said that if allies had followed through on agreements to provide Ukraine with air defence missiles, the damage would not have been so great. \u201cWe are fighting alone. The victims are only Ukrainians. All we ask from our partners is that they do what they agreed to,\u201d he said.\n\nMany Kyiv residents are paying renewed attention to strikes after more than four years of full-scale war, owing to the severity of recent mass attacks. In late May, Russia warned foreign diplomats to leave the city, saying it planned to intensify strikes on \u201cdecision-making centres\u201d there.\n\nDuring Thursday\u2019s attack, Ukraine\u2019s neighbour Poland, a Nato and EU member, scrambled fighter jets as a preventive measure. Finland had briefly issued a temporary aviation restriction zone in the eastern Gulf of Finland, its defence forces said on X.\n\nIn recent weeks, Ukraine has intensified its campaign of long-range drone strikes against oil refineries in Russia, causing fuel shortages across the country. Multiple Russian regions have been forced to introduce petrol rationing, while in occupied Crimea, Russian authorities have declared a state of emergency.\n\nUkrainian officials said they intended to keep up the pressure on Crimea, which Russia annexed in 2014 and which has served as a logistical hub for the Russian occupation of parts of south-eastern Ukraine since 2022. On Thursday morning, the governor of Russia\u2019s Nizhny Novgorod region said one person had been killed in a drone strike on industrial facilities there.\n\nThe Russian defence ministry said it had used weapons launched from air, land and sea during Thursday\u2019s attacks on Ukraine, and claimed it was in retaliation for Ukrainian strikes. Moscow said it had targeted military facilities and energy infrastructure in the attacks, which also hit several regions outside the capital.\n\nThe Ukrainian foreign minister, Andrii Sybiha, who is on a working visit to Japan, said on Thursday morning that it was \u201c<span class='highlight-bias highlight-bias-left'>immoral</span>\u201d to claim the strikes were retaliation for Ukraine\u2019s attacks on Russia.\n\nView image in fullscreen People take shelter at a metro station during Russian air attacks on Kyiv. Photograph: Roman Pilipey/AFP/Getty\n\nSybiha wrote on X: \u201cIn this war there is an aggressor and a country defending itself. Russia has no right to make any strikes against Ukraine, while Ukraine has every right to respond, defend from aggressor, and strike any legitimate military targets in Russia. Do not equate an aggressor and a country defending from aggression.\u201d\n\nHe reiterated Kyiv\u2019s urgent plea for Ukraine\u2019s allies to supply more air defences, saying that the capital had \u201csuffered a night of horror\u201d.\n\nThe UK prime minister, Keir Starmer, said the attacks were \u201ca stark reminder that while Ukraine continues to pursue peace, Putin continues to inflict suffering and <span class='highlight-bias highlight-bias-left'>violence</span> on the Ukrainian people\u201d.\n\nView image in fullscreen A woman holds a child near an apartment building damaged during the Russian missile and drone strike in Kyiv. Photograph: Viacheslav Ratynskyi/Reuters\n\nA US-backed peace process has stalled in recent months, as Putin has shown little interest in abandoning his maximalist goals in Ukraine and the White House turned its attention to events in the Middle East instead.\n\nOn Thursday, Zelenskyy said his national security council secretary, Rustem Umerov, had been in touch with the US negotiator Jared Kushner in recent days to discuss restarting the peace process. Zelenskyy also said he hoped to meet with the US president, Donald Trump, on the sidelines of the Nato summit in Ankara next week.\n\nAs a result of the attacks, Friday has been declared a day of mourning in Kyiv, Klitschko announced.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "Russia hits Ukraine's capital with a massive drone and missile attack, killing at least 18\n\ntoggle caption Danylo Antoniuk/AP\n\nKYIV, Ukraine \u2014 At least 18 people have been killed and more than 90 injured after a large-scale Russian missile and drone attack on Ukraine's capital, Kyiv, Ukrainian officials said.\n\nUkrainian President Volodymyr Zelenskyy said Russia launched more than 70 missiles and around 500 drones in the overnight assault. Ukraine's air force said most of the drones were intercepted, but about a quarter of the missiles still struck targets in and around the capital.\n\nMore than 20 sites across Kyiv were hit, including residential apartment blocks, a hotel, a research institute and an ambulance station. Emergency services are continuing to search through damaged buildings for survivors, with rescue operations still underway in several districts.\n\nSponsor Message\n\nAir raid sirens sounded for hours overnight, and explosions were heard across the city as Ukrainian air defenses worked to repel waves of incoming weapons. Authorities said many residents took shelter underground in Kyiv's metro stations, where families spent the night on platforms as strikes continued.\n\nZelenskyy, who had been on a diplomatic visit to Ireland, said he cut short his trip after receiving intelligence that an attack was imminent. He urged Ukrainians to remain in shelters and take precautions as the strikes unfolded.\n\nThe attack comes amid an escalating pattern of long-range warfare between the two countries. Russia said the strikes were carried out in retaliation for Ukrainian attacks on Russian oil infrastructure, which Moscow says have caused fuel shortages and disrupted parts of its energy network.\n\nRussia's defense ministry said the targets included military and energy facilities in Kyiv and other cities. Ukraine, meanwhile, says Russia continues to strike civilian infrastructure, pointing to repeated damage to residential areas in the capital.\n\nThe latest barrage highlights the growing challenge for Ukraine's air defense systems. Officials say drones can often be intercepted using mobile units and relatively low-cost systems, but ballistic and cruise missiles remain far more difficult to stop.\n\nSponsor Message\n\nZelenskyy has repeatedly called for additional Western air defense support, particularly U.S.-made Patriot systems, which Ukraine says are critical for protecting cities from missile attacks. He has also said Ukraine is developing its own interception capabilities, but that more external support is urgently needed.\n\nAt the same time, Ukraine has expanded its own long-range drone campaign, targeting military and energy infrastructure deep inside Russia, including oil refineries and depots. Ukrainian officials say these strikes are aimed at reducing Russia's capacity to sustain the war, while Moscow has described them as acts of escalation.\n\nAs rescue teams continue working through the debris in Kyiv, officials warn that the final casualty figures may still rise.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 46,
+      "left-center": 50
+    }
+  },
+  {
+    "id": 314164,
     "date": "2026-07-02",
     "topic": "Celebrations Mexico City World Four People",
     "match_score": 0.6,
@@ -480,6 +520,45 @@
     }
   },
   {
+    "id": 2618783,
+    "date": "2026-07-02",
+    "topic": "Monks Killed Procession Nine Truck Thailand",
+    "match_score": 0.6,
+    "cluster_size": 3,
+    "articles": {
+      "left": {
+        "title": "At least nine monks killed in Thailand after boy drives truck into procession",
+        "url": "https://www.theguardian.com/world/2026/jul/02/monks-killed-thailand-mukdahan-crash-truck-procession",
+        "source": "The Guardian (World)",
+        "bias": "left",
+        "priority": 1
+      },
+      "left-center": {
+        "title": "9 Buddhist Monks Killed After Boy Crashes Truck Into Procession",
+        "url": "https://www.nytimes.com/2026/07/02/world/asia/thailand-buddhist-monks-truck-crash.html",
+        "source": "NYT World",
+        "bias": "left-center",
+        "priority": 7
+      },
+      "center": {
+        "title": "Nine Thai monks killed after 11-year-old driver collides with procession",
+        "url": "https://www.bbc.co.uk/news/articles/c23y90lygpzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News World",
+        "bias": "center",
+        "priority": 2
+      }
+    },
+    "farLeftText": "An 11-year-old boy has driven his parents\u2019 truck into a Buddhist procession in Thailand, killing at least nine monks.\n\nCCTV footage shared by a local rescue group showed the moment the monks, wearing orange robes, were run over as they walked in procession along a road. The timestamp on the footage was shortly before 11am local time on Thursday.\n\nThe incident occurred in the town of Mukdahan in the country\u2019s north-east, about 400 miles (650km) from the capital, Bangkok.\n\nThe governor of Mukdahan province, \u200cVorayan Bunarat, said a group of 34 Buddhist monks and five lay followers had been undertaking a \u2060pilgrimage from a temple in the province to another in neighbouring Ubon \u200cRatchathani.\n\nImages from the scene showed people lying injured and the monks\u2019 possessions strewn across the road.\n\nBuddhist monks are highly venerated in Thailand, where more than 93% of the population are followers of the religion. Monks often hold public processions and are widely seen receiving alms of goodwill from the public. Signage on public transport asks people to provide seats to monks as well as elderly and pregnant passengers.\n\nBunarat said five monks had died \u200cat the scene and three in hospital. The Mukdahan provincial office later announced the death of a ninth monk. At least three others were critically injured.\n\nPolice said the boy had taken his parents\u2019 pickup truck without permission and had driven it for about 6 miles (10km) when he lost control of the vehicle and crashed into the monks.\n\nThe provincial police \u2060chief, Maj Gen Pairoj Thaiphutra, said the force had not filed any charges as investigators were still trying to establish the circumstances of the crash.\n\nOfficers had not yet \u200cbeen able to question the boy because he remained in a state of shock and was unable to provide a statement, he added.\n\nDeadly transport accidents are common in Thailand, which has one of the worst road safety records in the world, with speeding, drink-driving and weak law enforcement all contributing factors.\n\nBunarat said: \u201cWe\u2019ve been very strict on road safety in recent years. This case should be a lesson, not just for our province, but for the public in general when it comes to preventing road accidents.\n\n\u201cI think everyone involved, especially parents, needs to help, because no one wants something like this to happen.\u201d\n\nReuters and Agence France-Presse contributed to this report",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "Nine Buddhist monks were killed and several others in their procession injured when they were hit by an 11-year-old boy driving his parents' pickup truck in north-east Thailand, police said.\n\nThe group of 35 monks and five lay followers were walking along a road in Mukdahan province during a pilgrimage when the incident occurred.\n\nFootage posted online shows saffron robes and belongings scattered by the roadside, and a wrecked vehicle. Five of the monks died at the scene and four others later in hospital, according to police.\n\nThey said the boy took the pickup without permission before losing control and crashing into the monks, according to Agence France-Presse.\n\nPolice Major General Pairoj Thaiphutsa said they were still determining the legal process for the boy going forward.\n\n\"The suspect is a child. The vehicle has been taken for forensic examination to determine the cause,\" he said.\n\nLater, Thaiputsa told BBC Thai the boy was still being cared for by a team of officials, including his guardians and his doctor.\n\nPreliminary information indicates that he is a child with special needs, but no further details are available yet, Thaiputsa said.\n\nMukdahan Hospital has appealed for urgent blood donations to help the injured monks.\n\nThree monks remain in a critical condition and at least five others were seriously hurt. More are being treated for lighter injuries, health authorities said.\n\nPhra Sompong, who was a monk in the group, said he was chanting the meditation mantra \"Buddho, Buddho\" before the crash happened.\n\n\"I saw a boy driving a pickup truck approaching ... then suddenly the truck hit at full speed and crashed us,\" he said in a video posted online by local rescue workers.\n\n\"Luckily another monk and I managed to jump out of the way in time.\n\n\"The first nine monks in line survived, but others who were hit were thrown into the air.\"\n\nBuddhist monks are highly respected in Thailand as they are entrusted with preserving and passing on the Buddha's teachings.\n\nPublic processions are not uncommon, with members of the public often giving monks alms of goodwill - such as food and basic necessities - as a sign of respect.\n\nPolice further said initial inquiries have found that no one was home before the incident except the child suspect, who did not go to school because he was unwell.\n\nWhen the boy's guardians realised the car was missing they notified police.\n\nMukdahan provincial governor Worayan Bunnarat said the case should serve as a wider warning for road safety in Thailand.\n\n\"We've been very strict on road safety in recent years. This case should be a lesson not just for our province, but for the public in general when it comes to preventing road accidents,\" he said.\n\n\"I think everyone involved, especially parents, needs to help, because no one wants something like this to happen.\"",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 67,
+      "left-center": 50
+    }
+  },
+  {
     "id": 3361903,
     "date": "2026-07-02",
     "topic": "Bosnia Herzegovina Controversial World Steely Overcome",
@@ -508,69 +587,6 @@
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
       "left": 50,
-      "right-center": 50
-    }
-  },
-  {
-    "id": 1442796,
-    "date": "2026-07-02",
-    "topic": "Trump Takes Flight Force Qatar Gifted",
-    "match_score": 0.4,
-    "cluster_size": 4,
-    "articles": {
-      "left-center": {
-        "title": "Trump Takes First Flight on New Air Force One From Qatar",
-        "url": "https://www.nytimes.com/2026/07/01/us/politics/trump-air-force-one-first-flight.html",
-        "source": "NYT Politics",
-        "bias": "left-center",
-        "priority": 7
-      },
-      "center": {
-        "title": "Trump takes first flight on new Air Force One gifted by the Qatari government",
-        "url": "https://www.npr.org/2026/07/02/nx-s1-5877618/trump-takes-first-flight-on-new-air-force-one-gifted-by-the-qatari-government",
-        "source": "NPR Politics",
-        "bias": "center",
-        "priority": 3
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "Trump takes first flight on new Air Force One gifted by the Qatari government President Trump took his first flight on the new Air Force One yesterday. The Boeing 747 luxury jet was given to the U.S. by the government of Qatar, raising concerns about ethics and security.\n\nPolitics Trump takes first flight on new Air Force One gifted by the Qatari government Trump takes first flight on new Air Force One gifted by the Qatari government Listen \u00b7 2:26 2:26 President Trump took his first flight on the new Air Force One yesterday. The Boeing 747 luxury jet was given to the U.S. by the government of Qatar, raising concerns about ethics and security. Sponsor Message Sponsor Message",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 50
-    }
-  },
-  {
-    "id": 4844882,
-    "date": "2026-07-02",
-    "topic": "Judge Blocks Postal Service Mailin Federal",
-    "match_score": 0.4,
-    "cluster_size": 4,
-    "articles": {
-      "left-center": {
-        "title": "Judge Blocks Postal Service From Imposing Restrictions on Mail-In Ballots",
-        "url": "https://www.nytimes.com/2026/07/01/us/politics/judge-trump-postal-service.html",
-        "source": "NYT Politics",
-        "bias": "left-center",
-        "priority": 7
-      },
-      "right-center": {
-        "title": "Federal judge blocks Postal Service from carrying out Trump mail-in ballot order",
-        "url": "https://www.foxnews.com/politics/federal-judge-blocks-postal-service-carrying-out-trump-mail-in-ballot-order",
-        "source": "Fox News Latest",
-        "bias": "right-center",
-        "priority": 2
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "NEW You can now listen to Fox News articles!\n\nA federal judge blocked the U.S. Postal Service from carrying out an executive order on mail-in ballots on Wednesday.\n\nPresident Donald Trump had ordered the postal service to transmit ballots for states only if those states first provided a list of mail-in voters, among other requirements. The ruling from U.S. District Judge Emmet Sullivan blocks the postal service from implementing the order nationwide.\n\nSullivan argued that the order would violate the settlement agreement in an earlier 2020 lawsuit between the postal service and the NAACP. That agreement allowed the courts to oversee the postal service's actions relating to the \"monitoring and timely delivery of Election Mail.\"\n\n\"The Proposed Rule violates paragraph 2 of the Agreement because the Postal Service cannot post documents reflecting \u2018practices and policies for prioritizing the monitoring and timely delivery of Election Mail\u2019 if its policies provide that it will not accept \u2018noncompliant mailing\u2019 and therefore will not deliver mail-in or absentee ballots to some voters, and if it will not mail ballots to any voters in a state where the state \u2018declines or fails to certify a list,\u2019\" Sullivan wrote in his opinion.\n\nSullivan's order comes after an earlier case saw nearly 25 states challenge Trump's order earlier this year. Those states were successful in blocking the postal service from carrying out the order in their states, but Sullivan's ruling extends nationwide.\n\nThe ruling also comes just a week after an Obama-appointed judge blocked Trump's effort to curb noncitizens from registering to vote or voting in federal elections.\n\nOBAMA-APPOINTED JUDGE BLOCKS TRUMP'S ELECTION ORDER AS SAVE AMERICA ACT FIGHT INTENSIFIES\n\nThe lawsuit in that case centered on Trump's March executive order, Executive Order (EO) 14248, which directed the creation of a federal voter registration list and imposed new restrictions on eligibility for voting by mail as part of the administration's broader effort to combat voter fraud.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\n\"President Trump is committed to ensuring that Americans have full confidence in the administration of our elections. The President\u2019s executive order lawfully protects our elections, and we are confident that we will ultimately prevail in its implementation,\" White House spokeswoman Abigail Jackson told Fox News Digital last week.\n\nFox News' Ashley DiMella contributed to this report.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 50,
       "right-center": 50
     }
   },
