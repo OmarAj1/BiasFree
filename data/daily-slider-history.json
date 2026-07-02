@@ -47,7 +47,7 @@
     }
   },
   {
-    "id": 7589307,
+    "id": 9851183,
     "date": "2026-07-02",
     "topic": "Arrested Empire State Building People Apparent",
     "match_score": 0.6,
@@ -70,7 +70,7 @@
       "center": {
         "title": "Watch: Couple scale Empire State Building, get engaged and are arrested",
         "url": "https://www.bbc.co.uk/news/videos/cz75gz79pl2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News World",
+        "source": "BBC News Front",
         "bias": "center",
         "priority": 2
       }
@@ -243,7 +243,7 @@
     }
   },
   {
-    "id": 6402497,
+    "id": 1165249,
     "date": "2026-07-02",
     "topic": "Supreme Court Birthright Citizenship Trumps America",
     "match_score": 0.6,
@@ -283,7 +283,7 @@
     }
   },
   {
-    "id": 6627062,
+    "id": 573370,
     "date": "2026-07-02",
     "topic": "Celebrations Mexico City World Four People",
     "match_score": 0.6,
@@ -362,7 +362,7 @@
     }
   },
   {
-    "id": 7747999,
+    "id": 1159443,
     "date": "2026-07-02",
     "topic": "Judge Blocks Mailin Voting Trump Limit",
     "match_score": 0.6,
@@ -402,7 +402,7 @@
     }
   },
   {
-    "id": 6481295,
+    "id": 9432806,
     "date": "2026-07-02",
     "topic": "Lebron James Folarin World Goal Balogun",
     "match_score": 0.6,
@@ -473,7 +473,38 @@
     }
   },
   {
-    "id": 3721792,
+    "id": 4008150,
+    "date": "2026-07-02",
+    "topic": "Trump Takes Flight Force Qatar Gifted",
+    "match_score": 0.4,
+    "cluster_size": 4,
+    "articles": {
+      "left-center": {
+        "title": "Trump Takes First Flight on New Air Force One From Qatar",
+        "url": "https://www.nytimes.com/2026/07/01/us/politics/trump-air-force-one-first-flight.html",
+        "source": "NYT Politics",
+        "bias": "left-center",
+        "priority": 7
+      },
+      "center": {
+        "title": "Trump takes first flight on new Air Force One gifted by the Qatari government",
+        "url": "https://www.npr.org/2026/07/02/nx-s1-5877618/trump-takes-first-flight-on-new-air-force-one-gifted-by-the-qatari-government",
+        "source": "NPR Politics",
+        "bias": "center",
+        "priority": 3
+      }
+    },
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "Trump takes first flight on new Air Force One gifted by the Qatari government President Trump took his first flight on the new Air Force One yesterday. The Boeing 747 luxury jet was given to the U.S. by the government of Qatar, raising concerns about ethics and security.\n\nPolitics Trump takes first flight on new Air Force One gifted by the Qatari government Trump takes first flight on new Air Force One gifted by the Qatari government Audio will be available later today. President Trump took his first flight on the new Air Force One yesterday. The Boeing 747 luxury jet was given to the U.S. by the government of Qatar, raising concerns about ethics and security. Sponsor Message Sponsor Message",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left-center": 50
+    }
+  },
+  {
+    "id": 6493317,
     "date": "2026-07-02",
     "topic": "Nancy Guthrie Demands Legitimate Clarifies Investigating",
     "match_score": 0.4,
@@ -505,7 +536,7 @@
     }
   },
   {
-    "id": 3900222,
+    "id": 1405815,
     "date": "2026-07-02",
     "topic": "Hawk Emergency Landing Arabian Helicopter Navy",
     "match_score": 0.4,
@@ -534,37 +565,6 @@
     "omissions": {
       "left-center": 50,
       "right": 50
-    }
-  },
-  {
-    "id": 789104,
-    "date": "2026-07-02",
-    "topic": "Excia Trump Administration Preserve Records Chief",
-    "match_score": 0.4,
-    "cluster_size": 3,
-    "articles": {
-      "left-center": {
-        "title": "Ex-C.I.A. Chief Asks for Order Forcing Trump Administration to Preserve Records",
-        "url": "https://www.nytimes.com/2026/07/01/us/politics/john-brennan-investigations-records.html",
-        "source": "NYT US",
-        "bias": "left-center",
-        "priority": 7
-      },
-      "center": {
-        "title": "Ex-CIA Director John Brennan sues the Trump administration, demanding it preserve records of investigations into him",
-        "url": "https://www.pbs.org/newshour/politics/ex-cia-director-john-brennan-sues-the-trump-administration-demanding-it-preserve-records-of-investigations-into-him",
-        "source": "PBS",
-        "bias": "center",
-        "priority": 4
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "The lawsuit says the records would shed light on the motivations of government officials who are investigating Brennan and would form the basis of defense efforts to dismiss any eventual indictment on grounds that it constitutes a <span class='highlight-bias highlight-bias-center'>vindictive</span> prosecution.\n\nWASHINGTON (AP) \u2014 Former CIA Director John Brennan sued the Trump administration Wednesday, demanding a court order that would require officials to preserve records from investigations that he says are targeting him for \"what amounts to phantom criminal conduct.\"\n\nSuch an argument, his lawyers said, would be supported by the more than 100 verbal or written statements that President Donald Trump has made since 2017 <span class='highlight-bias highlight-bias-center'>lambasting</span> Brennan. As well as by the Republican president's directives to his Department of Justice to initiate investigations of Brennan \"without regard to factual or legal justification.\"\n\n\"To fully consider those motions, the reviewing judge would need to scrutinize the motivations of the Justice Department officials who directed, oversaw, or undertook those actions to determine whether they violated Director Brennan's rights, and specifically whether they were motivated by a desire to vindictively prosecute him as an act of retribution,\" Brennan's lawyers wrote in the lawsuit filed in federal court in Washington.\n\nWithout an order, the lawsuit contends, the records are at risk of being lost or intentionally deleted.\n\nREAD MORE: AP sources: Witnesses subpoenaed to testify before D.C. grand jury in John Brennan investigation\n\nThe lawsuit amounts to a preemptive strike of sorts on months-long investigations into Brennan and other <span class='highlight-bias highlight-bias-center'>perceived</span> adversaries of the president, and represents another effort by Brennan's legal team to sound the alarm on inquiries they believe are part of a pattern of politically motivated probes driven by the White House. It asserts that Brennan is being targeted in a <span class='highlight-bias highlight-bias-center'>vindictive</span> and selective prosecution arising from Trump's \"obsession with <span class='highlight-bias highlight-bias-center'>punishing</span> him for his lawful conduct as CIA Director and for his constitutionally protected criticism of the President and the President's policies.\n\n\"That is the reason he is being singled out for investigation of concocted theories of criminal activity, and that will be the dominant reason for any criminal charges resulting from that investigation. That is also why Director Brennan will have an extremely strong basis to challenge those charges as the product of <span class='highlight-bias highlight-bias-center'>vindictive</span> and selective prosecution,\" the lawsuit says.\n\nInvestigators based in Florida are examining whether he made a false statement to Congress in 2023 related to an assessment by intelligence agencies documenting Russian interference in the 2016 presidential election, when Trump defeated Democrat Hillary Clinton. The other investigation aims to determine whether former law enforcement and intelligence officials conspired to <span class='highlight-bias highlight-bias-center'>undermine</span> Trump, including during the course of the Russian interference investigation.\n\nBrennan has denied any wrongdoing.\n\nThe complaint seeks a court order requiring the preservation of all government records relevant to the investigations, including emails, calendar entries and communications \u2014 whether public or private \u2014 from Trump or other White House officials about the inquiries and efforts to advance them.\n\nWATCH: Watch our full exit interview with CIA Director John Brennan\n\n\"Given these strong indicia of <span class='highlight-bias highlight-bias-center'>vindictiveness</span>, Director Brennan expects that he will forcefully challenge any eventual indictment as the product of an unconstitutionally <span class='highlight-bias highlight-bias-center'>vindictive</span> and selective prosecution,\" the lawsuit says, adding that the judge presiding over any criminal case would look to those records for a glimpse of the government's motives.\n\n\"Given the government's questionable recent history with respect to its record preservation and other legal obligations, however, Director Brennan has a well-founded concern that those records and communications will not be preserved until such time as the court can review them for evidence of unconstitutional <span class='highlight-bias highlight-bias-center'>vindictiveness</span>,\" Brennan's lawyers wrote.\n\nThe lawsuit names as defendants Trump and other top officials from his administration, including acting Attorney General Todd Blanche, FBI Director Kash Patel, White House chief of staff Susie Wiles and CIA Director John Ratcliffe.\n\nOther defendants include Jason Reding Qui\u00f1ones, the U.S. attorney for the Southern District of Florida, and Joe diGenova, a Reagan administration prosecutor who returned to the Justice Department in April to serve as a special counselor to the attorney general and help oversee the investigations.\n\nBrennan's lawyer, Ken Wainstein, wrote in December to the chief judge of the federal court in Florida asking that the Justice Department be prevented from steering the investigations to a \"favored\" Trump administration judge, Aileen Cannon, who in 2024 dismissed the classified documents prosecution against Trump.\n\nAsked about Brennan's lawsuit, Justice Department spokeswoman Emily Covington said, \"While we cannot comment on the existence, or lack thereof, of an investigation, it is certainly rich that John Brennan is accusing anyone of a 'retribution campaign.'\"\n\nAssociated Press writer Alanna Durkin Richer in Washington contributed to this report.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 50
     }
   },
   {
