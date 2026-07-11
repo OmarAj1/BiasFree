@@ -205,7 +205,7 @@
     }
   },
   {
-    "id": 8610970,
+    "id": 3659163,
     "date": "2026-07-11",
     "topic": "Iran Strait Admits Mistake Shooting Ships",
     "match_score": 0.6,
@@ -244,7 +244,7 @@
     }
   },
   {
-    "id": 6106698,
+    "id": 6722404,
     "date": "2026-07-11",
     "topic": "Trump Left Instructions Iran Killed Bomb",
     "match_score": 0.6,
@@ -260,7 +260,7 @@
       "right-center": {
         "title": "Trump says he left instructions to 'bomb' Iran 'at levels' never seen if he is assassinated",
         "url": "https://www.foxnews.com/politics/trump-left-instructions-bomb-iran-levels-never-seen-assassinated",
-        "source": "Fox News Latest",
+        "source": "Fox News Politics",
         "bias": "right-center",
         "priority": 2
       },
@@ -323,11 +323,50 @@
     }
   },
   {
-    "id": 2614367,
+    "id": 3273855,
+    "date": "2026-07-11",
+    "topic": "Crews Troubled Reflecting Pool Trumps Draining",
+    "match_score": 0.6,
+    "cluster_size": 4,
+    "articles": {
+      "left": {
+        "title": "Crews again drain Trump\u2019s troubled reflecting pool",
+        "url": "https://www.theguardian.com/us-news/2026/jul/10/washington-reflecting-pool-trump",
+        "source": "The Guardian (World)",
+        "bias": "left",
+        "priority": 1
+      },
+      "left-center": {
+        "title": "Crews draining the Lincoln Memorial Reflecting Pool again as part of troubled revamp",
+        "url": "https://abcnews.com/Politics/wireStory/crews-draining-lincoln-memorial-reflecting-pool-part-trumps-134656303",
+        "source": "ABC News",
+        "bias": "left-center",
+        "priority": 10
+      },
+      "center": {
+        "title": "Crews are draining the Lincoln Memorial Reflecting Pool again as part of Trump's troubled revamp",
+        "url": "https://www.pbs.org/newshour/politics/crews-are-draining-the-lincoln-memorial-reflecting-pool-again-as-part-of-trumps-troubled-revamp",
+        "source": "PBS",
+        "bias": "center",
+        "priority": 4
+      }
+    },
+    "farLeftText": "Crews were observed Friday draining the plagued Lincoln Memorial reflecting pool, a landmark at the heart of Donald Trump\u2019s mission to beautify Washington DC.\n\nInterior secretary Doug Burgum, whose agency oversees the National Park Service, told conservative podcaster Katie Miller in an interview released earlier this week that the new round of draining was planned. He also said that the water might still contain debris from an extensive Independence Day fireworks display over the National Mall.\n\n\u201cDrain the water, clean up the fireworks stuff,\u201d Burgum told Miller, who is the wife of deputy White House chief of staff Stephen Miller. \u201cRepair the vandalism that was done. Fill it back up again.\u201d\n\nEarly into his second term, Trump set his gaze on the 104-year-old pool on the National Mall, describing it as \u201cfilthy dirty\u201d and suggesting his predecessor Joe Biden\u2019s administration failed to maintain the site.\n\nHe has sought to make the pool a symbol of American patriotism by having the liner coating the bottom of the structure reflect the hue of the US flag.\n\nThe renovation has come under fire for its mounting price tag \u2013 as of June, the estimated cost was over $16m \u2013 as the project was hindered by algae blooms that turned the pool green-ish and peeling blue liner.\n\nThe Trump administration has blamed the pool\u2019s woes on \u201cvandals\u201d. Several people have been arrested related to the unsubstantiated claims, including a former Olympic cyclist David Hearn, who pleaded not guilty to a felony charge of property destruction. Hearn has said he reached inside the pool to examine the peeled sealant and let go of a chunk when he was told to by a park worker.\n\n\u201cThis indictment reflects the administration\u2019s effort to shift blame for their own failures,\u201d Hearn\u2019s lawyers said in a statement reported by the Associated Press. \u201cThe justice system exists to determine facts, not to provide political cover.\u201d\n\nThe overhaul also has been scrutinized after reports emerged that some contractors selected had long ties to Trump, with critics <span class='highlight-bias highlight-bias-left'>decrying</span> nepotism.\n\nThe work on the reflecting pool is just one of a number of projects Trump has spearheaded across the nation\u2019s capital. Most prominently, he demolished the White House\u2019s East Wing to build a $400m ballroom and plans to build a towering arch between the Lincoln Memorial and Arlington national cemetery.\n\nWhen Trump initially announced his intentions to beautify the reflecting pool this spring, he said he wanted it completed before the nation\u2019s 250th birthday celebrations.\n\nWater was drained and Trump directed that the bottom be painted what he called \u201cAmerican flag blue\u201d. In May, the president posted on his social media site of the pool: \u201cThe goal is to have it done, at this higher level, prior to July 4th \u2013 We are ahead of schedule!\u201d\n\nBut problems began quickly after the initial work was finished. Trump blamed vandals, and court documents later showed that the National Park Service reported to tpolice a 9 June incident in which a sharp knife or razor cut the pool\u2019s new liner.\n\nThe pool was closed for the Independence Day celebration, which featured what Trump said was the largest fireworks display in the world. The president had said that the pool would have to be drained anew as part of the new round of repairs.\n\nBurgum has also said that the Trump administration won\u2019t seek bids for the new rounds of repairs. He told CNN\u2019s State of the Union last weekend: \u201cWe\u2019ll use the same company because they did a fantastic job.\u201d\n\nOhio-based Green Water Solutions, also known as Greenwater Services, was given a $1.7m contract to install a water-purification system in the reflecting pool, while Virginia-based Atlantic Industrial Coatings was awarded $14.7m to repaint and waterproof the pool\u2019s concrete floor.\n\nDemocratic senators and House members are investigating the pool project, including seeking answers about how much taxpayer funding is involved.\n\nAssociated Press contributed reporting",
+    "centerLeftText": "Crews are draining the Lincoln Memorial's Reflecting Pool again as President Donald Trump's problem-plagued effort to renovate the site pushes past his initial July 4 deadline\n\nNational Park Service workers stand near a pump placed next to the Lincoln Memorial Reflecting Pool, Friday, July 10, 2026, in Washington. (AP Photo/Mark Schiefelbein)\n\nNational Park Service workers stand near a pump placed next to the Lincoln Memorial Reflecting Pool, Friday, July 10, 2026, in Washington. (AP Photo/Mark Schiefelbein)\n\nNational Park Service workers stand near a pump placed next to the Lincoln Memorial Reflecting Pool, Friday, July 10, 2026, in Washington. (AP Photo/Mark Schiefelbein)\n\nNational Park Service workers stand near a pump placed next to the Lincoln Memorial Reflecting Pool, Friday, July 10, 2026, in Washington. (AP Photo/Mark Schiefelbein)\n\nWASHINGTON -- Crews are again draining the Lincoln Memorial Reflecting Pool as President Donald Trump\u2019s problem-plagued efforts to revamp the waterway pushes well past his initial goal of having it ready by July 4 to mark the nation\u2019s 250th birthday.\n\nThe president at first suggested his renovations would last a century. But, within weeks of the project originally reaching completion last month, the water was beset by an algae bloom and pieces of the new coating appeared to be peeling off the bottom.\n\nTrump has blamed the peeling on vandals, though critics allege it's from shoddy repair work.\n\nInterior Secretary Doug Burgum, whose agency oversees the National Park Service, told conservative podcaster Katie Miller in an interview released earlier this week that the new round of draining was planned. He also said that the water might still contain debris from an extensive Independence Day fireworks display over the National Mall.\n\n\u201cDrain the water, clean up the fireworks stuff,\u201d Burgum told Miller, who is the wife of deputy White House chief of staff Stephen Miller. \u201cRepair the vandalism that was done. Fill it back up again.\u201d\n\nThe work on the Reflecting Pool is just one of a number of projects Trump has spearheaded across the nation's capital. Most prominently, he demolished the White House\u2019s East Wing to build a $400 million ballroom and plans to build a towering arch between the Lincoln Memorial and Arlington National Cemetery.\n\nHe initially announced his intentions to beautify the Reflecting Pool this spring, saying he wanted it completed before the nation\u2019s 250th birthday celebrations.\n\nWater was drained and Trump directed that the bottom be painted what he called \u201cAmerican flag blue.\u201d In May, the president posted on his social media site of the pool: \u201cThe goal is to have it done, at this higher level, prior to July 4th \u2014 We are ahead of schedule!\u201d\n\nBut problems began quickly after the initial work was finished. Trump blamed vandals, and court documents later showed that the National Park Service reported to the U.S. Park Police a June 9 incident in which a sharp knife or razor cut the pool\u2019s new liner.\n\nOn Thursday, former Olympic canoe racer David Hearn pleaded not guilty in D.C. Superior Court to deliberately damaging the Reflecting Pool. Hearn has said he reached inside the pool to examine the peeled sealant and let go of a chunk when he was told to by a park worker.\n\nHis attorneys and other Trump administration critics have <span class='highlight-bias highlight-bias-left'>derided</span> the case as an abuse of prosecutorial power and maintain he is being scapegoated for the poor job done fixing up the Reflecting Pool.\n\nAt least three other people have been charged in the same court with misdemeanors for allegedly removing pieces of paint from the Reflecting Pool, according to online court records. All three pleaded not guilty during their initial court appearances Wednesday.\n\nThe pool was closed for the Independence Day celebration, which featured what Trump said was the largest fireworks display in the world. The president had said that the pool would have to be drained anew as part of the new round of repairs.\n\nBurgum has also said that the Trump administration won't seek bids for the new rounds of repairs. He told CNN's \u201cState of the Union\u201d last weekend: \u201cWe\u2019ll use the same company because they did a fantastic job.\"\n\nOhio-based Green Water Solutions, also known as Greenwater Services, was given a $1.7 million contract to install a water-purification system in the Reflecting Pool, while Virginia-based Atlantic Industrial Coatings was awarded $14.7 million to repaint and waterproof the pool\u2019s concrete floor.\n\nDemocratic senators and House members are investigating the pool project, including seeking answers about how much taxpayer funding is involved.",
+    "centerText": "WASHINGTON (AP) \u2014 Crews are again draining the Lincoln Memorial Reflecting Pool as President Donald Trump's problem-plagued efforts to revamp the waterway pushes well past his initial goal of having it ready by July 4 to mark the nation's 250th birthday.\n\nThe president at first suggested his renovations would last a century. But, within weeks of the project originally reaching completion last month, the water was beset by an algae bloom and pieces of the new coating appeared to be peeling off the bottom.\n\nTrump has blamed the peeling on vandals, though critics allege it's from shoddy repair work.\n\nREAD MORE: Former Olympic canoe racer pleads not guilty in Reflecting Pool damage case\n\nInterior Secretary Doug Burgum, whose agency oversees the National Park Service, told conservative podcaster Katie Miller in an interview released earlier this week that the new round of draining was planned. He also said that the water might still contain debris from an extensive Independence Day fireworks display over the National Mall.\n\n\"Drain the water, clean up the fireworks stuff,\" Burgum told Miller, who is the wife of deputy White House chief of staff Stephen Miller. \"Repair the vandalism that was done. Fill it back up again.\"\n\nThe work on the Reflecting Pool is just one of a number of projects Trump has spearheaded across the nation's capital. Most prominently, he demolished the White House's East Wing to build a $400 million ballroom and plans to build a towering arch between the Lincoln Memorial and Arlington National Cemetery.\n\nHe initially announced his intentions to beautify the Reflecting Pool this spring, saying he wanted it completed before the nation's 250th birthday celebrations.\n\nWater was drained and Trump directed that the bottom be painted what he called \"American flag blue.\" In May, the president posted on his social media site of the pool: \"The goal is to have it done, at this higher level, prior to July 4th \u2014 We are ahead of schedule!\"\n\nREAD MORE: Trump's administration won't seek new bids to repair the Reflecting Pool\n\nBut problems began quickly after the initial work was finished. Trump blamed vandals, and court documents later showed that the National Park Service reported to the U.S. Park Police a June 9 incident in which a sharp knife or razor cut the pool's new liner.\n\nOn Thursday, former Olympic canoe racer David Hearn pleaded not guilty in D.C. Superior Court to deliberately damaging the Reflecting Pool. Hearn has said he reached inside the pool to examine the peeled sealant and let go of a chunk when he was told to by a park worker.\n\nHis attorneys and other Trump administration critics have <span class='highlight-bias highlight-bias-center'>derided</span> the case as an abuse of prosecutorial power and maintain he is being scapegoated for the poor job done fixing up the Reflecting Pool.\n\nAt least three other people have been charged in the same court with misdemeanors for allegedly removing pieces of paint from the Reflecting Pool, according to online court records. All three pleaded not guilty during their initial court appearances Wednesday.\n\nREAD MORE: Was the Reflecting Pool vandalized? Experts cast doubt on Trump's claims\n\nThe pool was closed for the Independence Day celebration, which featured what Trump said was the largest fireworks display in the world. The president had said that the pool would have to be drained anew as part of the new round of repairs.\n\nBurgum has also said that the Trump administration won't seek bids for the new rounds of repairs. He told CNN's \"State of the Union\" last weekend: \"We'll use the same company because they did a fantastic job.\"\n\nOhio-based Green Water Solutions, also known as Greenwater Services, was given a $1.7 million contract to install a water-purification system in the Reflecting Pool, while Virginia-based Atlantic Industrial Coatings was awarded $14.7 million to repaint and waterproof the pool's concrete floor.\n\nDemocratic senators and House members are investigating the pool project, including seeking answers about how much taxpayer funding is involved.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 25,
+      "left-center": 4
+    }
+  },
+  {
+    "id": 6955637,
     "date": "2026-07-11",
     "topic": "Ceasefire Iran Trump Crumbles Talks Continue",
     "match_score": 0.6,
-    "cluster_size": 4,
+    "cluster_size": 3,
     "articles": {
       "left": {
         "title": "Another Trump Ceasefire With Iran Crumbles",
@@ -360,45 +399,6 @@
       "left": 50,
       "left-center": 50,
       "right": 50
-    }
-  },
-  {
-    "id": 9062595,
-    "date": "2026-07-11",
-    "topic": "Crews Troubled Reflecting Pool Trumps Draining",
-    "match_score": 0.6,
-    "cluster_size": 4,
-    "articles": {
-      "left": {
-        "title": "Crews again drain Trump\u2019s troubled reflecting pool",
-        "url": "https://www.theguardian.com/us-news/2026/jul/10/washington-reflecting-pool-trump",
-        "source": "The Guardian (US)",
-        "bias": "left",
-        "priority": 1
-      },
-      "left-center": {
-        "title": "Crews draining the Lincoln Memorial Reflecting Pool again as part of troubled revamp",
-        "url": "https://abcnews.com/Politics/wireStory/crews-draining-lincoln-memorial-reflecting-pool-part-trumps-134656303",
-        "source": "ABC News",
-        "bias": "left-center",
-        "priority": 10
-      },
-      "center": {
-        "title": "Crews are draining the Lincoln Memorial Reflecting Pool again as part of Trump's troubled revamp",
-        "url": "https://www.pbs.org/newshour/politics/crews-are-draining-the-lincoln-memorial-reflecting-pool-again-as-part-of-trumps-troubled-revamp",
-        "source": "PBS",
-        "bias": "center",
-        "priority": 4
-      }
-    },
-    "farLeftText": "Crews were observed Friday draining the plagued Lincoln Memorial reflecting pool, a landmark at the heart of Donald Trump\u2019s mission to beautify Washington DC.\n\nInterior secretary Doug Burgum, whose agency oversees the National Park Service, told conservative podcaster Katie Miller in an interview released earlier this week that the new round of draining was planned. He also said that the water might still contain debris from an extensive Independence Day fireworks display over the National Mall.\n\n\u201cDrain the water, clean up the fireworks stuff,\u201d Burgum told Miller, who is the wife of deputy White House chief of staff Stephen Miller. \u201cRepair the vandalism that was done. Fill it back up again.\u201d\n\nEarly into his second term, Trump set his gaze on the 104-year-old pool on the National Mall, describing it as \u201cfilthy dirty\u201d and suggesting his predecessor Joe Biden\u2019s administration failed to maintain the site.\n\nHe has sought to make the pool a symbol of American patriotism by having the liner coating the bottom of the structure reflect the hue of the US flag.\n\nThe renovation has come under fire for its mounting price tag \u2013 as of June, the estimated cost was over $16m \u2013 as the project was hindered by algae blooms that turned the pool green-ish and peeling blue liner.\n\nThe Trump administration has blamed the pool\u2019s woes on \u201cvandals\u201d. Several people have been arrested related to the unsubstantiated claims, including a former Olympic cyclist David Hearn, who pleaded not guilty to a felony charge of property destruction. Hearn has said he reached inside the pool to examine the peeled sealant and let go of a chunk when he was told to by a park worker.\n\n\u201cThis indictment reflects the administration\u2019s effort to shift blame for their own failures,\u201d Hearn\u2019s lawyers said in a statement reported by the Associated Press. \u201cThe justice system exists to determine facts, not to provide political cover.\u201d\n\nThe overhaul also has been scrutinized after reports emerged that some contractors selected had long ties to Trump, with critics <span class='highlight-bias highlight-bias-left'>decrying</span> nepotism.\n\nThe work on the reflecting pool is just one of a number of projects Trump has spearheaded across the nation\u2019s capital. Most prominently, he demolished the White House\u2019s East Wing to build a $400m ballroom and plans to build a towering arch between the Lincoln Memorial and Arlington national cemetery.\n\nWhen Trump initially announced his intentions to beautify the reflecting pool this spring, he said he wanted it completed before the nation\u2019s 250th birthday celebrations.\n\nWater was drained and Trump directed that the bottom be painted what he called \u201cAmerican flag blue\u201d. In May, the president posted on his social media site of the pool: \u201cThe goal is to have it done, at this higher level, prior to July 4th \u2013 We are ahead of schedule!\u201d\n\nBut problems began quickly after the initial work was finished. Trump blamed vandals, and court documents later showed that the National Park Service reported to tpolice a 9 June incident in which a sharp knife or razor cut the pool\u2019s new liner.\n\nThe pool was closed for the Independence Day celebration, which featured what Trump said was the largest fireworks display in the world. The president had said that the pool would have to be drained anew as part of the new round of repairs.\n\nBurgum has also said that the Trump administration won\u2019t seek bids for the new rounds of repairs. He told CNN\u2019s State of the Union last weekend: \u201cWe\u2019ll use the same company because they did a fantastic job.\u201d\n\nOhio-based Green Water Solutions, also known as Greenwater Services, was given a $1.7m contract to install a water-purification system in the reflecting pool, while Virginia-based Atlantic Industrial Coatings was awarded $14.7m to repaint and waterproof the pool\u2019s concrete floor.\n\nDemocratic senators and House members are investigating the pool project, including seeking answers about how much taxpayer funding is involved.\n\nAssociated Press contributed reporting",
-    "centerLeftText": "Crews are draining the Lincoln Memorial's Reflecting Pool again as President Donald Trump's problem-plagued effort to renovate the site pushes past his initial July 4 deadline\n\nNational Park Service workers stand near a pump placed next to the Lincoln Memorial Reflecting Pool, Friday, July 10, 2026, in Washington. (AP Photo/Mark Schiefelbein)\n\nNational Park Service workers stand near a pump placed next to the Lincoln Memorial Reflecting Pool, Friday, July 10, 2026, in Washington. (AP Photo/Mark Schiefelbein)\n\nNational Park Service workers stand near a pump placed next to the Lincoln Memorial Reflecting Pool, Friday, July 10, 2026, in Washington. (AP Photo/Mark Schiefelbein)\n\nNational Park Service workers stand near a pump placed next to the Lincoln Memorial Reflecting Pool, Friday, July 10, 2026, in Washington. (AP Photo/Mark Schiefelbein)\n\nWASHINGTON -- Crews are again draining the Lincoln Memorial Reflecting Pool as President Donald Trump\u2019s problem-plagued efforts to revamp the waterway pushes well past his initial goal of having it ready by July 4 to mark the nation\u2019s 250th birthday.\n\nThe president at first suggested his renovations would last a century. But, within weeks of the project originally reaching completion last month, the water was beset by an algae bloom and pieces of the new coating appeared to be peeling off the bottom.\n\nTrump has blamed the peeling on vandals, though critics allege it's from shoddy repair work.\n\nInterior Secretary Doug Burgum, whose agency oversees the National Park Service, told conservative podcaster Katie Miller in an interview released earlier this week that the new round of draining was planned. He also said that the water might still contain debris from an extensive Independence Day fireworks display over the National Mall.\n\n\u201cDrain the water, clean up the fireworks stuff,\u201d Burgum told Miller, who is the wife of deputy White House chief of staff Stephen Miller. \u201cRepair the vandalism that was done. Fill it back up again.\u201d\n\nThe work on the Reflecting Pool is just one of a number of projects Trump has spearheaded across the nation's capital. Most prominently, he demolished the White House\u2019s East Wing to build a $400 million ballroom and plans to build a towering arch between the Lincoln Memorial and Arlington National Cemetery.\n\nHe initially announced his intentions to beautify the Reflecting Pool this spring, saying he wanted it completed before the nation\u2019s 250th birthday celebrations.\n\nWater was drained and Trump directed that the bottom be painted what he called \u201cAmerican flag blue.\u201d In May, the president posted on his social media site of the pool: \u201cThe goal is to have it done, at this higher level, prior to July 4th \u2014 We are ahead of schedule!\u201d\n\nBut problems began quickly after the initial work was finished. Trump blamed vandals, and court documents later showed that the National Park Service reported to the U.S. Park Police a June 9 incident in which a sharp knife or razor cut the pool\u2019s new liner.\n\nOn Thursday, former Olympic canoe racer David Hearn pleaded not guilty in D.C. Superior Court to deliberately damaging the Reflecting Pool. Hearn has said he reached inside the pool to examine the peeled sealant and let go of a chunk when he was told to by a park worker.\n\nHis attorneys and other Trump administration critics have <span class='highlight-bias highlight-bias-left'>derided</span> the case as an abuse of prosecutorial power and maintain he is being scapegoated for the poor job done fixing up the Reflecting Pool.\n\nAt least three other people have been charged in the same court with misdemeanors for allegedly removing pieces of paint from the Reflecting Pool, according to online court records. All three pleaded not guilty during their initial court appearances Wednesday.\n\nThe pool was closed for the Independence Day celebration, which featured what Trump said was the largest fireworks display in the world. The president had said that the pool would have to be drained anew as part of the new round of repairs.\n\nBurgum has also said that the Trump administration won't seek bids for the new rounds of repairs. He told CNN's \u201cState of the Union\u201d last weekend: \u201cWe\u2019ll use the same company because they did a fantastic job.\"\n\nOhio-based Green Water Solutions, also known as Greenwater Services, was given a $1.7 million contract to install a water-purification system in the Reflecting Pool, while Virginia-based Atlantic Industrial Coatings was awarded $14.7 million to repaint and waterproof the pool\u2019s concrete floor.\n\nDemocratic senators and House members are investigating the pool project, including seeking answers about how much taxpayer funding is involved.",
-    "centerText": "WASHINGTON (AP) \u2014 Crews are again draining the Lincoln Memorial Reflecting Pool as President Donald Trump's problem-plagued efforts to revamp the waterway pushes well past his initial goal of having it ready by July 4 to mark the nation's 250th birthday.\n\nThe president at first suggested his renovations would last a century. But, within weeks of the project originally reaching completion last month, the water was beset by an algae bloom and pieces of the new coating appeared to be peeling off the bottom.\n\nTrump has blamed the peeling on vandals, though critics allege it's from shoddy repair work.\n\nREAD MORE: Former Olympic canoe racer pleads not guilty in Reflecting Pool damage case\n\nInterior Secretary Doug Burgum, whose agency oversees the National Park Service, told conservative podcaster Katie Miller in an interview released earlier this week that the new round of draining was planned. He also said that the water might still contain debris from an extensive Independence Day fireworks display over the National Mall.\n\n\"Drain the water, clean up the fireworks stuff,\" Burgum told Miller, who is the wife of deputy White House chief of staff Stephen Miller. \"Repair the vandalism that was done. Fill it back up again.\"\n\nThe work on the Reflecting Pool is just one of a number of projects Trump has spearheaded across the nation's capital. Most prominently, he demolished the White House's East Wing to build a $400 million ballroom and plans to build a towering arch between the Lincoln Memorial and Arlington National Cemetery.\n\nHe initially announced his intentions to beautify the Reflecting Pool this spring, saying he wanted it completed before the nation's 250th birthday celebrations.\n\nWater was drained and Trump directed that the bottom be painted what he called \"American flag blue.\" In May, the president posted on his social media site of the pool: \"The goal is to have it done, at this higher level, prior to July 4th \u2014 We are ahead of schedule!\"\n\nREAD MORE: Trump's administration won't seek new bids to repair the Reflecting Pool\n\nBut problems began quickly after the initial work was finished. Trump blamed vandals, and court documents later showed that the National Park Service reported to the U.S. Park Police a June 9 incident in which a sharp knife or razor cut the pool's new liner.\n\nOn Thursday, former Olympic canoe racer David Hearn pleaded not guilty in D.C. Superior Court to deliberately damaging the Reflecting Pool. Hearn has said he reached inside the pool to examine the peeled sealant and let go of a chunk when he was told to by a park worker.\n\nHis attorneys and other Trump administration critics have <span class='highlight-bias highlight-bias-center'>derided</span> the case as an abuse of prosecutorial power and maintain he is being scapegoated for the poor job done fixing up the Reflecting Pool.\n\nAt least three other people have been charged in the same court with misdemeanors for allegedly removing pieces of paint from the Reflecting Pool, according to online court records. All three pleaded not guilty during their initial court appearances Wednesday.\n\nREAD MORE: Was the Reflecting Pool vandalized? Experts cast doubt on Trump's claims\n\nThe pool was closed for the Independence Day celebration, which featured what Trump said was the largest fireworks display in the world. The president had said that the pool would have to be drained anew as part of the new round of repairs.\n\nBurgum has also said that the Trump administration won't seek bids for the new rounds of repairs. He told CNN's \"State of the Union\" last weekend: \"We'll use the same company because they did a fantastic job.\"\n\nOhio-based Green Water Solutions, also known as Greenwater Services, was given a $1.7 million contract to install a water-purification system in the Reflecting Pool, while Virginia-based Atlantic Industrial Coatings was awarded $14.7 million to repaint and waterproof the pool's concrete floor.\n\nDemocratic senators and House members are investigating the pool project, including seeking answers about how much taxpayer funding is involved.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 25,
-      "left-center": 4
     }
   },
   {
@@ -480,7 +480,7 @@
     }
   },
   {
-    "id": 7740931,
+    "id": 1081436,
     "date": "2026-07-11",
     "topic": "Adebayo Tyler Herro Involved Reportedly Physical",
     "match_score": 0.6,
@@ -519,7 +519,47 @@
     }
   },
   {
-    "id": 591639,
+    "id": 6735272,
+    "date": "2026-07-11",
+    "topic": "Bridge Open July Gordie Howe Canada",
+    "match_score": 0.6,
+    "cluster_size": 3,
+    "articles": {
+      "left-center": {
+        "title": "Gordie Howe Bridge connecting Detroit, Canada expected to open in late July",
+        "url": "https://www.cbsnews.com/news/gordie-howe-bridge-detroit-canada-opening-deal/",
+        "source": "CBS News",
+        "bias": "left-center",
+        "priority": 8
+      },
+      "right-center": {
+        "title": "US, Canada strike deal on tolls to let new Gordie Howe bridge open on July 27",
+        "url": "https://nypost.com/2026/07/11/us-news/us-canada-strike-deal-on-tolls-to-let-new-bridge-open-on-july-27/",
+        "source": "New York Post",
+        "bias": "right-center",
+        "priority": 3
+      },
+      "right": {
+        "title": "US-Canada Bridge Set to Open by Late July After 2 Nations Clashed",
+        "url": "https://www.newsmax.com/politics/Canada-US-bridge-Trump/2026/07/10/id/1262457",
+        "source": "Newsmax",
+        "bias": "right",
+        "priority": 5
+      }
+    },
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "A completed bridge linking Detroit and Canada is expected to open on July 27 after U.S. and Canadian officials reached an agreement to resolve the dispute that delayed its debut, according to Canadian officials.\n\nA spokesperson for Housing, Infrastructure and Communities Canada confirmed to CBS News Detroit the bridge's opening date.\n\nA ribbon-cutting ceremony scheduled for early June was postponed after the Windsor-Detroit Bridge Authority said the two countries needed more time to resolve \"outstanding issues.\" The delay followed President Trump's earlier threats to block the bridge's opening.\n\nCommercial traffic is now expected to begin on July 27, according to officials, though a date for the official ribbon-cutting ceremony has not yet been set.\n\n\"Today, Canada and Michigan have agreed to open the Gordie Howe International Bridge on July 27, with the support of the United States Government,\" a spokesperson for Housing, Infrastructure and Communities Canada said. \"The bridge will be a major economic driver in the region and will also provide options for commuters, tourists, and businesses.\"\n\nRepublican U.S. Senate candidate Mike Rogers referenced the deal during an interview Friday.\n\n\"I had a conversation with the secretary yesterday, Secretary of Commerce Lutnick, and the deal will be announced in the next few days,\" Republican Senate candidate Mike Rogers said Friday on WJR radio. \"This is getting wrapped up. That bridge is going to get open.\"\n\nThe delay in opening the Gordie Howe International Bridge became an issue in one of the country's most closely watched Senate races. Democratic candidate Mallory McMorrow, who has since dropped out, tried to turn the controversy into a political liability for Mr. Trump and Republicans.\n\nThe 1.5-mile-long bridge, which spans the Detroit River and connects the Motor City with Windsor, Ontario, was slated for a ribbon-cutting ceremony on June 12. It was abruptly postponed after officials said the U.S. and Canada were still working to resolve \"outstanding issues.\"\n\nThe dispute gave Democrats a rare opportunity to tie Mr. Trump directly to a project with visible economic consequences in a battleground state.\n\nIn February, Mr. Trump demanded in a social media post that Canada hand over at least half ownership of the new bridge to the U.S. government and accept other unspecified demands, part of his broader clashes with Canada over trade.\n\nCanada financed the bridge's construction. The project was negotiated by Rick Snyder, the former Republican governor of Michigan, and work has been underway since 2018. The cost has been close to $4.4 billion.\n\nNamed after the late Canadian hockey great Gordie Howe, who spent 25 seasons leading the Detroit Red Wings, the bridge is expected to be another vital economic artery between Canada and the United States.\n\nThe toll bridge, jointly owned by Canada and Michigan, charges up to $10 per automobile and $20 per axle for commercial trucks. It is expected to help ease congestion at the existing Ambassador Bridge and the Detroit-Windsor tunnel. Work has been underway since 2018.\n\nDetroit and Windsor have been neighborly for generations, with residents in both countries frequently crossing the shared river border for entertainment and shopping. Windsor's population in 2021 was about 230,000. Like Detroit, the Canadian city's economy has a strong focus on manufacturing and the auto industry.\n\n\"The Gordie Howe International Bridge has always been a great deal for our state,\" said Michigan Gov. Gretchen Whitmer. \"Thousands of Michigan workers built this critical bridge, which will speed up auto production, lower costs, ease traffic, strengthen agriculture, and give people on both sides of the border better-paying jobs and brighter futures. I'm proud to have fought for its opening and congratulate my partners who have worked on this issue alongside me for years.\"\n\nCommercial trade between the two cities has primarily been across the nearly century-old, privately owned Ambassador Bridge, which is closer to downtown Detroit than the Gordie Howe Bridge.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "See more of our coverage in your search results.\n\nA new $4.7 billion bridge connecting Detroit and Windsor, \u200bOntario, which President Donald Trump threatened to block, is set to open on July 27 after the US and Canada struck \u200ca deal on toll revenue, the Canadian government said late on Friday.\n\nThe Gordie Howe International Bridge had been set to open in June.\n\nIn February, Trump cited financial concerns and threatened to block the bridge named after the legendary Detroit Red Wings hockey player.\n\n4 The Gordie Howe International Bridge connecting Detroit, Michigan, and Ontario, Canada. REUTERS\n\nCanada said it struck a deal with the US government on \u201ca series of cooperative measures focused on toll \u200bgovernance and transparency, as well as investments in the region, including through the establishment of a 15-year economic development fund tied to a \u200bportion of profits from bridge operations.\u201d\n\nPresident Trump said on Saturday he had secured a \u201cmuch better deal\u201d for the United \u2060States, allowing the opening of the bridge to proceed.\n\n\u201cThe original deal made was <span class='highlight-bias highlight-bias-right'>unacceptable</span> to me,\u201d Trump said in a Truth Social post. \u201cThe new deal \u200bis great, and fair.\u201d\n\nMichigan Republican US Senate candidate Mike Rogers said earlier on WJR radio that US Commerce Secretary Howard Lutnick told him the administration reached \u200ba deal that will be announced in the coming days to allow the bridge to open soon.\n\nRogers said the US \u201cwent from getting no revenue\u201d to getting significant revenue. \u201cWe\u2019re going to get the bridge open and we\u2019re going to get a much better deal,\u201d Rogers said.\n\n4 President Trump said on Saturday he had secured a \u201cmuch better deal\u201d for the United \u2060States, allowing the opening of the bridge to proceed. Chris Allan/Shutterstock\n\nA source confirmed a deal had been reached and that the US would get 50% \u200bof toll revenue and be able to veto any toll hike that is 10% more than the current tolls.\n\nLutnick struck a deal after talks \u200bin recent weeks with Dominic LeBlanc, Canada\u2019s minister in charge of US trade, the source said.\n\nThe bridge has become an issue in Michigan\u2019s US Senate race as Trump\u2019s Republicans \u200ccampaign to \u2060hold their majority in that branch of Congress.\n\nA formal ribbon-cutting had been planned for mid-June.\n\nStart your day with all you need to know Morning Report delivers the latest news, videos, photos and more. Thanks for signing up! Enter your email address Please provide a valid email. By clicking above you agree to the Terms of Use and Privacy Policy. Never miss a story. Check out more newsletters\n\nCanadian Prime Minister Mark Carney said last month Canada agreed to delay the opening at the request of the Trump administration.\n\nIn February, Trump cited Canada\u2019s refusal to stock some US alcoholic beverages on Canadian store shelves, Canada\u2019s tariffs on dairy products and its trade talks with China as grounds for why he might not allow the bridge to open.\n\nMatthew Moroun, owner of the rival \u200bAmbassador Bridge that connects Detroit and Windsor, \u200bin February met with Lutnick \u2060after weeks earlier donating $1 million to a Trump-aligned political action committee.\n\n4 President Donald Trump looks on during an event in the Oval Office of the White House on June 26, 2026. Aaron Schwartz/POOL/EPA/Shutterstock\n\n4 Canadian Prime Minister Mark Carney speaks during a press conference in Saudi Arabia, on July 9, 2026. Adrian Wyld/The Canadian Press via AP\n\nThe Ambassador Bridge company, which did not respond to a request for comment, actively campaigned for years to block the new bridge.\n\nConstruction of the Gordie Howe bridge, which \u200bbegan in 2018, was financed by Canada because the US declined to pay for it.\n\nThe costs were \u200bto be covered by \u2060tolls over 30 years and it was not immediately clear how the split in revenue would affect the repayment schedule.\n\nThe new bridge will help ease truck traffic on the Ambassador Bridge into Detroit, the US-Canada border\u2019s largest freight port, which handled $126 billion in trade carried by commercial trucks in 2023.\n\nThe bridge will cut 20 \u2060minutes off the \u200bcrossing time, saving truckers $2.3 billion over 30 years, according to a University of Windsor study.\n\nTrump \u200bhas made a number of threats against Canada in his second term and sharply hiked tariffs on the US\u2019 northern neighbor.\n\nLast month, Trump said he might not renew a free trade \u200bdeal with Mexico and Canada.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left-center": 50,
+      "right-center": 50,
+      "right": 50
+    }
+  },
+  {
+    "id": 5728573,
     "date": "2026-07-11",
     "topic": "Trump Strikes Iran Threatens Crimesagain Negotiations",
     "match_score": 0.4,
@@ -535,7 +575,7 @@
       "left-center": {
         "title": "Trump Says Negotiations With Iran Will Continue as U.S. Ramps Up Strikes",
         "url": "https://www.nytimes.com/2026/07/10/us/politics/iran-war-escalation.html",
-        "source": "NYT US",
+        "source": "NYT World",
         "bias": "left-center",
         "priority": 7
       }
@@ -551,7 +591,7 @@
     }
   },
   {
-    "id": 4524431,
+    "id": 1421705,
     "date": "2026-07-11",
     "topic": "Randolph Mantooth Played Emergency Medic Nbcs",
     "match_score": 0.4,
@@ -580,37 +620,6 @@
     "omissions": {
       "left-center": 50,
       "right-center": 50
-    }
-  },
-  {
-    "id": 1731053,
-    "date": "2026-07-11",
-    "topic": "Nolan Wells Family Demands Answers Trip",
-    "match_score": 0.4,
-    "cluster_size": 3,
-    "articles": {
-      "left-center": {
-        "title": "Nolan Wells' family demands answers after he was found dead following a boat trip with friends",
-        "url": "https://www.cbsnews.com/video/nolan-wells-family-demands-answers-found-dead-following-boat-trip-friends/",
-        "source": "CBS News",
-        "bias": "left-center",
-        "priority": 8
-      },
-      "center": {
-        "title": "Nolan Wells' family demands answers about US teen's death after boating trip",
-        "url": "https://www.bbc.co.uk/news/articles/cx238gzzy74o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News World",
-        "bias": "center",
-        "priority": 2
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "Nolan Wells' family demands answers after he was found dead following a boat trip with friends A Mississippi family is demanding answers after the death of their 18-year-old son. Nolan Wells took a boat trip with friends to an island off the coast on the Fourth of July, but he never made it back home. His body was found a few days later.",
-    "centerText": "\"The family has distrust of the Mississippi law enforcement officials giving them a fair investigation where their black son ended up dead after going out on a boat with three young white men,\" Crump said during a press conference on Friday.\n\nThe emotionally charged event held in New York City was also attended by Al Sharpton and Wells' parents, Christine and Elmore Wonsley.\n\n\"We just want to know what happened and why our baby didn't come home. That's our biggest thing,\" Christine Wonsley said through tears.\n\n\"We just want an honest and thorough investigation.\"\n\nAn initial autopsy was carried out earlier this week, but the results have not been released. Dental records confirmed the body was Wells, Jackson County coroner Bruce Lynd told the BBC's US news partner CBS News.\n\nCrump has questioned what he says are conflicting reports about whether Wells was going to leave Horn Island with friends or whether he asked to stay behind, and said in a statement that Wells' family also \"have serious, unanswered questions about the circumstances that left Nolan alone on the island and about how he died\".\n\nThe Wells family said police initially suggested their son accidentally drowned, an assertion his mother Wonsley said made her \"<span class='highlight-bias highlight-bias-center'>uncomfortable</span>\".\n\n\"This is a kid who knew how to swim,\" Crump said.\n\nWonsley also said she was <span class='highlight-bias highlight-bias-center'>bothered</span> by the fact her son's cell phone and car keys returned from Horn Island in the possession of his friends, without her son.\n\nWonsley was the first to raise the alarm that her son, who played American football at Southwest Mississippi Community College and was described by his coach as a \"happy-go-lucky kid\", had gone missing after he did not return on the evening of 4 July.\n\nAuthorities discovered his body off the coast of the island on 6 July, following a search that included multiple local, state and federal agencies.\n\nNational Park Service described Horn Island as having \"no staff, drinking water, shelter, facilities, or communication\".\n\nChristine Wonsley and Nolan's father, Elmore Wonsley, told CBS Mornings that they don't believe their son would have decided to stay back on the island by himself.\n\n\"That's not in his character,\" said Elmore Wonsley.\n\nThe Jackson County Sheriff's Office has put out a press release \"asking anyone who was on or near Horn Island on July 4\" to contact the department and also requested any original, unedited photos and videos of \"alleged altercations\" or images of Wells.\n\nOn Friday, Al Sharpton said a funeral service for Wells was being arranged in Mississippi with the help of Hollywood filmmaker Tyler Perry.\n\nA GoFundMe created for the family has raised over $388,000 (\u00a3283,535).",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 90
     }
   },
   {
