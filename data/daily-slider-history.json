@@ -55,6 +55,61 @@
     }
   },
   {
+    "id": 8101239,
+    "date": "2026-07-11",
+    "topic": "Israeli Settlers Detained West Bank Armed",
+    "match_score": 1.0,
+    "cluster_size": 11,
+    "articles": {
+      "left": {
+        "title": "US congressman says he was detained by armed Israeli settlers in occupied West Bank",
+        "url": "https://www.theguardian.com/world/2026/jul/11/ro-khanna-congressman-detained-israel-settlers-west-bank",
+        "source": "The Guardian (World)",
+        "bias": "left",
+        "priority": 1
+      },
+      "left-center": {
+        "title": "An American Politician Is Blocked by Israeli Settlers in the West Bank",
+        "url": "https://www.nytimes.com/2026/07/11/us/politics/ro-khanna-west-bank.html",
+        "source": "NYT US",
+        "bias": "left-center",
+        "priority": 7
+      },
+      "center": {
+        "title": "US Democrat Ro Khanna says he was detained by armed Israeli settlers",
+        "url": "https://www.bbc.co.uk/news/articles/c0qyk9jwq9no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News World",
+        "bias": "center",
+        "priority": 2
+      },
+      "right-center": {
+        "title": "House Democrat Ro Khanna says he was detained by armed Israeli settlers in West Bank",
+        "url": "https://www.foxnews.com/politics/house-democrat-ro-khanna-detained-armed-israeli-settlers-west-bank",
+        "source": "Fox News Latest",
+        "bias": "right-center",
+        "priority": 2
+      },
+      "right": {
+        "title": "Khanna Says Israeli Settlers Detained Him in West Bank",
+        "url": "https://www.newsmax.com/politics/rokhanna-israel-westbank/2026/07/11/id/1262502",
+        "source": "Newsmax",
+        "bias": "right",
+        "priority": 5
+      }
+    },
+    "farLeftText": "The US congressman Ro Khanna says armed Israeli settlers detained him during a visit to the Israel-occupied West Bank recently, describing the experience as a first-hand view of the realities faced by Palestinians living under occupation.\n\nIn an interview with Reuters on Thursday from a Palestinian village, the progressive US House Democrat from California said his detention happened the previous day while his delegation visited an area of the southern West Bank that has experienced repeated attacks by Israeli settlers.\n\nKhanna recounted how settlers carrying US-made M4 rifles surrounded the group\u2019s van.\n\n\u201cWe were at a village that Israeli settlers had destroyed \u2013 they had destroyed the school, they had destroyed that village, and we were just looking at it,\u201d Khanna said.\n\nReferring to the Israel Defense Forces, which is funded in part by US military aid, Khanna continued: \u201cAnd these hoodlums \u2026 detain us. They block off the road. And then they call the IDF and the IDF is on their side, not on the side of the Americans.\u201d\n\nKhanna also told Reuters, \u201cI saw the <span class='highlight-bias highlight-bias-left'>arrogance</span> in the eyes of those settlers, 21- and 22-year-olds with guns, laughing that they had detained us, the <span class='highlight-bias highlight-bias-left'>arrogance</span> of those young IDF soldiers that my tax dollars are funding \u2013 having no respect for the fact that they were detaining Americans, no respect that there was an American congressperson in that bus, and laughing when our translator told them that there are Americans there and the American embassy is <span class='highlight-bias highlight-bias-left'>concerned</span>.\u201d\n\nKhanna aide Cameron Kasky wrote on X that he was there when the congressman\u2019s group was detained, saying: \u201cThe IDF showed up to back up the settlers, not the US congressman.\u201d\n\nKhanna added that the encounter illustrated \u201cthe <span class='highlight-bias highlight-bias-left'>arrogance</span> of power \u2013 of a power that has had no accountability, total impunity \u2013 and it\u2019s created a toxic culture of <span class='highlight-bias highlight-bias-left'>oppression</span>\u201d.\n\nThe New York Times first reported Khanna\u2019s account on Saturday morning. He told the outlet: \u201cI felt powerless in that situation, which is not an easy thing, as I have a lot of privilege in life.\n\nView image in fullscreen Israeli settlers block Ro Khanna\u2019s convoy in Khirbet Zanuta, according to his press team, during a visit to the West Bank on 8 July 2026. Photograph: Ro Khanna\u2019s press team/Reuters\n\n\u201cImagine how people feel every day, Palestinians under the occupation, if they could make an American congressperson feel powerless for 90 minutes.\u201d\n\nKhanna said he and his group were ultimately able to continue traveling after contacting the US embassy and Israeli police.\n\nThe Israeli military said troops and police responded after receiving a report that settlers were obstructing vehicles near Khirbet Zanuta, according to Reuters.\n\nKhirbet Zanuta is a Palestinian hamlet whose residents were forced to leave in the wake of <span class='highlight-bias highlight-bias-left'>violent</span> settler raids after the Hamas attacks on Israel in October 2023.\n\nAsked by Reuters whether he intends to run for president, Khanna replied: \u201cI\u2019m strongly considering it. And I\u2019m more resolved to consider it after this trip.\u201d\n\nMore than 700,000 Israelis reside in settlements across the occupied West Bank including East Jerusalem. The United Nations considers Israeli settlements in the West Bank to be illegal, and Israel has faced repeated criticism over <span class='highlight-bias highlight-bias-left'>violence</span> and other actions by settlers in the territory.\n\nSince Israel took control of the West Bank in 1967, restrictions imposed there have prevented the territory from developing a self-sustaining economy. Those restrictions intensified significantly after the deadly 7 October 2023 Hamas attacks on Israel.\n\nNearly 300,000 Palestinians have lost employment in the West Bank and Israel.\n\nA June report issued by a UN independent international commission of inquiry concluded that \u201cIsraeli authorities and security forces have deliberately targeted Palestinian children resulting in genocide, crimes against humanity, and war crimes in the Gaza Strip and war crimes in the West Bank\u201d.\n\nAccording to data from human rights organisation Yesh Din, no Israeli has been indicted for the killing of a Palestinian since October 2023.\n\nKhanna has been one of the most outspoken critics in the US Congress of the war in Gaza and the occupation of the West Bank, often clashing with his own party\u2019s establishment. In May, he released a video <span class='highlight-bias highlight-bias-left'><span class='highlight-bias highlight-bias-left'>criticizing</span></span> the Democratic National Committee\u2019s incomplete postmortem report on the defeat that the party suffered at the hands of Donald Trump in the 2024 presidential election.\n\nThe postmortem did not mention Gaza. In his video, Khanna said: \u201cAs someone who campaigned in Michigan and Wisconsin, let me tell you \u2013 one of the reasons we lost is our blank check to Israel and [prime minister Benjamin] Netanyahu while they committed genocide in Gaza.\n\n\u201cWe must speak and confront hard truths if this party is to win\u201d the 2028 presidential election, he added.\n\nReuters contributed reporting",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "\"Upon their arrival, the troops dispersed the Israeli civilians and allowed the vehicles to continue on their way,\" the IDF said.\n\nKhanna was visiting the ruins of Khirbet Zanuta, on a fact-finding visit to look at the impact of Israeli occupation of the area.\n\nThe politician, a father-of-two, is mulling over a presidential run in 2028.\n\n\"We were at a village that Israeli settlers had destroyed, they had destroyed the school, they had destroyed that village, and we were just looking at it,\" he said.\n\n\"And these hoodlums come in with machine guns \u2013 M4, an American-made machine gun \u2013 and they detain us. They block off the road. And then they call the IDF and \u200bthe IDF is on their side, not on the side of the Americans,\" Khanna said.\n\nWhile they were detained, an aide who was with Khanna said they made appeals to the US Embassy in Jerusalem for help, and were released after a group of police officers intervened.\n\nIsrael has built about 160 settlements housing 700,000 Jews since it occupied the West Bank and East Jerusalem - land Palestinians want, along with Gaza, for a hoped-for future state - during the 1967 Middle East war. An estimated 3.3 million Palestinians live alongside them.\n\nThe settlements are illegal under international law.",
+    "centerRightText": "NEW You can now listen to Fox News articles!\n\nRep. Ro Khanna, D-Calif., claims to have been detained by Israeli settlers armed with U.S.-made firearms while visiting the West Bank.\n\nKhanna and his team were surrounded by a group of West Bank settlers near the Palestinian village of Khirbet Zanuta on Wednesday, his office told The New York Times. The settlers were armed with American-made M4 machine guns, Khanna's office said.\n\nWhen soldiers from the Israeli Defense Forces arrived, Khanna claimed they sided with the settlers. The situation only defused after Israeli police officers arrived and dispersed the settlers and their vehicles blocking the U.S. congressional group's path, according to the Democrat's office.\n\nDOZENS OF DEMS FLIP ON ISRAEL, VOTE TO BAN ARMS SALES IN PROTEST OF IRAN WAR\n\n\"If they will do this to an American congressman, imagine what is happening to Palestinian families who are just trying to live,\" Rep Khanna told Fox News Digital in a statement.\n\n\"I am grateful to David Brownstein of the American embassy for helping rescue us. I expect Israel will prosecute the <span class='highlight-bias highlight-bias-right'>violent</span> settlers and IDF soldiers who detained American citizens,\" Rep. Khanna said.\n\nThe Times first reported details of the alleged incident on Saturday.\n\nReached by Fox News Digital, a representative for Khanna's team said she could confirm the details reported by the Times. Khanna also spoke to Reuters about what allegedly transpired.\n\n\"I'm certainly probably the first American politician who's been detained by the IDF and Israeli settlers,\" Khanna said in a Reuters video.\n\n\"We were at a village that Israeli settlers had destroyed,\" Khanna said. \"And these hoodlums come in with machine guns, an M4, an American-made machine gun, and they detain us. They block off the road, and then they call the IDF and the IDF is on their side, not on the side of the Americans.\"\n\nWATCH: GOP SENATOR WARNS 'HAMMER-AND-SICKLE' POLITICS WILL DEFINE DEMOCRATS' 2028 PRIMARY\n\nKhanna, a frequent critic of Israel and potential 2028 Democratic presidential candidate, claimed the incident reframed his thinking on a potential White House run.\n\n\"I'm strongly considering it,\" he told Reuters on camera of a potential U.S. presidential run, \"and I'm more resolved to consider it after this trip. We need a new <span class='highlight-bias highlight-bias-right'>moral</span> direction in our party. A new <span class='highlight-bias highlight-bias-right'>moral</span> vision that respects the dignity and human rights of people around the world.\"\n\nKhanna added to the Times, \"No American would support this if they knew the details of what was going on here.\"\n\nThe Israeli military told Reuters that troops and police officers intervened after receiving a report of settlers blocking vehicles near the village of Khirbet Zanuta.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\n\"Upon their arrival, the troops dispersed the Israeli civilians and allowed the vehicles to continue on their way,\" the military told Reuters.\n\nFox News Digital also reached out to the IDF, State Department and U.S. Embassy to Jerusalem for more information.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 26,
+      "left-center": 50,
+      "right-center": 30,
+      "right": 50
+    }
+  },
+  {
     "id": 2834588,
     "date": "2026-07-11",
     "topic": "Housing Trump Sign Bipartisan Become Refuses",
@@ -110,16 +165,16 @@
     }
   },
   {
-    "id": 8387600,
+    "id": 6173019,
     "date": "2026-07-11",
     "topic": "Subpoenas Times Journalists Force Trump Administration",
     "match_score": 0.8,
-    "cluster_size": 11,
+    "cluster_size": 9,
     "articles": {
       "left": {
         "title": "Trump administration subpoenas New York Times journalists over new Air Force One reporting",
         "url": "https://www.theguardian.com/us-news/2026/jul/11/justice-department-subpoenas-new-york-times-air-force-one",
-        "source": "The Guardian (US)",
+        "source": "The Guardian (World)",
         "bias": "left",
         "priority": 1
       },
@@ -133,7 +188,7 @@
       "center": {
         "title": "Trump administration subpoenas New York Times journalists over Air Force One reporting",
         "url": "https://www.bbc.co.uk/news/articles/cpd3g8q51g7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News World",
+        "source": "BBC News Front",
         "bias": "center",
         "priority": 2
       },
@@ -154,54 +209,6 @@
       "left": 37,
       "left-center": 28,
       "right-center": 25
-    }
-  },
-  {
-    "id": 2326038,
-    "date": "2026-07-11",
-    "topic": "Israeli Settlers West Bank Detained Armed",
-    "match_score": 0.8,
-    "cluster_size": 9,
-    "articles": {
-      "left": {
-        "title": "US congressman says he was detained by armed Israeli settlers in occupied West Bank",
-        "url": "https://www.theguardian.com/world/2026/jul/11/ro-khanna-congressman-detained-israel-settlers-west-bank",
-        "source": "The Guardian (US)",
-        "bias": "left",
-        "priority": 1
-      },
-      "left-center": {
-        "title": "An American Politician is Blocked by Israeli Settlers in the West Bank",
-        "url": "https://www.nytimes.com/2026/07/11/us/politics/ro-khanna-west-bank.html",
-        "source": "NYT Politics",
-        "bias": "left-center",
-        "priority": 7
-      },
-      "right-center": {
-        "title": "House Democrat Ro Khanna says he was detained by armed Israeli settlers in West Bank",
-        "url": "https://www.foxnews.com/politics/house-democrat-ro-khanna-detained-armed-israeli-settlers-west-bank",
-        "source": "Fox News Latest",
-        "bias": "right-center",
-        "priority": 2
-      },
-      "right": {
-        "title": "Khanna Says Israeli Settlers Detained Him in West Bank",
-        "url": "https://www.newsmax.com/politics/rokhanna-israel-westbank/2026/07/11/id/1262502",
-        "source": "Newsmax",
-        "bias": "right",
-        "priority": 5
-      }
-    },
-    "farLeftText": "The US congressman Ro Khanna says armed Israeli settlers detained him during a visit to the Israel-occupied West Bank recently, describing the experience as a first-hand view of the realities faced by Palestinians living under occupation.\n\nIn an interview with Reuters on Thursday from a Palestinian village, the progressive US House Democrat from California said his detention happened the previous day while his delegation visited an area of the southern West Bank that has experienced repeated attacks by Israeli settlers.\n\nKhanna recounted how settlers carrying US-made M4 rifles surrounded the group\u2019s van.\n\n\u201cWe were at a village that Israeli settlers had destroyed \u2013 they had destroyed the school, they had destroyed that village, and we were just looking at it,\u201d Khanna said.\n\nReferring to the Israel Defense Forces, which is funded in part by US military aid, Khanna continued: \u201cAnd these hoodlums \u2026 detain us. They block off the road. And then they call the IDF and the IDF is on their side, not on the side of the Americans.\u201d\n\nKhanna also told Reuters, \u201cI saw the <span class='highlight-bias highlight-bias-left'>arrogance</span> in the eyes of those settlers, 21- and 22-year-olds with guns, laughing that they had detained us, the <span class='highlight-bias highlight-bias-left'>arrogance</span> of those young IDF soldiers that my tax dollars are funding \u2013 having no respect for the fact that they were detaining Americans, no respect that there was an American congressperson in that bus, and laughing when our translator told them that there are Americans there and the American embassy is <span class='highlight-bias highlight-bias-left'>concerned</span>.\u201d\n\nKhanna added that the encounter illustrated \u201cthe <span class='highlight-bias highlight-bias-left'>arrogance</span> of power \u2013 of a power that has had no accountability, total impunity \u2013 and it\u2019s created a toxic culture of <span class='highlight-bias highlight-bias-left'>oppression</span>\u201d.\n\nThe New York Times first reported Khanna\u2019s account on Saturday morning. He told the outlet: \u201cI felt powerless in that situation, which is not an easy thing, as I have a lot of privilege in life.\n\nView image in fullscreen Israeli settlers block Ro Khanna\u2019s convoy in Khirbet Zanuta, according to his press team, during a visit to the West Bank on 8 July 2026. Photograph: Ro Khanna's press team/Reuters\n\n\u201cImagine how people feel every day, Palestinians under the occupation, if they could make an American congressperson feel powerless for 90 minutes.\u201d\n\nKhanna said he and his group were ultimately able to continue traveling after contacting the US embassy and Israeli police.\n\nThe Israeli military said troops and police responded after receiving a report that settlers were obstructing vehicles near Khirbet Zanuta, according to Reuters.\n\nKhirbet Zanuta is a Palestinian hamlet whose residents were forced to leave in the wake of <span class='highlight-bias highlight-bias-left'>violent</span> settler raids after the Hamas attacks on Israel in October 2023.\n\nAsked by Reuters whether he intends to run for president, Khanna replied: \u201cI\u2019m strongly considering it. And I\u2019m more resolved to consider it after this trip.\u201d\n\nMore than 700,000 Israelis reside in settlements across the occupied West Bank including East Jerusalem. The United Nations considers Israeli settlements in the West Bank to be illegal, and Israel has faced repeated criticism over <span class='highlight-bias highlight-bias-left'>violence</span> and other actions by settlers in the territory.\n\nSince Israel took control of the West Bank in 1967, restrictions imposed there have prevented the territory from developing a self-sustaining economy. Those restrictions intensified significantly after the deadly 7 October 2023 Hamas attacks on Israel.\n\nNearly 300,000 Palestinians have lost employment in the West Bank and Israel.\n\nA June report issued by a UN independent international commission of inquiry concluded that \u201cIsraeli authorities and security forces have deliberately targeted Palestinian children resulting in genocide, crimes against humanity, and war crimes in the Gaza Strip and war crimes in the West Bank\u201d.\n\nAccording to data from human rights organisation Yesh Din, no Israeli has been indicted for the killing of a Palestinian since October 2023.\n\nKhanna has been one of the most outspoken critics in the US Congress of the war in Gaza and the occupation of the West Bank, often clashing with his own party\u2019s establishment. In May, he released a video <span class='highlight-bias highlight-bias-left'><span class='highlight-bias highlight-bias-left'>criticizing</span></span> the Democratic National Committee\u2019s incomplete postmortem report on the defeat that the party suffered at the hands of Donald Trump in the 2024 presidential election.\n\nThe postmortem did not mention Gaza. In his video, Khanna said: \u201cAs someone who campaigned in Michigan and Wisconsin, let me tell you \u2013 one of the reasons we lost is our blank check to Israel and [prime minister Benjamin] Netanyahu while they committed genocide in Gaza.\n\n\u201cWe must speak and confront hard truths if this party is to win\u201d the 2028 presidential election, he added.\n\nReuters contributed reporting",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "NEW You can now listen to Fox News articles!\n\nRep. Ro Khanna, D-Calif., claims to have been detained by Israeli settlers armed with U.S.-made firearms while visiting the West Bank.\n\nKhanna and his team were surrounded by a group of West Bank settlers near the Palestinian village of Khirbet Zanuta on Wednesday, his office told The New York Times. The settlers were armed with American-made M4 machine guns, Khanna's office said.\n\nWhen soldiers from the Israeli Defense Forces arrived, Khanna claimed they sided with the settlers. The situation only defused after Israeli police officers arrived and dispersed the settlers and their vehicles blocking the U.S. congressional group's path, according to the Democrat's office.\n\nDOZENS OF DEMS FLIP ON ISRAEL, VOTE TO BAN ARMS SALES IN PROTEST OF IRAN WAR\n\n\"If they will do this to an American congressman, imagine what is happening to Palestinian families who are just trying to live,\" Rep Khanna told Fox News Digital in a statement.\n\n\"I am grateful to David Brownstein of the American embassy for helping rescue us. I expect Israel will prosecute the <span class='highlight-bias highlight-bias-right'>violent</span> settlers and IDF soldiers who detained American citizens,\" Rep. Khanna said.\n\nThe Times first reported details of the alleged incident on Saturday.\n\nReached by Fox News Digital, a representative for Khanna's team said she could confirm the details reported by the Times. Khanna also spoke to Reuters about what allegedly transpired.\n\n\"I'm certainly probably the first American politician who's been detained by the IDF and Israeli settlers,\" Khanna said in a Reuters video.\n\n\"We were at a village that Israeli settlers had destroyed,\" Khanna said. \"And these hoodlums come in with machine guns, an M4, an American-made machine gun, and they detain us. They block off the road, and then they call the IDF and the IDF is on their side, not on the side of the Americans.\"\n\nWATCH: GOP SENATOR WARNS 'HAMMER-AND-SICKLE' POLITICS WILL DEFINE DEMOCRATS' 2028 PRIMARY\n\nKhanna, a frequent critic of Israel and potential 2028 Democratic presidential candidate, claimed the incident reframed his thinking on a potential White House run.\n\n\"I'm strongly considering it,\" he told Reuters on camera of a potential U.S. presidential run, \"and I'm more resolved to consider it after this trip. We need a new <span class='highlight-bias highlight-bias-right'>moral</span> direction in our party. A new <span class='highlight-bias highlight-bias-right'>moral</span> vision that respects the dignity and human rights of people around the world.\"\n\nKhanna added to the Times, \"No American would support this if they knew the details of what was going on here.\"\n\nThe Israeli military told Reuters that troops and police officers intervened after receiving a report of settlers blocking vehicles near the village of Khirbet Zanuta.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\n\"Upon their arrival, the troops dispersed the Israeli civilians and allowed the vehicles to continue on their way,\" the military told Reuters.\n\nFox News Digital also reached out to the IDF, State Department and U.S. Embassy to Jerusalem for more information.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 50,
-      "left-center": 50,
-      "right-center": 50,
-      "right": 50
     }
   },
   {
@@ -300,6 +307,54 @@
     }
   },
   {
+    "id": 3123919,
+    "date": "2026-07-11",
+    "topic": "Judge Case Proud Boys Trumpappointed Dismisses",
+    "match_score": 0.8,
+    "cluster_size": 6,
+    "articles": {
+      "left": {
+        "title": "Trump-appointed judge dismisses seditious conspiracy case against Proud Boys",
+        "url": "https://www.theguardian.com/us-news/2026/jul/10/proud-boys-seditious-conspiracy-case-dismissed",
+        "source": "The Guardian (US)",
+        "bias": "left",
+        "priority": 1
+      },
+      "left-center": {
+        "title": "Trump-Appointed Judge Reluctantly Grants Dismissal of Proud Boys Case",
+        "url": "https://www.nytimes.com/2026/07/11/us/politics/judge-proud-boys-sedition-dismissal.html",
+        "source": "NYT US",
+        "bias": "left-center",
+        "priority": 7
+      },
+      "right-center": {
+        "title": "Trump-appointed judge permanently ends Proud Boys Jan. 6 case, says Constitution left him no choice",
+        "url": "https://www.foxnews.com/politics/trump-appointed-judge-permanently-ends-proud-boys-jan-6-case-says-constitution-left-him-no-choice",
+        "source": "Fox News Latest",
+        "bias": "right-center",
+        "priority": 2
+      },
+      "right": {
+        "title": "Federal Judge Reluctantly Dismisses Proud Boys Jan. 6 Case",
+        "url": "https://www.newsmax.com/politics/proud-boys-trump-jan6/2026/07/11/id/1262511",
+        "source": "Newsmax",
+        "bias": "right",
+        "priority": 5
+      }
+    },
+    "farLeftText": "A federal judge nominated by Donald Trump during his first term reluctantly agreed on Friday to grant the Department of Justice\u2019s motion to dismiss the <span class='highlight-bias highlight-bias-left'>seditious</span> conspiracy convictions against leaders of the Proud Boys who were convicted by a jury of serious crimes during the attack on the US Capitol by Trump supporters on 6 January 2021.\n\nThe US district judge Timothy Kelly noted in a seven-page memorandum that the Proud Boy leaders Ethan Nordean, Joseph Biggs and Zachary Rehl were all convicted of multiple crimes, including <span class='highlight-bias highlight-bias-left'>seditious</span> conspiracy, and a fourth member of the group, Dominic Pezzola, was convicted of assaulting an officer and \u201cbreaking a Capitol window, thereby helping to create the first entry point through which hundreds of rioters streamed into the building\u201d.\n\nPezzola\u2019s destruction of the window was recorded in a social media video that quickly became one of the iconic images of the day.\n\nNordean, Biggs and Rehl were all sentenced to long prison terms in 2023. Upon returning to office in 2025, Trump commuted their sentences as part of a sweeping order granting clemency to about 1,500 people who had been charged with or convicted for participating in the Capital attack. However, their convictions were kept in place.\n\nIn April, the DoJ requested that an appeals court overturn the convictions. The appeals court approved the motion in May, sending the ruling back to Kelly. Kelly, in Friday\u2019s memo, said he was granting the motion as \u201cit is hard to see how any other course ... could make practical sense. Denying the motion would not somehow revive the convictions that the Court of Appeals vacated\u201d.\n\nKelly, in Friday\u2019s filing, went on to note that he was granting the motion to dismiss the prosecutions even though the request was <span class='highlight-bias highlight-bias-left'>clearly</span> based not on facts or the law, but on Trump\u2019s desire to excuse the <span class='highlight-bias highlight-bias-left'>violence</span> of his supporters.\n\n\u201c[T]here is little mystery about why the Government is moving to dismiss this case, or whether dismissal is in fact what the Executive seeks,\u201d Kelly observed. \u201cPresident Trump\u2019s views about the prosecution of those who attacked the US Capitol on January 6 \u2013 whether those views are based on fact or fiction \u2013 are well known, as is his intention to extend clemency to them\u201d.\n\nKelly also noted that the case was initiated \u201cwhile President Trump was still in power\u201d in the days after the attack.\n\n\u201cAs the Court has said many times, the attack on the Capitol on January 6, 2021 was a perilous event,\u201d Kelly wrote. \u201cIt was an attack on people, including police officers, many of whom were injured. It was an attack on a coordinate branch of government \u2013 Congress \u2013 that the Founders saw fit to give a place of primacy in Article I of the Constitution. And it was an attack on the Constitution\u2019s mechanism to facilitate the peaceful transfer of power from one president to the next, what President Reagan called \u2018nothing less than a miracle.\u2019\u201d\n\n\u201cMoving forward, if this Nation\u2019s experiment in self-government is to last another 250 years, the American people \u2013 no matter their partisan preferences \u2013 will have to act together to preserve, protect and defend that miracle through our constitutional framework,\u201d the Trump-appointed judge concluded.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "NEW You can now listen to Fox News articles!\n\nA Trump-appointed federal judge on Friday reluctantly dismissed the Jan. 6 prosecution of four Proud Boys members, saying the law left him no authority to block the Justice Department's request.\n\nU.S. District Judge Timothy Kelly granted the Justice Department's motion to dismiss the case with prejudice against Ethan Nordean, Joseph Biggs, Zachary Rehl and Dominic Pezzola after a federal appeals court had already vacated their convictions.\n\nIn a seven-page opinion, Kelly said longstanding separation-of-powers principles leave charging decisions to the executive branch, meaning he could not require the Justice Department to maintain a prosecution it had decided to drop.\n\nDOJ SEEKS TO VACATE JAN 6 CONVICTIONS IN SWEEPING MOVE TIED TO TRUMP ORDER\n\n\"Because the decisions to issue the Executive Order and to abandon this prosecution\u2014even after the Government secured convictions for serious crimes relating to the attack on the Capitol on January 6\u2014are solely the Executive's, no one should mistake the Court's granting of the Government's motion for its agreement with those decisions,\" Kelly wrote.\n\nPezzola, who was convicted of assaulting police, robbery and destroying government property, was found guilty of stealing a Capitol Police riot shield before using it to smash a Capitol window, creating what prosecutors said was the first breach point through which hundreds of rioters entered the building. He was acquitted of <span class='highlight-bias highlight-bias-right'>seditious</span> conspiracy but convicted on multiple other felony counts.\n\nMeanwhile, Nordean, Biggs and Rehl were convicted of <span class='highlight-bias highlight-bias-right'>seditious</span> conspiracy and several other felonies related to the Jan. 6 Capitol attack, including conspiracy to obstruct Congress' certification of the 2020 presidential election, obstruction of law enforcement during a civil disorder and destruction of government property.\n\nFORMER INDIANA REP STEPHEN BUYER RECEIVES FULL PARDON FROM TRUMP FOR 2023 INSIDER TRADING CONVICTION\n\nThe Justice Department first moved in April to vacate the convictions and dismiss the case against the four men, arguing that doing so was \"in the interests of justice\" in light of President Donald Trump's Jan. 20, 2025, executive order commuting their sentences and issuing full pardons to former Proud Boys Chairman Enrique Tarrio and hundreds of other Jan. 6 defendants. The D.C. Circuit had already erased the men's convictions before returning the case to Kelly's courtroom to consider the Justice Department's request to dismiss the indictment.\n\n\"There is little mystery about why the Government is moving to dismiss this case, or whether dismissal is in fact what the Executive seeks,\" Kelly wrote. \"President Trump's views about the prosecution of those who attacked the U.S. Capitol on January 6\u2014whether those views are based on fact or fiction\u2014are well known, as is his intention to extend clemency to them.\"\n\nKelly cited longstanding precedent holding that charging decisions belong to the executive branch and that judges cannot reject a dismissal simply because they disagree with the government's reasoning.\n\nLEGAL WAR ON TRUMP\u2019S AGENDA GAINS FIREPOWER AS FEDERAL LAWYERS DEFECT TO DEMOCRATS\n\nAnd because the convictions had already been vacated and prosecutors have broad authority to decide whether to pursue criminal charges, Kelly said he lacked the power to force the Justice Department to continue the prosecution.\n\n\"<span class='highlight-bias highlight-bias-right'>Indeed</span>, it is hard to see how any course other than granting the motion in full could make practical sense. Denying the motion would not somehow revive the convictions that the Court of Appeals vacated,\" Kelly wrote. \"Nor would denying it mean a retrial would follow, because the Court lacks the authority to compel the Executive to pursue a prosecution, full stop\u2014but especially when an executive order explicitly requires that the Government seek dismissal with prejudice.\"\n\nBut Kelly sharply <span class='highlight-bias highlight-bias-right'>rebuked</span> the actions of the Jan. 6 rioters, calling it an attack on the people, Congress, and the \"Constitution's mechanism to facilitate the peaceful transfer of power.\"\n\n\"Moving forward, if this Nation's experiment in self-government is to last another 250 years, the American people\u2014no matter their partisan preferences\u2014will have to act together to preserve, protect and defend that miracle through our constitutional framework,\" Kelly wrote.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nTarrio, who was also pardoned for criminal charges stemming from his role in the Jan. 6 riots, celebrated Kelly's dismissal on X.\n\n\"We took the worst they threw at us the raids, the solitary, the lies and we stood tall,\" Tarrio wrote. \"Trump dropped the pardons and now the rest is crumbling. Justice is SERVED! Proud Boys don't lose. We WIN. This is OUR victory. THANK YOU PRESIDENT DONALD J TRUMP and all of you that fought for us!\"",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 50,
+      "left-center": 50,
+      "right-center": 50,
+      "right": 50
+    }
+  },
+  {
     "id": 6376790,
     "date": "2026-07-11",
     "topic": "Widdecombe Police Release Arrested Former Investigation",
@@ -384,46 +439,6 @@
     "omissions": {
       "left-center": 77,
       "right": 79
-    }
-  },
-  {
-    "id": 1460282,
-    "date": "2026-07-11",
-    "topic": "Trumpappointed Judge Case Proud Boys Dismisses",
-    "match_score": 0.6,
-    "cluster_size": 5,
-    "articles": {
-      "left": {
-        "title": "Trump-appointed judge dismisses seditious conspiracy case against Proud Boys",
-        "url": "https://www.theguardian.com/us-news/2026/jul/10/proud-boys-seditious-conspiracy-case-dismissed",
-        "source": "The Guardian (US)",
-        "bias": "left",
-        "priority": 1
-      },
-      "left-center": {
-        "title": "Trump-Appointed Judge Reluctantly Grants Dismissal of Proud Boys Case",
-        "url": "https://www.nytimes.com/2026/07/11/us/politics/judge-proud-boys-sedition-dismissal.html",
-        "source": "NYT Politics",
-        "bias": "left-center",
-        "priority": 7
-      },
-      "right-center": {
-        "title": "Trump-appointed judge permanently ends Proud Boys Jan. 6 case, says Constitution left him no choice",
-        "url": "https://www.foxnews.com/politics/trump-appointed-judge-permanently-ends-proud-boys-jan-6-case-says-constitution-left-him-no-choice",
-        "source": "Fox News Latest",
-        "bias": "right-center",
-        "priority": 2
-      }
-    },
-    "farLeftText": "A federal judge nominated by Donald Trump during his first term reluctantly agreed on Friday to grant the Department of Justice\u2019s motion to dismiss the <span class='highlight-bias highlight-bias-left'>seditious</span> conspiracy convictions against leaders of the Proud Boys who were convicted by a jury of serious crimes during the attack on the US Capitol by Trump supporters on 6 January 2021.\n\nThe US district judge Timothy Kelly noted in a seven-page memorandum that the Proud Boy leaders Ethan Nordean, Joseph Biggs and Zachary Rehl were all convicted of multiple crimes, including <span class='highlight-bias highlight-bias-left'>seditious</span> conspiracy, and a fourth member of the group, Dominic Pezzola, was convicted of assaulting an officer and \u201cbreaking a Capitol window, thereby helping to create the first entry point through which hundreds of rioters streamed into the building\u201d.\n\nPezzola\u2019s destruction of the window was recorded in a social media video that quickly became one of the iconic images of the day.\n\nNordean, Biggs and Rehl were all sentenced to long prison terms in 2023. Upon returning to office in 2025, Trump commuted their sentences as part of a sweeping order granting clemency to about 1,500 people who had been charged with or convicted for participating in the Capital attack. However, their convictions were kept in place.\n\nIn April, the DoJ requested that an appeals court overturn the convictions. The appeals court approved the motion in May, sending the ruling back to Kelly. Kelly, in Friday\u2019s memo, said he was granting the motion as \u201cit is hard to see how any other course ... could make practical sense. Denying the motion would not somehow revive the convictions that the Court of Appeals vacated\u201d.\n\nKelly, in Friday\u2019s filing, went on to note that he was granting the motion to dismiss the prosecutions even though the request was <span class='highlight-bias highlight-bias-left'>clearly</span> based not on facts or the law, but on Trump\u2019s desire to excuse the <span class='highlight-bias highlight-bias-left'>violence</span> of his supporters.\n\n\u201c[T]here is little mystery about why the Government is moving to dismiss this case, or whether dismissal is in fact what the Executive seeks,\u201d Kelly observed. \u201cPresident Trump\u2019s views about the prosecution of those who attacked the US Capitol on January 6 \u2013 whether those views are based on fact or fiction \u2013 are well known, as is his intention to extend clemency to them\u201d.\n\nKelly also noted that the case was initiated \u201cwhile President Trump was still in power\u201d in the days after the attack.\n\n\u201cAs the Court has said many times, the attack on the Capitol on January 6, 2021 was a perilous event,\u201d Kelly wrote. \u201cIt was an attack on people, including police officers, many of whom were injured. It was an attack on a coordinate branch of government \u2013 Congress \u2013 that the Founders saw fit to give a place of primacy in Article I of the Constitution. And it was an attack on the Constitution\u2019s mechanism to facilitate the peaceful transfer of power from one president to the next, what President Reagan called \u2018nothing less than a miracle.\u2019\u201d\n\n\u201cMoving forward, if this Nation\u2019s experiment in self-government is to last another 250 years, the American people \u2013 no matter their partisan preferences \u2013 will have to act together to preserve, protect and defend that miracle through our constitutional framework,\u201d the Trump-appointed judge concluded.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "NEW You can now listen to Fox News articles!\n\nA Trump-appointed federal judge on Friday reluctantly dismissed the Jan. 6 prosecution of four Proud Boys members, saying the law left him no authority to block the Justice Department's request.\n\nU.S. District Judge Timothy Kelly granted the Justice Department's motion to dismiss the case with prejudice against Ethan Nordean, Joseph Biggs, Zachary Rehl and Dominic Pezzola after a federal appeals court had already vacated their convictions.\n\nIn a seven-page opinion, Kelly said longstanding separation-of-powers principles leave charging decisions to the executive branch, meaning he could not require the Justice Department to maintain a prosecution it had decided to drop.\n\nDOJ SEEKS TO VACATE JAN 6 CONVICTIONS IN SWEEPING MOVE TIED TO TRUMP ORDER\n\n\"Because the decisions to issue the Executive Order and to abandon this prosecution\u2014even after the Government secured convictions for serious crimes relating to the attack on the Capitol on January 6\u2014are solely the Executive's, no one should mistake the Court's granting of the Government's motion for its agreement with those decisions,\" Kelly wrote.\n\nPezzola, who was convicted of assaulting police, robbery and destroying government property, was found guilty of stealing a Capitol Police riot shield before using it to smash a Capitol window, creating what prosecutors said was the first breach point through which hundreds of rioters entered the building. He was acquitted of <span class='highlight-bias highlight-bias-right'>seditious</span> conspiracy but convicted on multiple other felony counts.\n\nMeanwhile, Nordean, Biggs and Rehl were convicted of <span class='highlight-bias highlight-bias-right'>seditious</span> conspiracy and several other felonies related to the Jan. 6 Capitol attack, including conspiracy to obstruct Congress' certification of the 2020 presidential election, obstruction of law enforcement during a civil disorder and destruction of government property.\n\nFORMER INDIANA REP STEPHEN BUYER RECEIVES FULL PARDON FROM TRUMP FOR 2023 INSIDER TRADING CONVICTION\n\nThe Justice Department first moved in April to vacate the convictions and dismiss the case against the four men, arguing that doing so was \"in the interests of justice\" in light of President Donald Trump's Jan. 20, 2025, executive order commuting their sentences and issuing full pardons to former Proud Boys Chairman Enrique Tarrio and hundreds of other Jan. 6 defendants. The D.C. Circuit had already erased the men's convictions before returning the case to Kelly's courtroom to consider the Justice Department's request to dismiss the indictment.\n\n\"There is little mystery about why the Government is moving to dismiss this case, or whether dismissal is in fact what the Executive seeks,\" Kelly wrote. \"President Trump's views about the prosecution of those who attacked the U.S. Capitol on January 6\u2014whether those views are based on fact or fiction\u2014are well known, as is his intention to extend clemency to them.\"\n\nKelly cited longstanding precedent holding that charging decisions belong to the executive branch and that judges cannot reject a dismissal simply because they disagree with the government's reasoning.\n\nLEGAL WAR ON TRUMP\u2019S AGENDA GAINS FIREPOWER AS FEDERAL LAWYERS DEFECT TO DEMOCRATS\n\nAnd because the convictions had already been vacated and prosecutors have broad authority to decide whether to pursue criminal charges, Kelly said he lacked the power to force the Justice Department to continue the prosecution.\n\n\"<span class='highlight-bias highlight-bias-right'>Indeed</span>, it is hard to see how any course other than granting the motion in full could make practical sense. Denying the motion would not somehow revive the convictions that the Court of Appeals vacated,\" Kelly wrote. \"Nor would denying it mean a retrial would follow, because the Court lacks the authority to compel the Executive to pursue a prosecution, full stop\u2014but especially when an executive order explicitly requires that the Government seek dismissal with prejudice.\"\n\nBut Kelly sharply <span class='highlight-bias highlight-bias-right'>rebuked</span> the actions of the Jan. 6 rioters, calling it an attack on the people, Congress, and the \"Constitution's mechanism to facilitate the peaceful transfer of power.\"\n\n\"Moving forward, if this Nation's experiment in self-government is to last another 250 years, the American people\u2014no matter their partisan preferences\u2014will have to act together to preserve, protect and defend that miracle through our constitutional framework,\" Kelly wrote.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nTarrio, who was also pardoned for criminal charges stemming from his role in the Jan. 6 riots, celebrated Kelly's dismissal on X.\n\n\"We took the worst they threw at us the raids, the solitary, the lies and we stood tall,\" Tarrio wrote. \"Trump dropped the pardons and now the rest is crumbling. Justice is SERVED! Proud Boys don't lose. We WIN. This is OUR victory. THANK YOU PRESIDENT DONALD J TRUMP and all of you that fought for us!\"",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 50,
-      "left-center": 50,
-      "right-center": 50
     }
   },
   {
@@ -584,7 +599,7 @@
     }
   },
   {
-    "id": 7433018,
+    "id": 4935272,
     "date": "2026-07-11",
     "topic": "Trump Left Instructions Iran Killed Bomb",
     "match_score": 0.6,
