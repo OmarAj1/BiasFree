@@ -47,6 +47,53 @@
     }
   },
   {
+    "id": 2959340,
+    "date": "2026-07-16",
+    "topic": "Tillis Epstein Blanche Thom Demands Meet",
+    "match_score": 0.8,
+    "cluster_size": 6,
+    "articles": {
+      "left-center": {
+        "title": "Republican Senator Thom Tillis Demands Todd Blanche Meet With Epstein Survivors",
+        "url": "https://www.nytimes.com/2026/07/16/us/politics/todd-blanche-attorney-general-epstein.html",
+        "source": "NYT Politics",
+        "bias": "left-center",
+        "priority": 7
+      },
+      "center": {
+        "title": "WATCH: Tillis says he won't vote to confirm Blanche unless nominee meets with Epstein survivors",
+        "url": "https://www.pbs.org/newshour/politics/watch-tillis-says-he-wont-vote-to-confirm-blanche-unless-nominee-meets-with-epstein-survivors",
+        "source": "PBS",
+        "bias": "center",
+        "priority": 4
+      },
+      "right-center": {
+        "title": "Thom Tillis conditions Blanche confirmation vote on meeting with Epstein victims",
+        "url": "https://www.washingtonexaminer.com/news/senate/4651498/thom-tillis-todd-blanche-confirmation-vote-epstein-victims/",
+        "source": "Washington Examiner",
+        "bias": "right-center",
+        "priority": 4
+      },
+      "right": {
+        "title": "Sen. Tillis Demands AG Pick Meet Epstein Victims",
+        "url": "https://www.newsmax.com/politics/thom-tillis-attorney-general-nominee/2026/07/16/id/1263077",
+        "source": "Newsmax",
+        "bias": "right",
+        "priority": 5
+      }
+    },
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "Sen. Thom Tillis, R-N.C., said Thursday his vote to confirm U.S. attorney general nominee Todd Blanche is dependent on whether Blanche meets with the survivors of convicted sex offender Jeffrey Epstein in the next two weeks.\n\nWATCH: Epstein survivor Dani Bensky says Blanche has never responded to them in opening statement\n\n\"I'm trying to get to yes, but this is a very important part of getting to yes,\" he said.\n\nTillis said he had a \"positive predisposition\" toward Blanche but had not made a final decision during the second day of confirmation hearings held by the Senate Judiciary Committee. To clear the committee, Blanche needs the support of all Republicans.",
+    "centerRightText": "Sen. Thom Tillis (R-NC) said Thursday that he will not support Todd Blanche for attorney general unless President Donald Trump\u2019s nominee first meets with women who say the late convicted sex offender Jeffrey Epstein abused them as minors.\n\nTillis announced his position during the second day of the acting attorney general\u2019s confirmation hearing before the Senate Judiciary Committee, saying the meeting must occur before he is prepared to advance the nomination.\n\nSen. Thom Tillis (R-NC) speaks during a Senate Judiciary Committee hearing with acting Attorney General Todd Blanche on Capitol Hill in Washington, Wednesday, July 15, 2026. (Allison Robbert/AP Photo)\n\n\u201cI have not made a final decision,\u201d Tillis said of whether he will vote to advance Blanche to lead the Justice Department. \u201cTodd Blanche said he\u2019d meet with the Epstein survivors if it could be arranged. I expect that meeting to occur before I\u2019m willing to vote him out of committee. There should be no reason why he wouldn\u2019t.\u201d\n\nAdvertisement",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left-center": 50,
+      "right-center": 26,
+      "right": 50
+    }
+  },
+  {
     "id": 6081346,
     "date": "2026-07-16",
     "topic": "Todd Confirmation Hearing Blanche Takeaways Defends",
@@ -213,7 +260,47 @@
     }
   },
   {
-    "id": 9779944,
+    "id": 7647486,
+    "date": "2026-07-16",
+    "topic": "Trumps Teleprompter Operator 100K Betting Speeches",
+    "match_score": 0.6,
+    "cluster_size": 4,
+    "articles": {
+      "left": {
+        "title": "Trump's teleprompter operator pocketed $100K betting on his speeches: report",
+        "url": "https://www.rawstory.com/trump-speech-2677233125/",
+        "source": "Raw Story",
+        "bias": "left",
+        "priority": 10
+      },
+      "left-center": {
+        "title": "White House teleprompter operator allegedly made nearly $100k betting on Trump's speeches",
+        "url": "https://www.cbsnews.com/video/white-house-teleprompter-operator-made-100k-betting-on-trumps-speeches/",
+        "source": "CBS News",
+        "bias": "left-center",
+        "priority": 8
+      },
+      "right-center": {
+        "title": "Trump\u2019s teleprompter operator on leave over $100K insider betting report: White House",
+        "url": "https://nypost.com/2026/07/16/us-news/trumps-teleprompter-operator-on-leave-over-insider-betting-report-white-house/",
+        "source": "New York Post",
+        "bias": "right-center",
+        "priority": 3
+      }
+    },
+    "farLeftText": "The man who loads President Donald Trump's words into the teleprompter has been quietly betting on which of those words the president would actually say \u2014 and winning big, sources told ABC News.\n\nGabriel Perez, a technical assistant who has run Trump's teleprompter since 2016, allegedly pocketed more than $100,000 on the prediction market Kalshi by wagering on Trump's speeches, according to sources familiar with a Commodity Futures Trading Commission investigation. He placed bets on more than a dozen addresses over three months, the sources said, including February's State of the Union, a January speech in Davos, and a March Medal of Honor ceremony.\n\nPerez typically gets the final look at Trump's prepared remarks and takes last-minute edits from the president himself, the sources said. Investigators found that Perez also backed out of wagers mid-speech when Trump skipped a word he'd bet on.\n\nTrump has acknowledged he often breaks with the script.\n\n\"You know, when you go up here, you take a big chance, especially me because I go off teleprompter about 80% of the time,\" Trump said in January during a speech investigators believe Perez bet on.\n\nKalshi flagged the trades to the commission, and Perez is now in settlement talks that would have him return the profits and stop making similar bets, the sources said. He acknowledged some of the trades to regulators, though Manhattan federal prosecutors declined to open a criminal case.\n\nPerez still operates Trump's teleprompter.\n\n\"The White House has strict ethics guidelines that we expect all staffers and officials to follow,\" a spokesperson said. \"The staffer in question is fully cooperating with the CFTC.\"\n\nThe report comes as Trump's Department of Justice investigates disgraced former Republican Rep. George Santos of New York for insider trading on Kalshi.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "See more of our coverage in your search results.\n\nA longtime operator of President Trump\u2019s teleprompter has been placed on unpaid administrative leave ahead of his termination over winning more than $100,000 on prediction market Kalshi based off the commander in chief\u2019s remarks.\n\nWhite House Press Secretary Karoline Leavitt told reporters Thursday that the operator, identified by ABC News as Gabriel Perez, \u201cwill no longer be here.\u201d\n\nWhite House Press Secretary Karoline Leavitt told reporters Thursday that the operator, identified by ABC News as Gabriel Perez, \u201cwill no longer be here.\u201d REUTERS\n\n\u201cThey\u2019ll be on paid administrative leave,\u201d she said before correcting: \u201cI\u2019m sorry, without pay. The administrative leave is unpaid. To be very clear, that was a decision by the president.\u201d\n\nFollow The Post\u2019s live coverage of President Trump and national politics for the latest news and analysis\n\nABC reported earlier Thursday that Perez is in talks with the Commodity Futures Trading Commission to resolve allegations that he placed bets on Trump to use specific words or phrases or touch on certain topics in more than a dozen speeches, including February\u2019s State of the Union address and remarks to the World Economic Forum in Davos, Switzerland.\n\nLeavitt confirmed that the staffer is cooperating with the federal regulator, but declined to elaborate.\n\nThis is a developing story. Please check back for updates.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 50,
+      "left-center": 50,
+      "right-center": 50
+    }
+  },
+  {
+    "id": 350756,
     "date": "2026-07-16",
     "topic": "Trump Iran Released Since 2024 American",
     "match_score": 0.6,
@@ -448,7 +535,7 @@
     }
   },
   {
-    "id": 8109069,
+    "id": 6595345,
     "date": "2026-07-16",
     "topic": "Blanche Hearing Epstein Survivor Abhorrent Wrecked",
     "match_score": 0.6,
@@ -469,7 +556,7 @@
         "priority": 8
       },
       "center": {
-        "title": "WATCH LIVE: Epstein survivor, fired DOJ pardon attorney testify at Blanche confirmation hearing",
+        "title": "WATCH: Epstein survivor, fired DOJ pardon attorney testify at Blanche confirmation hearing",
         "url": "https://www.pbs.org/newshour/politics/watch-live-epstein-survivor-fired-doj-pardon-attorney-testify-at-blanche-confirmation-hearing",
         "source": "PBS",
         "bias": "center",
@@ -487,99 +574,43 @@
     }
   },
   {
-    "id": 6453722,
+    "id": 54184,
     "date": "2026-07-16",
-    "topic": "Coin Featuring Trump Treasury Production Mint",
-    "match_score": 0.4,
-    "cluster_size": 4,
+    "topic": "Trump Attorney Fires Seattle Hour Judges",
+    "match_score": 0.6,
+    "cluster_size": 3,
     "articles": {
       "left": {
-        "title": "New $1 coin featuring Trump in production at US Mint, treasury says",
-        "url": "https://www.theguardian.com/us-news/2026/jul/15/trump-coin-us-mint-production",
+        "title": "Trump fires new US attorney in Seattle an hour after federal judges appoint him",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/trump-fires-us-attorney-roger-rogoff-seattle",
         "source": "The Guardian (US)",
         "bias": "left",
         "priority": 1
       },
-      "left-center": {
-        "title": "Treasury to Begin Minting $1 Gold Trump Coin Featuring President\u2019s Face",
-        "url": "https://www.nytimes.com/2026/07/15/us/politics/gold-trump-coins.html",
-        "source": "NYT US",
-        "bias": "left-center",
-        "priority": 7
-      }
-    },
-    "farLeftText": "The treasury department announced on Wednesday that the US Mint has started producing a new commemorative $1 coin featuring Donald Trump as part of the nation\u2019s 250th anniversary celebration.\n\nThe coin is scheduled for release this fall. Treasury officials said its final design was approved earlier this year by the US Commission of Fine Arts, whose members were appointed by Trump.\n\nHowever, the version revealed on Wednesday is not identical to the previously approved design. Among the changes, the coin has a gold finish rather than being made of solid gold.\n\nScott Bessent, the treasury secretary, said in an X post the coin is intended \u201cto honor the enduring legacy of liberty and a lasting symbol of patriotism\u201d, adding: \u201cFeaturing President Trump, it celebrates the strength of American values, and the promise of a nation dedicated to preserving freedom for all.\u201d\n\nThe decision has sparked criticism because federal law bars living presidents from appearing on US currency. At the same time, the treasury secretary has authority in certain situations to authorize the minting and issuance of coins.\n\nThe front of the new coin shows Trump wearing a suit and tie with a stern expression. The word \u201cLIBERTY\u201d appears across the top edge, while the dates 1776-2026 are displayed along the bottom. The phrase \u201cIN GOD WE TRUST\u201d is positioned in the center.\n\nOn the reverse, the coin features the traditional bald eagle from the Great Seal of the United States. \u201cUNITED STATES OF AMERICA\u201d is inscribed around the top edge, and the banner above the eagle bears the Latin phrase \u201cE PLURIBUS UNUM\u201d, meaning \u201cOut of many, one.\u201d\n\nTrump has repeatedly sought to place his name and image on prominent institutions and projects, including the renaming of the US Institute of Peace, the Kennedy Center performing arts venue, and a new class of battleships, among other tributes.\n\nIn March, it was announced Trump\u2019s signature would soon appear on US paper currency. The move marked the first time a sitting US president will have their signature appear on legal tender.\n\nTo accommodate this change, the treasurer\u2019s signature will be removed for the first time since 1861.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 50,
-      "left-center": 50
-    }
-  },
-  {
-    "id": 4976249,
-    "date": "2026-07-16",
-    "topic": "Maine Democrats Platner Replacement Coalescing Behind",
-    "match_score": 0.4,
-    "cluster_size": 4,
-    "articles": {
-      "left-center": {
-        "title": "Maine Democrats aren\u2019t coalescing behind a Graham Platner replacement",
-        "url": "https://www.politico.com/news/2026/07/15/maine-democrats-fractures-platner-replacement-00997729",
-        "source": "Politico",
-        "bias": "left-center",
-        "priority": 3
-      },
-      "right": {
-        "title": "Maine Democrats in a Mad Dash to Find a Replacement for Platner",
-        "url": "https://pjmedia.com/rick-moran/2026/07/15/maine-democrats-in-a-mad-dash-to-find-a-replacement-for-platner-n4955067",
-        "source": "PJ Media",
-        "bias": "right",
-        "priority": 8
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "When Maine Democrat Senate candidate Graham Platner was forced to drop out of the general election race after numerous women accused the Oyster Man of manhandling and sexually assaulting them, it set off a <span class='highlight-bias highlight-bias-right'>mad</span> scramble among state Democrats to replace him.\n\nAdvertisement\n\nThe state Democratic Party decided to have the issue of a replacement for Platner decided at a state party convention on July 25, when 500 delegates, elected at county conventions held this week, and another 101 chosen by the state Democratic Party Committee, will arrive in Bangor to choose their candidate. There's no margin for error or delay. State law requires that July 27 be the last day on which they can submit the name of the replacement nominee for inclusion on the ballot.\n\n\u201cWe are in a perilous situation, and there is no perfect way to deal with an unprecedented situation like this,\u201d one of the candidates, Jordan Wood, told reporters this week. There are currently eight candidates who have announced their intention to run.\n\nFormer Maine Senate President Troy Jackson has already tried to claim the mantle of logical successor to Platner.\n\n\u201cYou poured your hearts, your time and your energy into building this movement alongside another candidate in Maine, and I know that there\u2019s real pain, anger and disappointment, and I\u2019m not going to try and minimize that,\u201d Jackson said Monday on a call with members of the national progressive group Our Revolution. \u201cBut look, this movement has always been bigger than one person.\u201d\n\nCNN:\n\nCandidates face a 5 p.m. Wednesday deadline to declare their intent to run, with the first scheduled debate on Thursday. By the end of Monday, candidates will need to submit 500 signatures to qualify for the ballot, including 50 signatures from at least eight separate counties. On Tuesday night, the Maine Democratic Party said it had already received more than 5,500 submissions from Democrats who either want to be delegates or attend the county meetings to pick delegates. It is a process with a far smaller electorate than a traditional primary, requiring an intense focus on organizing and interpersonal relationships. At least some campaigns may have reached out to, if not spoken to, all 601 delegates by the time they arrive in Bangor.\n\nAdvertisement\n\nWith the Senate in play and incumbent GOP Sen. Susan Collins in trouble at home with her own party, the race has created intense national interest.\n\n\u201cI think that all of us are working hard to make this process transparent, inclusive and as timely as possible,\u201d Paige Zeigler, chair of the Waldo County Democrats, said in an email that partly addressed out-of-state political observers: \u201cWe Mainers will show the way because \u2018as Maine go, so goes the nation.\u2019 Now follow us and elect some damn good leaders this November.\u201d\n\nNirav Shah\u2019s campaign for governor, which got the most votes before the \"ranked choice voting\" bug bit her, was in the process of winding down her campaign after the June 9 primary, which she eventually lost to Hannah Pingree, when Platner's exit started a <span class='highlight-bias highlight-bias-right'>mad</span> scramble to get the 500 signatures from eight counties needed to be on the convention ballot.\n\n\u201cOur team basically never stood down,\u201d said Kayla vanWieringen, Shah\u2019s campaign manager. \u201cEveryone just completely mobilized.\u201d\n\nAnother former candidate for governor, Maine Secretary of State Shenna Bellows, has been leaning on \u201csuper volunteers\u201d and \u201ccounty captains\u201d from her last campaign to help collect signatures and organize for the convention.\n\nShah and Bellows have big advantages organizationally. But this kind of wild west format is likely to throw up a candidate who can stampede the delegates and seize the nomination. The format does not favor moderates or pragmatists.\n\nAdvertisement\n\nPublicly, campaigns have been quizzing supporters on whether they plan to attend their county meeting this weekend, and if so, whether they plan to run to be delegates themselves or support that campaign\u2019s delegate candidates. Ideally, a campaign could emerge from the county meetings with a known baseline of support for the convention.\n\n\u201cThe goal is to lock in as many delegates you can this weekend so that you feel good heading into the nominating convention in Bangor,\u201d the person familiar with Jackson\u2019s operation said. Even then, delegates are not legally bound to support a particular candidate, and their loyalties could shift from the county meetings to the convention, where there will be multiple rounds of voting until a candidate wins a majority. \u201cNothing is set in stone,\u201d said one person involved in the race.\n\nSusan Collins has alienated Republicans in her state, not to mention the national Republican Party. She is underwater with independents, and her favorability rating stands at 38 percent. The pro-abortion and feminist crowd is energized after her vote to confirm Brett Kavanaugh to the Supreme Court, and polls show she's in a statistical dead heat with Shah, Bellows, and Jackson.\n\nWith ranked choice voting, unless Collins can get more than 50 percent of the vote, the second- and third-place choices will be in play, almost certainly leading to her defeat.\n\nAdvertisement\n\nPlatner would have been easier to beat.\n\nEditor's Note: The Democrat Party has never been less popular as voters reject its globalist agenda.\n\nHelp us continue exposing Democrats' plans to lead America down a dangerous path. Join PJ Media VIP and use promo code FIGHT to receive 60% off your membership.",
-    "omissions": {
-      "left-center": 50,
-      "right": 50
-    }
-  },
-  {
-    "id": 4883594,
-    "date": "2026-07-16",
-    "topic": "Families Hospital Switched Birth Colorado Claims",
-    "match_score": 0.4,
-    "cluster_size": 4,
-    "articles": {
-      "left-center": {
-        "title": "2 families sue hospital after Colorado man claims he was switched at birth",
-        "url": "https://www.cbsnews.com/news/colorado-man-switched-at-birth-hospital-lawsuit/",
-        "source": "CBS News",
-        "bias": "left-center",
-        "priority": 8
-      },
       "right-center": {
-        "title": "Two families sue North Dakota hospital on allegations babies were switched at birth",
-        "url": "https://www.foxnews.com/us/two-families-sue-north-dakota-hospital-allegations-babies-switched-birth",
-        "source": "Fox News Latest",
+        "title": "Trump admin fires US attorney in Seattle minutes after he was appointed",
+        "url": "https://www.foxnews.com/politics/trump-admin-fires-us-attorney-seattle-minutes-after-appointed",
+        "source": "Fox News Politics",
         "bias": "right-center",
         "priority": 2
+      },
+      "right": {
+        "title": "You're Fired: Trump Boots Blue State Judges' Pick for US Attorney in Under an Hour",
+        "url": "https://redstate.com/terichristoph/2026/07/16/new-us-attorney-fired-minutes-after-appointment-n2204387",
+        "source": "RedState",
+        "bias": "right",
+        "priority": 9
       }
     },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "Two families are suing a local hospital after a Colorado man claimed he and another man were switched at birth 36 years ago.\n\nTwo years ago, Jeremy Morrison took a DNA test and found out his parents were not his biological parents. He told CBS affiliate KKTV in Colorado Springs that he always felt different from his family.\n\n\"I didn't have anyone that looked like me in my family,\" Morrison said. \"I was that blonde-haired kid that stood out in a family full of brown-haired people.\"\n\nMorrison told KKTV that his aunt provided DNA, and a man named Kyle Bylin matched as her nephew. Morrison said he does not have any cousins.\n\n\"I know I definitely wouldn't be here in Colorado today if I went home with the right parents,\" Morrison said. \"I would have been working the farm with my older brother that I never knew I had.\"\n\nMorrison said he believes he and Bylin were the only babies born on Jan. 26, 1988, at the same hospital in Grafton, North Dakota.\n\n\"Me and Kyle didn't grow up in the same area; we couldn't have gotten switched at daycare or anything like that,\" Morrison told KKTV.\n\nBoth sets of parents have met their biological sons, but the two men have not yet met each other, KKTV reported.\n\nMorrison, Bylin and their parents are suing Unity Medical Center, which has denied the allegations, litigation records show.\n\nUnity Medical Center told KKTV in a statement that it's \"currently working to better understand a highly unusual situation involving two men who apparently were separated from their biological parents at some point during their lives. Both men were born at our hospital on the same day in 1988, and we recognize the profound impact this discovery has had on them and their families.\"\n\n\"Unfortunately, because of the passage of nearly four decades, the medical and staffing records that might have provided additional clarity no longer exist, and no members of the delivery team from that time are still employed by the hospital,\" it said. \"While we deeply sympathize with the men and their families, we have found no evidence to support claims that Unity Medical Center or its staff were responsible for what occurred.\"",
+    "farLeftText": "Donald Trump fired the new top federal prosecutor in Seattle on Wednesday less than an hour after the attorney was unanimously appointed by the federal judges in the district, highlighting tensions between the courts and the president over the powerful positions.\n\nRoger Rogoff, a former judge and veteran state and federal prosecutor, was sworn in as US attorney before 8am at the US courthouse in downtown Seattle. In a phone interview, he said he then went to the US attorney\u2019s office and asked to meet with Charles Neil Floyd, whose 120-day interim term in the position ended in February.\n\nAs he waited in a lobby, Rogoff said, he received an email from the Trump administration informing him he had been removed from the position. He is consulting with other lawyers about suing over his firing, he said.\n\nPresidents normally appoint US attorneys, the top federal prosecutors in each judicial district. The positions require Senate confirmation, except in temporary appointments. When temporary appointments expire before a nominee is confirmed, the judges in a judicial district can name a US attorney.\n\nBut under Trump, the justice department has sought to leave unconfirmed prosecutors in their positions indefinitely, often through novel personnel maneuvers.\n\n\u201cDistrict court judges can appoint a temporary US attorney, and [the president] can fire them,\u201d the acting US attorney general, Todd Blanche, said in a social media post on Wednesday. He added that the judges who appointed Rogoff \u201cabandoned the time-honored process of consultation with the administration so that the selected US attorney is qualified to serve in the administration\u201d.\n\nTrump named Floyd, who previously served as an immigration judge, interim US attorney last October but never forwarded his nomination to the Senate. When Floyd\u2019s time as interim US attorney expired, Trump simply shifted his title, a tactic the administration has also tried in other federal judicial districts: he was named him first assistant US attorney, while the top post was left empty.\n\nIn May, a US appeals court panel expressed skepticism that the maneuver was legal. The federal judges in the city decided to take applications for the position, and they appointed a bipartisan panel to review the applications.\n\nOn Wednesday morning the court \u2013 comprising 17 active and senior judges appointed by five presidents \u2013 issued its unanimous order naming Rogoff the US attorney for western Washington.\n\nPatty Murray, a US senator from Washington, who had opposed Floyd for the US attorney job, blasted Rogoff\u2019s quick firing.\n\n\u201cThroughout his career, he has demonstrated an outstanding commitment to public service, and he was appointed legally by the federal judges in the western district of Washington,\u201d the senator said in a written statement. \u201cThis administration doesn\u2019t want to deal with advice and consent \u2013 they just want to install cronies to carry out a <span class='highlight-bias highlight-bias-left'>corrupt</span> political agenda.\u201d\n\nIn December, Alina Habba resigned as the top federal prosecutor for New Jersey after an appeals court said she had been serving in the post unlawfully.\n\nLindsey Halligan, who pursued indictments against a pair of Trump\u2019s adversaries, left her position as an acting US attorney in Virginia after a judge concluded her appointment was unlawful and that indictments she brought against the New York attorney general, Letitia James, and the former FBI director James Comey must be dismissed.\n\nThe judges there named James Hundley, who had handled criminal and civil cases for more than 30 years, as US attorney, but the Trump administration fired him. It also fired a court-appointed US attorney in northern New York.\n\nRogoff, who spent 20 years as a state prosecutor and six as a federal prosecutor before becoming a state judge, said he knew the administration might fire him immediately. But he said he had no qualms about the potential conflict he was walking into. Being US attorney is \u201cthe best job there is\u201d for a prosecutor, he said.\n\n\u201cI\u2019m really proud of my career,\u201d Rogoff said. \u201cThe fact that the judges of this district \u2013 most of whom I\u2019ve spent my career appearing in front of, or trying cases against, or working with \u2013 believed that I was the right person to do this work is just really humbling and amazing.\u201d",
+    "centerLeftText": "No article found in this category for this topic.",
     "centerText": "No article found in this category for this topic.",
-    "centerRightText": "NEW You can now listen to Fox News articles!\n\nTwo families are suing a North Dakota hospital, alleging hospital staff mistakenly switched two baby boys at birth more than 36 years ago.\n\nKyle Bylin and Jeremy Morrison were the only two babies born at Unity Medical Center in Grafton, North Dakota, on Jan. 26, 1988, the men and their families said in the lawsuit, according to KVLY. Christian Unity Hospital Corporation, doing business as Unity Medical Center, was named as the defendant.\n\nThe plaintiffs allege hospital staff switched the infants and sent them home with the other child\u2019s biological parents, the outlet reported. The two men were then raised by each other\u2019s biological families, allegedly without anyone's knowledge.\n\nThe lawsuit says the switch was not discovered for more than 36 years.\n\nFAMILY OF TODDLER FOUND ALIVE IN MORGUE AFTER BEING DECLARED DEAD PLANS LEGAL ACTION\n\nTwo years ago, Morrison, who now lives in Colorado, took a DNA test and learned the parents who raised him were not his biological parents. Morrison told KKTV that his aunt provided DNA, and Bylin matched as her nephew. Morrison said he does not have any cousins.\n\nMorrison told the outlet that he always felt different from the family he grew up with.\n\n\"I didn't have anyone that looked like me in my family,\" Morrison said. \"I was that blonde-haired kid that stood out in a family full of brown-haired people.\"\n\n\"I know I definitely wouldn't be here in Colorado today if I went home with the right parents,\" he said. \"I would have been working the farm with my older brother that I never knew I had.\"\n\nBoth sets of parents have met their biological sons, but the two men have not met each other, according to KKTV.\n\nDNA FROM SODA BOTTLE ALLEGEDLY LINKS MASSACHUSETTS WOMAN TO 1985 MURDER OF 'BABY BOY DOE'\n\nUnity Medical Center denied the allegations and asked the court to dismiss the case with prejudice.\n\nAttorneys for the hospital argued that its staff \"possessed and exercised the appropriate degree of skill and learning\" and \"at all times used reasonable care, judgment, and diligence,\" according to KVLY.\n\nThe hospital also claims the lawsuit may be prohibited by the statute of limitations, pointing to \"the length of time that has passed between the alleged incident and the service of this lawsuit.\"\n\nThe plaintiffs are seeking more than $50,000 in damages and have asked for a jury trial.\n\nThe hospital also raised comparative fault as a defense, arguing that damages, if any, could be attributable to parties other than the hospital.\n\nThe hospital has also demanded a jury trial.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nUnity Medical Center said in a statement to KKTV that it is \"currently working to better understand a highly unusual situation involving two men who apparently were separated from their biological parents at some point during their lives,\" adding: \"Both men were born at our hospital on the same day in 1988, and we recognize the profound impact this discovery has had on them and their families.\"\n\n\"Unfortunately, because of the passage of nearly four decades, the medical and staffing records that might have provided additional clarity no longer exist, and no members of the delivery team from that time are still employed by the hospital,\" the statement continued. \"While we deeply sympathize with the men and their families, we have found no evidence to support claims that Unity Medical Center or its staff were responsible for what occurred.\"",
-    "farRightText": "No article found in this category for this topic.",
+    "centerRightText": "NEW You can now listen to Fox News articles!\n\nThe Trump administration took the fight over who controls U.S. attorney appointments to a whole new level, firing a Seattle-based prosecutor less than an hour after he was picked for the job without the blessing of the administration.\n\n\"District court judges can appoint a temporary U.S. Attorney, and POTUS can fire them,\" acting Attorney General Todd Blanche wrote Wednesday on X as he was testifying before the Senate in his confirmation hearing, calling out a U.S. District Court for the Western District of Washington state panel for elevating Judge Roger Rogoff to be the top federal prosecutor in Seattle.\n\n\"WDWA judges abandoned the time-honored process of consultation with the administration so that the selected U.S. Attorney is qualified to serve in the administration,\" Blanche said. \"Roger Rogoff has been fired by the President.\"\n\nThat post came after Rogoff, 57, a former King County Superior Court judge and longtime state and federal prosecutor, was sworn in before 8 a.m. local time at the federal courthouse in downtown Seattle as U.S. attorney for the Western District of Washington.\n\nTRUMP'S AG NOMINEE RACKS UP MASSIVE SUPPORT AHEAD OF CONFIRMATION HEARING: 'REAL RESULTS'\n\nHe then went to the U.S. Attorney\u2019s Office and asked to meet with Charles Neil Floyd, the Trump administration\u2019s preferred choice for the job, whose 120-day interim term expired in February.\n\nWhile Rogoff waited in the lobby, he received an email notifying him that Trump had removed him from office.\n\nRogoff's situation was not mentioned in Blanche's Senate confirmation hearing Wednesday, but Blanche is back before the Senate again Thursday and Rogoff now might be a notable topic of discussion during his confirmation process.\n\nBIDEN JUDGE <span class='highlight-bias highlight-bias-right'>REJECTS</span> TRUMP'S SANCTUARY CITIES LAWSUIT, SAYS EVEN A WIN WOULDN'T SOLVE DOJ'S PROBLEM\n\nThe quick dismissal came after all 17 active and senior federal judges in the deep-blue district appointed Rogoff to the vacancy. The judges, appointed by five presidents (10 by Democrats and seven by Republicans), had opened an application process after the administration did not send Floyd\u2019s nomination to the Senate and instead kept him in place by making him first assistant U.S. attorney while leaving the top job vacant.\n\nU.S. attorneys, who serve as the Justice Department\u2019s chief federal prosecutors in each district, are normally nominated by the president and confirmed by the Senate. Federal law allows the attorney general to name an interim U.S. attorney for 120 days. If that period expires without a confirmed nominee, district judges may appoint someone to serve until the vacancy is filled.\n\nBecause of obstruction by Democrats in the narrowly held Senate, the Trump administration has resorted to using acting titles and other personnel moves to keep its prosecutors in place. Courts have pushed back in several Democrat-heavy districts like Seattle and New Jersey, issuing legal challenges to the Justice Department and White House authority.\n\n\"I don\u2019t think it\u2019s the way to run the Department of Justice,\" Rogoff told The New York Times. \"When you have this sort of made up way of putting people in these positions, the process breaks down.\"\n\nSen. Patty Murray, D-Wash., opposed Floyd for the U.S. attorney job and blasted Rogoff\u2019s quick firing.\n\n\"Throughout his career, he has demonstrated an outstanding commitment to public service, and he was appointed legally by the federal judges in the Western District of Washington,\" Murray wrote in a statement. \"This administration doesn\u2019t want to deal with advice and consent \u2014 they just want to install cronies to carry out a <span class='highlight-bias highlight-bias-right'>corrupt</span> political agenda.\"\n\nLEGAL WAR ON TRUMP\u2019S AGENDA GAINS FIREPOWER AS FEDERAL LAWYERS DEFECT TO DEMOCRATS\n\nTrump administration officials have long noted that the \"advise and consent\" role of the Senate does not grant Democrats against Trump's administrative priorities to be a hard block on his agenda and nominees, though.\n\nRogoff has retained an employment law firm and is considering a legal challenge to his firing.\n\nFox News Digital reached out to Rogoff for comment.\n\nThe Seattle clash follows similar disputes elsewhere. In New Jersey, Alina Habba resigned as the top federal prosecutor after an appeals court said she had been serving unlawfully. In Virginia, Lindsey Halligan left an acting U.S. attorney post after a judge found her appointment unlawful and dismissed indictments she had brought against New York Attorney General Letitia James and former FBI Director James Comey.\n\nThe administration has also fired court-appointed U.S. attorneys in other districts.\n\nRogoff, who spent 20 years as a state prosecutor and six as a federal prosecutor before becoming a state judge, said he knew the administration might fire him immediately. Despite this, he said he had no qualms about the potential conflict he was walking into, because being U.S. attorney is \"the best job there is.\"\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\n\"I\u2019m really proud of my career,\" Rogoff said. \"The fact that the judges of this district \u2014 most of whom I\u2019ve spent my career appearing in front of, or trying cases against, or working with \u2014 believed that I was the right person to do this work is just really humbling and amazing.\"\n\nThe Associated Press contributed to this report.",
+    "farRightText": "The brand-new U.S. attorney for the Western District of Washington found out the hard way Wednesday that President Trump (almost) always gets his man (or woman). Roger Rogoff, a former King County Superior Court judge, had just been sworn in and was making his way to his new office when he received an email from the president telling him he had been terminated. His services were no longer necessary.\n\nAdvertisement\n\nRogoff reportedly held the position for less than an hour, which could be a new record.\n\nThe problem for Rogoff is that he wasn't Trump's man at all and had only been sworn in after 17 federal judges in the deeply leftist district banded together and appointed him. Trump's actual man, Charles Neil Floyd, served as interim U.S. attorney from October of 2025 through February of 2026, when the interim period expired.\n\nSEE ALSO: Trump Blasts Grassley, Senate Republicans for Allowing the Blue Slip 'Scam' to Torpedo Nominees\n\nTrump Goes Scorched Earth Over Dems Blue-Slip Block of Habba, Other U.S. Attorney Picks\n\n\n\nSince then, Floyd has performed the duties of U.S. attorney while holding the title of First Assistant United States Attorney for the Western District of Washington.\n\nEXCLUSIVE: Drama unfolding at the @TheJusticeDept in Seattle. Federal judges here appointed their own U.S. Attorney since Democrats blocked @POTUS' pick, Neil Floyd. The choice of judges, Democrat Roger Rogoff, showed up this morning at 8am to try to take over the office. 30\u2026 pic.twitter.com/IRqTbZUTZh \u2014 Brandi Kruse (@BrandiKruse) July 15, 2026\n\nEXCLUSIVE: Drama unfolding at the @TheJusticeDept in Seattle. Federal judges here appointed their own U.S. Attorney since Democrats blocked @POTUS' pick, Neil Floyd. The choice of judges, Democrat Roger Rogoff, showed up this morning at 8am to try to take over the office. 30 minutes later, his phone rang and the @WhiteHouse fired him. Trump's pick, Neil Floyd remains the de facto U.S. Attorney in Seattle.\n\nAdvertisement\n\nPresident Trump's fight to get his U.S. attorney candidates into office during his second administration has been a tough and <span class='highlight-bias highlight-bias-right'>frustrating</span> one, having run headlong into the roadblock of a meager Republican advantage in the Senate. Many of his picks have had their nominations languish there far past their interim appointments.\n\nU.S. attorneys, who serve as the Justice Department\u2019s chief federal prosecutors in each district, are normally nominated by the president and confirmed by the Senate. Federal law allows the attorney general to name an interim U.S. attorney for 120 days. If that period expires without a confirmed nominee, district judges may appoint someone to serve until the vacancy is filled.\n\nActing Attorney General Todd Blanche took time out of his confirmation hearing to become the next Attorney General to confirm the president had every right to remove Rogoff.\n\nDistrict court judges can appoint a temporary U.S. Attorney, and POTUS can fire them. WDWA judges abandoned the time-honored process of consultation with the administration so that the selected U.S. Attorney is qualified to serve in the administration.\n\n\n\nRoger Rogoff has been\u2026 \u2014 Acting AG Todd Blanche (@DAGToddBlanche) July 15, 2026\n\nDistrict court judges can appoint a temporary U.S. Attorney, and POTUS can fire them. WDWA judges abandoned the time-honored process of consultation with the administration so that the selected U.S. Attorney is qualified to serve in the administration. Roger Rogoff has been fired by the President.\n\nAdvertisement\n\nIn the high-stakes game of President Trump getting the guy or gal he wants in the appointed position he wants them in, it's probably wise not to bet against him. The man is tenacious, and the businessman mentality that often defines him is more than happy to play the long game and get creative when required.\n\nEditor's Note: Unelected federal judges are hijacking President Trump's agenda and <span class='highlight-bias highlight-bias-right'>insulting</span> the will of the people.\n\nHelp us expose out-of-control judges dead set on halting President Trump's mandate for change. Join RedState VIP and use promo code FIGHT to receive 60% off your membership.",
     "omissions": {
-      "left-center": 50,
-      "right-center": 50
+      "left": 50,
+      "right-center": 50,
+      "right": 50
     }
   },
   {
