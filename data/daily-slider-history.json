@@ -1,10 +1,50 @@
 [
   {
-    "id": 7646997,
+    "id": 2336886,
+    "date": "2026-07-17",
+    "topic": "Cyclosporiasis Taco Lettuce Outbreak Bell Supplier",
+    "match_score": 0.6,
+    "cluster_size": 5,
+    "articles": {
+      "left": {
+        "title": "Cyclosporiasis: officials looking at Taco Bell lettuce supplier as potential source of outbreak",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/taco-bell-lettuce-cyclosporiasis-outbreak",
+        "source": "The Guardian (US)",
+        "bias": "left",
+        "priority": 1
+      },
+      "left-center": {
+        "title": "Cyclosporiasis outbreak possibly traced to lettuce from Mexico used by Taco Bell",
+        "url": "https://www.cbsnews.com/news/cyclosporiasis-outbreak-taco-bell-lettuce-mexico/",
+        "source": "CBS News",
+        "bias": "left-center",
+        "priority": 8
+      },
+      "right-center": {
+        "title": "Taco Bell\u2019s lettuce supplier linked to nationwide cyclosporiasis outbreak",
+        "url": "https://www.washingtonexaminer.com/policy/healthcare/4652642/taco-bell-lettuce-taylor-farms-cyclospora/",
+        "source": "Washington Examiner",
+        "bias": "right-center",
+        "priority": 4
+      }
+    },
+    "farLeftText": "Amid an ongoing outbreak of cyclosporiasis, federal health officials are reportedly looking at iceberg lettuce from Taylor Farms that was supplied to Taco Bell as a possible source.\n\nOn Thursday afternoon, the Washington Post, CNN and other media outlets reported that the lettuce supplier had been linked to the outbreak, citing unnamed sources \u201cfamiliar with the investigation\u201d.\n\n\u201cBased on ongoing conversations with public health officials, and out of an abundance of caution, Taco Bell has taken immediate action to voluntarily remove potentially impacted lettuce from a supplier in select states,\u201d a Taco Bell spokesperson said in a statement. \u201cThe affected ingredient from our supplier is being indefinitely removed from our supply chain nationwide and will be replaced within 24 hours in select states.\u201d\n\n\u201cTaco Bell has taken precautionary action, and we encourage all relevant restaurants, retailers, and foodservice operators to do the same,\u201d the statement continued, noting \u201cno official advisory has been issued\u201d.\n\nThe parasitic illness, which causes watery, explosive diarrhea, has affected thousands of people across the US. The Centers for Disease Control and Prevention reported earlier this week that it had identified 1,645 lab-confirmed cases of the parasite and that 145 people had been hospitalized with the illness. A backlog of 5,100 cases requires more analysis, the CDC said.\n\nThe agency said this week that while it was continuing to try to hunt down the source of the illness, it expected the outbreak would continue through August. Officials have warned the number of actual infections is higher than the numbers show, the Guardian reported earlier this week.\n\n\u201cThe true number of infections is almost certainly higher, because many people with mild illness recover,\u201d Gwen Biggerstaff, the deputy director of the CDC\u2019s division of foodborne, waterborne and environmental diseases, said on Tuesday. \u201cWe\u2019re seeing an unusually high number of cyclosporiasis cases this summer.\u201d\n\nOfficials have reported that cases in Michigan, Ohio, West Virginia and Kentucky are linked, and authorities in Michigan said on Monday that lettuce was a \u201cpotential source\u201d of the outbreak. The Washington Post reported earlier this week that federal and state officials were looking at whether lettuce at Taco Bell locations in Michigan was connected to the outbreak.\n\nThe Trump administration has faced criticism during the surge in illnesses for its cuts to federal food safety programs, as well as its decision to limit the scope of a CDC program that had monitored trends in foodborne illness.\n\nKaroline Leavitt, the White House press secretary, said the cuts at the CDC and FDA have not affected the federal government\u2019s response to the outbreak.\n\n\u201cWe\u2019ve talked to the CDC and FDA specifically about that, and not at all,\u201d she told reporters on Thursday. \u201cThey have the resources they need to make sure that Americans are fully informed and protected from this illness during this time.\u201d\n\nTaylor Farms did not immediately respond to inquiries.\n\nThe Associated Press and Reuters contributed",
+    "centerLeftText": "A lettuce supplier to fast-food giant Taco Bell is being investigated as a possible source for a nationwide cyclosporiasis outbreak that has sickened thousands of people, a source familiar with the investigation told CBS News on Thursday.\n\nThe source said a traceback investigation by the Food and Drug Administration identified a single supplier of iceberg lettuce from Mexico, Taylor Farms, that was used by Taco Bell locations in five states where people who contracted cyclosporiasis ate. The FDA is investigating, the source said.\n\nTaylor Farms, based in Salinas, California, is a supplier to several major restaurant chains across the U.S.\n\n\"Based on ongoing conversations with public health officials, and out of an abundance of caution, Taco Bell has taken immediate action to voluntarily remove potentially impacted lettuce from a supplier in select states,\" Taco Bell said in a statement Thursday. \"The affected ingredient from our supplier is being indefinitely removed from our supply chain nationwide and will be replaced within 24 hours in select states.\"\n\nCBS News has reached out to Taylor Farms for comment as well.\n\nThe outbreak, a diarrheal illness caused by the parasite cyclospora, was first reported in early May and has since spread to 34 states, according to the latest numbers from the U.S. Centers for Disease Control and Prevention.\n\nIt has sickened at least 1,645 people, per CDC data, including at least 141 hospitalizations. But the CDC's tally lags behind state health departments, which have reported much larger numbers of cases. The Michigan Department of Health and Human Services reported Thursday at least 4,312 confirmed cases, including 102 that required hospitalization.\n\nLast year, an E. coli outbreak was linked to onions provided to several restaurants from a Taylor Farms facility in Colorado. As a result, McDonald's was briefly forced to stop using onions on its Quarter Pounders at some locations.\n\nOn its website, Taylor Farms bills itself as the \"leading global producer of salads and healthy fresh foods, with production facilities across the U.S., Canada, Mexico, and Western Europe.\"\n\nAccording to the CDC, cyclosporiasis symptoms usually begin about a week after infection, and the illness can last anywhere from two days to two weeks or more. Symptoms include watery diarrhea, loss of appetite, weight loss, bloating, nausea and fatigue.\n\nCyclosporiasis spreads when infected feces contaminate food and water. According to the Michigan Department of Health and Human Services, previous outbreaks in the U.S. and Canada were linked to bagged salad mixes and kits, fresh cilantro, fresh basil, raspberries, snow peas and green onions.\n\nExperts say people are advised to wash all fresh produce and cook all food when possible.\n\n\"The best way to avoid ingesting it is to cook your food,\" Dr. Nuwan Gunawardhana, an infectious disease expert at Columbia University Irving Medical Center, told CBS News, adding that brushing or scrubbing vegetables can also help get rid of it. \"But it's also known to be extremely adherent to surfaces, so it won't protect you 100%.\"",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "Lettuce supplied to Taco Bell restaurants by Taylor Farms has been linked to the cyclosporiasis outbreak affecting 34 states, according to multiple reports.\n\nFederal and Michigan officials had begun investigating the Mexican-American style fast-food chain earlier this week, the Washington Post reported, but reports of Taylor Farms\u2019s implication in the outbreak first broke Thursday evening. The investigators have been probing what has caused the uptick in cyclosporiasis cases across the United States, as the Centers for Disease Control and Prevention has recorded at least 1,645 cases this year.\n\nThe nonfatal gastrointestinal illness causes severe diarrhea, loss of appetite, weight loss, cramping, nausea, and fatigue. It is often contracted by consuming food or water contaminated by the cyclospora cayetanensis parasite. While cases of the infection typically rise during the summer months between May and August, this year\u2019s number of reported cases is six times higher than the year-to-date number from last year.\n\nAdvertisement\n\nTaco Bell released a statement on Thursday announcing they removed possibly affected lettuce from \u201ca supplier\u201d without naming Taylor Farms. \u201cBased on ongoing conversations with public health officials, and out of an abundance of caution, Taco Bell has taken immediate action to voluntarily remove potentially impacted lettuce from a supplier in select states. The affected ingredient from our supplier is being indefinitely removed from our supply chain nationwide and will be replaced within 24 hours in select states,\u201d Taco Bell said in a statement. The Washington Examiner has reached out to Taylor Farms for comment. Advertisement The reported cyclosporiasis cases have largely been concentrated in Michigan, where over 4,300 cases had been reported as of Thursday to the Michigan Department of Health and Human Services. The CDC, which has only recorded between 501 and 900 reported cases, noted that state agencies would have the most up-to-date data, given the CDC\u2019s own assumed six-week lag between its reporting and illness onset. The CDC has said at least 141 people have been hospitalized nationally with the illness. Affected Taco Bell locations have been pinpointed in Michigan, Ohio, West Virginia, and Kentucky. TACO BELL BEING INVESTIGATED FOR CYCLOSPORIASIS OUTBREAK IN MICHIGAN Advertisement \u201cThe signal we have gotten is that there is a very high percentage of people who got sick at Taco Bell, and when investigators asked what their menu items were in common, lettuce came up frequently,\u201d an anonymous source told the Washington Post. Cyclosporiasis outbreaks in the past have been tied to imported produce such as raspberries, cilantro, mesclun lettuce, snow peas, and basil, according to the CDC.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 50,
+      "left-center": 50,
+      "right-center": 50
+    }
+  },
+  {
+    "id": 5799912,
     "date": "2026-07-17",
     "topic": "White House Teleprompter Operator Trump Bets",
     "match_score": 0.6,
-    "cluster_size": 6,
+    "cluster_size": 4,
     "articles": {
       "left": {
         "title": "White House teleprompter operator put on leave over alleged bets on Trump speeches",
@@ -23,7 +63,7 @@
       "center": {
         "title": "White House teleprompter operator accused of making $100k off Trump speech bets",
         "url": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News Front",
+        "source": "BBC News World",
         "bias": "center",
         "priority": 2
       }
@@ -119,102 +159,7 @@
     }
   },
   {
-    "id": 8398593,
-    "date": "2026-07-17",
-    "topic": "Cyclosporiasis Taco Bell Lettuce Outbreak Officials",
-    "match_score": 0.4,
-    "cluster_size": 5,
-    "articles": {
-      "left": {
-        "title": "Cyclosporiasis: officials looking at Taco Bell lettuce supplier as potential source of outbreak",
-        "url": "https://www.theguardian.com/us-news/2026/jul/16/taco-bell-lettuce-cyclosporiasis-outbreak",
-        "source": "The Guardian (World)",
-        "bias": "left",
-        "priority": 1
-      },
-      "left-center": {
-        "title": "Cyclosporiasis outbreak possibly traced to lettuce from Mexico used by Taco Bell",
-        "url": "https://www.cbsnews.com/news/cyclosporiasis-outbreak-taco-bell-lettuce-mexico/",
-        "source": "CBS News",
-        "bias": "left-center",
-        "priority": 8
-      }
-    },
-    "farLeftText": "Amid an ongoing outbreak of cyclosporiasis, federal health officials are reportedly looking at iceberg lettuce from Taylor Farms that was supplied to Taco Bell as a possible source.\n\nOn Thursday afternoon, the Washington Post, CNN and other media outlets reported that the lettuce supplier had been linked to the outbreak, citing unnamed sources \u201cfamiliar with the investigation\u201d.\n\n\u201cBased on ongoing conversations with public health officials, and out of an abundance of caution, Taco Bell has taken immediate action to voluntarily remove potentially impacted lettuce from a supplier in select states,\u201d a Taco Bell spokesperson said in a statement. \u201cThe affected ingredient from our supplier is being indefinitely removed from our supply chain nationwide and will be replaced within 24 hours in select states.\u201d\n\n\u201cTaco Bell has taken precautionary action, and we encourage all relevant restaurants, retailers, and foodservice operators to do the same,\u201d the statement continued, noting \u201cno official advisory has been issued\u201d.\n\nThe parasitic illness, which causes watery, explosive diarrhea, has affected thousands of people across the US. The Centers for Disease Control and Prevention reported earlier this week that it had identified 1,645 lab-confirmed cases of the parasite and that 145 people had been hospitalized with the illness. A backlog of 5,100 cases requires more analysis, the CDC said.\n\nThe agency said this week that while it was continuing to try to hunt down the source of the illness, it expected the outbreak would continue through August. Officials have warned the number of actual infections is higher than the numbers show, the Guardian reported earlier this week.\n\n\u201cThe true number of infections is almost certainly higher, because many people with mild illness recover,\u201d Gwen Biggerstaff, the deputy director of the CDC\u2019s division of foodborne, waterborne and environmental diseases, said on Tuesday. \u201cWe\u2019re seeing an unusually high number of cyclosporiasis cases this summer.\u201d\n\nOfficials have reported that cases in Michigan, Ohio, West Virginia and Kentucky are linked, and authorities in Michigan said on Monday that lettuce was a \u201cpotential source\u201d of the outbreak. The Washington Post reported earlier this week that federal and state officials were looking at whether lettuce at Taco Bell locations in Michigan was connected to the outbreak.\n\nThe Trump administration has faced criticism during the surge in illnesses for its cuts to federal food safety programs, as well as its decision to limit the scope of a CDC program that had monitored trends in foodborne illness.\n\nKaroline Leavitt, the White House press secretary, said the cuts at the CDC and FDA have not affected the federal government\u2019s response to the outbreak.\n\n\u201cWe\u2019ve talked to the CDC and FDA specifically about that, and not at all,\u201d she told reporters on Thursday. \u201cThey have the resources they need to make sure that Americans are fully informed and protected from this illness during this time.\u201d\n\nTaylor Farms did not immediately respond to inquiries.\n\nThe Associated Press and Reuters contributed",
-    "centerLeftText": "A lettuce supplier to fast-food giant Taco Bell is being investigated as a possible source for a nationwide cyclosporiasis outbreak that has sickened thousands of people, a source familiar with the investigation told CBS News on Thursday.\n\nThe source said a traceback investigation by the Food and Drug Administration identified a single supplier of iceberg lettuce from Mexico, Taylor Farms, that was used by Taco Bell locations in five states where people who contracted cyclosporiasis ate. The FDA is investigating, the source said.\n\nTaylor Farms, based in Salinas, California, is a supplier to several major restaurant chains across the U.S.\n\n\"Based on ongoing conversations with public health officials, and out of an abundance of caution, Taco Bell has taken immediate action to voluntarily remove potentially impacted lettuce from a supplier in select states,\" Taco Bell said in a statement Thursday. \"The affected ingredient from our supplier is being indefinitely removed from our supply chain nationwide and will be replaced within 24 hours in select states.\"\n\nCBS News has reached out to Taylor Farms for comment as well.\n\nThe outbreak, a diarrheal illness caused by the parasite cyclospora, was first reported in early May and has since spread to 34 states, according to the latest numbers from the U.S. Centers for Disease Control and Prevention.\n\nIt has sickened at least 1,645 people, per CDC data, including at least 141 hospitalizations. But the CDC's tally lags behind state health departments, which have reported much larger numbers of cases. The Michigan Department of Health and Human Services reported Thursday at least 4,312 confirmed cases, including 102 that required hospitalization.\n\nLast year, an E. coli outbreak was linked to onions provided to several restaurants from a Taylor Farms facility in Colorado. As a result, McDonald's was briefly forced to stop using onions on its Quarter Pounders at some locations.\n\nOn its website, Taylor Farms bills itself as the \"leading global producer of salads and healthy fresh foods, with production facilities across the U.S., Canada, Mexico, and Western Europe.\"\n\nAccording to the CDC, cyclosporiasis symptoms usually begin about a week after infection, and the illness can last anywhere from two days to two weeks or more. Symptoms include watery diarrhea, loss of appetite, weight loss, bloating, nausea and fatigue.\n\nCyclosporiasis spreads when infected feces contaminate food and water. According to the Michigan Department of Health and Human Services, previous outbreaks in the U.S. and Canada were linked to bagged salad mixes and kits, fresh cilantro, fresh basil, raspberries, snow peas and green onions.\n\nExperts say people are advised to wash all fresh produce and cook all food when possible.\n\n\"The best way to avoid ingesting it is to cook your food,\" Dr. Nuwan Gunawardhana, an infectious disease expert at Columbia University Irving Medical Center, told CBS News, adding that brushing or scrubbing vegetables can also help get rid of it. \"But it's also known to be extremely adherent to surfaces, so it won't protect you 100%.\"",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 50,
-      "left-center": 50
-    }
-  },
-  {
-    "id": 356503,
-    "date": "2026-07-17",
-    "topic": "Quality Smoke Wildfires Spreads Plummets States",
-    "match_score": 0.4,
-    "cluster_size": 4,
-    "articles": {
-      "left": {
-        "title": "Air quality plummets in 20 US states as smoke from Canadian wildfires spreads",
-        "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality",
-        "source": "The Guardian (World)",
-        "bias": "left",
-        "priority": 1
-      },
-      "center": {
-        "title": "Hundreds of Canada wildfires prompt US air quality alerts as smoke spreads south",
-        "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News Front",
-        "bias": "center",
-        "priority": 2
-      }
-    },
-    "farLeftText": "Smoke from wildfires burning in south-central Canada and parts of Minnesota is spreading across the US, prompting air quality alerts in more than 20 states with millions of Americans expected to face unhealthy air conditions this week.\n\nThe smoke from the more than 180 active wildfires in northern Ontario made Chicago\u2019s air quality the worst in the world on Thursday evening, followed by Detroit and Minneapolis, according to IQAir\u2019s global rankings.\n\nThe smoke has spread across several US states, from Minnesota, where multiple wildfires are also burning, to New York state, blanketing the skies in haze and worsening air quality.\n\nIn New York City, where the sky was tinged with an orange haze and the air smelled acrid, local officials urged residents to limit their outdoor time and cautioned elderly people, pregnant women and people with other risk factors, such as \u200bheart and lung disease, to remain inside.\n\n\u201cToday is expected to be the worst day of this event,\u201d said Zohran Mamdani, New York City\u2019s mayor, at a gathering on Thursday. \u201cAt \u2018unhealthy\u2019 levels, everyone \u2013 not just people with asthma or heart conditions, not just older adults \u2013 everyone may feel health effects. So today, every New \u2060Yorker should take precautions.\u201d\n\nThe National Aeronautics and Space Administration (Nasa) said that winds carried smoke from the Ontario fires \u201cprimarily south-east over much of the southern part of the province, as well as parts of Quebec and the US midwest and north-east, tinting the sky shades of gray and yellow and the sun orange in many areas\u201d.\n\nView image in fullscreen Minneapolis is obscured by wildfire smoke on Wednesday. Photograph: Steven Garcia/NurPhoto/Shutterstock\n\nAs of Thursday, air quality alerts have been issued for parts of North Carolina, Minnesota, Vermont, Connecticut, New York, Massachusetts, Rhode Island, New Jersey, New Hampshire, Pennsylvania, Illinois, Indiana, Ohio, Delaware, West Virginia, Colorado, Virginia, Maryland, Washington DC, Michigan and Wisconsin.\n\nAccording to a map of air quality conditions provided by the US Environmental Protection Agency, air quality was at \u201cunhealthy\u201d levels on Thursday in parts of Pennsylvania, Delaware, New Jersey, New York, Ohio and Michigan, with officials urging residents to \u201ctake precautions by reducing outdoor activity\u201d.\n\nOn Thursday afternoon, the air quality was rated as \u201cvery unhealthy\u201d in parts of Pennsylvania, New York, Ohio, Michigan, Illinois, Wisconsin, Minnesota and Indiana, while in certain parts of Pennsylvania, Michigan, including near Detroit, as well as areas of Ohio, Illinois, Wisconsin and Minnesota, the air quality was listed as \u201chazardous\u201d, with officials urging residents there to stay indoors.\n\nView image in fullscreen A street in Northbrook, Illinois, on Thursday. Photograph: Nam Y Huh/AP\n\nThe National Weather Service in Detroit warned on Thursday that \u201csmoke is expected to be most dense this afternoon and tonight with reduced visibilities\u201d.\n\nIn New York, officials extended the city\u2019s heat emergency plan operations, including the opening of hundreds of cooling centers, as \u201chigh temperatures and heat indices continue and smoke from significant, still-spreading wildfires in western Ontario, Canada, moves into the region\u201d.\n\nKathy Hochul, New York\u2019s governor, announced that more than 100,000 N95-style masks were being made available to counties in need, with additional masks being made available for commuters at Penn Station and Grand Central.\n\nNew York officials also warned that this could become New York City\u2019s \u201cmost significant smoke event\u201d since 2023, when smoke from Canadian wildfires pushed air quality to hazardous levels and blanketed the city in an orange haze.\n\nWhile officials said that this week\u2019s conditions currently \u201cdo not indicate a repeat of 2023\u2019s peak levels\u201d, authorities said that they were closely monitoring for any deterioration.\n\nWeather officials in New York City said on Thursday that \u201cwildfire smoke will continue to reduce visibility and air quality through this evening\u201d.\n\nskip past newsletter promotion Free newsletter | Around 2-3 times a day Sign up to Breaking News US Get the most important news as it breaks Preview latest Enter your email Sign up after newsletter promotion\n\nThe air quality alert for New York remains in effect until midnight on Thursday, and rain is expected on Saturday, ahead of Sunday\u2019s highly anticipated World Cup final in New Jersey.\n\nIn Buffalo, New York, the air quality was expected to be in the \u201cvery unhealthy\u201d category on Thursday, forecasters said.\n\nView image in fullscreen A watercraft sits in the Detroit River on Thursday in Detroit. Photograph: Paul Sancya/AP\n\nIn Boston, forecasters warned on Thursday that \u201csmoky skies are again expected today, which will reduce air quality\u201d.\n\nEd Markey, the Massachusetts senator, said that the smoke is \u201cdarkening skies and getting in our lungs across the state\u201d.\n\n\u201cWith a record El Ni\u00f1o forecast for this year, we are looking at more wildfire smoke days ahead,\u201d he added. \u201cThe climate crisis is here and it does not stop at our borders. Stay safe, Massachusetts.\u201d\n\nIn Washington DC, weather officials told residents to \u201cexpect more Canadian wildfire smoke to overspread the area leading to a camp fire smell in the air & some visibility reductions overnight-Friday\u201d.\n\nElsewhere, forecasters warned that smoky conditions were expected to persist into Friday and potentially into the weekend. In Virginia, forecasters said on Thursday that \u201cadditional waves of smoke from Ontario, Canada, wildfires will push south into the area through Friday\u201d, which will create \u201chazy conditions with diminished air quality\u201d.\n\nIn Michigan, smoke is expected to continue through Friday, and perhaps linger across parts of the area into Saturday, and Ohio is also expected to see smoky conditions continue through Friday.\n\nIn Indiana, weather officials said that \u201cthe Great Lakes region currently has some of the worst air quality in the world right now due to wildfire smoke\u201d.\n\nReuters contributed reporting",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "More than 800 wildfires are burning across Canada, with air quality alerts now extending south into multiple US states.\n\nThe air quality in large parts of the northern states of Michigan and Minnesota is deemed \"hazardous\" by the US Air Quality Index program, with people recommended to stay indoors.\n\nAlerts span the Upper Midwest, the Great Lakes region and into the northeast, the US national weather service (NOAA) said in an update on Thursday.\n\nIn Canada, one fire in northern Ontario forced residents from local First Nations to evacuate, with one chief saying that her community has been \"burnt to ashes\".",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 50
-    }
-  },
-  {
-    "id": 8437207,
-    "date": "2026-07-17",
-    "topic": "Todd Blanche Epstein Survivors Damning Accusations",
-    "match_score": 0.4,
-    "cluster_size": 4,
-    "articles": {
-      "left": {
-        "title": "Damning accusations pummel Todd Blanche as Epstein survivors condemn 'deflating' meeting",
-        "url": "https://www.rawstory.com/todd-blanche-2677235572/",
-        "source": "Raw Story",
-        "bias": "left",
-        "priority": 10
-      },
-      "left-center": {
-        "title": "Republican Senator Thom Tillis Demands Todd Blanche Meet With Epstein Survivors",
-        "url": "https://www.nytimes.com/2026/07/16/us/politics/todd-blanche-attorney-general-epstein.html",
-        "source": "NYT US",
-        "bias": "left-center",
-        "priority": 7
-      }
-    },
-    "farLeftText": "Several Jeffrey Epstein survivors and family members met with Acting Attorney General Todd Blanche, describing the meeting on Thursday as \"deflating\" and detailing what happened behind closed doors.\n\nBlanche, Trump's nominee for attorney general who has been facing tough questioning during his Senate confirmation hearing over his involvement in the release of the Epstein files, was pressed by Sen. Thom Tillis (R-NC) to immediately meet with Epstein survivors. Tillis made it clear that he would not vote to approve Blanche until the nominee met with them.\n\nLate survivor Virginia Giuffre's brother, Skye Roberts, and his wife, Amanda Roberts, spoke to CNN anchor Jake Tapper just after the exchange with Blanche.\n\n\"I think it was everything we expected,\" Amanda said. \"Unfortunately, Todd Blanche has been doing to us for the past nine months. There were no real admissions. There were no real commitments being made. There were a lot of diversions. When we asked about specific comments, as you mentioned, there weren't investigative leads. And a lot of it was like, 'I didn't really say that. That's not what I meant.' And so, there was no really getting to the bottom of it. There were just a lot of circles, and it felt very deflating.\"\n\nDani Bensky, an Epstein survivor who testified on Capitol Hill on Thursday, called the meeting \"lip service.\" Skye described why the meeting was <span class='highlight-bias highlight-bias-left'>unsettling</span> for the group.\n\n\"I want to be honest with you,\" Skye said. \"We were really trying to work with Todd Blanche in this scenario. Like, I want to be very clear to anybody that's watching this: our intentions are very pure. I wanted to go in there and get substance from him. I asked him at one point, I said, 'Mr. Blanche respectfully, like, what is it going to take to get investigative leads like subscribe that to me?'\"\n\nBlanche's response was eye-opening, Skye explained.\n\n\"And he said, 'Well, I need testimony, and I need evidence,'\" Skye said. \"I said, 'Well, let me give you an example: Andrew Mountbatten-Windsor. Virginia provided testimony. She provided evidence. Is that not an investigative lead? He said, well, he won't cooperate with me. And he also said that Virginia is not here. So [he] can't use that testimony. And so, it just felt like he wasn't willing to work with us. But I want to be clear that I'm still willing to work with the Department of Justice to get some sort of justice\u2014exactly what it's called.\"\n\nBlanche apparently described the meeting as \"not at all cordial.\"\n\n\"I think we walked in very, very dissatisfied with him, and we made it very clear that we do oppose his nomination,\" Amanda added. \"I think it was his staff's job and his and his job to make us feel welcome, to make us feel like they were there to provide answers. We've been asking for this meeting, and it felt like he only had it because his hand was forced.\"",
-    "centerLeftText": "The acting attorney general, Todd Blanche, met on Thursday with victims and relatives of victims of the convicted sex offender Jeffrey Epstein, after a key Republican lawmaker insisted he would not advance Mr. Blanche\u2019s nomination to serve in the job permanently unless he did so.\n\nSome victims at the meeting called it unhelpful and <span class='highlight-bias highlight-bias-left'>infuriating</span>, while a Justice Department official said it was productive.\n\nSenator Thom Tillis of North Carolina made the demand during a Senate Judiciary Committee hearing on Thursday for witnesses to discuss Mr. Blanche\u2019s nomination. For months, a group of Epstein survivors has tried unsuccessfully to meet with Mr. Blanche.\n\nHours after Mr. Tillis\u2019s comments, Mr. Blanche privately met with some victims eager to share their frustrations about how the Justice Department had handled the release of the Epstein files, and press the agency to more aggressively investigate.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 50,
-      "left-center": 50
-    }
-  },
-  {
-    "id": 3045559,
+    "id": 6593070,
     "date": "2026-07-17",
     "topic": "Trump Immigrants Green Cards Alarms Sound",
     "match_score": 0.4,
@@ -230,12 +175,139 @@
       "left-center": {
         "title": "Trump Administration Restricts Green Cards for Immigrants on Public Assistance",
         "url": "https://www.nytimes.com/2026/07/16/us/politics/trump-green-cards-public-assistance.html",
-        "source": "NYT US",
+        "source": "NYT Politics",
         "bias": "left-center",
         "priority": 7
       }
     },
     "farLeftText": "The Trump Department of Homeland Security rescinded a Biden administration rule that protected immigrants who rely on government benefits.\n\nAccording to a DHS final rule, immigration officials will be able to deny immigrants green cards if they rely on food stamps, Medicaid, housing aid, and other aid programs.\n\nThe rule nullifies a 2022 DHS final rule under Biden that the Trump administration rule repeatedly described as a \"straitjacket\" for immigration officers. It will go into effect and apply to green card applications filed after September 15, according to a post on X by immigration lawyer and policy analyst Aaron Reichlin-Melnick.\n\n\"They straitjacketed DHS officers by limiting what public benefits DHS can consider in the totality of the circumstances,\" the rule reads.\n\nDHS projected that the final rule will lead to 1.27 million people disenrolling or forgoing their benefits, including U.S. citizen children in mixed-status households.\n\n\"DHS acknowledges the final rule may <span class='highlight-bias highlight-bias-left'>indeed</span> produce indirect effects on the receipt of means-tested public benefits,\" the final rule reads. \"<span class='highlight-bias highlight-bias-left'>Moreover</span>, individuals who might choose to disenroll from or forgo future enrollment in a public benefits program may include aliens as well as U.S. citizen members of mixed-status households.\"\n\nThe rule is also expected to cut about $13 billion a year in food, health, and housing aid that would otherwise reach families, according to DHS.\n\nIn a post on X, Reichlin-Melnick noted, \"Crucially, this new rule does not establish new standards,\" and, \"Instead, it erases Biden-era standards, letting DHS issue its own 'subregulatory' guidance \u2014 which may be MUCH more restrictive.\"",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 50,
+      "left-center": 50
+    }
+  },
+  {
+    "id": 8039091,
+    "date": "2026-07-17",
+    "topic": "Trump Elections China Never Just Damage",
+    "match_score": 0.4,
+    "cluster_size": 4,
+    "articles": {
+      "left-center": {
+        "title": "Trump Just Did More Damage to American Elections Than China",
+        "url": "https://www.theatlantic.com/ideas/2026/07/trump-address/687939/?utm_source=feed",
+        "source": "The Atlantic",
+        "bias": "left-center",
+        "priority": 6
+      },
+      "right": {
+        "title": "China Responds to Trump Speech: Beijing 'Has Never and Will Never Interfere' in Elections",
+        "url": "https://www.breitbart.com/asia/2026/07/16/china-responds-trump-speech-beijing-never-interfere-elections/",
+        "source": "Breitbart",
+        "bias": "right",
+        "priority": 1
+      }
+    },
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "President Trump addressed the American people tonight and told them that their elections are at the mercy of foreign actors\u2014especially China. He called the current situation a \u201ccrisis\u201d and vowed to prevent any future elections from being \u201cstolen.\u201d He directed the public to a website where people can peruse documents that he says prove not only that bad actors have influenced U.S. elections, but that all of this was kept from him by \u201cdeep state\u201d malefactors during his first term.\n\nForeign powers do, in fact, try to influence American elections, but that was about all that the president\u2014who seems shocked that other nations have preferences about who wins elected office in the United States\u2014got right. The rest was a mishmash: Much of the previously classified material that Trump just splattered on the internet does not support his accusations, and in some cases, these declassified documents actually <span class='highlight-bias highlight-bias-left'>undermine</span> and refute his charges.\n\nTrump\u2019s speech tonight rested on a few solid facts submerged in wild, and even <span class='highlight-bias highlight-bias-left'>somewhat</span> <span class='highlight-bias highlight-bias-left'>paranoid</span>, extrapolations. It\u2019s true that bad actors have accessed basic data about the names and addresses of voters in several states. It\u2019s also true that China has some pretty strong views about Trump and probably didn\u2019t want him to be reelected in 2020. (The Chinese wanted him out because, Trump said, \u201cI was wise to them,\u201d which does not explain how he was <span class='highlight-bias highlight-bias-left'>nonetheless</span> hoodwinked.)\n\nFrom there, however, we slip the surly bonds of Earth and head into the dark and cold of the space of conspiracy theories. Trump strongly implied that in 2018, China was on the attack and trying to influence the outcome of the 2020 election, and that American intelligence operatives plotted to keep that from him while he was in the Oval Office. He said that attempts to rectify all of this have fallen \u201ccatastrophically short\u201d but that he will take \u201cswift\u201d action in the coming days.\n\nThe documents he offered tonight, though, tell a different story\u2014so different that they raise the question of whether Trump, or anyone else in the White House, actually read them.\n\nFor example, one of the memos from the National Intelligence Council (the analytical group within the Office of the Director of National Intelligence) said in 2020 that the group in charge of cyber-issues and threats to U.S. elections \u201cassesses that Beijing has taken at least some low-level, exploratory steps to <span class='highlight-bias highlight-bias-left'>undermine</span> the President\u2019s reelection chances by <span class='highlight-bias highlight-bias-left'>denigrating</span> him and shaping voter perceptions.\u201d\n\nThat sounds pretty bad. Except that (as often happens in the intelligence community) this group was representing a minority view, as it says in the very next sentence: \u201cTheir assessment differs from the IC\u2019s judgment that Beijing has considered but not deployed influence efforts to affect the Presidential election.\u201d\n\nSo, which is it? The IC (shorthand for intelligence community) seems to have reached a pretty firm judgment in these documents: \u201cThe IC,\u201d one of the memos says (with some passages redacted),\n\nhas seen no evidence that Beijing is engaged in an effort to influence the outcome of the presidential election, nor has it observed activity that it assesses is likely the result of such an effort by Beijing. While we have seen Beijing develop other options that could be used to influence the election, we have not seen these capabilities deployed.\n\nNote that what these documents discuss are influence operations\u2014<span class='highlight-bias highlight-bias-left'>propaganda</span>, proxies who speak for foreign interests, fake stories, and so on\u2014rather than interference, which would involve actual manipulation of data or sabotaging of electoral infrastructure. These classified revelations, despite Trump\u2019s assertions, show that the intelligence community didn\u2019t even agree that China was fully engaged even in these more limited influence operations.\n\nOne document says, with more firmness, that the Chinese were attempting to <span class='highlight-bias highlight-bias-left'>undermine</span> Trump\u2019s chances and to pressure business partners into withdrawing support for the president\u2019s reelection. This is perfectly plausible behavior from a U.S. adversary. Of course, Trump skipped over the part about other nations, including one where \u201csenior officials\u201d and their leader were seeking to \u201ccovertly influence US politicians\u2019 and political candidates\u2019 thinking\u201d about the election.\n\nThat nation? Turkey.\n\nOn one point, however, the declassified reports are clear. One country, more than any other, actively engaged in operations against the 2020 elections: Russia. And the Russians had a clear preference:\n\nWe assess that Russia is using a range of measures to <span class='highlight-bias highlight-bias-left'>denigrate</span> former Vice President Biden and what it sees as an anti-Russia establishment. For example, it is directing or encouraging proxies to spread claims about Vice President Biden. Some Kremlin-linked actors are also seeking to boost President Trump's candidacy on social media.\n\nThis isn\u2019t news, but Trump carefully cherry-picked his way around it. In charts provided by the White House itself that compare Russia, China, and Iran, only Russia is judged to be actively involved in such efforts.\n\nTrump not only <span class='highlight-bias highlight-bias-left'>ignored</span> these multiple (and much more categorical judgments); he interpreted the normal in-house fighting that goes on every day in the intelligence community as evidence of some sort of plot against him. He made much of a comment in a group email\u2014these conspirators were pretty relaxed about sending their <span class='highlight-bias highlight-bias-left'>nefarious</span> ideas around to everyone\u2014about \u201cmassaging\u201d the President\u2019s Daily Brief to take out references to the 2020 election. But the conversation was <span class='highlight-bias highlight-bias-left'>clearly</span> about which product would include such issues, and how strongly the minority view would be stated. Like so much else in the speech and the documents, Trump threw everything he could find at the wall and in the hope that some of it would stick.\n\nSo what, then, was the point of Trump\u2019s speech? First, he is almost certainly trying to soothe his wounded ego over the 2020 election. He is obsessed with his loss to Biden and wants to blame it on foreign manipulation. But Trump might also have a darker motive, attacking the integrity of American elections because he wants to delegitimize the coming midterms\u2014and perhaps even create the predicate for interfering in them.\n\nThe Chinese, the Russians, the Iranians, the North Koreans, and many other enemies of the United States <span class='highlight-bias highlight-bias-left'>clearly</span> hope to <span class='highlight-bias highlight-bias-left'>undermine</span> the faith of every American citizen in their own elections. But no regime, no spies, no saboteurs have yet matched the damage that America\u2019s own president did tonight.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "The government of China denied any election interference in the United States on Thursday night, shortly after President Donald Trump delivered a speech in which he announced that his administration would declassify intelligence documents about the integrity of American elections.\n\nOne of the major categories of documents being released, President Trump explained, was regarding the Chinese Communist Party\u2019s attempts to influence American elections in the past decade. The documents indicated that the American intelligence community had obtained evidence of China amassing a massive trove of voter data. They also compiled evidence that Beijing was especially opposed to President Trump\u2019s reelection prior to the 2020 election, allegedly fearing the unpredictability of Trump\u2019s handling of the presidential office.\n\nThe Chinese embassy in Washington issued a statement to CBS News following the speech on Thursday \u2014 which also touched on other countries potentially compromising election integrity and voter trust in the results of elections \u2014 in which it denied any wrongdoing.\n\n\u201cChina has all along adhered to the principle of non-interference in others\u2019 internal affairs,\u201d the statement reportedly read. \u201cThe U.S. election is an internal matter of the U.S. Its outcome is determined by the votes of the American people. China has never and will never interfere in the presidential elections of the U.S.\u201d\n\nThe Chinese Communist Party has faced accusations of election <span class='highlight-bias highlight-bias-right'>meddling</span> throughout the free world. In Canada, for example, the Security and Intelligence Threats to Elections (SITE) task force revealed in 2025 that it had identified \u201ccoordinated and malicious activity\u201d by accounts linked to the Chinese government targeting the general election that resulted in the installation of Mark Carney, a longtime Chinese business partner, as prime minister. In Australia, a prominent senator was caught taking money from a Chinese regime-linked billionaire in 2017, preceding a sudden turn to advocacy for pro-Chinese talking points.\n\nIn the United States, President Trump claimed on Thursday, \u201cthe People\u2019s Republic of China carried out what is believed to be the largest compromise of election data in history \u2014 resulting in China\u2019s illicit acquisition of 220 million U.S. voter files.\u201d\n\nWhile his speech discussed various aspects of election integrity, including not just security breaches committed but existing vulnerabilities, the president highlighted China as an especially alarming threat to the American political system.\n\nChina\u2019s documented breach of data in an estimated 18 states, Trump explained, granted it access to \u201csensitive data that would be needed to register to vote, and engage in other <span class='highlight-bias highlight-bias-right'>nefarious</span> activities.\u201d\n\n\u201cThis data loss presents an unprecedented election security <span class='highlight-bias highlight-bias-right'>nightmare</span>,\u201d he observed. \u201cThe intelligence even shows that China assigned a data exploitation unit specifically to this new project.\u201d\n\nThe president also highlighted a document, published by the White House, in which American intelligence indicates that the Chinese government opposed a second term for President Trump.\n\n\u201cThey did not want and they just didn\u2019t want it, they fought like hell not to have it, Donald Trump to win,\u201d he said, stating that CIA documents recorded that China would \u201cleverage all domestic and foreign elements that were opposed to the U.S. president in an effort to reduce the U.S. president\u2019s votes and make him resign or lose the election.\u201d\n\nPresident Trump also noted that some documents indicate that, within the United States, \u201cintelligence agencies worked to actively suppress and downplay information about the extent of China\u2019s <span class='highlight-bias highlight-bias-right'>sinister</span> election <span class='highlight-bias highlight-bias-right'>meddling</span>.\u201d He announced that he would be asking the leaders of America\u2019s intelligence community and law enforcement apparatus to \u201cinvestigate how and why such crucial info was hidden, to fire those involved in the cover-up and to press charges.\u201d\n\nFollow Frances Martel on Facebook and Twitter.",
+    "omissions": {
+      "left-center": 50,
+      "right": 50
+    }
+  },
+  {
+    "id": 9218459,
+    "date": "2026-07-17",
+    "topic": "Trump Delivers Speech Election Special Report",
+    "match_score": 0.4,
+    "cluster_size": 4,
+    "articles": {
+      "left-center": {
+        "title": "Special Report: Trump delivers speech on election infrastructure",
+        "url": "https://www.nbcnews.com/video/special-report-trump-delivers-speech-on-election-infrastructure-266817605765",
+        "source": "NBC News",
+        "bias": "left-center",
+        "priority": 9
+      },
+      "right-center": {
+        "title": "WATCH LIVE: Trump delivers primetime speech on election integrity",
+        "url": "https://www.washingtonexaminer.com/news/white-house/4652562/watch-live-trump-speech-election-security/",
+        "source": "Washington Examiner",
+        "bias": "right-center",
+        "priority": 4
+      }
+    },
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "President Donald Trump is set to give a televised speech to the nation about election integrity and interference on Thursday at 9 p.m. from the Oval Office.\n\nREPUBLICANS BEG TRUMP TO FOCUS ON 2026 IN PRIMETIME ADDRESS\n\nIn the primetime address, Trump will discuss declassified findings related to the 2020 election that the White House has said will show foreign interference in that election cycle. White House press secretary Karoline Leavitt also said the president may discuss the war in Iran and the state of the economy at the top of the speech.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left-center": 50,
+      "right-center": 50
+    }
+  },
+  {
+    "id": 4683616,
+    "date": "2026-07-17",
+    "topic": "Smoke Blankets Cities Canada Watch Wildfire",
+    "match_score": 0.4,
+    "cluster_size": 3,
+    "articles": {
+      "left-center": {
+        "title": "Watch: Wildfire smoke blankets cities across U.S., Canada",
+        "url": "https://www.cbsnews.com/video/watch-wildfire-smoke-blankets-cities-across-us-canada/",
+        "source": "CBS News",
+        "bias": "left-center",
+        "priority": 8
+      },
+      "center": {
+        "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
+        "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News World",
+        "bias": "center",
+        "priority": 2
+      }
+    },
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "Hazardous air quality alerts have been issued in cities, including Chicago and Grand Rapids in Michigan, Pittsburgh in Pennsylvania and Toledo in Ohio, according to the US Air Quality Index program.\n\nMany outdoor activities were cancelled on Thursday, including events for children's summer camps, and beaches were shuttered along popular lakes. An outdoor concert for the rock group The Black Keys was being rescheduled in Chicago due to the dangerous air quality.\n\nThere are currently 858 fires actively burning in Canada, including 30 new fires that sparked on Thursday, according to the Canadian Wildland Fire Information System. The vast majority are burning out of control.\n\nThe large cluster of fires affecting northwestern areas of Ontario are responsible for sending thick plumes of smoke and poor air quality across Thunder Bay and Toronto, with lower concentrations of smoke high in the atmosphere drifting over the Great Lakes and above New York with hazy skies.\n\n\"We're in a very serious health situation right now,\" New York Governor Kathy Hochul said in an announcement on Thursday. She noted thick smoke was \"blanketing\" much of the state, making it \"very unhealthy to be outdoors\" in many areas.\n\n\"This is bad news for every New Yorker,\" she said. \"There will be great impacts.\"\n\nIn western regions of New York state, the air quality on Thursday is considered \"very unhealthy\", while in the New York City metro area the air quality is \"unhealthy\". Many across the city - the most populous across the US - were wearing masks over their mouths and nose hoping to protect themselves.\n\nA thick haze of smoke blocked views across the city of sights including the Empire State Building and the Statue of Liberty.\n\nNew York has extended its heat emergency plans and activated its air quality emergency protocols - with hundreds of cooling centres and KN95 masks being made available citywide.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left-center": 50
+    }
+  },
+  {
+    "id": 861640,
+    "date": "2026-07-17",
+    "topic": "Todd Blanche Epstein Survivors Damning Accusations",
+    "match_score": 0.4,
+    "cluster_size": 3,
+    "articles": {
+      "left": {
+        "title": "Damning accusations pummel Todd Blanche as Epstein survivors condemn 'deflating' meeting",
+        "url": "https://www.rawstory.com/todd-blanche-2677235572/",
+        "source": "Raw Story",
+        "bias": "left",
+        "priority": 10
+      },
+      "left-center": {
+        "title": "Republican Senator Thom Tillis Demands Todd Blanche Meet With Epstein Survivors",
+        "url": "https://www.nytimes.com/2026/07/16/us/politics/todd-blanche-attorney-general-epstein.html",
+        "source": "NYT Politics",
+        "bias": "left-center",
+        "priority": 7
+      }
+    },
+    "farLeftText": "Several Jeffrey Epstein survivors and family members met with Acting Attorney General Todd Blanche, describing the meeting on Thursday as \"deflating\" and detailing what happened behind closed doors.\n\nBlanche, Trump's nominee for attorney general who has been facing tough questioning during his Senate confirmation hearing over his involvement in the release of the Epstein files, was pressed by Sen. Thom Tillis (R-NC) to immediately meet with Epstein survivors. Tillis made it clear that he would not vote to approve Blanche until the nominee met with them.\n\nLate survivor Virginia Giuffre's brother, Skye Roberts, and his wife, Amanda Roberts, spoke to CNN anchor Jake Tapper just after the exchange with Blanche.\n\n\"I think it was everything we expected,\" Amanda said. \"Unfortunately, Todd Blanche has been doing to us for the past nine months. There were no real admissions. There were no real commitments being made. There were a lot of diversions. When we asked about specific comments, as you mentioned, there weren't investigative leads. And a lot of it was like, 'I didn't really say that. That's not what I meant.' And so, there was no really getting to the bottom of it. There were just a lot of circles, and it felt very deflating.\"\n\nDani Bensky, an Epstein survivor who testified on Capitol Hill on Thursday, called the meeting \"lip service.\" Skye described why the meeting was <span class='highlight-bias highlight-bias-left'>unsettling</span> for the group.\n\n\"I want to be honest with you,\" Skye said. \"We were really trying to work with Todd Blanche in this scenario. Like, I want to be very clear to anybody that's watching this: our intentions are very pure. I wanted to go in there and get substance from him. I asked him at one point, I said, 'Mr. Blanche respectfully, like, what is it going to take to get investigative leads like subscribe that to me?'\"\n\nBlanche's response was eye-opening, Skye explained.\n\n\"And he said, 'Well, I need testimony, and I need evidence,'\" Skye said. \"I said, 'Well, let me give you an example: Andrew Mountbatten-Windsor. Virginia provided testimony. She provided evidence. Is that not an investigative lead? He said, well, he won't cooperate with me. And he also said that Virginia is not here. So [he] can't use that testimony. And so, it just felt like he wasn't willing to work with us. But I want to be clear that I'm still willing to work with the Department of Justice to get some sort of justice\u2014exactly what it's called.\"\n\nBlanche apparently described the meeting as \"not at all cordial.\"\n\n\"I think we walked in very, very dissatisfied with him, and we made it very clear that we do oppose his nomination,\" Amanda added. \"I think it was his staff's job and his and his job to make us feel welcome, to make us feel like they were there to provide answers. We've been asking for this meeting, and it felt like he only had it because his hand was forced.\"",
     "centerLeftText": "No article found in this category for this topic.",
     "centerText": "No article found in this category for this topic.",
     "centerRightText": "No article found in this category for this topic.",
@@ -309,7 +381,7 @@
     }
   },
   {
-    "id": 526609,
+    "id": 5646349,
     "date": "2026-07-17",
     "topic": "Iran Strikes Strait Hormuz Updates Launches",
     "match_score": 0.4,
@@ -372,7 +444,7 @@
     }
   },
   {
-    "id": 9605921,
+    "id": 2011757,
     "date": "2026-07-17",
     "topic": "Noncitizens Registered Vote States Quartermillion Alleges",
     "match_score": 0.4,
@@ -381,7 +453,7 @@
       "right-center": {
         "title": "More than a quarter-million noncitizens may be registered to vote in 4 key states, DHS alleges",
         "url": "https://www.foxnews.com/politics/quarter-million-noncitizens-registered-vote-4-key-states-dhs-alleges",
-        "source": "Fox News Politics",
+        "source": "Fox News Latest",
         "bias": "right-center",
         "priority": 2
       },
@@ -404,7 +476,7 @@
     }
   },
   {
-    "id": 2681098,
+    "id": 8284654,
     "date": "2026-07-17",
     "topic": "Uganda Last Ebola Patient Travel Restrictions",
     "match_score": 0.4,
@@ -432,69 +504,6 @@
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
       "left": 70
-    }
-  },
-  {
-    "id": 7900965,
-    "date": "2026-07-17",
-    "topic": "Wildfires Quality Worst World Ontario Toronto",
-    "match_score": 0.4,
-    "cluster_size": 2,
-    "articles": {
-      "left": {
-        "title": "Wildfires in Ontario make Toronto air quality worst in world",
-        "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world",
-        "source": "The Guardian (World)",
-        "bias": "left",
-        "priority": 1
-      },
-      "left-center": {
-        "title": "Minneapolis air quality ranks worst in world as wildfires continue",
-        "url": "https://abcnews.com/US/amid-wildfires-minneapolis-air-quality-ranks-worst-world/story?id=134814946",
-        "source": "ABC News",
-        "bias": "left-center",
-        "priority": 10
-      }
-    },
-    "farLeftText": "Smoke from more than 100 active wildfires in northern Ontario have made Toronto\u2019s air quality the current worst in the world and caused yellow, smoky air in cities across the north-east US.\n\nEnvironment Canada issued health warnings on Wednesday after the sky over country\u2019s largest city turned a sickly yellow and was ranked the worst in the world according to IQAir, the Swiss technology company that racks global air quality.\n\nThe city is also suffering a heatwave that shattered a three-decade record after reaching 37.3C in the downtown core, with runways at its main international airport hitting 55C.\n\nThe wildfires burning across northwestern Ontario have prompted mandatory evacuations from a number of First Nations communities.\n\nAllow content provided by a third party? This article includes content hosted on platform.x.com . We ask for your permission before anything is loaded, as the provider may be using cookies and other technologies. To view this content, click 'Allow and continue'. Allow and continue\n\nStriking video footage of a train near the community of Armstrong, Ontario, highlighted the speed and ferocity of the fires. \u201cThis could potentially overtake us here \u2026 This has gotten a little scary,\u201d says a crew member as a wall of flames whips across the windows.\n\n1:31 Train crew in Canada 'encased' by intense flames amid wildfires - video\n\n\u201cWe\u2019re encased in flames now.\u201d\n\nThe railway company Canadian National confirmed the crew had been \u201csafely evacuated\u201d from the area.\n\nOther images showed families fleeing their homes by boat against the backdrop of massive plumes of smoke. \u201cMy family hometown, Collins Ontario, is GONE,\u201d Nadya Kwandibens, a photographer, posted on social media.\n\nView image in fullscreen The hazy Toronto skyline on Wednesday. Photograph: Anadolu/Getty Images\n\nResidents of Namaygoosisagagun First Nation said they had only minutes warning before fleeing across Collins Lake in the northwest part of the province.\n\n\u201cWhat we are witnessing right now is devastating,\u201d said Sol Mamakwa, a member of the province\u2019s New Democratic party. \u201cAn entire First Nation community has been erased because of this disaster. With wildfires closing highways and threatening communities across the north, we urge everyone to follow the guidance of emergency officials and remain prepared in case evacuations are necessary.\n\n\u201cCollins has burned to the ground. This is a tragedy and we are grateful that everyone got out safely,\u201d said Lise Vaugeois, the provincial representative for the region.\n\n\u201cFires are part of a natural cycle, but the extreme temperatures we are experiencing across the county and the growing severity of weather events are indicators of climate change.\u201d\n\nCNN reported that air quality alerts due to spoke have been issued across large parts of Michigan, Minnesota and Wisconsin, and that thicker smoke is forecast to move over New York, Washington and other cities across the eastern seaboard later in the week.",
-    "centerLeftText": "All city residents are urged to stay indoors.\n\nDowntown Minneapolis is shown as dense smoke effects visibility, on July 15, 2026.\n\nDowntown Minneapolis is shown as dense smoke effects visibility, on July 15, 2026.\n\nDowntown Minneapolis is shown as dense smoke effects visibility, on July 15, 2026.\n\nDowntown Minneapolis is shown as dense smoke effects visibility, on July 15, 2026.\n\nMinneapolis' air quality ranked the worst in the world among major cities Thursday due to thick smoke from wildfires burning throughout northern Minnesota and Ontario, Canada.\n\nMuch of the city's air quality entered the \"hazardous\" category Wednesday night and remained there into Thursday.\n\nParts of the city reached an air quality index, or AQI, of 460. A hazardous AQI is categorized as 300 and above.\n\nThe air quality in Detroit also ranked worst in the world alongside Minneapolis.\n\nAll people are advised to remain indoors while the air quality is hazardous.\n\nMinneapolis Mayor Jacob Frey urged residents to \"please take this seriously\" in a post on X Thursday morning.\n\n\"If you can, stay indoors, avoid activity outside, and keep indoor air as clean as possible,\" Frey said in the post. \"The risks are greater for kids, older adults, and anyone with heart or lung conditions.\"\n\nAs of midday Wednesday, there are 15 active wildfires burning across Superior National Forest, including four in the Boundary Waters Canoe Area Wilderness, according to the U.S. Forest Service. The Forest Service noted several fires have merged since earlier reports.\n\nIn a press briefing Wednesday, officials warned the fires could keep burning until the fall.\n\nWhile light rain is in the forecast in northern Minnesota on Thursday, Phil Manuel, incident meteorologist at the National Weather Service, said in the briefing it would not be enough to put out the fires.\n\n\"How are we going to end this? Weather's going to have to change,\" Manuel said. \"It takes rain with a name to put out big fires.\"\n\nThe fires in northern Minnesota come amid a slew of wildfires raging throughout Canada, which are sending dangerous smoke down to the Northeast and upper Midwest of the United States.\n\nIn this screen grab from a video, wildfire smoke is shown in Duluth, Minnesota, on July 15, 2026. WDIO\n\nMore than 183 wildfires were burning in Ontario on Wednesday, its Ministry of Natural Resources reported.\n\nThe Minnesota fires spread so rampantly because of hot, dry and windy conditions, as well as increased lightning strikes, officials said during the briefing.\n\nTemperatures in the area recently rose into the 100s, while they typically only get to the upper 70s at this time of year, Manuel said.\n\nFirst responders conducted door-to-door evacuations to bring residents and visitors to safety, and were continuing evacuations as of Wednesday, according to officials.\n\nFirefighters continue working to extinguish the fires in coordination with Canadian first responders.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 50,
-      "left-center": 50
-    }
-  },
-  {
-    "id": 15089,
-    "date": "2026-07-17",
-    "topic": "Protests Ukraine Defence Minister Political Crisis",
-    "match_score": 0.4,
-    "cluster_size": 2,
-    "articles": {
-      "left": {
-        "title": "Political crisis and protests in Ukraine as Zelenskyy defends sacking defence minister",
-        "url": "https://www.theguardian.com/world/2026/jul/17/zelenskyy-defends-sacking-ukraine-defence-minister-mykhailo-fedorov",
-        "source": "The Guardian (World)",
-        "bias": "left",
-        "priority": 1
-      },
-      "center": {
-        "title": "Zelensky's removal of popular defence minister sparks protests in Ukraine",
-        "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News World",
-        "bias": "center",
-        "priority": 2
-      }
-    },
-    "farLeftText": "Ukraine\u2019s president, Volodymyr Zelenskyy, has defended his decision to dismiss the country\u2019s popular defence minister, Mykhailo Fedorov, and confirmed reports that relations had broken down between the ministry and the country\u2019s top army leadership.\n\nSpeaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a \u201cchallenging dialogue\u201d between Fedorov \u2013 widely seen as a reformist and moderniser \u2013 and the military\u2019s commander in chief, Col Gen Oleksandr Syrskyi.\n\n\u201cI would very much like to see unity. The sides have not found it. And the problem lies not only with the sides, but with me as well,\u201d Zelenskyy said. \u201cBut things are as they are. And in such a situation, you have a choice: either one side or the other.\u201d\n\nHe has appointed the acting head of Ukraine\u2019s security service, Yevhenii Khmara, as acting defence minister and asked parliament to approve him in the position.\n\nZelenskyy\u2019s decision to back Syrskyi has <span class='highlight-bias highlight-bias-left'>outraged</span> civil society and <span class='highlight-bias highlight-bias-left'>dismayed</span> Ukraine\u2019s foreign partners. More than 1,000 protesters gathered outside the presidential office in Kyiv on Thursday, carrying placards in support of Fedorov. One read: \u201cFor what?\u201d. Another said: \u201cIs your head screwed on?\u201d There were loud chants of \u201cSyrskyi out\u201d.\n\nIt was only the second time since Vladimir Putin\u2019s 2022 invasion that large numbers of people have taken to the streets in anti-government protests. A year ago, Zelenskyy\u2019s decision \u2013 later reversed \u2013 to close two anti-corruption agencies provoked a similar backlash.\n\nView image in fullscreen Protesters gathered in Kyiv on Thursday to demonstrate against the removal of Mykhailo Fedorov as the defence minister. Photograph: Viktor Fridshon/Global Images Ukraine/Getty Images\n\nThe growing domestic political crisis overshadowed Starmer\u2019s farewell visit to Kyiv, ahead of his departure on Monday from Downing Street. The two leaders laid wreaths at the Wall of Remembrance before holding one-on-one talks in the garden of the presidential palace, sitting together in a shady corner.\n\nAt a joint press conference, Zelenskyy awarded Starmer the Order of Freedom, Ukraine\u2019s highest foreign honour. Starmer, who appeared to be close to tears, gave Zelenskyy a framed Ukrainian flag that had hung above Downing Street in February 2022 as Russian tanks rolled towards Kyiv.\n\nStarmer said he would soon depart the political stage but \u201cthe support of the United Kingdom for this course will never change\u201d. He added: \u201cIt is in our bones. The flags are flying in churches and town halls across the country, as they have throughout the duration of this conflict. Your fight is our fight.\u201d\n\nView image in fullscreen The two leaders talked privately in the gardens of the presidential palace. Photograph: Sergey Dolzhenko/EPA\n\nThe UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war\u2019s momentum. Putin was \u201closing\u201d, he said. He described the more optimistic mood in Ukraine over the last six or seven months as significant. \u201cIt\u2019s down to hard work, guts, resolve and courage,\u201d he said.\n\nskip past newsletter promotion Free newsletter | Every day Sign up to Headlines Europe A digest of the morning's main headlines from the Europe edition emailed direct to you every week day Preview latest Enter your email Sign up after newsletter promotion\n\nZelenskyy praised Starmer for leading the coalition of the willing, alongside France, and thanked ordinary Britons for their backing. Asked if the frequent turnover of British prime ministers was a problem for Ukraine, Zelenskyy said \u201cstrong relations\u201d with the UK would continue.\n\nWithout mentioning Andy Burnham by name, he said he hoped to meet Starmer\u2019s successor \u201cas soon as possible\u201d. Starmer and Zelenskyy then embraced warmly, patting each other on the arm, and walked back into the neoclassical, turquoise-painted palace for an official lunch.\n\nView image in fullscreen An emergency worker shows Starmer the damage left by Russian airstrikes on Kyiv. Photograph: Stefan Rousseau/PA\n\nMeanwhile, Fedorov addressed his own press conference, accusing Ukraine\u2019s top brass of obstructing reforms and using Soviet-style methods. He said decisions on which military brigades to support \u2013 including with drones \u2013 were made on the basis of \u201cloyalty\u201d rather than data. \u201cIt\u2019s impossible to develop the system on this basis,\u201d he said.\n\nHe said Ukraine\u2019s general staff had opposed his plans to create centres of excellence and change the army\u2019s organisational structure. Instead, it had blocked initiatives and engaged in \u201cbureaucratic wrangling\u201d. Fedorov said he had proposed replacing Syrskyi \u2013 a suggestion that appears to have led to his own dismissal on Wednesday.\n\n\u201cThis sort of culture needs to be eradicated, because otherwise we won\u2019t be able to defeat an enemy whose system is plagued by the very same issues,\u201d he said. \u201cWe have no other choice if we want to defeat Russia asymmetrically, with minimal losses.\u201d\n\nView image in fullscreen Mykhailo Fedorov, young and digitally savvy, was removed from his role for his \u2018political ambition\u2019, one protester suggested. Photograph: Andriy Zhyhaylo/Oboz.ua/Global Images Ukraine/Getty Images\n\nFedorov said he had turned down an offer from Zelenskyy to stay on as a government adviser. On Wednesday, Ukraine\u2019s parliament accepted the resignation of the prime minister, Yulia Svyrydenko, after Zelenskyy said his government needed a reboot. Her replacement is likely to be Serhiy Koretskyi, the head of the energy company Naftogaz.\n\nFedorov\u2019s scathing comments suggest the political row over the president\u2019s reshuffle is likely to grow. Fedorov paid tribute to Syrskyi for thwarting Russia\u2019s plans to seize Kyiv. But he said the commander in chief refused to talk openly about disagreements. Instead, he \u201cweaved intrigues\u201d which \u201cdivide the country\u201d.\n\nDuring Fedorov\u2019s six months in office, Ukraine\u2019s battlefield position dramatically improved. Kyiv has repeatedly pummelled Russian oil refineries, <span class='highlight-bias highlight-bias-left'>embarrassing</span> the Kremlin and creating nationwide fuel shortages. It has also destroyed important land and sea routes, hitting tankers and ferries, as part of a strategy to isolate occupied Crimea.\n\nDemonstrators who had gathered outside Kyiv\u2019s Ivan Franko theatre speculated that the charismatic and digitally savvy Fedorov, 35, was removed because he was seen as a future presidential rival. In 2024, Zelenskyy dismissed the popular head of the army, Gen Valerii Zaluzhnyi, and exiled him to London as Ukraine\u2019s ambassador.\n\nOne protester, Andrii Dligach, said Fedorov stood for a new kind of politics based on openness, transparency and modernisation. He said: \u201cSyrskyi is an old-fashioned general. Some of the people around him are allegedly <span class='highlight-bias highlight-bias-left'>corrupt</span> and have their own drone projects. The problem is that Zelenskyy opposes anybody who shows political ambition.\u201d\n\nDligach added: \u201cOnly a few people can influence the president\u2019s thinking. Most are against Fedorov. They prefer an old-fashioned management style, similar to the one in Russia, with a tsar.\u201d",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "Ukrainian President Volodymyr Zelensky's surprise move to replace popular Defence Minister Mykhailo Fedorov has caused an outburst of anger from civil society and protests from MPs.\n\nA crowd of mostly young people gathered in Kyiv and other Ukrainian cities on Thursday morning, holding up signs reading \"Hands off Fedorov\" and \"Stop sabotaging victory!\" and chanting \"Shame!\".\n\nBy evening, Zelensky had put forward the name of Maj-Gen Yevhenii Khmara, the acting head of the Security Service (SBU), as acting defence minister.\n\n\"Khmara has gained extensive and, in many respects, unprecedented experience with technological combat operations,\" Zelensky said.\n\nInitial rumours that the end of Fedorov's tenure was related to tensions between him and Commander-in-Chief Oleksandr Syrskyi were all but confirmed by Fedorov himself and Zelensky.\n\nOn Thursday, Fedorov revealed he had suggested to Zelensky that Syrskyi and Chief of the General Staff Andrii Hnatov should be replaced.\n\nZelensky, speaking at a press conference with UK Prime Minister Keir Starmer, acknowledged that the conflict between the General Staff and the defence ministry had been \"systemic\" and occurred \"at various levels\", and that Syrskyi and Fedorov would only work together with his mediation.\n\n\"When the president said he did not plan to replace Syrskyi, I... said I would learn to work with him,\" Fedorov said at his own press conference. But \"all the initiatives we proposed were blocked,\" he added.\n\n\"Instead of finding a way of defeating Russia asymmetrically - which is the commander-in-chief's job - he's found a way of splitting our country,\" Fedorov said of Syrskyi.\n\nIn a curt message, Syrskyi wrote on Telegram that he was \"proud\" of the defence operation that was mounted around Kyiv in 2022 when Russian troops were closing in and said he would continue to \"focus on the war and on an effective strategy\", before wishing Fedorov \"continued success\".\n\nFedorov, 35, was appointed only in January but has been credited with energising the ministry, heading a drive against corruption and using data to analyse and try to improve performance on the front line.\n\nMPs were due to vote on Thursday on the proposed replacement as defence minister, Ihor Klymenko, who currently heads the interior ministry - but Zelensky said his was only one of the names being considered and that no official proposal had been submitted yet.\n\nAs part of Zelensky's reshuffle, parliament approved the appointment of state oil and gas boss Serhiy Koretsky as prime minister, after Yuliia Svyrydenko resigned earlier this week.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 54
     }
   },
   {
