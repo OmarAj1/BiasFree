@@ -40,11 +40,11 @@
     }
   },
   {
-    "id": 1063324,
+    "id": 9663168,
     "date": "2026-07-17",
-    "topic": "White House Teleprompter Operator Trump Bets",
+    "topic": "Teleprompter Operator Trump White House Leave",
     "match_score": 0.6,
-    "cluster_size": 4,
+    "cluster_size": 5,
     "articles": {
       "left": {
         "title": "White House teleprompter operator put on leave over alleged bets on Trump speeches",
@@ -54,11 +54,11 @@
         "priority": 1
       },
       "left-center": {
-        "title": "White House Teleprompter Operator Bet on Trump Speeches, Kalshi Says",
-        "url": "https://www.nytimes.com/2026/07/16/technology/teleprompter-operator-kalshi-trump-speeches.html",
-        "source": "NYT Politics",
+        "title": "Trump Teleprompter Operator On Leave After Betting On President's Speeches",
+        "url": "https://www.huffpost.com/entry/trump-teleprompter-speech-bets_n_6a5920ffe4b06924e65272e3",
+        "source": "HuffPost Politics",
         "bias": "left-center",
-        "priority": 7
+        "priority": 4
       },
       "center": {
         "title": "White House teleprompter operator accused of making $100k from Trump speech bets",
@@ -76,6 +76,45 @@
     "omissions": {
       "left": 23,
       "left-center": 50
+    }
+  },
+  {
+    "id": 2716640,
+    "date": "2026-07-17",
+    "topic": "Trump Sell Access Social Posts Media",
+    "match_score": 0.6,
+    "cluster_size": 5,
+    "articles": {
+      "left": {
+        "title": "\u2018Brazen corruption\u2019: critics denounce Trump Media plan to sell priority access to Truth Social posts",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/trump-media-truth-social-posts",
+        "source": "The Guardian (US)",
+        "bias": "left",
+        "priority": 1
+      },
+      "left-center": {
+        "title": "Trump Firm Plans To Sell Priority Access To Truth Social Posts, Possibly His Own",
+        "url": "https://www.huffpost.com/entry/trump-truth-social-posts-charge-sell_n_6a59489be4b042a7aac61bbb",
+        "source": "HuffPost Politics",
+        "bias": "left-center",
+        "priority": 4
+      },
+      "center": {
+        "title": "Trump Media to sell instant access to 'market-moving' social posts",
+        "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News World",
+        "bias": "center",
+        "priority": 2
+      }
+    },
+    "farLeftText": "Donald Trump\u2019s media company is planning to charge for special high-speed access to Truth Social posts, including possibly his own, affecting national security and financial markets.\n\nThe move announced on Thursday would allow Wall Street trading firms and other institutions to get news first from top Truth Social contributors so they could profit off subsequent moves in stocks, bonds and interest rates.\n\nCalled Truth PSI, the new service comes amid a flurry of other deals by Trump and his family company that critics say are exploiting the presidency for profit.\n\nIt follows similar offers of paid access on rival platforms, although with one key difference: the most popular Truth Social poster is the president himself, and, as the biggest shareholder of the publicly traded parent company, he would benefit directly.\n\n\u201cHe\u2019s selling expedited, privileged access to information about what he is doing as president,\u201d said Kathleen Clark of the Washington University School of Law and an expert in government conflict of interest rules. \u201cIt\u2019s yet more brazen corruption, an improper exploitation of government power to enrich himself.\u201d\n\nFollowers of Trump can already choose to get push notifications alerting them when new posts have been published.\n\nThe Trump family company declined to comment about whether the new feature was profiting off the presidency. Truth Social\u2019s public parent, Trump Media & Technology Group (TMTG), did not respond to emailed questions by Associated Press, including whether Trump\u2019s posts would be excluded from the offering.\n\nA press release states the new service would allow traders to see \u201cthe highest-ranking Truth Social accounts\u201d before other people. The US president has the most followers \u2013 12.9 million \u2013 followed by his eldest son, Donald Jr, and, close behind, his son Eric.\n\nThe release did not say how much customers would be charged.\n\nTrump regularly uses Truth Social to announce major decisions that affect markets, such as posts about the Iran war and tariffs.\n\nLast year Trump made more than 100 posts in a single day as global stock markets fell sharply amid fears his economic policies could produce a \u201cTrumpcession\u201d in the US.\n\nThe Iran posts in particular are impactful because investors are worried that higher oil prices will continue to stoke inflation and possibly force the Federal Reserve to raise interest rates.\n\nStock in TMTG has plunged more than 70% since the president took office last year, erasing $6bn (\u00a34.4bn) in shareholder wealth.\n\nThose losses, along with billions more of investor losses tied to new Trump family crypto businesses, have drawn scrutiny after Trump\u2019s annual disclosure of his financial holdings shows he took in more than $1bn in revenue last year in the same companies and offerings.\n\nTrump launched TMTG in 2021 after Meta\u2019s Facebook and X banned him for apparently encouraging his supporters to participate in the 6 January attack on the US Capitol. He went on to launch Truth Social in February 2022 and two years later floated the business \u2013 trading under the ticker symbol \u201cDJT\u201d \u2013 Trump\u2019s initials \u2013 at an initial valuation of $8bn.\n\nTrump indirectly owns about 53% of TMTG through shares he transferred to a trust in December 2024, a month before he took office, giving him a paper fortune of about $1.41bn based on TMTG\u2019s current $2.67bn market capitalisation.\n\nThe US president earned $2.2bn in total in his first year back in office, according to a mandatory disclosure with the US Office of Government Ethics.\n\nskip past newsletter promotion Free newsletter | Every weekday Sign up to Business Today Get set for the working day \u2013 we'll point you to all the business news and analysis you need every morning Preview latest Enter your email Sign up after newsletter promotion\n\nAbout $1.4bn of his revenue came from his cryptocurrency business, including $500m from the World Liberty Financial venture he co-founded with his sons and the sons of Steve Witkoff, his special envoy.\n\nTrump also earned about $500m after an investment firm tied to the United Arab Emirates bought almost half of the company in a controversial deal.\n\nConflict of interest laws would bar US government officials from owning a company that profited off their office by selling access to their decisions through public posts, Clark said. However, the president and vice-president, she notes, are excluded from the provision.\n\nDespite that, all presidents since the law was passed decades ago have acted as if it applied \u2013 selling individual stocks, dumping business holdings or putting their financial assets in a blind trust so they would not know what was being bought and sold on their behalf while they wielded power \u2013 but Trump has refused.\n\nTrump Media has been trying to lift its stock price recently by branching into various businesses, including cryptocurrency, financial services and even nuclear fusion. It recently replaced its longtime chief executive, Devin Nunes, a former congressman, with a seasoned media executive, Kevin McGurn.\n\nIn the release, McGurn described the Truth PSI move as part of a \u201cstrategy to monetise proprietary assets\u201d. He added that he expected it to become a \u201cmeaningful, ongoing source of revenue\u201d.\n\nTrump Media has said it plans to start the service next month and has already signed up customers.\n\nThe company\u2019s stock rose 0.6% to $9.63 on Thursday. Before Trump took office last year, it closed at $40.\n\nAssociated Press contributed to this report",
+    "centerLeftText": "LOADING ERROR LOADING\n\nNEW YORK (AP) \u2014 President Donald Trump\u2019s media company is planning to charge for special high-speed access to Truth Social posts, including possibly his own affecting national security and financial markets.\n\nThe move announced Thursday would allow Wall Street trading firms and other institutions to get news from top Truth Social contributors in milliseconds so they could profit off subsequent moves in stocks, bonds and interest rates.\n\nAdvertisement\n\nCalled Truth PSI, the new service comes amid a flurry of other deals by Trump and his family company that critics say are exploiting the presidency for profit. It follows similar offers of paid access on rival platforms, though with one key difference: The most popular Truth Social poster is the president himself and, as the biggest shareholder of the public traded parent company, would directly benefit.\n\n\u201cHe\u2019s selling expedited, privileged access to information about what he is doing as president,\u201d said Kathleen Clark of Washington University School of Law and an expert in government conflicts of interest rules. \u201cIt\u2019s yet more brazen corruption, an improper exploitation of government power to enrich himself.\u201d\n\nThe Trump family company declined to comment about whether the new feature is profiting off the presidency. Truth Social\u2019s public parent, Trump Media & Technology, did not respond to emailed questions, including whether the president\u2019s posts will be excluded from the offering.\n\nAdvertisement\n\nA press release states it would allow traders to see \u201cthe highest-ranking Truth Social accounts\u201d ahead of others. The president has the most followers \u2014 12.9 million \u2014 followed by his oldest son, Don Jr. and, close behind, his son Eric.\n\nThe release did not say how much customers would be charged.\n\nIn the past few months, Trump has announced major decisions and musings on his platform including posts about the Iran war, tariffs and the U.S. Immigration and Customs Enforcement crackdown in U.S. cities. The Iran posts in particular are impactful because investors are worried that higher oil prices will continue to stoke inflation and possibly force the Federal Reserve to raise interest rates.\n\nPresident Donald Trump looks at his mobile phone while speaking to reporters in the Oval Office of the White House on Friday, May 23, 2025. (AP Photo/Evan Vucci) via Associated Press\n\nAdvertisement\n\nStock in Trump Media & Technology has plunged more than 70% since the president took office last year, erasing $6 billion in shareholder wealth. Those losses, along with billions more of investor losses tied to new Trump family crypto businesses, have drawn scrutiny after Trump\u2019s annual disclosure of his financial holdings shows he took in more than $1 billion in revenue last year in the same companies and offerings.\n\nConflict of interest laws would bar U.S. government officials from owning a company that profits off their office by selling access to their decisions through public posts, says Washington University\u2019s Clark. But the president and vice-president, she notes, are excluded from the provision.\n\nDespite that, all presidents since the law was passed decades ago have acted as if it applied \u2014 selling individual stocks, dumping business holdings or putting their financial assets in a blind trust so they wouldn\u2019t know what was being bought and sold on their behalf while they wielded power \u2014 but Trump has refused.\n\nAdvertisement\n\nTrump Media has been trying to lift its stock price recently by branching into various businesses, including crypto, financial services and even nuclear fusion. It recently replaced its longtime CEO, former Congressman Devin Nunes, with a seasoned media executive, Kevin McGurn.\n\nIn the release, McGurn described the Truth PSI move as part of a \u201cstrategy to monetize proprietary assets.\u201d He added that he expected it to become a \u201cmeaningful, ongoing source of revenue.\u201d\n\nTrump Media said that it plans to start the service next month and that it has already signed up customers.\n\nAdvertisement",
+    "centerText": "Trump Media & Technology Group, which owns Truth Social, is launching a paid service to give Wall Street firms high-speed access to its most influential posts.\n\nFrom 1 August, instant updates will be delivered from \"the highest-ranking\" accounts, it said. US President Donald Trump currently has the most followers on the platform.\n\nThe company behind the app hopes it will create a steady new source of money for the firm which is currently loss-making.\n\nIt is likely to be aimed at financial traders who want to see market-moving news fast. Trump\u2019s social media posts often cause sudden swings in global markets, especially when he writes about trade and tariffs.\n\nFor firms, a delay of even seconds can be costly. Until now, banks and traders had to monitor the app manually. The new system will send posts directly to paying clients.\n\n\"Markets already move on Truth Social posts,\" said Kevin McGurn, the interim boss of Trump Media, adding that the service will create a steady profit.\n\nTrump Media did not say how much it would charge for the service.\n\nThe new commercial data feed, named Truth API, promises to deliver posts to paying institutional clients in \"milliseconds\".\n\nThe service will run 24 hours a day, seven days a week.\n\nThe company, which launched its social media app in 2022, said some firms have been copying its data for months without permission.\n\nMcGurn warned that Trump Media will soon block these methods, forcing firms to buy the official feed instead.\n\nTrump could benefit substantially from the move. Since his family remains the majority shareholder in the company, the president stands to profit directly from selling expedited access to his own public statements.\n\nThe BBC has contacted Trump Media for comment on whether or not the president's posts will be included in the paid feed. The White House declined to comment.\n\nWhile other social media networks already sell data, the move highlights the unique overlap between Trump\u2019s private businesses and his public role as president.\n\nIt would be \"unprecedented\" if the feature did include the president's posts, said Mark Spiegel, an investment expert from Stanphyl Capital Management.\n\nCompanies that trade off the latest headlines would be \"at a disadvantage\" if they did not pay for quick access as they could miss out on posts that could move markets, Spiegel said.\n\n\"But to put this in context, remember that Trump's posts constitute just a tiny fraction of what moves markets,\" he added.\n\nRobert Frenchman, a partner at US law firm Dynamis, told Reuters: \"It certainly does not seem fair, but yes, a tech platform can tier its distribution of information without violating federal securities laws.\"\n\nAdditional reporting by Osmond Chia",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 66,
+      "left-center": 58
     }
   },
   {
@@ -159,7 +198,46 @@
     }
   },
   {
-    "id": 8777222,
+    "id": 4581650,
+    "date": "2026-07-17",
+    "topic": "Trumps Election Security Speech Good Night",
+    "match_score": 0.6,
+    "cluster_size": 3,
+    "articles": {
+      "left": {
+        "title": "Trump\u2019s Election Security Speech: A Good Night for Putin",
+        "url": "https://www.motherjones.com/politics/2026/07/trump-election-security-speech-a-good-night-for-putin-russia-china/",
+        "source": "Mother Jones",
+        "bias": "left",
+        "priority": 2
+      },
+      "left-center": {
+        "title": "Fact-checking Trump's speech on election security",
+        "url": "https://www.cbsnews.com/news/fact-checking-trump-speech-on-election-security/",
+        "source": "CBS News",
+        "bias": "left-center",
+        "priority": 8
+      },
+      "center": {
+        "title": "Rep. Jim Himes reacts to Trump's speech on election security",
+        "url": "https://www.npr.org/2026/07/17/nx-s1-5896138/rep-jim-himes-reacts-to-trumps-speech-on-election-security",
+        "source": "NPR Politics",
+        "bias": "center",
+        "priority": 3
+      }
+    },
+    "farLeftText": "On Thursday night, after days of buildup, Donald Trump delivered a speech on election security in which he suggested US elections were threatened by China. He repeatedly pointed to China and its purported efforts to hack voter and election data and to mount influence operations to foment anti-Trump sentiment. But he provided no proof of Chinese interference with US elections or of any voter fraud. And, perhaps more significantly, he left out a big piece of the picture: Russia.\n\nAs Trump <span class='highlight-bias highlight-bias-left'>assailed</span> US elections as totally rigged and lacking credibility\u2014again, without offering any evidence of this\u2014he fixated on Beijing. The connection was not clear. He seemed to be saying that China has been involved in subverting US elections, including the 2020 contest that he lost and that he has falsely insisted (ad naseum) was stolen from him. He <span class='highlight-bias highlight-bias-left'>denounced</span> the supposed Deep State for having \u201cworked to actively suppress and downplay information about the extent of China\u2019s <span class='highlight-bias highlight-bias-left'>sinister</span> election <span class='highlight-bias highlight-bias-left'>meddling</span>, covering it up from both the president and the American people.\u201d In 2020, though, the major culprit in terms of election <span class='highlight-bias highlight-bias-left'>meddling</span> was not China, but Moscow.\n\n\n\nWho says so? Trump\u2019s own intelligence community.\n\n\n\nIn August 2020, the Office of the Director of National Intelligence released a brief statement assessing foreign efforts to influence the ongoing presidential election. It noted that the intelligence agencies had concluded that China and Iran favored Trump\u2019s defeat. But the statement provided no details on what, if anything, China and Iran were doing to thwart Trump\u2019s reelection.\n\nAs for Russia, the statement was more direct. It said Moscow was \u201cusing a range of measures to primarily <span class='highlight-bias highlight-bias-left'>denigrate</span>\u201d Vice President Joe Biden, the Democrats\u2019 presidential candidate. It noted that a \u201cpro-\u00adRussia\u201d Ukrainian parliamentarian named Andriy Derkach \u201cwas spreading\u201d false claims\u2014alleging that Biden had engaged in corruption in Ukraine\u2014to \u201c<span class='highlight-bias highlight-bias-left'>undermine</span>\u201d his candidacy. It added, \u201cSome Kremlin-\u00adlinked actors are also seeking to boost President Trump\u2019s candidacy on social media and Russian television.\u201d\n\nAsked about this intelligence assessment at the time, Trump said, \u201cI don\u2019t care what anybody says.\u201d\n\n\n\nA month later, Trump\u2019s Treasury Department sanctioned Derkach and called him \u201can active Russian agent for over a decade\u201d and accused him of running an ongoing operation\u2014by putting out bogus information about Biden\u2014to discredit the Democrat. Treasury Secretary Steven Mnuchin declared that \u201cDerkach and other Russian agents\u201d had employed \u201cmanipulation and deceit to attempt to influence\u201d the US election.\n\nTrump\u2019s own administration was saying Moscow was actively interfering with the 2020 election.\n\n\n\nMonths after that contest, the US intelligence community released an assessment of \u201cforeign threats\u201d to the 2020 race. This is what it said about the Russian effort:\n\nWe assess that Russian President Putin authorized, and a range of Russian government organizations conducted, influence operations aimed at <span class='highlight-bias highlight-bias-left'>denigrating</span> President Biden\u2019s candidacy and the Democratic Party, supporting former President Trump, <span class='highlight-bias highlight-bias-left'>undermining</span> public confidence in the electoral process, and exacerbating sociopolitical divisions in the US. Unlike in 2016, we did not see persistent Russian cyber efforts to gain access to election infrastructure\u2026A key element of Moscow\u2019s strategy this election cycle was its use of proxies linked to Russian intelligence to push influence\n\nnarratives\u2014including misleading or unsubstantiated allegations against President Biden\u2014to US media organizations, US officials, and prominent US individuals, including some close to former President Trump and his administration.\n\nThe report also evaluated Beijing\u2019s involvement in the 2020 election: \u201cWe assess that China did not deploy interference efforts and considered but did not deploy influence efforts intended to change the outcome of the US Presidential election.\u201d It added, \u201cWe did not identify China attempting to interfere with election infrastructure or provide funding to any candidates or parties.\u201d\n\nThat\u2019s a big difference. Russia ran an extensive operation to help Trump. China did not do much, if anything.\n\n\n\nTrump has long denied that Putin intervened in the 2016 campaign and helped him win the White House\u2014though various investigations, including a bipartisan Senate intelligence committee inquiry and special counsel Robert Mueller\u2019s investigation concluded the Kremlin covertly aided Trump. In this speech, Trump made China the bad guy, <span class='highlight-bias highlight-bias-left'>ignoring</span> Russia\u2019s interventions in US elections.\n\n\n\nIf Trump were serious about combatting foreign attempts to mess in US campaigns, he\u2019d address Putin\u2019s <span class='highlight-bias highlight-bias-left'>meddling</span>. Yet that would never happen. This speech was meant to back up his unfounded and <span class='highlight-bias highlight-bias-left'>hysterical</span> claim that US elections have been wracked with rampant fraud\u2014which is why, in his <span class='highlight-bias highlight-bias-left'>deluded</span> telling, he lost in 2020\u2014and he sought to blame China for that. The real culprit, Russia, was MIA.",
+    "centerLeftText": "CBS News fact-checked President Trump's speech on election security Thursday night, in which he raised new allegations regarding China's access to U.S. voter data, revisited accusations about voter registration fraud in the U.S., dead and non-citizen voting and claimed voting machines are \"easily compromised,\" and made other pronouncements about the state of voting in America.\n\nHere are some of the claims and CBS News' ratings and context for Mr. Trump's statements:\n\nMisleading: Trump claims China \"carried out what is believed to be the largest compromise of election data in history\" during 2020 election\n\n\"First, they show that over a period of years, starting during the 2020 election cycle, the People's Republic of China carried out what is believed to be the largest compromise of election data in history.\"\n\nDetails:\n\nIt's not clear how China accessed the voter data or what they did with it once they obtained it.\n\nAll states make some voting information publicly available: Name, address, political party and more. North Carolina and Ohio, for example, post their voter file online for free. In some states, these lists are available for purchase by political campaigns and parties.\n\nA Cybersecurity and Infrastructure Security Agency/FBI bulletin from September 2020 found, \"In reality, much U.S. voter information can be purchased or acquired through publicly available sources. While cyber actors have in recent years obtained voter registration information, the acquisition of this data did not impact the voting process or election results.\"\n\nThe bulletin continued, \"The FBI and CISA have no information suggesting any cyberattack on U.S. election infrastructure has prevented an election from occurring, prevented a registered voter from casting a ballot, compromised the accuracy of voter registration information, or compromised the integrity of any ballots cast.\"\n\nBy Gabrielle Ake\n\nFalse: Trump claims U.S. election system \"falls catastrophically short\" of standard where \"cheating and interference are not just difficult, but virtually impossible.\"\n\n\"Every American deserves to know that when they cast their vote, that vote will be counted accurately in a system, and that is to make that system secure \u2014 one where cheating and interference are not just difficult, but virtually impossible. Unfortunately, the system we have today falls catastrophically short of that standard.\"\n\nDetails:\n\nOfficials have repeatedly said election infrastructure remains secure.\n\nThe Cybersecurity and Infrastructure Security Agency, or CISA, said there was \"no evidence of any malicious activity\" affecting the integrity of the 2024 elections. CISA also said the 2020 election was \"the most secure in American history,\" with no evidence that voting systems deleted, lost or compromised votes.\n\nGeorgia and Pennsylvania conducted audits of the 2024 general election and officials in both states confirmed the accuracy of election results.\n\nBy Layla Ferris\n\nLacks evidence: Trump claims voting machines \"<span class='highlight-bias highlight-bias-left'>vulnerable</span> and they're easily compromised, and people within our government knew that.\"\n\n\"They're <span class='highlight-bias highlight-bias-left'>vulnerable</span> and they're easily compromised, and people within our government knew that.\"\n\nDetails:\n\nThis claim likely refers to a document declassified by the government that mentions voting machines and Venezuela. The intelligence community found Venezuela was trying to operationalize a hypothetical vulnerability in a voting system used in that country. That system is not used in the U.S. and Smartmatic, the company that makes the Venezuelan machine, is not involved in any voting machines in the U.S., with the exception of Los Angeles County.\n\nExperts say voting machines in the U.S. are extremely difficult to compromise because they are closely monitored, they aren't connected to the internet and they are backed up by paper ballots that can be audited to check the results by hand. \"They're under lock and key until they are publicly tested to make sure they haven't been tampered with,\" said Center for Election Innovation & Research Executive Director David Becker. \"And then they are used and we still don't trust them. We have those paper ballots.\"\n\nMr. Trump has also raised doubts about Dominion Voting Systems voting machines, which were used in 28 states in 2020, including the battleground states of Georgia and Wisconsin. In a 2022 review of Dominion Voting Systems by the Cybersecurity and Infrastructure Security Agency, CISA found vulnerabilities that it said could be exploited to gain control over the system's operations under very specific conditions.\n\nOne vulnerability involves a scenario under which an individual would have to physically access the voting machines and be able to technically modify files before uploading them to the larger system. But CISA said it found no evidence these vulnerabilities have been exploited in any elections.\n\nThere are physical vulnerabilities that exist where elections are held, according to a 2023 Brennan Center report, which found that state and local officials have called for more funding to bolster physical security at their offices. But while many stress tests have been conducted on voting machine technology to find any flaws, Trump's claim that voting machines are \"easily compromised\" and that the government knew that, is not backed up by CISA's assessment.\n\n\"Security researchers do find real weaknesses embedded in the code and operations of U.S. voting systems, just like they do with power grids, banks, and telecommunications, all of which share the same 'critical infrastructure' designation as elections. Finding a flaw and fixing it is a sign of a mature system, not a sign it's broken,\" wrote Geoff Hale of the Center for Democracy & Technology.\n\nBy Aaron Navarro\n\n<span class='highlight-bias highlight-bias-left'>Exaggerated</span>: Trump claims \"hundreds of thousands of non-citizens and dead people\" are \"active on the voter rolls\"\n\n\"Hundreds of thousands of non-citizens and dead people are listed and active on the voter rolls.\"\n\nDetails:\n\nElection experts say votes cast on behalf of \"dead people\" are extremely rare, and the numbers are unlikely to affect the outcome of an election.\n\nFor instance, the North Carolina State Board of Elections announced in April that it had identified \"34,000 deceased individuals\" on the state's voter rolls. But the board also said that this \"does not necessarily indicate that illegal votes were cast in their names.\"\n\nUnder very specific circumstances, however, some states will count the vote of a person who has died. According to the National Conference of State Legislatures, 10 states count an absentee ballot cast by a voter who died before Election Day, and Connecticut will count a deceased voter's ballot if the individual was a member of the armed services.\n\nMichigan and 11 other states explicitly prohibit counting the votes of deceased individuals, \"even if the voter cast an absentee ballot and then died before Election Day,\" according to Secretary of State Jocelyn Benson.\n\nColorado, Kansas and New York only allow counting a deceased individual's vote if an investigation proves that the voter had cast a ballot and later died before Election Day.\n\nThe phenomenon of non-citizens voting in U.S. elections is a rare occurrence and unlikely to change the outcome of an election. The Center for Election Innovation & Research concluded that non-citizens voting in U.S. elections \"arise from misunderstandings, mischaracterizations, or outright fabrications\" and once an investigation by an individual state's secretary of state is concluded, \"the number of alleged instances falls drastically.\"\n\nIowa Secretary of State Paul Pate revealed in March 2025 that the state had estimated 2,186 non-citizens registered to vote. But after a statewide audit, the number dropped to \"277 confirmed non-citizens.\" Of those, only 35 voted in the 2024 election.\n\nBy Ibrahim Aksoy\n\nFalse: Trump claims NBC, ABC, CNN didn't cover his speech \"because they know how <span class='highlight-bias highlight-bias-left'>corrupt</span> our system is and they don't want to reveal it.\"\n\n\"In a rare move, NBC and ABC \u2014 fake news \u2014 have both said that they would not cover this speech. They knew what it was about. Because of the fact that they don't like the topic because they know how <span class='highlight-bias highlight-bias-left'>corrupt</span> our system is and they don't want to reveal it.\"\n\nDetails:\n\nABC News, NBC News and CNN said they would not carry President Trump's speech on their primary broadcast channels, but will have the speech available on separate streaming platforms.\n\nThe speech was on streaming platforms ABC News Live and NBC News NOW. Reuters reported CNN would have a live feed on its website and subscription streaming channel, CNN All Access.\n\nABC News, NBC News and CNN all livestreamed Trump's speech on their respective YouTube channels as well. Coverage of the speech also appeared on all three outlets' websites.\n\nBy Layla Ferris\n\nFalse: Trump claims mail-in ballots are \"inherently <span class='highlight-bias highlight-bias-left'>corrupt</span>\"\n\n\"Mail-in ballots are inherently <span class='highlight-bias highlight-bias-left'>corrupt</span>. So, you would have no mail-in ballots except for illness, disability, military deployment or travel. If you're going away on business or vacation, these reforms are urgently needed to stop the vulnerabilities that I've mentioned.\"\n\nDetails:\n\nThere is no evidence of widespread mail-in ballot fraud or corruption in states where no-excuse absentee or universal vote-by-mail is offered. Multiple studies have shown that instances of voter fraud are very rare and not significant enough to impact the result of an election. The Brookings Institute found an \"average total mail voting fraud percentage across the 2016, 2018, 2020, and 2022 general elections of only 0.000043%, or about four cases of mail voting fraud out of every 10 million mail votes.\"\n\nThe U.S. has a long history of mail-in ballots \u2013 their use started during the Civil War. The U.S. Postal Service processed 99.2 million ballots in the general election, beginning Sept. 1, 2024.\n\nThe president has long tried to discredit mail-in ballots, and in 2020 campaigned against their use. He has continued his attack on mail-in ballots into 2026, calling for the allowance of absentee ballots only with excuses such as travel, illness or military service, through the SAVE America Act.\n\nThe president himself used mail-in voting recently. Earlier this year, Mr. Trump used a mail-in ballot in a Florida special election. He explained, \"I couldn't be there, because I had a lot of different things.\" But the president was in Palm Beach during one of the weekends when early voting was available. He stayed at his Mar-a-Lago club and golfed at Trump International over that weekend.\n\nBy Gabrielle Ake",
+    "centerText": "Rep. Jim Himes reacts to Trump's speech on election security NPR's A Martinez discusses President Trump's speech on election security with Connecticut Rep. Jim Himes, the ranking Democrat on the House Intelligence Committee.\n\nPolitics Rep. Jim Himes reacts to Trump's speech on election security Rep. Jim Himes reacts to Trump's speech on election security Listen \u00b7 4:59 4:59 NPR's A Martinez discusses President Trump's speech on election security with Connecticut Rep. Jim Himes, the ranking Democrat on the House Intelligence Committee. Sponsor Message Sponsor Message",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 66,
+      "left-center": 80
+    }
+  },
+  {
+    "id": 4275397,
     "date": "2026-07-17",
     "topic": "July 2026 Headlines Digitals Quiz",
     "match_score": 0.4,
@@ -191,7 +269,7 @@
     }
   },
   {
-    "id": 4820276,
+    "id": 120763,
     "date": "2026-07-17",
     "topic": "Trump Immigrants Green Cards Alarms Sound",
     "match_score": 0.4,
@@ -207,7 +285,7 @@
       "left-center": {
         "title": "Trump Administration Restricts Green Cards for Immigrants on Public Assistance",
         "url": "https://www.nytimes.com/2026/07/16/us/politics/trump-green-cards-public-assistance.html",
-        "source": "NYT Politics",
+        "source": "NYT US",
         "bias": "left-center",
         "priority": 7
       }
@@ -223,7 +301,7 @@
     }
   },
   {
-    "id": 6710579,
+    "id": 6562973,
     "date": "2026-07-17",
     "topic": "Trump Elections China Never Just Damage",
     "match_score": 0.4,
@@ -287,37 +365,6 @@
     }
   },
   {
-    "id": 6641123,
-    "date": "2026-07-17",
-    "topic": "Trump Media Sell Access Social Posts",
-    "match_score": 0.4,
-    "cluster_size": 4,
-    "articles": {
-      "left": {
-        "title": "\u2018Brazen corruption\u2019: critics denounce Trump Media plan to sell priority access to Truth Social posts",
-        "url": "https://www.theguardian.com/us-news/2026/jul/16/trump-media-truth-social-posts",
-        "source": "The Guardian (US)",
-        "bias": "left",
-        "priority": 1
-      },
-      "center": {
-        "title": "Trump Media to sell instant access to 'market-moving' social posts",
-        "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News World",
-        "bias": "center",
-        "priority": 2
-      }
-    },
-    "farLeftText": "Donald Trump\u2019s media company is planning to charge for special high-speed access to Truth Social posts, including possibly his own, affecting national security and financial markets.\n\nThe move announced on Thursday would allow Wall Street trading firms and other institutions to get news first from top Truth Social contributors so they could profit off subsequent moves in stocks, bonds and interest rates.\n\nCalled Truth PSI, the new service comes amid a flurry of other deals by Trump and his family company that critics say are exploiting the presidency for profit.\n\nIt follows similar offers of paid access on rival platforms, although with one key difference: the most popular Truth Social poster is the president himself, and, as the biggest shareholder of the publicly traded parent company, he would benefit directly.\n\n\u201cHe\u2019s selling expedited, privileged access to information about what he is doing as president,\u201d said Kathleen Clark of the Washington University School of Law and an expert in government conflict of interest rules. \u201cIt\u2019s yet more brazen corruption, an improper exploitation of government power to enrich himself.\u201d\n\nFollowers of Trump can already choose to get push notifications alerting them when new posts have been published.\n\nThe Trump family company declined to comment about whether the new feature was profiting off the presidency. Truth Social\u2019s public parent, Trump Media & Technology Group (TMTG), did not respond to emailed questions by Associated Press, including whether Trump\u2019s posts would be excluded from the offering.\n\nA press release states the new service would allow traders to see \u201cthe highest-ranking Truth Social accounts\u201d before other people. The US president has the most followers \u2013 12.9 million \u2013 followed by his eldest son, Donald Jr, and, close behind, his son Eric.\n\nThe release did not say how much customers would be charged.\n\nTrump regularly uses Truth Social to announce major decisions that affect markets, such as posts about the Iran war and tariffs.\n\nLast year Trump made more than 100 posts in a single day as global stock markets fell sharply amid fears his economic policies could produce a \u201cTrumpcession\u201d in the US.\n\nThe Iran posts in particular are impactful because investors are worried that higher oil prices will continue to stoke inflation and possibly force the Federal Reserve to raise interest rates.\n\nStock in TMTG has plunged more than 70% since the president took office last year, erasing $6bn (\u00a34.4bn) in shareholder wealth.\n\nThose losses, along with billions more of investor losses tied to new Trump family crypto businesses, have drawn scrutiny after Trump\u2019s annual disclosure of his financial holdings shows he took in more than $1bn in revenue last year in the same companies and offerings.\n\nTrump launched TMTG in 2021 after Meta\u2019s Facebook and X banned him for apparently encouraging his supporters to participate in the 6 January attack on the US Capitol. He went on to launch Truth Social in February 2022 and two years later floated the business \u2013 trading under the ticker symbol \u201cDJT\u201d \u2013 Trump\u2019s initials \u2013 at an initial valuation of $8bn.\n\nTrump indirectly owns about 53% of TMTG through shares he transferred to a trust in December 2024, a month before he took office, giving him a paper fortune of about $1.41bn based on TMTG\u2019s current $2.67bn market capitalisation.\n\nThe US president earned $2.2bn in total in his first year back in office, according to a mandatory disclosure with the US Office of Government Ethics.\n\nskip past newsletter promotion Free newsletter | Every weekday Sign up to Business Today Get set for the working day \u2013 we'll point you to all the business news and analysis you need every morning Preview latest Enter your email Sign up after newsletter promotion\n\nAbout $1.4bn of his revenue came from his cryptocurrency business, including $500m from the World Liberty Financial venture he co-founded with his sons and the sons of Steve Witkoff, his special envoy.\n\nTrump also earned about $500m after an investment firm tied to the United Arab Emirates bought almost half of the company in a controversial deal.\n\nConflict of interest laws would bar US government officials from owning a company that profited off their office by selling access to their decisions through public posts, Clark said. However, the president and vice-president, she notes, are excluded from the provision.\n\nDespite that, all presidents since the law was passed decades ago have acted as if it applied \u2013 selling individual stocks, dumping business holdings or putting their financial assets in a blind trust so they would not know what was being bought and sold on their behalf while they wielded power \u2013 but Trump has refused.\n\nTrump Media has been trying to lift its stock price recently by branching into various businesses, including cryptocurrency, financial services and even nuclear fusion. It recently replaced its longtime chief executive, Devin Nunes, a former congressman, with a seasoned media executive, Kevin McGurn.\n\nIn the release, McGurn described the Truth PSI move as part of a \u201cstrategy to monetise proprietary assets\u201d. He added that he expected it to become a \u201cmeaningful, ongoing source of revenue\u201d.\n\nTrump Media has said it plans to start the service next month and has already signed up customers.\n\nThe company\u2019s stock rose 0.6% to $9.63 on Thursday. Before Trump took office last year, it closed at $40.\n\nAssociated Press contributed to this report",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "Trump Media & Technology Group, which owns Truth Social, is launching a paid service to give Wall Street firms high-speed access to its most influential posts.\n\nFrom 1 August, instant updates will be delivered from \"the highest-ranking\" accounts, it said. US President Donald Trump currently has the most followers on the platform.\n\nThe company behind the app hopes it will create a steady new source of money for the firm which is currently loss-making.\n\nIt is likely to be aimed at financial traders who want to see market-moving news fast. Trump\u2019s social media posts often cause sudden swings in global markets, especially when he writes about trade and tariffs.\n\nFor firms, a delay of even seconds can be costly. Until now, banks and traders had to monitor the app manually. The new system will send posts directly to paying clients.\n\n\"Markets already move on Truth Social posts,\" said Kevin McGurn, the interim boss of Trump Media, adding that the service will create a steady profit.\n\nTrump Media did not say how much it would charge for the service.\n\nThe new commercial data feed, named Truth API, promises to deliver posts to paying institutional clients in \"milliseconds\".\n\nThe service will run 24 hours a day, seven days a week.\n\nThe company, which launched its social media app in 2022, said some firms have been copying its data for months without permission.\n\nMcGurn warned that Trump Media will soon block these methods, forcing firms to buy the official feed instead.\n\nTrump could benefit substantially from the move. Since his family remains the majority shareholder in the company, the president stands to profit directly from selling expedited access to his own public statements.\n\nThe BBC has contacted Trump Media for comment on whether or not the president's posts will be included in the paid feed. The White House declined to comment.\n\nWhile other social media networks already sell data, the move highlights the unique overlap between Trump\u2019s private businesses and his public role as president.\n\nIt would be \"unprecedented\" if the feature did include the president's posts, said Mark Spiegel, an investment expert from Stanphyl Capital Management.\n\nCompanies that trade off the latest headlines would be \"at a disadvantage\" if they did not pay for quick access as they could miss out on posts that could move markets, Spiegel said.\n\n\"But to put this in context, remember that Trump's posts constitute just a tiny fraction of what moves markets,\" he added.\n\nRobert Frenchman, a partner at US law firm Dynamis, told Reuters: \"It certainly does not seem fair, but yes, a tech platform can tier its distribution of information without violating federal securities laws.\"\n\nAdditional reporting by Osmond Chia",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 66
-    }
-  },
-  {
     "id": 7163342,
     "date": "2026-07-17",
     "topic": "Iran Strikes Strait Hormuz Concludes Night",
@@ -346,6 +393,70 @@
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
       "left-center": 50
+    }
+  },
+  {
+    "id": 5696157,
+    "date": "2026-07-17",
+    "topic": "Todd Blanche Epstein Survivors Damning Accusations",
+    "match_score": 0.4,
+    "cluster_size": 4,
+    "articles": {
+      "left": {
+        "title": "Damning accusations pummel Todd Blanche as Epstein survivors condemn 'deflating' meeting",
+        "url": "https://www.rawstory.com/todd-blanche-2677235572/",
+        "source": "Raw Story",
+        "bias": "left",
+        "priority": 10
+      },
+      "left-center": {
+        "title": "Todd Blanche Agrees To Meet Epstein Survivors Only After GOP Senator Threatens AG Bid",
+        "url": "https://www.huffpost.com/entry/todd-blanche-epstein-accusers_n_6a595b17e4b0dbc765851deb",
+        "source": "HuffPost Politics",
+        "bias": "left-center",
+        "priority": 4
+      }
+    },
+    "farLeftText": "Several Jeffrey Epstein survivors and family members met with Acting Attorney General Todd Blanche, describing the meeting on Thursday as \"deflating\" and detailing what happened behind closed doors.\n\nBlanche, Trump's nominee for attorney general who has been facing tough questioning during his Senate confirmation hearing over his involvement in the release of the Epstein files, was pressed by Sen. Thom Tillis (R-NC) to immediately meet with Epstein survivors. Tillis made it clear that he would not vote to approve Blanche until the nominee met with them.\n\nLate survivor Virginia Giuffre's brother, Skye Roberts, and his wife, Amanda Roberts, spoke to CNN anchor Jake Tapper just after the exchange with Blanche.\n\n\"I think it was everything we expected,\" Amanda said. \"Unfortunately, Todd Blanche has been doing to us for the past nine months. There were no real admissions. There were no real commitments being made. There were a lot of diversions. When we asked about specific comments, as you mentioned, there weren't investigative leads. And a lot of it was like, 'I didn't really say that. That's not what I meant.' And so, there was no really getting to the bottom of it. There were just a lot of circles, and it felt very deflating.\"\n\nDani Bensky, an Epstein survivor who testified on Capitol Hill on Thursday, called the meeting \"lip service.\" Skye described why the meeting was <span class='highlight-bias highlight-bias-left'>unsettling</span> for the group.\n\n\"I want to be honest with you,\" Skye said. \"We were really trying to work with Todd Blanche in this scenario. Like, I want to be very clear to anybody that's watching this: our intentions are very pure. I wanted to go in there and get substance from him. I asked him at one point, I said, 'Mr. Blanche respectfully, like, what is it going to take to get investigative leads like subscribe that to me?'\"\n\nBlanche's response was eye-opening, Skye explained.\n\n\"And he said, 'Well, I need testimony, and I need evidence,'\" Skye said. \"I said, 'Well, let me give you an example: Andrew Mountbatten-Windsor. Virginia provided testimony. She provided evidence. Is that not an investigative lead? He said, well, he won't cooperate with me. And he also said that Virginia is not here. So [he] can't use that testimony. And so, it just felt like he wasn't willing to work with us. But I want to be clear that I'm still willing to work with the Department of Justice to get some sort of justice\u2014exactly what it's called.\"\n\nBlanche apparently described the meeting as \"not at all cordial.\"\n\n\"I think we walked in very, very dissatisfied with him, and we made it very clear that we do oppose his nomination,\" Amanda added. \"I think it was his staff's job and his and his job to make us feel welcome, to make us feel like they were there to provide answers. We've been asking for this meeting, and it felt like he only had it because his hand was forced.\"",
+    "centerLeftText": "LOADING ERROR LOADING\n\nActing Attorney General Todd Blanche finally agreed to meet with sexual predator Jeffrey Epstein\u2019s accusers, and all it took was a Republican senator threatening not to support Blanche\u2019s bid to lead the Department of Justice.\n\nBlanche, who was Donald Trump\u2019s lawyer during his hush money conviction, has been <span class='highlight-bias highlight-bias-left'>criticized</span> for his handling of the Epstein scandal, which involved the Trump administration\u2019s transfer of convicted sex offender and Epstein co-conspirator Ghislaine Maxwell to a lower-security prison in 2025.\n\nAdvertisement\n\nA group of Epstein survivors asked senators not to confirm Blanche to the AG position earlier this week. One of them, Dani Bensky, blasted Blanche on Thursday for reportedly spending nine hours with Maxwell before moving her to a nicer prison while <span class='highlight-bias highlight-bias-left'>ignoring</span> Epstein\u2019s victims altogether, according to Mediaite.\n\nAs a result, Sen. Thom Tillis (R-N.C.) told the Senate Judiciary Committee he would not vote to confirm Blanche for attorney general unless he actually met with survivors.\n\nAlthough Blanche claimed on Wednesday that he was \u201cprohibited from meeting directly\u201d with the women, he changed his tune quickly after Tillis\u2019 ultimatum and met with them on Thursday afternoon.\n\nAdvertisement\n\n\u201cI never said I can\u2019t meet with them. I said if they were represented, I had to meet through counsel,\u201d Blanche said, according to ABC News. \u201cBut of course, I can meet with them. I\u2019m the acting attorney general of the United States, so yes, I can.\u201d\n\nAfter the meeting, Bensky issued a press release claiming that Blanche had \u201ctreated the meeting as a mere \u2018check-the-box\u2019 exercise intended to secure votes for his confirmation,\u201d and \u201cdanced around his wording, repeatedly interrupted us and could not commit to anything that would demonstrate good faith or begin to restore trust.\u201d\n\nShe also said Blanche did not \u201cadequately account for the release of materials that exposed survivors\u2019 identifying information and images\u201d and \u201coffered no credible plan to investigate and pursue accountability\u201d beyond Epstein and Maxwell.\n\nAdvertisement",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 50,
+      "left-center": 50
+    }
+  },
+  {
+    "id": 3254172,
+    "date": "2026-07-17",
+    "topic": "Today Craig Melvin Intruder Show Anchor",
+    "match_score": 0.4,
+    "cluster_size": 4,
+    "articles": {
+      "left-center": {
+        "title": "\u2018Today\u2019 Anchor Craig Melvin Chases Intruder From 30 Rock as Show Airs",
+        "url": "https://www.nytimes.com/2026/07/16/us/craig-melvin-today-show-intruder.html",
+        "source": "NYT US",
+        "bias": "left-center",
+        "priority": 7
+      },
+      "right-center": {
+        "title": "'TODAY' show intruder identified after allegedly breaching security near Craig Melvin",
+        "url": "https://www.foxnews.com/us/today-show-intruder-detained-allegedly-breaching-security-craig-melvin-report",
+        "source": "Fox News US",
+        "bias": "right-center",
+        "priority": 2
+      }
+    },
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "NEW You can now listen to Fox News articles!\n\nA man was detained on Thursday after allegedly slipping past security at NBC\u2019s \"Today\" show studios in New York.\n\nTODAY.com reports that the person who was detained \"has been identified as Andrew Truelove, who has several pending cases and a criminal history.\n\nTMZ reported the man was looking for \"Today\" anchor Al Roker but when he couldn't find him reportedly lunged at co-host Craig Melvin and shouted a racial slur before security detained him.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nNo one was injured, and the hosts returned to the air shortly afterward.\n\nIn a post to his story on Instagram, Melvin wrote, \"I've heard from so many of you over the last few hours. I'm doing just fine. Thanks for reaching out. I'm looking forward to seeing you tomorrow morning on [TODAY Show].\"\n\nNANCY GUTHRIE LIKELY TARGETED BY LOCAL WORKER WHO ASSUMED FAMILY WAS WEALTHY, SAYS VETERAN INVESTIGATOR\n\nNYPD confirmed to Fox News Digital:\n\n\"On Thursday, July 16, 2026, at approximately 0919 hours, it was reported to officers that there was a disorderly person inside 30 Rockefeller Center, within the confines of the Midtown North Precinct. Officers responded and placed an unidentified individual into custody. There were no injuries reported. The investigation remains ongoing.\"\n\nJUDGE ORDERS NANCY GUTHRIE RANSOM IMPOSTER INTO INPATIENT TREATMENT BEFORE SENTENCING\n\nAdditionally, Savannah Guthrie shared on the \"Today\" show she will be off the show for a few weeks while she is filming a new Wordle game show.\n\nSCAMMERS EXPLOIT NANCY GUTHRIE CASE WITH QR CODE MONEY REQUESTS, PIMA COUNTY SHERIFF WARNS\n\n\"I\u2019m headed over to shoot \u2018Wordle\u2019 over the next few weeks,\" Savannah said on \"Today\" July 16. \"We\u2019re going to shoot the whole season, and we\u2019re super excited. Cannot wait for everyone to see it.\"\n\nIn a statement sent to Fox News Digital, NBC News' TODAY said:\n\n\"There was a security incident this morning at the TODAY show studio. An individual entered an unauthorized area in a vestibule near Studio 1A. The person approached anchor Craig Melvin, who alerted security. The individual was detained and taken into custody by law enforcement without further incident. There was no altercation, and no one was injured. TODAY is cooperating fully with law enforcement as they investigate the matter. NBC and TODAY take the safety and security of our employees, talent, staff and guests extremely seriously. We are reviewing the incident and our security protocols and remain committed to providing a safe and secure environment for everyone who works at and visits our studios.\"",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left-center": 50,
+      "right-center": 50
     }
   },
   {
@@ -380,38 +491,6 @@
     }
   },
   {
-    "id": 1618177,
-    "date": "2026-07-17",
-    "topic": "Todd Blanche Epstein Survivors Damning Accusations",
-    "match_score": 0.4,
-    "cluster_size": 3,
-    "articles": {
-      "left": {
-        "title": "Damning accusations pummel Todd Blanche as Epstein survivors condemn 'deflating' meeting",
-        "url": "https://www.rawstory.com/todd-blanche-2677235572/",
-        "source": "Raw Story",
-        "bias": "left",
-        "priority": 10
-      },
-      "left-center": {
-        "title": "Republican Senator Thom Tillis Demands Todd Blanche Meet With Epstein Survivors",
-        "url": "https://www.nytimes.com/2026/07/16/us/politics/todd-blanche-attorney-general-epstein.html",
-        "source": "NYT Politics",
-        "bias": "left-center",
-        "priority": 7
-      }
-    },
-    "farLeftText": "Several Jeffrey Epstein survivors and family members met with Acting Attorney General Todd Blanche, describing the meeting on Thursday as \"deflating\" and detailing what happened behind closed doors.\n\nBlanche, Trump's nominee for attorney general who has been facing tough questioning during his Senate confirmation hearing over his involvement in the release of the Epstein files, was pressed by Sen. Thom Tillis (R-NC) to immediately meet with Epstein survivors. Tillis made it clear that he would not vote to approve Blanche until the nominee met with them.\n\nLate survivor Virginia Giuffre's brother, Skye Roberts, and his wife, Amanda Roberts, spoke to CNN anchor Jake Tapper just after the exchange with Blanche.\n\n\"I think it was everything we expected,\" Amanda said. \"Unfortunately, Todd Blanche has been doing to us for the past nine months. There were no real admissions. There were no real commitments being made. There were a lot of diversions. When we asked about specific comments, as you mentioned, there weren't investigative leads. And a lot of it was like, 'I didn't really say that. That's not what I meant.' And so, there was no really getting to the bottom of it. There were just a lot of circles, and it felt very deflating.\"\n\nDani Bensky, an Epstein survivor who testified on Capitol Hill on Thursday, called the meeting \"lip service.\" Skye described why the meeting was <span class='highlight-bias highlight-bias-left'>unsettling</span> for the group.\n\n\"I want to be honest with you,\" Skye said. \"We were really trying to work with Todd Blanche in this scenario. Like, I want to be very clear to anybody that's watching this: our intentions are very pure. I wanted to go in there and get substance from him. I asked him at one point, I said, 'Mr. Blanche respectfully, like, what is it going to take to get investigative leads like subscribe that to me?'\"\n\nBlanche's response was eye-opening, Skye explained.\n\n\"And he said, 'Well, I need testimony, and I need evidence,'\" Skye said. \"I said, 'Well, let me give you an example: Andrew Mountbatten-Windsor. Virginia provided testimony. She provided evidence. Is that not an investigative lead? He said, well, he won't cooperate with me. And he also said that Virginia is not here. So [he] can't use that testimony. And so, it just felt like he wasn't willing to work with us. But I want to be clear that I'm still willing to work with the Department of Justice to get some sort of justice\u2014exactly what it's called.\"\n\nBlanche apparently described the meeting as \"not at all cordial.\"\n\n\"I think we walked in very, very dissatisfied with him, and we made it very clear that we do oppose his nomination,\" Amanda added. \"I think it was his staff's job and his and his job to make us feel welcome, to make us feel like they were there to provide answers. We've been asking for this meeting, and it felt like he only had it because his hand was forced.\"",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 50,
-      "left-center": 50
-    }
-  },
-  {
     "id": 7492833,
     "date": "2026-07-17",
     "topic": "Daylight Saving Permanent House Passes Pets",
@@ -440,70 +519,6 @@
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
       "left-center": 78
-    }
-  },
-  {
-    "id": 9542863,
-    "date": "2026-07-17",
-    "topic": "Today Craig Melvin Intruder Show Anchor",
-    "match_score": 0.4,
-    "cluster_size": 3,
-    "articles": {
-      "left-center": {
-        "title": "\u2018Today\u2019 Anchor Craig Melvin Chases Intruder From 30 Rock as Show Airs",
-        "url": "https://www.nytimes.com/2026/07/16/us/craig-melvin-today-show-intruder.html",
-        "source": "NYT US",
-        "bias": "left-center",
-        "priority": 7
-      },
-      "right-center": {
-        "title": "'TODAY' show intruder identified after allegedly breaching security near Craig Melvin",
-        "url": "https://www.foxnews.com/us/today-show-intruder-detained-allegedly-breaching-security-craig-melvin-report",
-        "source": "Fox News US",
-        "bias": "right-center",
-        "priority": 2
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "NEW You can now listen to Fox News articles!\n\nA man was detained on Thursday after allegedly slipping past security at NBC\u2019s \"Today\" show studios in New York.\n\nTODAY.com reports that the person who was detained \"has been identified as Andrew Truelove, who has several pending cases and a criminal history.\n\nTMZ reported the man was looking for \"Today\" anchor Al Roker but when he couldn't find him reportedly lunged at co-host Craig Melvin and shouted a racial slur before security detained him.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nNo one was injured, and the hosts returned to the air shortly afterward.\n\nIn a post to his story on Instagram, Melvin wrote, \"I've heard from so many of you over the last few hours. I'm doing just fine. Thanks for reaching out. I'm looking forward to seeing you tomorrow morning on [TODAY Show].\"\n\nNANCY GUTHRIE LIKELY TARGETED BY LOCAL WORKER WHO ASSUMED FAMILY WAS WEALTHY, SAYS VETERAN INVESTIGATOR\n\nNYPD confirmed to Fox News Digital:\n\n\"On Thursday, July 16, 2026, at approximately 0919 hours, it was reported to officers that there was a disorderly person inside 30 Rockefeller Center, within the confines of the Midtown North Precinct. Officers responded and placed an unidentified individual into custody. There were no injuries reported. The investigation remains ongoing.\"\n\nJUDGE ORDERS NANCY GUTHRIE RANSOM IMPOSTER INTO INPATIENT TREATMENT BEFORE SENTENCING\n\nAdditionally, Savannah Guthrie shared on the \"Today\" show she will be off the show for a few weeks while she is filming a new Wordle game show.\n\nSCAMMERS EXPLOIT NANCY GUTHRIE CASE WITH QR CODE MONEY REQUESTS, PIMA COUNTY SHERIFF WARNS\n\n\"I\u2019m headed over to shoot \u2018Wordle\u2019 over the next few weeks,\" Savannah said on \"Today\" July 16. \"We\u2019re going to shoot the whole season, and we\u2019re super excited. Cannot wait for everyone to see it.\"\n\nIn a statement sent to Fox News Digital, NBC News' TODAY said:\n\n\"There was a security incident this morning at the TODAY show studio. An individual entered an unauthorized area in a vestibule near Studio 1A. The person approached anchor Craig Melvin, who alerted security. The individual was detained and taken into custody by law enforcement without further incident. There was no altercation, and no one was injured. TODAY is cooperating fully with law enforcement as they investigate the matter. NBC and TODAY take the safety and security of our employees, talent, staff and guests extremely seriously. We are reviewing the incident and our security protocols and remain committed to providing a safe and secure environment for everyone who works at and visits our studios.\"",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 50,
-      "right-center": 50
-    }
-  },
-  {
-    "id": 6397395,
-    "date": "2026-07-17",
-    "topic": "Noncitizens Registered Vote States Quartermillion Alleges",
-    "match_score": 0.4,
-    "cluster_size": 3,
-    "articles": {
-      "right-center": {
-        "title": "More than a quarter-million noncitizens may be registered to vote in 4 key states, DHS alleges",
-        "url": "https://www.foxnews.com/politics/quarter-million-noncitizens-registered-vote-4-key-states-dhs-alleges",
-        "source": "Fox News Latest",
-        "bias": "right-center",
-        "priority": 2
-      },
-      "right": {
-        "title": "DHS: More Than 250,000 Noncitizens Are Registered To Vote In Four States",
-        "url": "https://thefederalist.com/2026/07/16/dhs-more-than-250000-noncitizens-are-registered-to-vote-in-four-states/?utm_source=rss&utm_medium=rss&utm_campaign=dhs-more-than-250000-noncitizens-are-registered-to-vote-in-four-states",
-        "source": "The Federalist",
-        "bias": "right",
-        "priority": 2
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "NEW You can now listen to Fox News articles!\n\nFIRST ON FOX \u2013 The Department of Homeland Security told election officials in California, New Jersey, Nevada and Pennsylvania a preliminary review found what could be more than 256,000 noncitizens registered to vote across the four states, according to letters obtained by Fox News Digital.\n\nIn the four letters dated Friday, DHS Secretary Markwayne Mullin said the department compared publicly available voter registration records with federal immigration data and uncovered thousands of potential matches. He asked state election officials to work with DHS to verify the identities before taking any action.\n\nAccording to the letters, DHS estimates there may be as many as 190,832 noncitizens registered to vote in California, 35,152 in New Jersey, 15,903 in Nevada and 14,576 in Pennsylvania.\n\nThe department said it found 81,336 California registrants, 19,497 New Jersey registrants, 8,576 Nevada registrants and 8,594 Pennsylvania registrants whose names, dates of birth, addresses and Social Security numbers match noncitizens in DHS records.\n\nDHS PLANS COSTLY CRACKDOWN ON STATES THAT DON\u2019T COOPERATE ON ELECTION SECURITY\n\nMany noncitizens are legally issued Social Security numbers, including lawful permanent residents, people authorized to work in the United States and certain visa holders. DHS said it used Social Security numbers as one of several identifiers in matching voter registration records with federal immigration records.\n\nThe letters describe the findings as a preliminary review.\n\n\"The most efficient way to ensure the accuracy of our findings is to work collaboratively on identity verification,\" Mullin wrote. DHS said it is prepared to provide immigration records under federal law to help states determine whether those individuals are eligible to remain on the voter rolls.\n\nDHS DIRECTS ICE TO DEPORT ILLEGAL IMMIGRANTS WHO VOTE IN AMERICAN ELECTIONS UNDER NEW DIRECTIVE\n\nMullin said ensuring that only U.S. citizens vote in federal elections is essential to protecting election integrity, writing that \"allowing just one non-citizen to vote cancels the vote of one U.S. citizen.\"\n\nHe added that states maintain voter registration rolls while the federal government maintains the immigration records needed to verify citizenship.\n\nThe letters ask the secretaries of state to contact DHS by July 24 so the department can begin sharing records and assisting with the verification process ahead of future federal elections.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nCalifornia Secretary of State Shirley Weber, Pennsylvania Secretary of State Al Schmidt, New Jersey Secretary of State Dale Caldwell and Nevada Secretary of State Francisco Aguilar did not immediately respond to Fox News Digital requests for comment.\n\nThe letters come as the Trump administration continues pushing states to work more closely with federal agencies on election security and voter eligibility, arguing that access to federal immigration records can help states maintain accurate voter rolls.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "right-center": 50,
-      "right": 50
     }
   },
   {
