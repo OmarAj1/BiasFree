@@ -40,11 +40,11 @@
     }
   },
   {
-    "id": 3344683,
+    "id": 1063324,
     "date": "2026-07-17",
     "topic": "White House Teleprompter Operator Trump Bets",
     "match_score": 0.6,
-    "cluster_size": 5,
+    "cluster_size": 4,
     "articles": {
       "left": {
         "title": "White House teleprompter operator put on leave over alleged bets on Trump speeches",
@@ -159,7 +159,39 @@
     }
   },
   {
-    "id": 9805677,
+    "id": 8777222,
+    "date": "2026-07-17",
+    "topic": "July 2026 Headlines Digitals Quiz",
+    "match_score": 0.4,
+    "cluster_size": 10,
+    "articles": {
+      "left": {
+        "title": "Headlines for July 16, 2026",
+        "url": "http://www.democracynow.org/2026/7/16/headlines",
+        "source": "Democracy Now",
+        "bias": "left",
+        "priority": 6
+      },
+      "right-center": {
+        "title": "Fox News Digital's News Quiz: July 17, 2026",
+        "url": "https://www.foxnews.com/lifestyle/fox-news-digital-news-quiz-july-17-2026",
+        "source": "Fox News Latest",
+        "bias": "right-center",
+        "priority": 2
+      }
+    },
+    "farLeftText": "The U.S. has struck Iran for a fifth consecutive day, targeting the capital Tehran and port cities, including Bandar Abbas, which is home \u2060to the headquarters of Iran\u2019s Navy. On Thursday morning, the U.S. fired on an oil tanker attempting to reach Kharg Island in the Strait of Hormuz. In retaliation, Iran attacked Bahrain, Kuwait and Jordan. Iran\u2019s military warned that if President Trump follows through on his threat to strike civilian infrastructure, it would strike all infrastructure across the Gulf. At least 35 civilians have been killed by U.S. strikes in recent days, according to Iranian authorities. This is President Trump speaking from Pennsylvania Wednesday.\n\nPresident Donald Trump: \u201cThey want to settle so badly. They don\u2019t like what we\u2019re doing, and they do want to settle. We\u2019ll find out whether or not we settle with them or we just finish it off.\u201d\n\nThe Trump administration\u2019s internal estimate of the cost of the U.S.-Israeli war on Iran has soared to as much as $100 billion, according to U.S. officials who spoke with NBC News. Meanwhile, Israel\u2019s Defense Minister Israel Katz told U.S. Defense Secretary Pete Hegseth Wednesday that Israel is planning to keep its forces in so-called security zones in Gaza, Lebanon and Syria.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "Test your news knowledge with this week's Fox News Digital News Quiz, featuring acting Attorney General Todd Blanche's confirmation hearing and a raging Yellostone National Park bison.\n\nLooking for another challenge?\n\nGraham Platner's Senate campaign decision and a restaurant etiquette question are featured in last week's News Quiz.\n\nTest your knowledge of World Cup wins, burger breakthroughs and more in this week's American Culture Quiz.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nIf you're looking to play even more, you can find all of our quizzes by clicking here.\n\nCheck back next week for the latest News Quiz from Fox News Digital. Thanks for playing!",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 50,
+      "right-center": 50
+    }
+  },
+  {
+    "id": 4820276,
     "date": "2026-07-17",
     "topic": "Trump Immigrants Green Cards Alarms Sound",
     "match_score": 0.4,
@@ -191,7 +223,7 @@
     }
   },
   {
-    "id": 3010353,
+    "id": 6710579,
     "date": "2026-07-17",
     "topic": "Trump Elections China Never Just Damage",
     "match_score": 0.4,
@@ -255,7 +287,69 @@
     }
   },
   {
-    "id": 4791785,
+    "id": 6641123,
+    "date": "2026-07-17",
+    "topic": "Trump Media Sell Access Social Posts",
+    "match_score": 0.4,
+    "cluster_size": 4,
+    "articles": {
+      "left": {
+        "title": "\u2018Brazen corruption\u2019: critics denounce Trump Media plan to sell priority access to Truth Social posts",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/trump-media-truth-social-posts",
+        "source": "The Guardian (US)",
+        "bias": "left",
+        "priority": 1
+      },
+      "center": {
+        "title": "Trump Media to sell instant access to 'market-moving' social posts",
+        "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News World",
+        "bias": "center",
+        "priority": 2
+      }
+    },
+    "farLeftText": "Donald Trump\u2019s media company is planning to charge for special high-speed access to Truth Social posts, including possibly his own, affecting national security and financial markets.\n\nThe move announced on Thursday would allow Wall Street trading firms and other institutions to get news first from top Truth Social contributors so they could profit off subsequent moves in stocks, bonds and interest rates.\n\nCalled Truth PSI, the new service comes amid a flurry of other deals by Trump and his family company that critics say are exploiting the presidency for profit.\n\nIt follows similar offers of paid access on rival platforms, although with one key difference: the most popular Truth Social poster is the president himself, and, as the biggest shareholder of the publicly traded parent company, he would benefit directly.\n\n\u201cHe\u2019s selling expedited, privileged access to information about what he is doing as president,\u201d said Kathleen Clark of the Washington University School of Law and an expert in government conflict of interest rules. \u201cIt\u2019s yet more brazen corruption, an improper exploitation of government power to enrich himself.\u201d\n\nFollowers of Trump can already choose to get push notifications alerting them when new posts have been published.\n\nThe Trump family company declined to comment about whether the new feature was profiting off the presidency. Truth Social\u2019s public parent, Trump Media & Technology Group (TMTG), did not respond to emailed questions by Associated Press, including whether Trump\u2019s posts would be excluded from the offering.\n\nA press release states the new service would allow traders to see \u201cthe highest-ranking Truth Social accounts\u201d before other people. The US president has the most followers \u2013 12.9 million \u2013 followed by his eldest son, Donald Jr, and, close behind, his son Eric.\n\nThe release did not say how much customers would be charged.\n\nTrump regularly uses Truth Social to announce major decisions that affect markets, such as posts about the Iran war and tariffs.\n\nLast year Trump made more than 100 posts in a single day as global stock markets fell sharply amid fears his economic policies could produce a \u201cTrumpcession\u201d in the US.\n\nThe Iran posts in particular are impactful because investors are worried that higher oil prices will continue to stoke inflation and possibly force the Federal Reserve to raise interest rates.\n\nStock in TMTG has plunged more than 70% since the president took office last year, erasing $6bn (\u00a34.4bn) in shareholder wealth.\n\nThose losses, along with billions more of investor losses tied to new Trump family crypto businesses, have drawn scrutiny after Trump\u2019s annual disclosure of his financial holdings shows he took in more than $1bn in revenue last year in the same companies and offerings.\n\nTrump launched TMTG in 2021 after Meta\u2019s Facebook and X banned him for apparently encouraging his supporters to participate in the 6 January attack on the US Capitol. He went on to launch Truth Social in February 2022 and two years later floated the business \u2013 trading under the ticker symbol \u201cDJT\u201d \u2013 Trump\u2019s initials \u2013 at an initial valuation of $8bn.\n\nTrump indirectly owns about 53% of TMTG through shares he transferred to a trust in December 2024, a month before he took office, giving him a paper fortune of about $1.41bn based on TMTG\u2019s current $2.67bn market capitalisation.\n\nThe US president earned $2.2bn in total in his first year back in office, according to a mandatory disclosure with the US Office of Government Ethics.\n\nskip past newsletter promotion Free newsletter | Every weekday Sign up to Business Today Get set for the working day \u2013 we'll point you to all the business news and analysis you need every morning Preview latest Enter your email Sign up after newsletter promotion\n\nAbout $1.4bn of his revenue came from his cryptocurrency business, including $500m from the World Liberty Financial venture he co-founded with his sons and the sons of Steve Witkoff, his special envoy.\n\nTrump also earned about $500m after an investment firm tied to the United Arab Emirates bought almost half of the company in a controversial deal.\n\nConflict of interest laws would bar US government officials from owning a company that profited off their office by selling access to their decisions through public posts, Clark said. However, the president and vice-president, she notes, are excluded from the provision.\n\nDespite that, all presidents since the law was passed decades ago have acted as if it applied \u2013 selling individual stocks, dumping business holdings or putting their financial assets in a blind trust so they would not know what was being bought and sold on their behalf while they wielded power \u2013 but Trump has refused.\n\nTrump Media has been trying to lift its stock price recently by branching into various businesses, including cryptocurrency, financial services and even nuclear fusion. It recently replaced its longtime chief executive, Devin Nunes, a former congressman, with a seasoned media executive, Kevin McGurn.\n\nIn the release, McGurn described the Truth PSI move as part of a \u201cstrategy to monetise proprietary assets\u201d. He added that he expected it to become a \u201cmeaningful, ongoing source of revenue\u201d.\n\nTrump Media has said it plans to start the service next month and has already signed up customers.\n\nThe company\u2019s stock rose 0.6% to $9.63 on Thursday. Before Trump took office last year, it closed at $40.\n\nAssociated Press contributed to this report",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "Trump Media & Technology Group, which owns Truth Social, is launching a paid service to give Wall Street firms high-speed access to its most influential posts.\n\nFrom 1 August, instant updates will be delivered from \"the highest-ranking\" accounts, it said. US President Donald Trump currently has the most followers on the platform.\n\nThe company behind the app hopes it will create a steady new source of money for the firm which is currently loss-making.\n\nIt is likely to be aimed at financial traders who want to see market-moving news fast. Trump\u2019s social media posts often cause sudden swings in global markets, especially when he writes about trade and tariffs.\n\nFor firms, a delay of even seconds can be costly. Until now, banks and traders had to monitor the app manually. The new system will send posts directly to paying clients.\n\n\"Markets already move on Truth Social posts,\" said Kevin McGurn, the interim boss of Trump Media, adding that the service will create a steady profit.\n\nTrump Media did not say how much it would charge for the service.\n\nThe new commercial data feed, named Truth API, promises to deliver posts to paying institutional clients in \"milliseconds\".\n\nThe service will run 24 hours a day, seven days a week.\n\nThe company, which launched its social media app in 2022, said some firms have been copying its data for months without permission.\n\nMcGurn warned that Trump Media will soon block these methods, forcing firms to buy the official feed instead.\n\nTrump could benefit substantially from the move. Since his family remains the majority shareholder in the company, the president stands to profit directly from selling expedited access to his own public statements.\n\nThe BBC has contacted Trump Media for comment on whether or not the president's posts will be included in the paid feed. The White House declined to comment.\n\nWhile other social media networks already sell data, the move highlights the unique overlap between Trump\u2019s private businesses and his public role as president.\n\nIt would be \"unprecedented\" if the feature did include the president's posts, said Mark Spiegel, an investment expert from Stanphyl Capital Management.\n\nCompanies that trade off the latest headlines would be \"at a disadvantage\" if they did not pay for quick access as they could miss out on posts that could move markets, Spiegel said.\n\n\"But to put this in context, remember that Trump's posts constitute just a tiny fraction of what moves markets,\" he added.\n\nRobert Frenchman, a partner at US law firm Dynamis, told Reuters: \"It certainly does not seem fair, but yes, a tech platform can tier its distribution of information without violating federal securities laws.\"\n\nAdditional reporting by Osmond Chia",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 66
+    }
+  },
+  {
+    "id": 7163342,
+    "date": "2026-07-17",
+    "topic": "Iran Strikes Strait Hormuz Concludes Night",
+    "match_score": 0.4,
+    "cluster_size": 4,
+    "articles": {
+      "left-center": {
+        "title": "U.S. concludes another night of Iran strikes amid battle over Strait of Hormuz",
+        "url": "https://www.cbsnews.com/live-updates/iran-us-war-trump-strait-of-hormuz-persian-gulf-strikes/",
+        "source": "CBS News",
+        "bias": "left-center",
+        "priority": 8
+      },
+      "center": {
+        "title": "U.S. expands attacks on Iran, which calls Strait of Hormuz a 'red line' as it strikes back",
+        "url": "https://www.pbs.org/newshour/world/u-s-expands-attacks-on-iran-which-calls-strait-of-hormuz-a-red-line-as-it-strikes-back",
+        "source": "PBS",
+        "bias": "center",
+        "priority": 4
+      }
+    },
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "DUBAI, United Arab Emirates (AP) \u2014 The United States intensified its strikes against Iran on Thursday, hitting targets farther north and firing into a ship the U.S. accused of trying to break its naval blockade on the Islamic Republic. Iran retaliated by launching missiles and drones at U.S. allies in the region, and warned its attacks may escalate.\n\nThe interim ceasefire agreed to last month has collapsed, and the region has endured days of back-and-forth attacks by the U.S. and Iran as they battle for control of the Strait of Hormuz. Iranian officials say U.S. strikes have killed more than 35 people and wounded over 300 others.\n\nREAD MORE: U.S. launches more strikes, tightens naval blockade as Iran hits Gulf allies\n\nFor the first time in this latest round of <span class='highlight-bias highlight-bias-center'>violence</span>, strikes also reached into areas around Iran's capital, Tehran, showing a widening set of targets for the Americans. The U.S. launched a second wave of strikes late Thursday, saying it was aiming to \"further degrade\" Iran's military capabilities.\n\nWhen the U.S. and Israel launched the war on Iran on Feb. 28, Tehran effectively closed the strait to shipping traffic, a move that sent the price of oil soaring and gave Iran major leverage in negotiations.\n\nCol. Ebrahim Zolfaghari, a spokesperson for the Iranian military's Khatam al-Anbiya Central Headquarters, threatened that Iran could launch widespread attacks on \"all the infrastructure in the region\" if the U.S. acts on President Donald Trump 's repeated warnings that America could hit Iranian bridges and power plants.\n\n\"Under no circumstances and in no way will we allow America, as a foreign and extraregional country, to interfere in the Strait of Hormuz,\" he added. \"This is Iran's invincible red line.\"\n\nBoth the U.S. and Iran launch attacks as blockade is reimposed\n\nIranian state media said the U.S. strikes Thursday hit around Tehran and Semnan province, home to Iran's ballistic missile production and space program. State media also reported strikes around the provinces of Hamedan, Hormozgan, Khuzestan, Lorestan, Markazi, and Sistan and Baluchestan, as well as on Iran's Qeshm island, near the Strait of Hormuz.\n\nSeven people were wounded in a U.S. strike that hit the Allah-Akbar Hill residential neighborhood in the port city of Bandar Abbas, according to Iranian state media. Two more people were wounded in a U.S. attack on the Bandar Abbas railway junction station, state media said.\n\nAnd just west of Bandar Abbas, witnesses reported that two bridges were struck in a U.S. attack, killing two people and wounding four others, state media said.\n\nAn attack on Greater Tunb Island targeted Iranian defense and missile sites, U.S. Central Command said.\n\nGreater Tunb Island is one of three small rocky islands that sit at the confluence of the Persian Gulf and the strait. The islands \u2014 seized in 1971 by Iran from what would become the United Arab Emirates \u2014 help the Islamic Republic <span class='highlight-bias highlight-bias-center'>exert</span> significant control over the strait.\n\nThe U.S. military also said it disabled a Curacao-flagged oil tanker as it sailed toward Iran's main oil export terminal, firing a missile after the ship \"<span class='highlight-bias highlight-bias-center'>ignored</span> multiple warnings.\"\n\nAnother American strike Wednesday targeted a barracks for Iran's 388th Mechanized Infantry Brigade, which operates tanks and armored vehicles, in Sistan and Baluchestan province, Iranian state television reported. The report said seven were killed in the attack, including conscripts and career soldiers.\n\nIran retaliated Thursday with missile and drone attacks on Bahrain, Jordan and Kuwait, authorities in those countries home to U.S. forces said. There was no immediate acknowledgment of damage or casualties from the attacks.\n\nIraqi Prime Minister Ali al-Zaidi <span class='highlight-bias highlight-bias-center'>condemned</span> an overnight drone attack in Iraq's semiautonomous northern Kurdish region. The drone, which authorities said had been intercepted, came during his trip to the U.S. in which he said Iraq would work to disarm non-state armed groups, including those backed by Iran.\n\nA drone separately targeted a tanker Thursday in the Persian Gulf off the coast of Basra in southern Iraq, the state-run INA news agency reported. No casualties were reported.\n\nTrump says a peace deal is still possible\n\nThe latest round of fighting is focused on the Strait of Hormuz, as Iran attacks ships using a U.S.-controlled route through the vital waterway.\n\nWeek-to-week cargo shipments through the strait dropped by almost a quarter at the beginning of the month, according to Maritime data firm Lloyd's List Intelligence. And that was before the recent surge in tit-for-tat attacks.\n\nREAD MORE: Why it's so difficult for the U.S. to fully reopen the Strait of Hormuz\n\nGiven the risks, some oil shippers are transiting the strait with their location devices turned off, but many are just staying put, Lloyd's said Thursday. A growing amount of the region's energy is being shipped through pipelines, but not nearly enough to offset the decline in shipping through the strait.\n\nU.S. forces have redirected three commercial vessels trying to run the blockade, disabled one that did not comply and boarded another \"to ensure full compliance,\" U.S. Central Command said in a post on X.\n\n\"The Strait of Hormuz and the surrounding waters remain free and open, except for vessels attempting to violate America's steel wall blockade,\" the post said.\n\nThe U.S. has threatened to reopen the strait by force, but experts say that would require a much bigger armada if not tens of thousands of ground troops.\n\nThe price for Brent crude oil, the international standard, traded above $85 a barrel on Thursday, more than 15% higher than the price before the war, but still well below the nearly $120 reached at the height of the conflict.\n\nRising prices pose a particular challenge to Trump and his Republican Party, which hopes to retain control of Congress in elections in November.\n\nThe U.S. reimposed a naval blockade on Iranian ports Wednesday.\n\n\"They don't like what we're doing, and they do want to settle. We'll find out whether or not we settle with them, or we just finish it off,\" Trump said Wednesday at the U.S. Army War College in Pennsylvania.\n\nPakistan's Foreign Ministry on Thursday said efforts were still underway to bring the U.S. and Tehran to the negotiating table but acknowledged that was becoming increasingly difficult.\n\nTrump said on social media that Tehran made a goodwill gesture by releasing an American citizen wrongly detained in Iran since 2024. He did not release further details. Human rights lawyer Jared Genser released a statement identifying the detainee as his client Dena Karari, a U.S.-Iranian citizen who runs a nonprofit and was charged with espionage.\n\nIran did not immediately acknowledge the release, and her case was not publicly known, as sometimes happens with detentions in the Islamic Republic.\n\nAssociated Press writers Abby Sewell in Beirut, Mae Anderson in New York and Christopher Weber in Los Angeles contributed to this report.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left-center": 50
+    }
+  },
+  {
+    "id": 54411,
     "date": "2026-07-17",
     "topic": "Smoke Blankets Cities Canada Watch Wildfire",
     "match_score": 0.4,
@@ -269,9 +363,9 @@
         "priority": 8
       },
       "center": {
-        "title": "Canada wildfires prompt US air quality alerts as smoke blankets major cities",
+        "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
         "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News Front",
+        "source": "BBC News World",
         "bias": "center",
         "priority": 2
       }
@@ -286,7 +380,7 @@
     }
   },
   {
-    "id": 1432852,
+    "id": 1618177,
     "date": "2026-07-17",
     "topic": "Todd Blanche Epstein Survivors Damning Accusations",
     "match_score": 0.4,
@@ -318,37 +412,6 @@
     }
   },
   {
-    "id": 3333472,
-    "date": "2026-07-17",
-    "topic": "Trump Media Sell Access Social Posts",
-    "match_score": 0.4,
-    "cluster_size": 3,
-    "articles": {
-      "left": {
-        "title": "\u2018Brazen corruption\u2019: critics denounce Trump Media plan to sell priority access to Truth Social posts",
-        "url": "https://www.theguardian.com/us-news/2026/jul/16/trump-media-truth-social-posts",
-        "source": "The Guardian (US)",
-        "bias": "left",
-        "priority": 1
-      },
-      "center": {
-        "title": "Trump Media to sell instant access to 'market-moving' social posts",
-        "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News Front",
-        "bias": "center",
-        "priority": 2
-      }
-    },
-    "farLeftText": "Donald Trump\u2019s media company is planning to charge for special high-speed access to Truth Social posts, including possibly his own, affecting national security and financial markets.\n\nThe move announced Thursday would allow Wall Street trading firms and other institutions to get news from top Truth Social contributors in milliseconds so they could profit off subsequent moves in stocks, bonds and interest rates.\n\nCalled Truth PSI, the new service comes amid a flurry of other deals by Trump and his family company that critics say are exploiting the presidency for profit. It follows similar offers of paid access on rival platforms, though with one key difference: the most popular Truth Social poster is the president himself, and, as the biggest shareholder of the publicly traded parent company, he would directly benefit.\n\n\u201cHe\u2019s selling expedited, privileged access to information about what he is doing as president,\u201d said Kathleen Clark of Washington University School of Law and an expert in government conflict-of-interest rules. \u201cIt\u2019s yet more brazen corruption, an improper exploitation of government power to enrich himself.\u201d\n\nThe Trump family company declined to comment about whether the new feature was profiting off the presidency. Truth Social\u2019s public parent, Trump Media + Technology, did not respond to emailed questions, including whether the president\u2019s posts will be excluded from the offering.\n\nA press release states the new service would allow traders to see \u201cthe highest-ranking Truth Social accounts\u201d before other people. The president has the most followers \u2013 12.9 millions \u2013 followed by his oldest son, Donald Jr, and, close behind, his son Eric.\n\nThe release did not say how much customers would be charged.\n\nIn the past few months, Trump has announced major decisions and musings on his platform including posts about the Iran war, tariffs and the US Immigration and Customs Enforcement crackdown in US cities. The Iran posts in particular are impactful because investors are worried that higher oil prices will continue to stoke inflation and possibly force the Federal Reserve to raise interest rates.\n\nStock in Trump Media + Technology has plunged more than 70% since the president took office last year, erasing $6bn in shareholder wealth. Those losses, along with billions more of investor losses tied to new Trump family crypto businesses, have drawn scrutiny after Trump\u2019s annual disclosure of his financial holdings shows he took in more than $1bn in revenue last year in the same companies and offerings.\n\nConflict-of-interest laws would bar US government officials from owning a company that profited off their office by selling access to their decisions through public posts, says Clark. But the president and vice-president, she notes, are excluded from the provision.\n\nDespite that, all presidents since the law was passed decades ago have acted as if it applied \u2013 selling individual stocks, dumping business holdings or putting their financial assets in a blind trust so they wouldn\u2019t know what was being bought and sold on their behalf while they wielded power \u2013 but Trump has refused.\n\nTrump Media has been trying to lift its stock price recently by branching into various businesses, including cryptocurrency, financial services and even nuclear fusion. It recently replaced its longtime CEO, Devin Nunes, a former congressman, with a seasoned media executive, Kevin McGurn.\n\nIn the release, McGurn described the Truth PSI move as part of a \u201cstrategy to monetize proprietary assets\u201d. He added that he expected it to become a \u201cmeaningful, ongoing source of revenue\u201d.\n\nTrump Media said that it plans to start the service next month and that it had already signed up customers.\n\nThe company\u2019s stock rose 0.6% to $9.63 on Thursday. Before Trump took office last year, it closed at $40.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "Trump Media & Technology Group, which owns Truth Social, is launching a paid service to give Wall Street firms high-speed access to its most influential posts.\n\nFrom 1 August, instant updates will be delivered from \"the highest-ranking\" accounts, it said. US President Donald Trump currently has the most followers on the platform.\n\nThe company behind the app hopes it will create a steady new source of money for the firm which is currently loss-making.\n\nIt is likely to be aimed at financial traders who want to see market-moving news fast. Trump\u2019s social media posts often cause sudden swings in global markets, especially when he writes about trade and tariffs.\n\nFor firms, a delay of even seconds can be costly. Until now, banks and traders had to monitor the app manually. The new system will send posts directly to paying clients.\n\n\"Markets already move on Truth Social posts,\" said Kevin McGurn, the interim boss of Trump Media, adding that the service will create a steady profit.\n\nTrump Media did not say how much it would charge for the service.\n\nThe new commercial data feed, named Truth API, promises to deliver posts to paying institutional clients in \"milliseconds\".\n\nThe service will run 24 hours a day, seven days a week.\n\nThe company, which launched its social media app in 2022, said some firms have been copying its data for months without permission.\n\nMcGurn warned that Trump Media will soon block these methods, forcing firms to buy the official feed instead.\n\nTrump could benefit substantially from the move. Since his family remains the majority shareholder in the company, the president stands to profit directly from selling expedited access to his own public statements.\n\nThe BBC has contacted Trump Media for comment on whether or not the president's posts will be included in the paid feed. The White House declined to comment.\n\nWhile other social media networks already sell data, the move highlights the unique overlap between Trump\u2019s private businesses and his public role as president.\n\nIt would be \"unprecedented\" if the feature did include the president's posts, said Mark Spiegel, an investment expert from Stanphyl Capital Management.\n\nCompanies that trade off the latest headlines would be \"at a disadvantage\" if they did not pay for quick access as they could miss out on posts that could move markets, Spiegel said.\n\n\"But to put this in context, remember that Trump's posts constitute just a tiny fraction of what moves markets,\" he added.\n\nRobert Frenchman, a partner at US law firm Dynamis, told Reuters: \"It certainly does not seem fair, but yes, a tech platform can tier its distribution of information without violating federal securities laws.\"\n\nAdditional reporting by Osmond Chia",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 66
-    }
-  },
-  {
     "id": 7492833,
     "date": "2026-07-17",
     "topic": "Daylight Saving Permanent House Passes Pets",
@@ -377,37 +440,6 @@
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
       "left-center": 78
-    }
-  },
-  {
-    "id": 3983552,
-    "date": "2026-07-17",
-    "topic": "Iran Strikes Strait Hormuz Updates Launches",
-    "match_score": 0.4,
-    "cluster_size": 3,
-    "articles": {
-      "left-center": {
-        "title": "Iran War Updates: U.S. Launches New Strikes, as Tensions Escalate Over Strait of Hormuz",
-        "url": "https://www.nytimes.com/live/2026/07/16/world/iran-war-trump-hormuz",
-        "source": "NYT World",
-        "bias": "left-center",
-        "priority": 7
-      },
-      "center": {
-        "title": "U.S. expands attacks on Iran, which calls Strait of Hormuz a 'red line' as it strikes back",
-        "url": "https://www.pbs.org/newshour/world/u-s-expands-attacks-on-iran-which-calls-strait-of-hormuz-a-red-line-as-it-strikes-back",
-        "source": "PBS",
-        "bias": "center",
-        "priority": 4
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "DUBAI, United Arab Emirates (AP) \u2014 The United States intensified its strikes against Iran on Thursday, hitting targets farther north and firing into a ship the U.S. accused of trying to break its naval blockade on the Islamic Republic. Iran retaliated by launching missiles and drones at U.S. allies in the region, and warned its attacks may escalate.\n\nThe interim ceasefire agreed to last month has collapsed, and the region has endured days of back-and-forth attacks by the U.S. and Iran as they battle for control of the Strait of Hormuz. Iranian officials say U.S. strikes have killed more than 35 people and wounded over 300 others.\n\nREAD MORE: U.S. launches more strikes, tightens naval blockade as Iran hits Gulf allies\n\nFor the first time in this latest round of <span class='highlight-bias highlight-bias-center'>violence</span>, strikes also reached into areas around Iran's capital, Tehran, showing a widening set of targets for the Americans. The U.S. launched a second wave of strikes late Thursday, saying it was aiming to \"further degrade\" Iran's military capabilities.\n\nWhen the U.S. and Israel launched the war on Iran on Feb. 28, Tehran effectively closed the strait to shipping traffic, a move that sent the price of oil soaring and gave Iran major leverage in negotiations.\n\nCol. Ebrahim Zolfaghari, a spokesperson for the Iranian military's Khatam al-Anbiya Central Headquarters, threatened that Iran could launch widespread attacks on \"all the infrastructure in the region\" if the U.S. acts on President Donald Trump 's repeated warnings that America could hit Iranian bridges and power plants.\n\n\"Under no circumstances and in no way will we allow America, as a foreign and extraregional country, to interfere in the Strait of Hormuz,\" he added. \"This is Iran's invincible red line.\"\n\nBoth the U.S. and Iran launch attacks as blockade is reimposed\n\nIranian state media said the U.S. strikes Thursday hit around Tehran and Semnan province, home to Iran's ballistic missile production and space program. State media also reported strikes around the provinces of Hamedan, Hormozgan, Khuzestan, Lorestan, Markazi, and Sistan and Baluchestan, as well as on Iran's Qeshm island, near the Strait of Hormuz.\n\nSeven people were wounded in a U.S. strike that hit the Allah-Akbar Hill residential neighborhood in the port city of Bandar Abbas, according to Iranian state media. Two more people were wounded in a U.S. attack on the Bandar Abbas railway junction station, state media said.\n\nAnd just west of Bandar Abbas, witnesses reported that two bridges were struck in a U.S. attack, killing two people and wounding four others, state media said.\n\nAn attack on Greater Tunb Island targeted Iranian defense and missile sites, U.S. Central Command said.\n\nGreater Tunb Island is one of three small rocky islands that sit at the confluence of the Persian Gulf and the strait. The islands \u2014 seized in 1971 by Iran from what would become the United Arab Emirates \u2014 help the Islamic Republic <span class='highlight-bias highlight-bias-center'>exert</span> significant control over the strait.\n\nThe U.S. military also said it disabled a Curacao-flagged oil tanker as it sailed toward Iran's main oil export terminal, firing a missile after the ship \"<span class='highlight-bias highlight-bias-center'>ignored</span> multiple warnings.\"\n\nAnother American strike Wednesday targeted a barracks for Iran's 388th Mechanized Infantry Brigade, which operates tanks and armored vehicles, in Sistan and Baluchestan province, Iranian state television reported. The report said seven were killed in the attack, including conscripts and career soldiers.\n\nIran retaliated Thursday with missile and drone attacks on Bahrain, Jordan and Kuwait, authorities in those countries home to U.S. forces said. There was no immediate acknowledgment of damage or casualties from the attacks.\n\nIraqi Prime Minister Ali al-Zaidi <span class='highlight-bias highlight-bias-center'>condemned</span> an overnight drone attack in Iraq's semiautonomous northern Kurdish region. The drone, which authorities said had been intercepted, came during his trip to the U.S. in which he said Iraq would work to disarm non-state armed groups, including those backed by Iran.\n\nA drone separately targeted a tanker Thursday in the Persian Gulf off the coast of Basra in southern Iraq, the state-run INA news agency reported. No casualties were reported.\n\nTrump says a peace deal is still possible\n\nThe latest round of fighting is focused on the Strait of Hormuz, as Iran attacks ships using a U.S.-controlled route through the vital waterway.\n\nWeek-to-week cargo shipments through the strait dropped by almost a quarter at the beginning of the month, according to Maritime data firm Lloyd's List Intelligence. And that was before the recent surge in tit-for-tat attacks.\n\nREAD MORE: Why it's so difficult for the U.S. to fully reopen the Strait of Hormuz\n\nGiven the risks, some oil shippers are transiting the strait with their location devices turned off, but many are just staying put, Lloyd's said Thursday. A growing amount of the region's energy is being shipped through pipelines, but not nearly enough to offset the decline in shipping through the strait.\n\nU.S. forces have redirected three commercial vessels trying to run the blockade, disabled one that did not comply and boarded another \"to ensure full compliance,\" U.S. Central Command said in a post on X.\n\n\"The Strait of Hormuz and the surrounding waters remain free and open, except for vessels attempting to violate America's steel wall blockade,\" the post said.\n\nThe U.S. has threatened to reopen the strait by force, but experts say that would require a much bigger armada if not tens of thousands of ground troops.\n\nThe price for Brent crude oil, the international standard, traded above $85 a barrel on Thursday, more than 15% higher than the price before the war, but still well below the nearly $120 reached at the height of the conflict.\n\nRising prices pose a particular challenge to Trump and his Republican Party, which hopes to retain control of Congress in elections in November.\n\nThe U.S. reimposed a naval blockade on Iranian ports Wednesday.\n\n\"They don't like what we're doing, and they do want to settle. We'll find out whether or not we settle with them, or we just finish it off,\" Trump said Wednesday at the U.S. Army War College in Pennsylvania.\n\nPakistan's Foreign Ministry on Thursday said efforts were still underway to bring the U.S. and Tehran to the negotiating table but acknowledged that was becoming increasingly difficult.\n\nTrump said on social media that Tehran made a goodwill gesture by releasing an American citizen wrongly detained in Iran since 2024. He did not release further details. Human rights lawyer Jared Genser released a statement identifying the detainee as his client Dena Karari, a U.S.-Iranian citizen who runs a nonprofit and was charged with espionage.\n\nIran did not immediately acknowledge the release, and her case was not publicly known, as sometimes happens with detentions in the Islamic Republic.\n\nAssociated Press writers Abby Sewell in Beirut, Mae Anderson in New York and Christopher Weber in Los Angeles contributed to this report.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 50
     }
   },
   {
@@ -472,37 +504,6 @@
     "omissions": {
       "right-center": 50,
       "right": 50
-    }
-  },
-  {
-    "id": 1199973,
-    "date": "2026-07-17",
-    "topic": "Cyclist Driving Crash Killed Wife Rohan",
-    "match_score": 0.4,
-    "cluster_size": 3,
-    "articles": {
-      "left": {
-        "title": "Cyclist Rohan Dennis pleads guilty to driving with suspended licence after crash that killed wife",
-        "url": "https://www.theguardian.com/australia-news/2026/jul/17/cyclist-rohan-dennis-pleads-guilty-to-driving-with-suspended-licence-after-crash-that-killed-wife-ntwnfb",
-        "source": "The Guardian (World)",
-        "bias": "left",
-        "priority": 1
-      },
-      "center": {
-        "title": "Olympic cyclist admits to driving despite ban after crash that killed wife",
-        "url": "https://www.bbc.co.uk/news/articles/c62q3ywep1ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News Front",
-        "bias": "center",
-        "priority": 2
-      }
-    },
-    "farLeftText": "Former professional cyclist Rohan Dennis faces a jail sentence after admitting he drove while disqualified over the events leading up to the death of his Olympian wife, Melissa Hoskins.\n\nA judge had previously warned the former Olympian he would be jailed if he drove while banned.\n\nIn 2025, Dennis, 36, was given a suspended 17-month jail term and banned from driving for five years, after pleading guilty to a charge of committing an aggravated act likely to cause harm in relation to his wife\u2019s death.\n\nHoskins, 32, was struck by her husband\u2019s vehicle near their home at Medindie, in Adelaide\u2019s inner north, on 30 December 2023.\n\nShe suffered serious injuries and died in the Royal Adelaide hospital.\n\nOn 11 June, the father-of-two was reported for driving while disqualified and his car was impounded for 28 days after police allegedly observed him driving with two children as passengers.\n\nOn Friday, Dennis pleaded guilty to the charge when in the Adelaide magistrates court.\n\nHe will also appear in the district court on 1 September, for breaching a good behaviour bond.\n\nWhen he was sentenced in May 2025, Dennis had agreed to the $100, two-year good behaviour bond, and his driver\u2019s licence was suspended for five years.\n\nAt the time, judge Ian Press warned him that any violation of the driving suspension would be a breach of the bond, and Dennis would be jailed.\n\nView image in fullscreen Melissa Hoskins after winning a silver medal at the 2012 UCI track cycling world championships. Photograph: Joe Castro/AAP\n\nAfter sentencing in May 2025, Hoskins\u2019 father, Peter Hoskins said the family had not yet received an apology from Dennis, \u201cbut I\u2019m sure that will come in time\u201d.\n\n\u201cFrom the outset it (a jail term) wasn\u2019t something we were pursuing.\u201d\n\nHoskins competed at the 2012 and 2016 Olympics in the team pursuit and was in the squad that won the 2015 world title.\n\nDennis won two world titles in the road time trial, as well as silver in the team pursuit at the 2012 Olympics and bronze in the road time trial at the Tokyo Olympics.\n\nIn March, Dennis was criticised over an Instagram post in which he shared a photo of a black Porsche with the caption: \u201cWhat an absolute weapon\u201d.\n\nSouth Australia\u2019s Victims Rights commissioner, Sarah Quick, had said the post was \u201cdeeply offensive\u201d and demonstrated \u201ca clear lack of insight into the real and lasting impact of the harm he has caused\u201d.\n\n\u201cIt also reflects a profound lack of respect for Melissa and her family,\u201d she said.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "Australian Olympic cyclist Rohan Dennis has pleaded guilty to driving despite a five-year ban placed on him after a 2023 incident where he struck his wife with a car.\n\nDennis, 36, appeared in the Adelaide Magistrates Court on Friday to face a charge of driving while disqualified after police pulled him over last month when he was behind the wheel with two children as passengers.\n\nLast year, Dennis received a suspended jail sentence after pleading guilty to one aggravated count of creating the likelihood of harm under a plea deal where prosecutors dropped two more serious charges.\n\nThe court found he was not criminally responsible for Melissa Hoskins' death but had been <span class='highlight-bias highlight-bias-center'>reckless</span> in his actions.\n\nDuring last year's case, the court heard that the couple - who got married in 2018 - had been arguing about kitchen renovations before Dennis got into his car to leave.\n\nHoskins, who was also an Olympic cyclist, jumped onto the bonnet of the car and later held onto the car door as Dennis continued to drive. She fell off and was later struck by the car. Hoskins later died in hospital from her injuries.\n\nDennis was spared jail time when he was sentenced last May, with the judge suspending the 17-month prison term by placing him on a two-year good behaviour bond.\n\nHe was also disqualified from driving for five years, with the start date from the day of the car incident in December 2023.\n\nOn Friday, the court heard that prosecutors have asked for the matter to be referred to the District Court to deal with both the driving while disqualified offence and his breach of the good behaviour bond.\n\nThe father-of-two is due back in court in September.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 40
     }
   },
   {
