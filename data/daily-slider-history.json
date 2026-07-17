@@ -1,6 +1,6 @@
 [
   {
-    "id": 2336886,
+    "id": 7333423,
     "date": "2026-07-17",
     "topic": "Cyclosporiasis Taco Lettuce Outbreak Bell Supplier",
     "match_score": 0.6,
@@ -40,11 +40,11 @@
     }
   },
   {
-    "id": 5799912,
+    "id": 3344683,
     "date": "2026-07-17",
     "topic": "White House Teleprompter Operator Trump Bets",
     "match_score": 0.6,
-    "cluster_size": 4,
+    "cluster_size": 5,
     "articles": {
       "left": {
         "title": "White House teleprompter operator put on leave over alleged bets on Trump speeches",
@@ -61,7 +61,7 @@
         "priority": 7
       },
       "center": {
-        "title": "White House teleprompter operator accused of making $100k off Trump speech bets",
+        "title": "White House teleprompter operator accused of making $100k from Trump speech bets",
         "url": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News World",
         "bias": "center",
@@ -159,7 +159,7 @@
     }
   },
   {
-    "id": 6593070,
+    "id": 9805677,
     "date": "2026-07-17",
     "topic": "Trump Immigrants Green Cards Alarms Sound",
     "match_score": 0.4,
@@ -191,7 +191,7 @@
     }
   },
   {
-    "id": 8039091,
+    "id": 3010353,
     "date": "2026-07-17",
     "topic": "Trump Elections China Never Just Damage",
     "match_score": 0.4,
@@ -223,7 +223,7 @@
     }
   },
   {
-    "id": 9218459,
+    "id": 7056471,
     "date": "2026-07-17",
     "topic": "Trump Delivers Speech Election Special Report",
     "match_score": 0.4,
@@ -255,7 +255,7 @@
     }
   },
   {
-    "id": 4683616,
+    "id": 4791785,
     "date": "2026-07-17",
     "topic": "Smoke Blankets Cities Canada Watch Wildfire",
     "match_score": 0.4,
@@ -269,9 +269,9 @@
         "priority": 8
       },
       "center": {
-        "title": "Canada fires prompt US air quality alerts as smoke blankets major cities",
+        "title": "Canada wildfires prompt US air quality alerts as smoke blankets major cities",
         "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News World",
+        "source": "BBC News Front",
         "bias": "center",
         "priority": 2
       }
@@ -286,7 +286,7 @@
     }
   },
   {
-    "id": 861640,
+    "id": 1432852,
     "date": "2026-07-17",
     "topic": "Todd Blanche Epstein Survivors Damning Accusations",
     "match_score": 0.4,
@@ -318,35 +318,34 @@
     }
   },
   {
-    "id": 1410162,
+    "id": 3333472,
     "date": "2026-07-17",
-    "topic": "Trump Access Truth Social Posts Brazen",
+    "topic": "Trump Media Sell Access Social Posts",
     "match_score": 0.4,
     "cluster_size": 3,
     "articles": {
       "left": {
         "title": "\u2018Brazen corruption\u2019: critics denounce Trump Media plan to sell priority access to Truth Social posts",
         "url": "https://www.theguardian.com/us-news/2026/jul/16/trump-media-truth-social-posts",
-        "source": "The Guardian (World)",
+        "source": "The Guardian (US)",
         "bias": "left",
         "priority": 1
       },
-      "right-center": {
-        "title": "Truth Social to offer banks \u2018fastest\u2019 access to market-moving Trump posts",
-        "url": "https://www.washingtonexaminer.com/news/business/4652182/truth-social-banks-fastest-access-trump-posts/",
-        "source": "Washington Examiner",
-        "bias": "right-center",
-        "priority": 4
+      "center": {
+        "title": "Trump Media to sell instant access to 'market-moving' social posts",
+        "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News Front",
+        "bias": "center",
+        "priority": 2
       }
     },
     "farLeftText": "Donald Trump\u2019s media company is planning to charge for special high-speed access to Truth Social posts, including possibly his own, affecting national security and financial markets.\n\nThe move announced Thursday would allow Wall Street trading firms and other institutions to get news from top Truth Social contributors in milliseconds so they could profit off subsequent moves in stocks, bonds and interest rates.\n\nCalled Truth PSI, the new service comes amid a flurry of other deals by Trump and his family company that critics say are exploiting the presidency for profit. It follows similar offers of paid access on rival platforms, though with one key difference: the most popular Truth Social poster is the president himself, and, as the biggest shareholder of the publicly traded parent company, he would directly benefit.\n\n\u201cHe\u2019s selling expedited, privileged access to information about what he is doing as president,\u201d said Kathleen Clark of Washington University School of Law and an expert in government conflict-of-interest rules. \u201cIt\u2019s yet more brazen corruption, an improper exploitation of government power to enrich himself.\u201d\n\nThe Trump family company declined to comment about whether the new feature was profiting off the presidency. Truth Social\u2019s public parent, Trump Media + Technology, did not respond to emailed questions, including whether the president\u2019s posts will be excluded from the offering.\n\nA press release states the new service would allow traders to see \u201cthe highest-ranking Truth Social accounts\u201d before other people. The president has the most followers \u2013 12.9 millions \u2013 followed by his oldest son, Donald Jr, and, close behind, his son Eric.\n\nThe release did not say how much customers would be charged.\n\nIn the past few months, Trump has announced major decisions and musings on his platform including posts about the Iran war, tariffs and the US Immigration and Customs Enforcement crackdown in US cities. The Iran posts in particular are impactful because investors are worried that higher oil prices will continue to stoke inflation and possibly force the Federal Reserve to raise interest rates.\n\nStock in Trump Media + Technology has plunged more than 70% since the president took office last year, erasing $6bn in shareholder wealth. Those losses, along with billions more of investor losses tied to new Trump family crypto businesses, have drawn scrutiny after Trump\u2019s annual disclosure of his financial holdings shows he took in more than $1bn in revenue last year in the same companies and offerings.\n\nConflict-of-interest laws would bar US government officials from owning a company that profited off their office by selling access to their decisions through public posts, says Clark. But the president and vice-president, she notes, are excluded from the provision.\n\nDespite that, all presidents since the law was passed decades ago have acted as if it applied \u2013 selling individual stocks, dumping business holdings or putting their financial assets in a blind trust so they wouldn\u2019t know what was being bought and sold on their behalf while they wielded power \u2013 but Trump has refused.\n\nTrump Media has been trying to lift its stock price recently by branching into various businesses, including cryptocurrency, financial services and even nuclear fusion. It recently replaced its longtime CEO, Devin Nunes, a former congressman, with a seasoned media executive, Kevin McGurn.\n\nIn the release, McGurn described the Truth PSI move as part of a \u201cstrategy to monetize proprietary assets\u201d. He added that he expected it to become a \u201cmeaningful, ongoing source of revenue\u201d.\n\nTrump Media said that it plans to start the service next month and that it had already signed up customers.\n\nThe company\u2019s stock rose 0.6% to $9.63 on Thursday. Before Trump took office last year, it closed at $40.",
     "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "Truth Social will be creating a new service to give financial firms and businesses \u201cthe fastest access\u201d to the most influential accounts on the social media platform, including President Donald Trump\u2019s, Trump Media and Technology Group announced on Thursday.\n\nThe new Truth API, or application programming interface, is a data feed that allows firms and businesses that would benefit from early access to influential posts access to \u201clicensed, real-time\u201d content on Truth Social. Many major social media platforms, such as Instagram, Facebook, and X, have APIs available, but Truth Social is a notably different platform, as it is home to many of Trump\u2019s breaking news announcements on market-moving topics such as the Iran war, tariffs, and executive appointments.\n\nThe Trump Media announcement said the Truth API service will give major financial services partners and \u201corganizations most impacted by the cost of a delay in information\u201d paid, real-time access to posts from the \u201chighest-ranking Truth Social accounts\u201d starting on Aug. 1. The company said it already has several customers signed up for the service.\n\nAdvertisement",
+    "centerText": "Trump Media & Technology Group, which owns Truth Social, is launching a paid service to give Wall Street firms high-speed access to its most influential posts.\n\nFrom 1 August, instant updates will be delivered from \"the highest-ranking\" accounts, it said. US President Donald Trump currently has the most followers on the platform.\n\nThe company behind the app hopes it will create a steady new source of money for the firm which is currently loss-making.\n\nIt is likely to be aimed at financial traders who want to see market-moving news fast. Trump\u2019s social media posts often cause sudden swings in global markets, especially when he writes about trade and tariffs.\n\nFor firms, a delay of even seconds can be costly. Until now, banks and traders had to monitor the app manually. The new system will send posts directly to paying clients.\n\n\"Markets already move on Truth Social posts,\" said Kevin McGurn, the interim boss of Trump Media, adding that the service will create a steady profit.\n\nTrump Media did not say how much it would charge for the service.\n\nThe new commercial data feed, named Truth API, promises to deliver posts to paying institutional clients in \"milliseconds\".\n\nThe service will run 24 hours a day, seven days a week.\n\nThe company, which launched its social media app in 2022, said some firms have been copying its data for months without permission.\n\nMcGurn warned that Trump Media will soon block these methods, forcing firms to buy the official feed instead.\n\nTrump could benefit substantially from the move. Since his family remains the majority shareholder in the company, the president stands to profit directly from selling expedited access to his own public statements.\n\nThe BBC has contacted Trump Media for comment on whether or not the president's posts will be included in the paid feed. The White House declined to comment.\n\nWhile other social media networks already sell data, the move highlights the unique overlap between Trump\u2019s private businesses and his public role as president.\n\nIt would be \"unprecedented\" if the feature did include the president's posts, said Mark Spiegel, an investment expert from Stanphyl Capital Management.\n\nCompanies that trade off the latest headlines would be \"at a disadvantage\" if they did not pay for quick access as they could miss out on posts that could move markets, Spiegel said.\n\n\"But to put this in context, remember that Trump's posts constitute just a tiny fraction of what moves markets,\" he added.\n\nRobert Frenchman, a partner at US law firm Dynamis, told Reuters: \"It certainly does not seem fair, but yes, a tech platform can tier its distribution of information without violating federal securities laws.\"\n\nAdditional reporting by Osmond Chia",
+    "centerRightText": "No article found in this category for this topic.",
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
-      "left": 50,
-      "right-center": 50
+      "left": 66
     }
   },
   {
@@ -381,7 +380,7 @@
     }
   },
   {
-    "id": 5646349,
+    "id": 3983552,
     "date": "2026-07-17",
     "topic": "Iran Strikes Strait Hormuz Updates Launches",
     "match_score": 0.4,
@@ -444,7 +443,7 @@
     }
   },
   {
-    "id": 2011757,
+    "id": 6397395,
     "date": "2026-07-17",
     "topic": "Noncitizens Registered Vote States Quartermillion Alleges",
     "match_score": 0.4,
@@ -476,34 +475,34 @@
     }
   },
   {
-    "id": 8284654,
+    "id": 1199973,
     "date": "2026-07-17",
-    "topic": "Uganda Last Ebola Patient Travel Restrictions",
+    "topic": "Cyclist Driving Crash Killed Wife Rohan",
     "match_score": 0.4,
-    "cluster_size": 2,
+    "cluster_size": 3,
     "articles": {
       "left": {
-        "title": "Uganda calls for travel restrictions to be lifted after last Ebola patient discharged",
-        "url": "https://www.theguardian.com/global-development/2026/jul/16/uganda-travel-restrictions-last-ebola-patient-discharged",
+        "title": "Cyclist Rohan Dennis pleads guilty to driving with suspended licence after crash that killed wife",
+        "url": "https://www.theguardian.com/australia-news/2026/jul/17/cyclist-rohan-dennis-pleads-guilty-to-driving-with-suspended-licence-after-crash-that-killed-wife-ntwnfb",
         "source": "The Guardian (World)",
         "bias": "left",
         "priority": 1
       },
       "center": {
-        "title": "'Moment of joy' as Uganda discharges last Ebola patient",
-        "url": "https://www.bbc.co.uk/news/articles/cx2myxjv172o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News World",
+        "title": "Olympic cyclist admits to driving despite ban after crash that killed wife",
+        "url": "https://www.bbc.co.uk/news/articles/c62q3ywep1ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News Front",
         "bias": "center",
         "priority": 2
       }
     },
-    "farLeftText": "Uganda has started lobbying countries to lift Ebola-related travel restrictions after discharging its last confirmed Ebola patient from hospital.\n\nThe discharge of a Congolese national from the Mulago national referral hospital\u2019s isolation centre in Kampala on Thursday triggered the start of a 42-day countdown required by the World Health Organization before Uganda can officially be declared Ebola-free, provided no new infections are detected.\n\nThe outbreak in the country infected 20 people and claimed two lives.\n\nFifteen countries continue to maintain either partial or full travel restrictions on Uganda after the outbreak, measures the government said have crippled tourism, trade and business, despite the country\u2019s relatively successful response.\n\nThe US has placed Uganda on a level four advisory against all travel due to the Ebola outbreak. The same category includes countries such as North Korea, Somalia, Afghanistan and Russia.\n\n\u201cAs we make progress in managing this disease, we are engaging and asking those countries with a view to opening up so that the economy does not get injured,\u201d Uganda\u2019s health minister, Dr Chris Baryomunsi, said after the ceremony marking the release of the last patient.\n\nBaryomunsi said the country was not yet Ebola-free \u2013 under WHO guidelines, countries must complete two consecutive 21-day incubation periods without recording a new case before an outbreak can officially be declared over.\n\n\u201cThis is an imported outbreak. We remain on high alert because what we are celebrating here is different from what is happening in the Democratic Republic of the Congo,\u201d he said.\n\nThe DRC reported \u2060on Thursday that \u2060the \u200bnumber \u200cof \u200cconfirmed \u200ccases in the country had \u200crisen to \u200b2,073, including \u2060796 \u200bdeaths, as \u200bof \u200b14 July. The outbreak, caused by the Bundibugyo strain of the virus, was first declared by the WHO on 17 May.\n\nUganda\u2019s outbreak has been markedly different from previous Ebola emergencies in the region, with only two deaths and 20 confirmed infections including 15 Congolese nationals, four health workers and one driver.\n\nWHO\u2019s representative in Uganda, Dr Kasonde Mwinga, said the country\u2019s response demonstrated the value of sustained investment in epidemic preparedness.\n\n\u201cThe case fatality rate of less than 10% is among the lowest recorded in Ebola outbreaks because the lowest has always been 30%. That is not by luck. It is because people invested in preparedness,\u201d she said.\n\nMwinga said Uganda had established treatment facilities, trained emergency medical teams and pre-positioned medical supplies before the outbreak, allowing authorities to respond rapidly when cases were detected.\n\nThe outbreak also accelerated scientific efforts to develop vaccines against the Bundibugyo strain of Ebola, for which no licensed vaccine exists.\n\nDr Ronnie Bahatungire, the clinical services commissioner at Uganda\u2019s health ministry, said the country had already participated in trials involving experimental therapies during the outbreak and plans to join vaccine studies. \u201cWe will participate at whatever point in time when an opportunity arises,\u201d Bahatungire said.\n\nThis week, Oxford University\u2019s Oxford Vaccine Group launched the world\u2019s first Phase I clinical trial of BD-Ebov, a vaccine candidate targeting the Bundibugyo strain, in response to the outbreak, with the first patient already enrolled.\n\nDespite Uganda\u2019s progress, authorities said the threat remains across the border. Baryomunsi said presidents Yoweri Museveni of Uganda and F\u00e9lix Tshisekedi of DRC had agreed on closer cross-border cooperation and signed a bilateral memorandum of understanding, where Uganda has already sent health experts to DRC to contain the outbreak and stop Congolese travelling to Uganda to seek medical attention.\n\n\u201cWe have so far sent 50 health workers with four laboratories and these have been set up in four different locations. We agreed that if they require additional human resources, we shall send more depending on how the situation progresses,\u201d Baryomunsi said.",
+    "farLeftText": "Former professional cyclist Rohan Dennis faces a jail sentence after admitting he drove while disqualified over the events leading up to the death of his Olympian wife, Melissa Hoskins.\n\nA judge had previously warned the former Olympian he would be jailed if he drove while banned.\n\nIn 2025, Dennis, 36, was given a suspended 17-month jail term and banned from driving for five years, after pleading guilty to a charge of committing an aggravated act likely to cause harm in relation to his wife\u2019s death.\n\nHoskins, 32, was struck by her husband\u2019s vehicle near their home at Medindie, in Adelaide\u2019s inner north, on 30 December 2023.\n\nShe suffered serious injuries and died in the Royal Adelaide hospital.\n\nOn 11 June, the father-of-two was reported for driving while disqualified and his car was impounded for 28 days after police allegedly observed him driving with two children as passengers.\n\nOn Friday, Dennis pleaded guilty to the charge when in the Adelaide magistrates court.\n\nHe will also appear in the district court on 1 September, for breaching a good behaviour bond.\n\nWhen he was sentenced in May 2025, Dennis had agreed to the $100, two-year good behaviour bond, and his driver\u2019s licence was suspended for five years.\n\nAt the time, judge Ian Press warned him that any violation of the driving suspension would be a breach of the bond, and Dennis would be jailed.\n\nView image in fullscreen Melissa Hoskins after winning a silver medal at the 2012 UCI track cycling world championships. Photograph: Joe Castro/AAP\n\nAfter sentencing in May 2025, Hoskins\u2019 father, Peter Hoskins said the family had not yet received an apology from Dennis, \u201cbut I\u2019m sure that will come in time\u201d.\n\n\u201cFrom the outset it (a jail term) wasn\u2019t something we were pursuing.\u201d\n\nHoskins competed at the 2012 and 2016 Olympics in the team pursuit and was in the squad that won the 2015 world title.\n\nDennis won two world titles in the road time trial, as well as silver in the team pursuit at the 2012 Olympics and bronze in the road time trial at the Tokyo Olympics.\n\nIn March, Dennis was criticised over an Instagram post in which he shared a photo of a black Porsche with the caption: \u201cWhat an absolute weapon\u201d.\n\nSouth Australia\u2019s Victims Rights commissioner, Sarah Quick, had said the post was \u201cdeeply offensive\u201d and demonstrated \u201ca clear lack of insight into the real and lasting impact of the harm he has caused\u201d.\n\n\u201cIt also reflects a profound lack of respect for Melissa and her family,\u201d she said.",
     "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "In Uganda, a 42-day countdown has now begun before it can officially be declared Ebola-free, as long as no new infections emerge.\n\n\"It demonstrates that with early detection, prompt treatment and a strong health system, Ebola can be defeated,\" the health minister said.\n\n<span class='highlight-bias highlight-bias-center'>Nevertheless</span>, his ministry has urged people to \"remain <span class='highlight-bias highlight-bias-center'>vigilant</span>\".\n\n\"If you develop symptoms such as fever, vomiting, diarrhoea or unexplained bleeding, seek immediate medical care,\" it said in a statement on X.\n\nIn all, Uganda recorded 20 confirmed cases, mostly among visitors from DR Congo, and two deaths.\n\nUganda has experienced several Ebola outbreaks over the last two decades and now has well established protocols to deal with the virus. These include isolation of suspected cases and contact tracing as well as targeted public health messages.\n\nThere have been more than 2,000 confirmed infections and 796 deaths in DR Congo, according to government data.\n\nBut it is thought that it could have been in the community undetected for months before the outbreak was officially declared two months ago.\n\n\"About two-thirds of deaths are occurring in communities, among people who never receive care in a health facility,\" the AFP news agency quotes Tedros as saying at a briefing at the WHO headquarters in Geneva.\n\nEarlier this week, a WHO official said the true number of infections could be four times larger than recorded.\n\nThere are currently no vaccines or approved treatments for this rare Bundibugyo species of Ebola and health workers in DR Congo are playing catch up with not enough beds for the ill, not enough contact tracing and testing.\n\nThey also face suspicion from local communities, in a region with active armed conflict.\n\nThe WHO wants $115m (\u00a385m) to tackle the outbreak - so far it has received just $45m.\n\n\"This is not charity, it's an investment in national security,\" Tedros said, asking donor countries to step up.\n\nIn response to the latest situation, the US has announced that citizens who have been in DR Congo and want to return home must spend 21 days in a third country before being allowed into America.\n\nPreviously, they had been able to enter at select airports, where they went through a screening process.\n\nThe new rule could affect recruitment of US medics who want to work in Ebola-affected areas and the scale of operations, Franklin Graham, the CEO of an organisation that runs Ebola treatment centres, told the Reuters news agency.\n\nEbola is caused by a virus which attacks the body's immune system and organs.\n\nIt normally infects animals, typically fruit bats, but outbreaks among humans can sometimes start when people handle infected animals. It is spread through bodily fluids like blood.\n\nAdditional reporting by Swaibu Ibrahim in Kampala",
+    "centerText": "Australian Olympic cyclist Rohan Dennis has pleaded guilty to driving despite a five-year ban placed on him after a 2023 incident where he struck his wife with a car.\n\nDennis, 36, appeared in the Adelaide Magistrates Court on Friday to face a charge of driving while disqualified after police pulled him over last month when he was behind the wheel with two children as passengers.\n\nLast year, Dennis received a suspended jail sentence after pleading guilty to one aggravated count of creating the likelihood of harm under a plea deal where prosecutors dropped two more serious charges.\n\nThe court found he was not criminally responsible for Melissa Hoskins' death but had been <span class='highlight-bias highlight-bias-center'>reckless</span> in his actions.\n\nDuring last year's case, the court heard that the couple - who got married in 2018 - had been arguing about kitchen renovations before Dennis got into his car to leave.\n\nHoskins, who was also an Olympic cyclist, jumped onto the bonnet of the car and later held onto the car door as Dennis continued to drive. She fell off and was later struck by the car. Hoskins later died in hospital from her injuries.\n\nDennis was spared jail time when he was sentenced last May, with the judge suspending the 17-month prison term by placing him on a two-year good behaviour bond.\n\nHe was also disqualified from driving for five years, with the start date from the day of the car incident in December 2023.\n\nOn Friday, the court heard that prosecutors have asked for the matter to be referred to the District Court to deal with both the driving while disqualified offence and his breach of the good behaviour bond.\n\nThe father-of-two is due back in court in September.",
     "centerRightText": "No article found in this category for this topic.",
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
-      "left": 70
+      "left": 40
     }
   },
   {
