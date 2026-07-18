@@ -260,7 +260,7 @@
     }
   },
   {
-    "id": 6849080,
+    "id": 5369399,
     "date": "2026-07-18",
     "topic": "25Th Amendment Newsom Trump Conservatives Moment",
     "match_score": 0.6,
@@ -418,35 +418,35 @@
     }
   },
   {
-    "id": 6239514,
+    "id": 7045407,
     "date": "2026-07-18",
-    "topic": "Paul Pelosi Faces Hitandrun Charge Allegedly",
+    "topic": "Service Members Killed Iranian Jordan Iran",
     "match_score": 0.4,
-    "cluster_size": 5,
+    "cluster_size": 7,
     "articles": {
-      "left": {
-        "title": "Paul Pelosi faces hit-and-run charge after he allegedly crashed into parked vehicle",
-        "url": "https://www.theguardian.com/us-news/2026/jul/17/paul-pelosi-hit-and-run-charge",
-        "source": "The Guardian (US)",
-        "bias": "left",
-        "priority": 1
-      },
       "left-center": {
-        "title": "Paul Pelosi faces misdemeanor hit-and-run charge for California collision",
-        "url": "https://www.cbsnews.com/news/paul-pelosi-misdemeanor-hit-and-run-july-3-napa/",
-        "source": "CBS News",
+        "title": "Iran War Live Updates: 2 U.S. Service Members Killed and 1 Missing in Iranian Attack on Jordan",
+        "url": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz",
+        "source": "NYT World",
         "bias": "left-center",
-        "priority": 8
+        "priority": 7
+      },
+      "right-center": {
+        "title": "Two US service members killed in Iranian strikes on Jordan, CENTCOM says",
+        "url": "https://www.foxnews.com/politics/two-us-service-members-killed-iranian-strikes-jordan-centcom-says",
+        "source": "Fox News Latest",
+        "bias": "right-center",
+        "priority": 2
       }
     },
-    "farLeftText": "Paul Pelosi, husband of US congresswoman and former House speaker Nancy Pelosi, is facing a misdemeanor hit-and-run charge after he allegedly crashed into a parked vehicle and left the scene in early July, the Napa county district attorney announced on Friday.\n\nNo passengers were in the struck car, authorities said, but the vehicle was left with \u201cmajor\u201d damage. A spokesperson for the Pelosi family told several outlets in a statement that Paul apologized to the owner of the vehicle and was assuming responsibility for the damage.\n\nPelosi, 86, has also been charged with an infraction of making an unlawful turn related to the 3 July incident in Yountville, California. His arraignment is scheduled for 14 August. A representative for Pelosi could not be immediately reached for comment.\n\nPelosi has run afoul of the law while driving in the past, according to public records. He has traffic infractions in California stretching back at least to 2011, including citations for failing to stop at a red light, a stop sign violation and driving to the left of double yellow lines.\n\nIn 2022, Pelosi pleaded guilty to misdemeanor driving under the influence charges after a crash in Napa county. California highway patrol officers observed that Pelosi\u2019s speech was slurred and smelled a \u201cstrong odor of an alcoholic beverage\u201d, the Associated Press reported then. He was sentenced to five days in jail and three years of probation.\n\nPelosi is not being charged with a DUI, the Napa county district attorney\u2019s office said, because no evidence has been presented to indicate he was impaired. \u201cThe district attorney\u2019s office has an ethical obligation to file only those charges that can be proven beyond a reasonable doubt based on the available evidence,\u201d read the statement.\n\nBody cam footage of the alleged hit-and-run will not be released to the public until the conclusion of the case to preserve Pelosi\u2019s right to a fair trial should that stage be reached, the DA\u2019s office said.",
-    "centerLeftText": "Paul Pelosi, the husband of former House Speaker Nancy Pelosi, has been charged with a misdemeanor hit-and-run count after authorities allege he struck a parked car and drove away from the scene earlier this month in Northern California, the Napa County District Attorney's Office announced Friday.\n\nPelosi, 86, is accused of striking a vehicle on July 3 that was parked on the side of the roadway in Yountville. The vehicle was unoccupied but was left with major rear damage, according to the Napa County Sheriff's Office. Yountville is located about 50 miles north of San Francisco.\n\nPelosi has also been charged with an infraction of making an unlawful turn, Napa County District Attorney Allison Haley said in a Friday press release.\n\nThe D.A.'s office explained that it does not typically issue press releases regarding misdemeanor hit-and-run cases that only involve property damage. However, it said it decided to break that norm because of the significant public and media interest surrounding this case.\n\nAccording to the criminal complaint, the car Pelosi was driving at the time of the hit-and-run was a 2025 Maserati GranCabrio convertible.\n\nHis court appearance is scheduled for Aug. 14, officials said.\n\nIn a previous July 4 statement provided to CBS News, a spokesperson for the Pelosi family said: \"Mr. Paul Pelosi has personally apologized to the owner of the vehicle and assured them that he would take responsibility for the damage to their vehicle. Speaker Pelosi will not be commenting further on this private matter.\"\n\nIn October 2022, Paul Pelosi was the victim of a <span class='highlight-bias highlight-bias-left'>violent</span> break-in and politically-motivated attack in the couple's San Francisco home.",
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "The Persian Gulf off the coast of Bandar Abbas, an Iranian port city in the south of the country, in May. Residents said roads around the city were heavily damaged by U.S. airstrikes this week.\n\nU.S. airstrikes targeting parts of southern Iran have rattled Iranians\u2019 nerves this week, they said in interviews, and destroyed key links between one province and the rest of the country.\n\nMarzieh, a resident of the port city of Bandar Abbas, said that she had heard from friends that the roads around the city had been \u201cdevastated.\u201d Marzieh and other Iranians interviewed gave only their first names for fear of government <span class='highlight-bias highlight-bias-left'>reprisal</span>.\n\nOvernight strikes damaged a tunnel and three bridges, the Hormozgan governor\u2019s office said on Saturday, according to Iran\u2019s state news agency. The government urged residents to avoid unnecessary travel on the roads until further notice. Hormozgan Province, which includes Bandar Abbas, lies along the Strait of Hormuz.\n\nIranian state media reported overnight that at least six areas had been targeted around the country, including Bandar Abbas, but also Ahvaz, the capital of the oil-rich Khuzestan Province about 500 miles northwest of the strait, as well as Lar and Darab, two inland cities in Iran\u2019s southern Fars province. A water desalination plant in the southern province of Jask was also struck, according to Iranian state television. The U.S. military did not immediately respond to a request for comment on those claims.\n\nBy Saturday afternoon, some previously damaged traffic routes hit during the last several days of attacks appeared to have been at least partially restored, with Iranian state media reporting that passenger train traffic had resumed from the Bandar Abbas railway station and the opening of an alternative route to the east of the city.\n\nThe U.S. military said its overnight strikes had targeted \u201csurveillance sites, military logistics infrastructure, underground weapons storage and maritime capabilities.\u201d It made no mention of civilian infrastructure, though President Trump has frequently threatened to bombard such sites, including power plants and bridges.\n\nNightly attacks in Ahvaz have become a familiar pattern, according to Emad, a 34-year-old trader there. \u201cThat said,\u201d he added, \u201csome people are still frightened by the explosions, especially those living closer to the targeted areas.\u201d\n\nEmad said that as far as he could tell, the strikes had targeted the city\u2019s southeastern periphery, where there are military bases and installations, rather than its center.\n\nElnaz, a 30-year-old resident of Ahvaz, said Thursday night had been the worst night since the fighting resumed.\n\nHer friends\u2019 and family\u2019s young children \u201cwere especially frightened,\u201d she said. \u201cThe blast waves were so close that we thought if we stepped outside, we would find the entire city destroyed.\u201d\n\nSince then, the attacks have not been as severe, Elnaz said, but each night is unpredictable.\n\n\u201cNone of us knows what kind of attack will happen once night falls,\u201d she said. \u201cWe generally know that the strikes are aimed at military areas, but even bombing those locations is enough for the noise and shock waves to reach us and make our whole bodies shake.\u201d\n\nAs is typical in Ahvaz during the summer even in peacetime, there are power outages every day, sometimes lasting more than two hours, she said. During power outages, water is also cut off. Temperatures in the city have reached as high as 120 degrees Fahrenheit this week.\n\nWhile stores in the city are still stocked, Elnaz said, they are largely empty of customers, because people have little money. Iran\u2019s economy, long in malaise, has gotten even worse during the war, with skyrocketing food prices and companies forced to lay off workers.\n\nThe war has simply added to Ahvaz residents\u2019 misery, she said, adding, \u201cThe situation has become unbearable.\u201d",
     "centerText": "No article found in this category for this topic.",
-    "centerRightText": "No article found in this category for this topic.",
+    "centerRightText": "NEW You can now listen to Fox News articles!\n\nTwo U.S. service members were killed in action in Jordan during Iranian attacks on a U.S. base in Jordan on Friday, U.S. Central Command (CENTCOM) confirmed Saturday.\n\n\n\n\"On July 17, two U.S. service members in Jordan were killed in action as U.S. Central Command \u2026 and partner forces defended against Iranian ballistic missile and drone attacks. Additionally, one service member is currently missing,\" CENTCOM wrote in a statement on X.\n\n\n\n\"Four American service members were medically evacuated to Jordanian hospitals. They have since been discharged. Other personnel who were evaluated for minor injuries have returned to duty,\" CENTCOM wrote.\n\n\n\nOut of respect for the families, CENTCOM will withhold additional information, including the identities of the fallen warriors, until 24 hours after the next of kin have been notified,\" the post concluded.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nThis is a developing story. Please check back for updates.",
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
-      "left": 50,
-      "left-center": 50
+      "left-center": 50,
+      "right-center": 50
     }
   },
   {
@@ -482,7 +482,7 @@
     }
   },
   {
-    "id": 4381234,
+    "id": 315046,
     "date": "2026-07-18",
     "topic": "Houston Lorenzo Salgado Araujo Report Family",
     "match_score": 0.4,
@@ -546,7 +546,7 @@
     }
   },
   {
-    "id": 576377,
+    "id": 8643218,
     "date": "2026-07-18",
     "topic": "Graham Senate South Carolina Trump Endorses",
     "match_score": 0.4,
@@ -555,20 +555,20 @@
       "left-center": {
         "title": "Trump Endorses Graham for Senate, Scrambling South Carolina Primary",
         "url": "https://www.nytimes.com/2026/07/17/us/politics/trump-endorses-darline-graham-senate.html",
-        "source": "NYT US",
+        "source": "NYT Politics",
         "bias": "left-center",
         "priority": 7
       },
       "right-center": {
         "title": "Rep Ralph Norman enters South Carolina Senate race despite Trump's endorsement of Darline Graham",
         "url": "https://www.foxnews.com/politics/rep-ralph-norman-enters-south-carolina-senate-race-despite-trumps-endorsement-tim-scott",
-        "source": "Fox News Politics",
+        "source": "Fox News Latest",
         "bias": "right-center",
         "priority": 2
       }
     },
     "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "President Trump on Friday urged Senator Darline Graham, the South Carolina Republican sworn in this week to finish out the final months of her late brother\u2019s term, to enter the race to succeed him, scrambling what had been shaping up to be a crowded G.O.P. primary for Lindsey Graham\u2019s seat.\n\n\u201cLindsey was one of the greatest people and Senators I have ever known, and his sister shares his deep love of our Country,\u201d Mr. Trump wrote in a social media post that came not long after he met with Ms. Graham in the Oval Office. \u201cI asked Darline, for the Good of our Nation, to run for the U.S. Senate in the Special Republican Primary on Tuesday, August 11, 2026.\u201d\n\nThe endorsement represents a remarkable turn in the race, just days after South Carolina\u2019s governor, prodded by Mr. Trump, appointed Ms. Graham as the interim replacement to fill Mr. Graham\u2019s seat until January, following his sudden death last weekend.\n\nAt the time, Ms. Graham, who had been exceptionally close with her brother but had never held elective office, was seen as a caretaker who could serve as a reliable Republican vote while a host of South Carolina G.O.P. politicians jockeyed for the chance to run for a full term. The winner of the compressed special primary would most likely be favored to prevail in the general election in November in solidly conservative South Carolina.",
     "centerText": "No article found in this category for this topic.",
     "centerRightText": "NEW You can now listen to Fox News articles!\n\nRep. Ralph Norman, R-S.C., will run for Senate in South Carolina following the death of Sen. Lindsey Graham, he revealed Saturday.\n\n\"I'm here to announce that I will be a candidate for the Senate, I'll be throwing my hat into the ring, and day one, Kayleigh, I will be laser-focused on passing President Trump's America First\" Norman said during an appearance on \"Saturday In America with Kayleigh McEnany.\"\n\nNorman then championed Trump's SAVE America Act and said he would focus on eliminating the filibuster, saying Republicans need to \"nuke\" the procedure.\n\nNorman made the announcement just days after President Donald Trump publicly endorsed Darline Graham, Lindsey Graham's sister who was appointed to finish the remainder of his term, to run for the seat fully when her term is up in January.\n\nCONSERVATIVES UNITE AROUND SAVE AMERICA ACT AFTER TRUMP DECLASSIFIES 'SHOCKING' ELECTION INTEL\n\nDARLINE GRAHAM IS CONSIDERING RUNNING FOR A FULL SENATE TERM, A REPORT SAID, AS MEMORIAL SERVICES HAVE BEEN ANNOUNCED FOR HER LATE BROTHER LINDSEY GRAHAM.\n\n\"I hope Darline does this, in \u2060that there would be nobody better to honor \u200bthe legacy of her beloved brother, Lindsey,\" Trump \u200bsaid in a Truth Social post, also writing \"Run Darline Run.\"\n\nNorman acknowledged Trump's endorsement Saturday, telling McEnany he asked for Trump's blessing.\n\n\"He decided to go with Darline, who's a nice person, and he decided to go with her and I respect that, but that doesn't deter my plans. I'm in this to win,\" he said.\n\nNorman will be running in the Aug. 11 special GOP primary election, revealing that he is in the process of filing the paperwork.\n\nThough not backed by Trump, Norman has received support from GOP Senators Mike Lee, R-Utah, and Rick Scott, R-Fla., both of whom endorsed him. The pair, like Norman, are both vocal opponents of the filibuster.\n\nNorman will be entering a competitive primary, as at least two other candidates have declared their intentions to run with further challengers expected to enter the race.\n\nBusinessman Mark Lynch, who ran against Lindsey Graham in the recent June primary, has announced his candidacy, as did attorney Duke Buckner.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nAnd though Rep. Russell Fry, R-S.C., hasn't publicly announced an intention to run, state lawmakers are already eyeing his seat in the House should he decide to enter the fray, according to reporting from News From The States.\n\nFox News Digital contacted Reps. Norman, Mace and Fry, along with Sen. Darline Graham for further comment.",
     "farRightText": "No article found in this category for this topic.",
