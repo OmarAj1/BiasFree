@@ -55,6 +55,53 @@
     }
   },
   {
+    "id": 7265270,
+    "date": "2026-07-18",
+    "topic": "Killed Jordan Iranian Attack Missing Troops",
+    "match_score": 0.8,
+    "cluster_size": 7,
+    "articles": {
+      "left": {
+        "title": "Two US troops killed and one missing in Jordan after Iranian attack",
+        "url": "https://www.theguardian.com/world/2026/jul/18/iran-attacks-us-allies-in-middle-east-in-second-week-of-renewed-conflict",
+        "source": "The Guardian (World)",
+        "bias": "left",
+        "priority": 1
+      },
+      "left-center": {
+        "title": "Iran War Live Updates: 2 U.S. Soldiers Killed and 1 Service Member Missing in Iranian Attack on Jordan",
+        "url": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz",
+        "source": "NYT World",
+        "bias": "left-center",
+        "priority": 7
+      },
+      "center": {
+        "title": "Two US troops killed and one missing after Iranian attack in Jordan",
+        "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News Front",
+        "bias": "center",
+        "priority": 2
+      },
+      "right": {
+        "title": "Centcom Confirms Iranian Attack Killed 2 Americans in Jordan",
+        "url": "https://pjmedia.com/catherinesalgado/2026/07/18/centcom-confirms-iranian-attack-killed-2-americans-in-jordan-n4955193",
+        "source": "PJ Media",
+        "bias": "right",
+        "priority": 8
+      }
+    },
+    "farLeftText": "Two US troops were killed and one remains missing in Jordan after Iran launched a wave of attacks against US allies in the Middle East.\n\nIran\u2019s attacks came as the renewal of US strikes on Iran entered a second week and fighting escalated over the strait of Hormuz.\n\nJordan\u2019s military had earlier said it had intercepted 10 Iranian missiles fired into its airspace overnight, without reporting any damage.\n\nThe US military said it had carried out the seventh consecutive night of strikes on Iran since president Donald Trump declared their temporary ceasefire agreement \u201cover\u201d, while the signature of Iran\u2019s supreme leader, Mojtaba Khamenei, was \u201cworthless and invalid\u201d.\n\nA statement attributed to Khamenei, who has remained unseen since the war began, also warned of \u201cunforgettable lessons\u201d if the US continues attacks.\n\nKuwait on Saturday accused Iran of targeting civilian sites and vital infrastructure in the country, such as a power and water desalination plant. Kuwait, which is extremely arid, relies on desalinated water for about 90% of its drinking water.\n\nThe country was forced to close its airspace briefly as it intercepted Iranian missiles and drones, and said several Kuwaiti firefighters and a worker were injured while battling blazes sparked by Iranian strikes.\n\nBahrain also activated its air sirens on Saturday, warning residents to shelter after it detected possible incoming drones or missiles, while Jordan\u2019s state-run Petra news agency said that the kingdom\u2019s air defence systems had downed Iranian missiles.\n\nThe Iranian attacks on US allies in the region came in response to US attacks on civilian infrastructure including bridges and power facilities.\n\nView image in fullscreen A satellite image shows smoke billowing near an oil facility in Ahmadi governorate, Kuwait on 18 July. Photograph: European Union/Copernicus Sentinel-2/Reuters\n\nThe secretary-general of the Gulf Cooperation Council <span class='highlight-bias highlight-bias-left'>condemned</span> Iran\u2019s attacks on Kuwait, saying strikes on civilian infrastructure amounted to \u201cwar crimes\u201d.\n\n\u201cIran\u2019s actions constitute a highly dangerous escalation, a grave violation of international law and the United Nations (UN) Charter, as well as war crimes requiring international accountability and prosecution, given the deliberate targeting of infrastructure and civilian facilities,\u201d Jasem Mohamed al-Budaiwi said in a statement.\n\nReports also indicate Iran targeted an oil facility in Kuwait, resulting in a number of injuries and \u201csignificant material losses\u201d, the Kuwait Petroleum Corporation told reporters.\n\n\u201cThe repeated targeting of these vital facilities reveals a systematic hostile approach targeting civilian sites and vital infrastructure that <span class='highlight-bias highlight-bias-left'>endangers</span> the lives and safety of civilians,\u201d the foreign ministry of Kuwait said.\n\nLate on Friday, Iran\u2019s Revolutionary Guard Corps (IRGC) said two oil tankers directed by \u201cdeceptive American intelligence agencies\u201d had exploded after hitting mines in the strait of Hormuz. The US military said that claim was false.\n\nThe IRGC also said on state television they had \u201cstopped\u201d four ships trying to transit the critical waterway, and had destroyed at least two US fighter aircraft and three other aircraft during a missile and drone attack early on Saturday on a US base in Azraq, Jordan.\n\nskip past newsletter promotion Free newsletter | Every fortnight Sign up to Global Dispatch Get a different world view with a roundup of the best news, features, opinion and photography, curated by our global development team Preview latest Enter your email Sign up after newsletter promotion\n\nA US military support centre at Camp Arifjan in Kuwait was hit and a US radar facility at Ali Al Salem airbase in the country was destroyed, the IRGC said.\n\nThe IRGC also targeted a site in Bahrain where US combat aircraft were gathered at Sheikh Isa airbase and an intelligence datacentre, Iranian state media reported.\n\nView image in fullscreen A screengrab from video released by US Central Command on 17 July shows a military jet launching what the US military says was a strike on Iranian military targets. Photograph: US Central Command/AFP/Getty Images\n\nUS Central Command said that its strikes, which began at 7pm laston Friday for the seventh consecutive night, were designed to \u201ccontinue degrading Iranian military capabilities\u201d.\n\nThe US managed to hit Iranian \u201csurveillance sites, military logistics infrastructure, underground weapons storage, and maritime capabilities\u201d overnight, US military said on Saturday morning.\n\nIranian media reported explosions heard or strikes carried out in the cities of Sirik, Ahvaz and Yazd.\n\nUS strikes have killed 50 people and wounded more than 500 since hostilities resumed, according to Iran\u2019s health ministry. The country acknowledged there had been successful US \u201cattacks on power infrastructure\u201d for the first time on Friday when the Iranian energy ministry issued a call for people to use less power in southern provinces \u201cexperiencing extreme heat\u201d. The ministry did not specify what was hit.\n\nMaj Gen Mohsen Rezaee, a senior military adviser to Iran\u2019s supreme leader, said Tehran will resume \u201cfull-scale offensive operations\u201d if US strikes against it continue for another two or three days.\n\n\u201cIran will no longer limit itself to retaliatory, like-for-like responses \u2026 and no political border will be safe,\u201d Rezaei said, according to the Iranian news agency IRIB.",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "Two US service members were killed and one remains missing after Iranian ballistic missile and drone attacks in Jordan on Friday, military officials said.\n\nThe US Central Command (Centcom) said four US service members were medically evacuated to Jordan hospitals but have since been discharged. Others who had minor injuries have returned to duty.\n\nJordan's military earlier said it had intercepted 10 Iranian missiles fired into its airspace overnight, without reporting any damage.\n\nUS military officials did not disclose the identities of those killed, nor did they provide details about the circumstances of the incident or where in Jordan the latest attack took place.\n\nThe US death toll in the conflict has now risen to 16 after an American Navy pilot who went missing earlier this month was declared dead, marking the second increase in the toll this week.\n\nIn a statement on Saturday, Centcom said: \"Two US service members in Jordan were killed in action as US Central Command (Centcom) and partner forces defended against Iranian ballistic missile and drone attacks. Additionally, one service member is currently missing.\n\n\"Out of respect for the families, Centcom will withhold additional information, including the identities of the fallen warriors, until 24 hours after the next of kin have been notified.\"\n\nResponding to the announcement of the deaths, US Defence Secretary Pete Hegseth wrote on X: \"Godspeed, heroes. Their sacrifice only stiffens our resolve.\"\n\nThe Islamic Revolutionary Guard Corps (IRGC) said it had destroyed at least two US fighter aircraft early on Saturday on Al-Azraq base in Jordan, according to Iranian state media.\n\nThe BBC contacted Centcom regarding this report but it declined to add further details.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "Tragically, two more American servicemen have lost their lives in the ongoing conflict against the genocidal Iranian regime.\n\nOn July 17, two brave American troops died in combat with the Tehran terrorists. That same day, therefore, the United States launched another round of strikes against Iranian regime targets. The day after the deadly Jihad attack, Iranian Supreme Leader Mojtaba Khamenei posted a series of <span class='highlight-bias highlight-bias-right'>arrogant</span> and terroristic threats on X against the \u201cGreat Satan\u201d America.\n\nAdvertisement\n\nThe CENTCOM statement clarified, \u201cOn July 17, two U.S. service members in Jordan were killed in action as U.S. Central Command (CENTCOM) and partner forces defended against Iranian ballistic missile and drone attacks. Additionally, one service member is currently missing.\u201d The U.S. casualties from the attack could therefore be as high as three dead.\n\nMultiple other troops suffered injuries. CENTCOM explained, \u201cFour American service members were medically evacuated to Jordanian hospitals. They have since been discharged. Other personnel who were evaluated for minor injuries have returned to duty. Out of respect for the families, CENTCOM will withhold additional information, including the identities of the fallen warriors, until 24 hours after the next of kin have been notified.\u201d\n\nThis brings the number of American troops who have died since the start of Operation Epic Fury to at least 15. We can only pray that the missing servicemember will come back alive. This tragic attack on Americans in Jordan certainly makes it clear that the Iranian regime has decided not even to keep up the pretense of negotiations.\n\nRelated: Iran's Supreme Leader Spews Threats of \u2018Unforgettable Lessons\u2019 Against \u2018Great Satan\u2019 USA\n\nAs mentioned above, the cardboard ayatollah is doubling down on the genocidal and endless Jihad of his father. \u201cToday, the Great Satan has once again revealed its true, <span class='highlight-bias highlight-bias-right'>unmasked</span> face, so that this dark episode of criminality and broken promises serves as yet another indisputable testament to the US\u2019s dishonesty, irrationality, unreliability, and malicious nature,\u201d Mojtaba Khamenei <span class='highlight-bias highlight-bias-right'>ranted</span> on July 18. \u201cNow that the American enemy is seeking to escalate the conflict thereby incurring even heavier costs and further <span class='highlight-bias highlight-bias-right'>humiliation</span>, it should know that the noble nation of Iran and the Resistance Front have unforgettable lessons in store for it.\u201d\n\nAdvertisement\n\nThe Iranian regime also has a \u20ac50 million (about $57 million) price out on Donald Trump\u2018s head, besides a bounty on Israeli Prime Minister Benjamin Netanyahu. Last week, Mojtaba ominously posted, \u201cThe criminal, <span class='highlight-bias highlight-bias-right'>disgraceful</span> murderers of the martyred Leader, whose names are fully documented from the highest to the lowest ranks, will carry their dream of a peaceful death in bed to the grave.\u201d\n\nIt is pretty safe to say that the Iranian regime has no intention of ever making a peace deal with the United States, in which case, for our own safety, we need to eliminate the rest of its top leadership and give the Persian people their opening to enact regime change. It is not worth the life of a single more American soldier to keep negotiating with terrorists.\n\nEditor\u2019s Note: Every single day, especially in this 250th year of America\u2019s existence, here at PJ Media, we will stand up and FIGHT, FIGHT, FIGHT against the radical left and deliver the conservative reporting our readers deserve.\n\nHelp us continue to tell the truth about the Trump administration and its successes. Join PJ Media VIP and use promo code FIGHT to receive 60% off your membership.",
+    "omissions": {
+      "left": 50,
+      "left-center": 50,
+      "right": 71
+    }
+  },
+  {
     "id": 1008766,
     "date": "2026-07-18",
     "topic": "Night Iran Strikes Seventh Hormuz Launches",
@@ -102,42 +149,43 @@
     }
   },
   {
-    "id": 5971205,
+    "id": 805900,
     "date": "2026-07-18",
-    "topic": "Service Members Killed Iranian Jordan Missing",
+    "topic": "Ralph Norman Race Graham South Carolina",
     "match_score": 0.6,
-    "cluster_size": 9,
+    "cluster_size": 6,
     "articles": {
-      "left-center": {
-        "title": "Iran War Live Updates: 2 U.S. Service Members Killed and 1 Missing in Iranian Attack on Jordan",
-        "url": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz",
-        "source": "NYT World",
-        "bias": "left-center",
-        "priority": 7
+      "left": {
+        "title": "Republican lawmaker Ralph Norman to join race to succeed Lindsey Graham in South Carolina",
+        "url": "https://www.theguardian.com/us-news/2026/jul/18/us-house-ralph-norman-south-carolina-lindsey-graham",
+        "source": "The Guardian (US)",
+        "bias": "left",
+        "priority": 1
       },
-      "center": {
-        "title": "2 U.S. service members killed, 1 missing after Iranian attack in Jordan",
-        "url": "https://www.npr.org/2026/07/18/nx-s1-5899039/us-troops-killed-missing-iran-jordan",
-        "source": "NPR",
-        "bias": "center",
-        "priority": 3
+      "left-center": {
+        "title": "Rep. Ralph Norman launches campaign to replace Lindsey Graham in Senate race",
+        "url": "https://www.nbcnews.com/politics/2026-election/ralph-norman-launches-campaign-replace-lindsey-graham-senate-rcna588189",
+        "source": "NBC News",
+        "bias": "left-center",
+        "priority": 9
       },
       "right-center": {
-        "title": "Two US service members killed in Iranian strikes on Jordan, CENTCOM says",
-        "url": "https://www.foxnews.com/politics/two-us-service-members-killed-iranian-strikes-jordan-centcom-says",
+        "title": "Rep Ralph Norman enters South Carolina Senate race despite Trump's endorsement of Darline Graham",
+        "url": "https://www.foxnews.com/politics/rep-ralph-norman-enters-south-carolina-senate-race-despite-trumps-endorsement-tim-scott",
         "source": "Fox News Politics",
         "bias": "right-center",
         "priority": 2
       }
     },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "2 U.S. service members killed, 1 missing after Iranian attack in Jordan\n\ntoggle caption Vahid Salemi/AP\n\nTwo U.S. service members were killed, one is missing and four others were medically evacuated after Iranian attacks on in Jordan on Friday, according to the U.S. military.\n\nThe four American service members who were evacuated to Jordanian hospitals have since been discharged, U.S. Central Command said in a social media post on Saturday.\n\n\"Out of respect for the families, CENTCOM will withhold additional information, including the identities of the fallen warriors, until 24 hours after the next of kin have been notified,\" it added in the statement.\n\nThis is a breaking news story and will be updated.\n\n",
-    "centerRightText": "NEW You can now listen to Fox News articles!\n\nTwo U.S. service members were killed in action in Jordan during Iranian attacks on a U.S. base in Jordan on Friday, U.S. Central Command (CENTCOM) confirmed Saturday.\n\n\n\n\"On July 17, two U.S. service members in Jordan were killed in action as U.S. Central Command \u2026 and partner forces defended against Iranian ballistic missile and drone attacks. Additionally, one service member is currently missing,\" CENTCOM wrote in a statement on X.\n\n\n\n\"Four American service members were medically evacuated to Jordanian hospitals. They have since been discharged. Other personnel who were evaluated for minor injuries have returned to duty,\" CENTCOM wrote.\n\n\n\nOut of respect for the families, CENTCOM will withhold additional information, including the identities of the fallen warriors, until 24 hours after the next of kin have been notified,\" the post concluded.\n\nThe service members' deaths mark the first U.S. deaths in the Iran war since fighting resumed in June following the collapse of a ceasefire and memorandum of understanding (MOU) between the U.S. and Iran. 16 total U.S. service members have died in the conflict since the war began in February.\n\nIran's strikes on Jordan come amidst a wider wave of Iranian attacks on U.S. allies in the Persian Gulf. Iran has launched missile and drone strikes at Kuwait and Qatar in recent days as well.\n\nLEAKED IRAN REPORT FINDS RECORD PUBLIC ANGER AS REGIME FOCUSES ON HOLDING POWER\n\nThe attacks followed a six-day U.S. attack campaign in Iran in response to the Islamic Revolutionary Guard Corps (IRGC) attacking commercial vessels in the Strait of Hormuz.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nFox News Digital contacted the White House and CENTCOM for additional comment.\n\nThis is a developing story. Please check back for updates.",
+    "farLeftText": "The Republican representative Ralph Norman, \u2060of South Carolina, has announced he will join the race to succeed the late senator Lindsey Graham, despite Donald Trump backing Graham\u2019s sister, Darline, should she choose to run.\n\nAnnouncing the launch of his bid on Saturday, Norman wrote on X: \u201cI\u2019m running to represent the people of South Carolina in the US Senate because we need a fighter who will stand with President Trump and carry on Lindsey Graham\u2019s legacy!\u201d\n\nHe <span class='highlight-bias highlight-bias-left'>pointedly</span> added: \u201cI\u2019ve spent years fighting for the Palmetto State in the state house, in Congress, and now I want to get the SAVE America Act passed in the Senate!\u201d\n\nFurther cementing Trump\u2019s restrictive voting bill \u2013 which the president has deemed his legislative priority \u2013 and efforts to eliminate the filibuster as central to his campaign, Norman told Fox host Kayleigh McEnany on Saturday: \u201cI\u2019ll be throwing my hat into the ring \u2026 Day one, Kayleigh, I will be laser-focused on passing President Trump\u2019s \u2018America first\u2019 [agenda]. And it starts with the Save America Act. We\u2019ll nuke the filibuster. And I will be \u2026 a vocal vote and a supporter to make this happen.\u201d\n\nBut his announcement \u200ccomes after Trump already said on Friday that he had asked \u200cDarline Graham to run for the position in a special GOP primary on 11 August. A runoff will be held on 25 August, if necessary. The winner of the GOP nomination will face off against Democrat Annie Andrews in the November midterms.\n\n\u201cDarline, who comes from an absolutely incredible family, has been a WINNER all of her life and, should she accept, has my Complete and Total Endorsement in the Special Election for U.S. Senate in South Carolina \u2013 SHE WILL NEVER LET YOU DOWN,\u201d Trump wrote on Truth Social. \u201cRUN, DARLINE, RUN!\u201d\n\nNorman told CNN he had unsuccessfully sought Trump\u2019s support, but added that the president\u2019s decision to endorse Darline Graham did not deter him from entering the race.\n\n\u201cI wanted [Trump\u2019s] blessing to run and get his support. He decided to go with Darline, who\u2019s a nice person, and he decided to go with her. And so I respect that,\u201d Norman said. \u201cBut it doesn\u2019t deter my plans. I\u2019m in this to win.\u201d\n\nThe Florida senator Rick Scott and the Utah senator Mike Lee endorsed Norman\u2019s bid for the Senate on Friday, before he made his run official.\n\nAt Trump\u2019s direction, Darline Graham, 62, was tapped by South Carolina\u2019s governor, Henry McMaster, and then sworn in on Tuesday to fill her late brother\u2019s Senate seat on an interim \u200bbasis, only three days after his death. It marked the first time a sibling has replaced a senator who died in office, and the first woman who has represented South Carolina in the Senate.\n\nLindsey Graham died on the evening of 11 July, aged 71, after what his office called a \u201cbrief and sudden illness\u201d. The chief medical examiner then preliminarily ruled on Sunday that he died of aortic dissection due to cardiovascular disease.\n\nHis sudden death set off a scramble of Republicans angling to run for a seat he had held since 2003. With Trump\u2019s backing, Darline Graham was swiftly appointed to serve the remaining months of his Senate term, which ends on 3 January.\n\nShe has since reportedly expressed an interest in running for the full six-year Senate term but has yet to announce an official campaign.\n\nCandidates can formally file to run for the seat next week. Businessman Mark Lynch, who unsuccessfully challenged Lindsey Graham for the nomination in June, and lawyer Duke Buckner have also thrown their hats in the ring so far. The GOP representative Nancy Mace is also potentially eyeing a bid.\n\nNorman, 73, a prominent member of the House freedom caucus, ran unsuccessfully for governor of South \u2060Carolina earlier this year, as did Mace.\n\nHe is a lifelong resident of Rock Hill, with \u200ba career outside \u200bof politics in commercial real \u200bestate development. Norman was elected to represent South Carolina\u2019s \u200bfifth congressional district \u200cin 2017, having \u200bpreviously spent \u200b11 years in the state\u2019s house of representatives. He did not back Trump in the 2024 election.",
+    "centerLeftText": "Rep. Ralph Norman, R-S.C., announced Saturday that he plans to run in the special primary election to replace the late GOP Sen. Lindsey Graham on the ballot in November, just one day after President Donald Trump backed Graham\u2019s sister in the election.\n\nSubscribe to read this story ad-free Get unlimited access to ad-free articles and exclusive content.\n\n\u201cI\u2019ll be throwing my hat in the ring, and you know, day one ... I will be laser-focused on passing President Trump\u2019s America First, and it starts with the SAVE America Act. We\u2019ll nuke the filibuster, and I will be a vocal, a vocal vote and a supporter to make this happen,\u201d Norman told Fox News.\n\nNorman acknowledged that Trump has backed Lindsey Graham\u2019s sister, Sen. Darline Graham, R-S.C., in the race.\n\nShe was sworn into the Senate earlier this week after GOP Gov. Henry McMaster appointed her to serve out the rest of the late senator\u2019s term, just days after he died suddenly last weekend.\n\nOn Friday, Trump urged Darline Graham to seek a full term in the Senate in a post on Truth Social, where he also offered her his \u201ccomplete and total endorsement.\u201d\n\nOn Saturday, Norman told Fox News\u2019 Kayleigh McEnany, \u201cI wanted [Trump\u2019s] blessing to run and get his support. He decided to go with Darline, who\u2019s a nice person, and he decided to go with her. And so I respect that, but it doesn\u2019t deter my plans.\u201d\n\nSeveral other South Carolina GOP officials, like Lt. Gov. Pamela Evette and Rep. Nancy Mace, have been floated as possible candidates, but they have not yet officially jumped into the race.\n\nCandidates who wish to run in the special primary election must officially file by July 21, and the special primary election will be held Aug. 11.\n\nBusinessman Mark Lynch lost to Lindsey Graham in the original primary election in June, where the senator sought re-election to a fifth term. Earlier this week, Lynch said he planned to reactivate his Senate campaign and run in the special primary.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "NEW You can now listen to Fox News articles!\n\nRep. Ralph Norman, R-S.C., will run for Senate in South Carolina following the death of Sen. Lindsey Graham, he revealed Saturday.\n\n\"I'm here to announce that I will be a candidate for the Senate, I'll be throwing my hat into the ring, and day one, Kayleigh, I will be laser-focused on passing President Trump's America First\" Norman said during an appearance on \"Saturday In America with Kayleigh McEnany.\"\n\nNorman then championed Trump's SAVE America Act and said he would focus on eliminating the filibuster, saying Republicans need to \"nuke\" the procedure.\n\nNorman made the announcement just days after President Donald Trump publicly endorsed Darline Graham, Lindsey Graham's sister who was appointed to finish the remainder of his term, to run for the seat fully when her term is up in January.\n\nCONSERVATIVES UNITE AROUND SAVE AMERICA ACT AFTER TRUMP DECLASSIFIES 'SHOCKING' ELECTION INTEL\n\nDARLINE GRAHAM IS CONSIDERING RUNNING FOR A FULL SENATE TERM, A REPORT SAID, AS MEMORIAL SERVICES HAVE BEEN ANNOUNCED FOR HER LATE BROTHER LINDSEY GRAHAM.\n\n\"I hope Darline does this, in \u2060that there would be nobody better to honor \u200bthe legacy of her beloved brother, Lindsey,\" Trump \u200bsaid in a Truth Social post, also writing \"Run Darline Run.\"\n\nNorman acknowledged Trump's endorsement Saturday, telling McEnany he asked for Trump's blessing.\n\n\"He decided to go with Darline, who's a nice person, and he decided to go with her and I respect that, but that doesn't deter my plans. I'm in this to win,\" he said.\n\nNorman will be running in the Aug. 11 special GOP primary election, revealing that he is in the process of filing the paperwork.\n\nThough not backed by Trump, Norman has received support from GOP Senators Mike Lee, R-Utah, and Rick Scott, R-Fla., both of whom endorsed him. The pair, like Norman, are both vocal opponents of the filibuster.\n\nNorman will be entering a competitive primary, as at least two other candidates have declared their intentions to run with further challengers expected to enter the race.\n\nBusinessman Mark Lynch, who ran against Lindsey Graham in the recent June primary, has announced his candidacy, as did attorney Duke Buckner.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nAnd though Rep. Russell Fry, R-S.C., hasn't publicly announced an intention to run, state lawmakers are already eyeing his seat in the House should he decide to enter the fray, according to reporting from News From The States.\n\nFox News Digital contacted Reps. Norman, Mace and Fry, along with Sen. Darline Graham for further comment.",
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
+      "left": 50,
       "left-center": 50,
-      "right-center": 14
+      "right-center": 50
     }
   },
   {
@@ -181,7 +229,7 @@
     }
   },
   {
-    "id": 5167066,
+    "id": 6761727,
     "date": "2026-07-18",
     "topic": "White House Backs Argentina Falklands Banner",
     "match_score": 0.6,
@@ -190,7 +238,7 @@
       "left": {
         "title": "White House backs Argentina players over Falklands banner in World Cup semi-final",
         "url": "https://www.theguardian.com/football/2026/jul/18/white-house-backs-argentina-team-falklands-banner-world-cup-semi-final",
-        "source": "The Guardian (World)",
+        "source": "The Guardian (US)",
         "bias": "left",
         "priority": 1
       },
@@ -457,7 +505,7 @@
     }
   },
   {
-    "id": 7760367,
+    "id": 290746,
     "date": "2026-07-18",
     "topic": "Paul Pelosi Charged Hitandrun Napa Valley",
     "match_score": 0.6,
@@ -497,7 +545,7 @@
     }
   },
   {
-    "id": 698516,
+    "id": 7887795,
     "date": "2026-07-18",
     "topic": "Houston Lorenzo Salgado Araujo Report Family",
     "match_score": 0.4,
@@ -554,38 +602,6 @@
     "centerLeftText": "No article found in this category for this topic.",
     "centerText": "No article found in this category for this topic.",
     "centerRightText": "Two U.S. Forest Service workers were freed early Friday morning after they were taken hostage in rural Northern California.\n\n\u201cI\u2019m grateful beyond words that both of our Forest Service employees taken hostage on the Shasta-Trinity National Forest are home safe,\u201d Forest Service Chief Tom Schultz said in a statement.\n\nThe employees were taken hostage by two armed individuals on Thursday while conducting fieldwork in the forest, according to the Forest Service. They were released safely around 2 a.m. on Friday.\n\nAdvertisement",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 50,
-      "right-center": 50
-    }
-  },
-  {
-    "id": 230429,
-    "date": "2026-07-18",
-    "topic": "Graham Senate South Carolina Trump Endorses",
-    "match_score": 0.4,
-    "cluster_size": 4,
-    "articles": {
-      "left-center": {
-        "title": "Trump Endorses Graham for Senate, Scrambling South Carolina Primary",
-        "url": "https://www.nytimes.com/2026/07/17/us/politics/trump-endorses-darline-graham-senate.html",
-        "source": "NYT Politics",
-        "bias": "left-center",
-        "priority": 7
-      },
-      "right-center": {
-        "title": "Rep Ralph Norman enters South Carolina Senate race despite Trump's endorsement of Darline Graham",
-        "url": "https://www.foxnews.com/politics/rep-ralph-norman-enters-south-carolina-senate-race-despite-trumps-endorsement-tim-scott",
-        "source": "Fox News Politics",
-        "bias": "right-center",
-        "priority": 2
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "NEW You can now listen to Fox News articles!\n\nRep. Ralph Norman, R-S.C., will run for Senate in South Carolina following the death of Sen. Lindsey Graham, he revealed Saturday.\n\n\"I'm here to announce that I will be a candidate for the Senate, I'll be throwing my hat into the ring, and day one, Kayleigh, I will be laser-focused on passing President Trump's America First\" Norman said during an appearance on \"Saturday In America with Kayleigh McEnany.\"\n\nNorman then championed Trump's SAVE America Act and said he would focus on eliminating the filibuster, saying Republicans need to \"nuke\" the procedure.\n\nNorman made the announcement just days after President Donald Trump publicly endorsed Darline Graham, Lindsey Graham's sister who was appointed to finish the remainder of his term, to run for the seat fully when her term is up in January.\n\nCONSERVATIVES UNITE AROUND SAVE AMERICA ACT AFTER TRUMP DECLASSIFIES 'SHOCKING' ELECTION INTEL\n\nDARLINE GRAHAM IS CONSIDERING RUNNING FOR A FULL SENATE TERM, A REPORT SAID, AS MEMORIAL SERVICES HAVE BEEN ANNOUNCED FOR HER LATE BROTHER LINDSEY GRAHAM.\n\n\"I hope Darline does this, in \u2060that there would be nobody better to honor \u200bthe legacy of her beloved brother, Lindsey,\" Trump \u200bsaid in a Truth Social post, also writing \"Run Darline Run.\"\n\nNorman acknowledged Trump's endorsement Saturday, telling McEnany he asked for Trump's blessing.\n\n\"He decided to go with Darline, who's a nice person, and he decided to go with her and I respect that, but that doesn't deter my plans. I'm in this to win,\" he said.\n\nNorman will be running in the Aug. 11 special GOP primary election, revealing that he is in the process of filing the paperwork.\n\nThough not backed by Trump, Norman has received support from GOP Senators Mike Lee, R-Utah, and Rick Scott, R-Fla., both of whom endorsed him. The pair, like Norman, are both vocal opponents of the filibuster.\n\nNorman will be entering a competitive primary, as at least two other candidates have declared their intentions to run with further challengers expected to enter the race.\n\nBusinessman Mark Lynch, who ran against Lindsey Graham in the recent June primary, has announced his candidacy, as did attorney Duke Buckner.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nAnd though Rep. Russell Fry, R-S.C., hasn't publicly announced an intention to run, state lawmakers are already eyeing his seat in the House should he decide to enter the fray, according to reporting from News From The States.\n\nFox News Digital contacted Reps. Norman, Mace and Fry, along with Sen. Darline Graham for further comment.",
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
       "left-center": 50,
