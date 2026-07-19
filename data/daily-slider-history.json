@@ -227,7 +227,7 @@
     }
   },
   {
-    "id": 5550783,
+    "id": 6541322,
     "date": "2026-07-19",
     "topic": "White House Argentina Falklands Backs Banner",
     "match_score": 0.6,
@@ -236,7 +236,7 @@
       "left": {
         "title": "White House backs Argentina players over Falklands banner in World Cup semi-final",
         "url": "https://www.theguardian.com/football/2026/jul/18/white-house-backs-argentina-team-falklands-banner-world-cup-semi-final",
-        "source": "The Guardian (World)",
+        "source": "The Guardian (US)",
         "bias": "left",
         "priority": 1
       },
@@ -345,7 +345,7 @@
     }
   },
   {
-    "id": 4377841,
+    "id": 4673785,
     "date": "2026-07-19",
     "topic": "Trumps Speech Elections Mean Future Primetime",
     "match_score": 0.4,
@@ -405,38 +405,6 @@
     "omissions": {
       "right-center": 50,
       "right": 50
-    }
-  },
-  {
-    "id": 5784108,
-    "date": "2026-07-19",
-    "topic": "Tulsi Gabbards Brother Trying Lure Children",
-    "match_score": 0.4,
-    "cluster_size": 3,
-    "articles": {
-      "left": {
-        "title": "Tulsi Gabbard\u2019s brother jailed for \u2018trying to lure children\u2019 to hotel room: report",
-        "url": "https://www.rawstory.com/tulsi-gabbard-2677243879/",
-        "source": "Raw Story",
-        "bias": "left",
-        "priority": 10
-      },
-      "right-center": {
-        "title": "Tulsi Gabbard's brother charged after allegedly trying to lure children to Waik\u012bk\u012b hotel room: police",
-        "url": "https://www.foxnews.com/politics/tulsi-gabbards-brother-charged-allegedly-trying-lure-children-waikiki-hotel-room-police",
-        "source": "Fox News Latest",
-        "bias": "right-center",
-        "priority": 2
-      }
-    },
-    "farLeftText": "Batarti Gabbard, the 55-year-old brother of former Director of National Intelligence Tulsi Gabbard, was arrested Friday for allegedly trying to lure children to a hotel room in Honolulu, Hawaii using \u201cgum and money,\u201d the Honolulu Star-Advertiser reported Saturday.\n\n\u201cBatarti Gabbard, aka Bhakti Gabbard, allegedly approached several children, including a boy, age 9, and offered them gum and money to accompany him to his hotel room, according to police,\u201d the outlet reported. \u201cHe also asked the children for their names and wrote them in a notebook, police said. The children refused to go with him and the suspect walked away.\u201d\n\nBatarti Gabbard's wife, Kimberly Gabbard, petitioned for a protective order from her husband on Friday due to what she described as \u201c<span class='highlight-bias highlight-bias-left'>bizarre</span> behavior\u201d he exhibited the day prior, which included \u201csinging loudly\u201d and \u201cdisrupting others\u201d in public, the report reads.\n\n\u201cHis family members and I have repeatedly encouraged him to seek psychiatric treatment due to his significant deterioration of his mental state and judgment,\u201d Kimberly Gabbard wrote in her petition, according to the Honolulu Star-Advertiser.\n\nTulsi Gabbard began her career in politics as a Hawaii state House representative in 2002, climbing the ranks over decades before being appointed as Director of National Intelligence last year, a position she resigned from last month citing her husband\u2019s deteriorating health.\n\nRecent reporting revealed that much of Tulsi Gabbard\u2019s decision making \u2013 from what she said to what bill she supported \u2013 may have been heavily influenced by Chris Butler, the leader of a group countless ex-members have described as a \u201ccult.\u201d",
-    "centerLeftText": "No article found in this category for this topic.",
-    "centerText": "No article found in this category for this topic.",
-    "centerRightText": "NEW You can now listen to Fox News articles!\n\nThe older brother of former Director of National Intelligence Tulsi Gabbard has been charged after Honolulu police say he allegedly tried to lure several children to his Waik\u012bk\u012b hotel room by offering them gum and money, as his family says he is continuing to receive psychiatric treatment.\n\nBatarti Gabbard, 55, was charged with second-degree custodial interference after the July 12 \"stranger danger\" incident at a Waik\u012bk\u012b hotel pool, according to police.\n\nHonolulu police allege Gabbard approached several children, including a 9-year-old boy, asked for their names, wrote them in a notebook and offered them money and gum if they would accompany him to his hotel room.\n\nEXCLUSIVE: TULSI GABBARD RESIGNS FROM TRUMP CABINET\n\nFox News Digital obtained new comment from Gabbard's father, Hawaii state Sen. Mike Gabbard, who declined to discuss the allegations, but confirmed his son continues to receive medical and psychiatric treatment.\n\n\"We love him, and asked him to follow the protocol at the hospital, which he says he will do,\" Mike Gabbard told Fox News Digital. \"We're praying for his speedy recovery, and would appreciate the prayers of others.\"\n\nFox News Digital also reached out to Tulsi Gabbard through her public office and left a voicemail requesting comment.\n\nShe did not immediately respond.\n\nGABBARD CLAIMS \u2018COORDINATED EFFORT\u2019 BY INTELLIGENCE COMMUNITY TO ADVANCE NARRATIVE TO IMPEACH TRUMP\n\nPolice said the incident occurred around 2 p.m. on July 12 at the pool area of an unnamed Waik\u012bk\u012b hotel, where Batarti Gabbard allegedly approached several children.\n\nAccording to police, the children refused and Gabbard walked away.\n\nA 42-year-old woman reported the incident to police.\n\nMIKE WALTZ, TIM TEBOW LAUNCH EFFORT TO COMBAT ONLINE CHILD EXPLOITATION: 'IT'S HAPPENING IN THEIR BACKYARD'\n\nAccording to KITV, Gabbard had also been arrested July 16 on charges of theft.\n\nHe pleaded not guilty to the theft charge Friday morning, was released and is scheduled to appear in court Aug. 14 in that case.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nKITV reported that no court date has yet been set on the custodial interference charge.\n\nHonolulu Police confirmed to Fox News Digital that Gabbard is no longer in custody.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left": 50,
-      "right-center": 50
     }
   },
   {
@@ -535,35 +503,67 @@
     }
   },
   {
-    "id": 6285354,
+    "id": 3791884,
     "date": "2026-07-19",
-    "topic": "Russia Kyiv Ballistic Missile Pounds Five",
+    "topic": "Boxer Hannah Rapp Struck Texas Dies",
     "match_score": 0.4,
-    "cluster_size": 2,
+    "cluster_size": 3,
     "articles": {
       "left": {
-        "title": "Russia pounds Kyiv for five hours in one of its biggest ballistic missile attacks",
-        "url": "https://www.theguardian.com/world/2026/jul/19/dozens-of-russian-missiles-pound-kyiv-ukraine-in-major-attack",
-        "source": "The Guardian (World)",
+        "title": "US boxer Hannah Rapp dies after being struck by car while cycling in Texas",
+        "url": "https://www.theguardian.com/us-news/2026/jul/19/boxer-hannah-rapp-dies-struck-by-car",
+        "source": "The Guardian (US)",
         "bias": "left",
         "priority": 1
       },
       "left-center": {
-        "title": "Russia launches deadly, massive ballistic missile attack in Kyiv, Ukraine",
-        "url": "https://www.cbsnews.com/news/russia-ballistic-missile-attack-kyiv-ukraine/",
+        "title": "Boxer Hannah Rapp struck and killed in Texas; driver arrested",
+        "url": "https://www.cbsnews.com/news/hannah-rapp-death-brazos-county-texas-7-19-2026/",
         "source": "CBS News",
         "bias": "left-center",
         "priority": 8
       }
     },
-    "farLeftText": "Russia has carried out one of its biggest-ever ballistic missile attacks on Kyiv, launching a five-hour raid that left at least one person dead and seven injured, with fires and damage across the city.\n\nUkrainian officials said the capital was hit with about 40 Iskander-M and hypersonic Zircon missiles. Residents heard an air raid siren sound at 1.30am. There was the sound of air defences, followed minutes later by a series of booms and explosions.\n\nHouses in Kyiv\u2019s historic centre shook, and car alarms blared, as dozens of missiles arrived in less than an hour. There was a second air raid siren at 6.30am, with more impacts reported.\n\nA three-storey building caught fire in the central Shevchenkivsky district. Rescuers dug out several people trapped inside and recovered a body. Four other areas were hit, with fires reported at office and residential buildings and a dormitory.\n\nResidents sheltering inside Lukyanivska metro station posted footage after the ceiling in the ground-floor vestibule collapsed because of a massive blast wave. The station is temporarily closed.\n\n\u201cAccording to preliminary information, one person was, sadly, killed as a result of the attack,\u201d the city military administration said on Telegram. Kyiv\u2019s mayor, Vitali Klitschko, said seven people were wounded.\n\nKyiv\u2019s military said it had shot down 18 missiles in Sunday\u2019s attack, which was aimed primarily at the Ukrainian capital. It added that 108 out of 125 drones had also been downed.\n\nRussia has been firing drones and missiles at Kyiv and other Ukrainian cities almost daily since it launched its full-scale 2022 invasion.\n\nZelenskyy \u2060said last week that the US and Ukraine had reached a political \u200bagreement on licences to \u200bmake the prized Patriot interceptors, adding \u200bthat he hoped production could begin by the end of the year. Ukraine\u2019s own stocks of interceptors appear to have dwindled.\n\nBut \u200bthe mounting Russian \u200cattacks in the \u200bfifth year of Moscow\u2019s \u200bfull-scale war are heaping pressure on Kyiv\u2019s foreign partners to accelerate supply of anti-ballistic defences.\n\n\u201cProtection against ballistic missiles is our constant and top priority right now,\u201d Zelenskyy said on X on Sunday. \u201cInterceptors are needed every day.\u201d\n\nThe attacks come amid big anti-government protests in Kyiv after Zelenskyy\u2019s decision to sack the country\u2019s popular and modernising defence minister, Mykhailo Fedorov. Demonstrators want Fedorov reinstated and the Soviet-style commander-in-chief, Col Gen Oleksandr Syrskyi, sacked instead.\n\nAt \u200cone location in western Kyiv, emergency workers picked through smouldering debris and doused bombed-out apartments.\n\nA \u200cresident who identified himself as Vlad told Reuters he had been inside his apartment when a blast tore off his balcony door, which smashed him in the head.\n\n\u201cMy grandmother lives with me, and she can\u2019t walk. How could I run away and leave her behind?\u201d he said.\n\nRescue workers pulled four people from a burning private home in the Sviatoshynskyi district, while in the Shevchenkivskyi district they rescued residents from a burning three-storey building. A fire in a non-residential building was also contained. One person was later found dead.\n\nFirefighters also responded to blazes in the Solomyanskyi, Desnianskyi and Dnipro districts.\n\n1:32 Why Ukrainians are protesting against Zelenskyy\u2019s dismissal of defence minister \u2013 video\n\nThere have also been attacks on Russia. On Saturday, Ukraine sent attack drones to destroy e-commerce warehouses in the Moscow and Tambov regions, killing eight people and causing major fires.\n\nEarlier on Saturday Russian strikes killed five people and wounded almost 20 in several regions.\n\n\u201cIn response to Russian strikes on our civilian infrastructure and on our cities and communities, two major logistics facilities were hit \u2013 in the Moscow and Tambov regions,\u201d Zelenskyy said. The Ukrainian president alleged the centres were used \u201cto supply sanctioned components for drone production and navigation equipment\u201d.\n\nAccording to the United Nations, June was the deadliest month for civilians in Ukraine since April 2022, with at least 293 people killed.\n\nTalks on ending Europe\u2019s bloodiest conflict since World War II remain frozen, while fighting at the front is effectively at a standstill.",
-    "centerLeftText": "One person was killed and 16 others wounded in an overnight Russian attack on Kyiv that included ballistic missiles, local authorities said.\n\nThe attack began at around 1:30 a.m. local time and continued for several hours, with explosions echoing across the capital.\n\nRussia launched 41 missiles and 125 attack drones across Ukraine overnight, according to the Ukrainian air force. The attack included 25 ballistic missiles. Ukrainian forces intercepted and suppressed 108 drones and 18 missiles.\n\nPresident Volodymyr Zelenskyy said most of the missiles had targeted the capital.\n\nThe strikes on Kyiv sparked fires in five districts of the city, damaging residential buildings, office and industrial sites, a dormitory and vehicles, according to Ukraine's State Emergency Service.\n\nViktoria Shejko, 32, was taking shelter in the corridor of her apartment block with her seven children and husband when they heard the loud explosions.\n\n\"When the alarm started, we checked that there were ballistics, then went into the corridor. Then it started exploding one missile after another,\" she said.\n\n\"It's very difficult psychologically, because lately they've been firing ballistic missiles at us very often. It used to be once a week or even more rarely, but now if not every day, then every other day,\" she added.\n\nRescue workers pulled four people from a burning private home in the Sviatoshynskyi district, while in the Shevchenkivskyi district they rescued residents from a burning three-story building. A fire in a nonresidential building was also contained. One person was later found dead.\n\nFirefighters also responded to blazes in the Solomyanskyi, Desnianskyi and Dnipro districts.\n\nRussia's defense ministry claimed the attack on Kyiv targeted sites linked to the Ukrainian military \u2014 including plants producing Flamingo drones and parts for Neptune guided missiles, as well as a postal terminal \"used for storing dual-use goods and assembling drones, robotic systems and electronic warfare equipment.\"\n\nRussia has launched several large-scale attacks on Kyiv in recent weeks as Ukraine faces a shortage of Patriot air defense missiles, which are its most effective means of intercepting Russian ballistic missiles. Ukraine said it shot down at least 17 ballistic missiles in Sunday's attack, indicating it may have replenished some of its dwindling stockpile of Patriot interceptor missiles. During a major Russian attack earlier this month, Ukraine was unable to intercept any ballistic missiles, exposing gaps in its air defense capabilities.\n\nU.S. President Trump said at a NATO conference earlier that month that he is prepared to grant Ukraine licenses to produce Patriot interceptor missiles, potentially bolstering Kyiv's defenses against Russian ballistic missile attacks. However, the details and timeline for implementing the decision remain unclear.",
+    "farLeftText": "US boxer Hannah Rapp, who in June fought for the World Boxing Council women\u2019s featherweight championship, was killed on Saturday while she bicycled in Texas after a motorist struck her with his car, according to authorities.\n\nRapp was 26, and investigators arrested a 31-year-old man identified as Charles Medina in connection with her death, the sheriff\u2019s office of Brazos county, Texas, said in a statement.\n\nThe agency said Rapp and a fellow bicyclist were riding on a local road when Medina passed them in his car, stopped, and drove his vehicle in reverse. Medina then hit Rapp, and she was pronounced dead after emergency responders brought her to a hospital.\n\nBrazos deputies said they booked Medina on a count of manslaughter, which Texas law defines as recklessly causing a person\u2019s death. The sheriff\u2019s office did not provide additional details, saying the \u201cisolated\u201d case remained under active and ongoing investigation.\n\nWord of Rapp\u2019s death prompted tributes from her colleagues in professional boxing.\n\n\u201cThe loss of Hannah Rapp leaves us heartbroken,\u201d WBC president Mauricio Sulaiman said in a prepared statement. \u201cShe was an exceptional boxer, but above all, an invaluable member of our boxing family.\n\n\u201cWe join in the grief that <span class='highlight-bias highlight-bias-left'>overwhelms</span> her loved ones, her team, and all those who had the privilege of knowing and supporting her throughout her brilliant career.\u201d\n\nRapp had registered eight victories \u2013 including five by knockout \u2013 and drawn once during her first nine pro career bouts. For her tenth outing, the Yorktown, Indiana, native challenged Tiara Brown of Fort Myers, Florida, for her world title belt in the WBC\u2019s 126lb (57.2kg) weight class.\n\nBrown retained her belt with a unanimous decision win at Florida\u2019s Caribe Royal Orlando resort. <span class='highlight-bias highlight-bias-left'>Nonetheless</span>, on Saturday, the champion wrote on social media that Rapp \u201cwas the best dance partner I have ever faced as a pro\u201d.\n\n\u201cWe fought a GREAT fight for the fans from the [first] bell to the last,\u201d Brown wrote. \u201cIt was my honor to share the ring with her.\u201d\n\nMedina\u2019s bond amount was not immediately set, and he remained in custody on Sunday morning, Brazos jail records show.\n\nThose jail records also showed prior arrests for Medina on counts such as deadly conduct by discharging a firearm, assault causing bodily injury, and <span class='highlight-bias highlight-bias-left'>reckless</span> driving. Dispositions for those cases weren\u2019t immediately available.\n\nMedina could face between two and 20 years in prison under Texas law if eventually convicted of manslaughter in Rapp\u2019s death.",
+    "centerLeftText": "The boxing community is in mourning after a prominent competitor was reportedly hit and killed by a driver in Texas over the weekend.\n\nThe Brazos County Sheriff's Office said deputies responded around 10 a.m. on Saturday to the 23000 block of FM 159, near the community of Navasota. Deputies arrived and found 26-year-old Hannah Rapp lying on the roadway, with initial reports indicating a vehicle had hit her. First responders provided emergency care prior to transporting her to a nearby hospital. Rapp, however, died of her injuries.\n\nDuring the investigation, Brazos County deputies said they learned Rapp and another bicyclist were on the road when 31-year-old Charles Medina drove past them. However, the sheriff's office said Medina then stopped his vehicle, shifted into reverse, and hit Rapp. He was arrested and charged with manslaughter.\n\nBrazos County is located about 80 miles northwest of Houston.\n\nESPN notes that Rapp was a rising star in the ring, having challenged for the World Boxing Council's featherweight championship this past June. WBC president Mauricio Sulaiman mourned Rapp's death in a statement shared online.\n\n\"The loss of Hannah Rapp leaves us heartbroken. She was an exceptional boxer, but above all, an invaluable member of our boxing family. We join in the grief of her loved ones, her team, and all those who had the privilege of knowing and supporting her throughout her brilliant career,\" the statement reads.\n\nThe World Boxing Association also shared a tribute to Rapp on X.\n\nThe World Boxing Association mourns the passing of Hannah Rapp.\n\n\n\nWe extend our deepest condolences to her family and friends during this difficult time. Our thoughts are with all those mourning her loss. Rest in peace. \ud83d\udd4a\ufe0f pic.twitter.com/vHwJ4ufAGO \u2014 WBA Boxing (@WBABoxing) July 19, 2026\n\nCBS affiliate KBTX-TV in College Station notes that Rapp moved to the area in 2024 from her native Indiana. She had been boxing for less than five years and balanced training with her job at Texas A&M.",
     "centerText": "No article found in this category for this topic.",
     "centerRightText": "No article found in this category for this topic.",
     "farRightText": "No article found in this category for this topic.",
     "omissions": {
       "left": 50,
       "left-center": 50
+    }
+  },
+  {
+    "id": 6693210,
+    "date": "2026-07-19",
+    "topic": "Tulsi Gabbards Brother Trying Lure Children",
+    "match_score": 0.4,
+    "cluster_size": 2,
+    "articles": {
+      "left": {
+        "title": "Tulsi Gabbard\u2019s brother jailed for \u2018trying to lure children\u2019 to hotel room: report",
+        "url": "https://www.rawstory.com/tulsi-gabbard-2677243879/",
+        "source": "Raw Story",
+        "bias": "left",
+        "priority": 10
+      },
+      "right-center": {
+        "title": "Tulsi Gabbard's brother charged after allegedly trying to lure children to Waik\u012bk\u012b hotel room: police",
+        "url": "https://www.foxnews.com/politics/tulsi-gabbards-brother-charged-allegedly-trying-lure-children-waikiki-hotel-room-police",
+        "source": "Fox News Politics",
+        "bias": "right-center",
+        "priority": 2
+      }
+    },
+    "farLeftText": "Batarti Gabbard, the 55-year-old brother of former Director of National Intelligence Tulsi Gabbard, was arrested Friday for allegedly trying to lure children to a hotel room in Honolulu, Hawaii using \u201cgum and money,\u201d the Honolulu Star-Advertiser reported Saturday.\n\n\u201cBatarti Gabbard, aka Bhakti Gabbard, allegedly approached several children, including a boy, age 9, and offered them gum and money to accompany him to his hotel room, according to police,\u201d the outlet reported. \u201cHe also asked the children for their names and wrote them in a notebook, police said. The children refused to go with him and the suspect walked away.\u201d\n\nBatarti Gabbard's wife, Kimberly Gabbard, petitioned for a protective order from her husband on Friday due to what she described as \u201c<span class='highlight-bias highlight-bias-left'>bizarre</span> behavior\u201d he exhibited the day prior, which included \u201csinging loudly\u201d and \u201cdisrupting others\u201d in public, the report reads.\n\n\u201cHis family members and I have repeatedly encouraged him to seek psychiatric treatment due to his significant deterioration of his mental state and judgment,\u201d Kimberly Gabbard wrote in her petition, according to the Honolulu Star-Advertiser.\n\nTulsi Gabbard began her career in politics as a Hawaii state House representative in 2002, climbing the ranks over decades before being appointed as Director of National Intelligence last year, a position she resigned from last month citing her husband\u2019s deteriorating health.\n\nRecent reporting revealed that much of Tulsi Gabbard\u2019s decision making \u2013 from what she said to what bill she supported \u2013 may have been heavily influenced by Chris Butler, the leader of a group countless ex-members have described as a \u201ccult.\u201d",
+    "centerLeftText": "No article found in this category for this topic.",
+    "centerText": "No article found in this category for this topic.",
+    "centerRightText": "NEW You can now listen to Fox News articles!\n\nThe older brother of former Director of National Intelligence Tulsi Gabbard has been charged after Honolulu police say he allegedly tried to lure several children to his Waik\u012bk\u012b hotel room by offering them gum and money, as his family says he is continuing to receive psychiatric treatment.\n\nBatarti Gabbard, 55, was charged with second-degree custodial interference after the July 12 \"stranger danger\" incident at a Waik\u012bk\u012b hotel pool, according to police.\n\nHonolulu police allege Gabbard approached several children, including a 9-year-old boy, asked for their names, wrote them in a notebook and offered them money and gum if they would accompany him to his hotel room.\n\nEXCLUSIVE: TULSI GABBARD RESIGNS FROM TRUMP CABINET\n\nFox News Digital obtained new comment from Gabbard's father, Hawaii state Sen. Mike Gabbard, who declined to discuss the allegations, but confirmed his son continues to receive medical and psychiatric treatment.\n\n\"We love him, and asked him to follow the protocol at the hospital, which he says he will do,\" Mike Gabbard told Fox News Digital. \"We're praying for his speedy recovery, and would appreciate the prayers of others.\"\n\nFox News Digital also reached out to Tulsi Gabbard through her public office and left a voicemail requesting comment.\n\nShe did not immediately respond.\n\nGABBARD CLAIMS \u2018COORDINATED EFFORT\u2019 BY INTELLIGENCE COMMUNITY TO ADVANCE NARRATIVE TO IMPEACH TRUMP\n\nPolice said the incident occurred around 2 p.m. on July 12 at the pool area of an unnamed Waik\u012bk\u012b hotel, where Batarti Gabbard allegedly approached several children.\n\nAccording to police, the children refused and Gabbard walked away.\n\nA 42-year-old woman reported the incident to police.\n\nMIKE WALTZ, TIM TEBOW LAUNCH EFFORT TO COMBAT ONLINE CHILD EXPLOITATION: 'IT'S HAPPENING IN THEIR BACKYARD'\n\nAccording to KITV, Gabbard had also been arrested July 16 on charges of theft.\n\nHe pleaded not guilty to the theft charge Friday morning, was released and is scheduled to appear in court Aug. 14 in that case.\n\nCLICK HERE TO DOWNLOAD THE FOX NEWS APP\n\nKITV reported that no court date has yet been set on the custodial interference charge.\n\nHonolulu Police confirmed to Fox News Digital that Gabbard is no longer in custody.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left": 50,
+      "right-center": 50
     }
   },
   {
