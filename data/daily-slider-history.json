@@ -94,7 +94,7 @@
     }
   },
   {
-    "id": 16712,
+    "id": 8632590,
     "date": "2026-07-23",
     "topic": "Trump Attends Dignified Transfer Soldiers Killed",
     "match_score": 0.6,
@@ -110,7 +110,7 @@
       "right-center": {
         "title": "Trump salutes 'great heroes' as he attends dignified transfer of US service members killed in Jordan, Iraq",
         "url": "https://www.foxnews.com/politics/trump-salutes-great-heroes-he-attends-dignified-transfer-us-service-members-killed-jordan-iraq",
-        "source": "Fox News Latest",
+        "source": "Fox News Politics",
         "bias": "right-center",
         "priority": 2
       },
@@ -173,7 +173,7 @@
     }
   },
   {
-    "id": 7525833,
+    "id": 6002493,
     "date": "2026-07-23",
     "topic": "Mamdani Arrest Netanyahu Enforce Warrant Mayor",
     "match_score": 0.4,
@@ -182,7 +182,7 @@
       "left": {
         "title": "Mamdani says he can\u2019t arrest Netanyahu as mayor and urges US to enforce ICC warrant",
         "url": "https://www.theguardian.com/us-news/2026/jul/22/zohran-mamdani-netanyahu-arrest-new-york",
-        "source": "The Guardian (US)",
+        "source": "The Guardian (World)",
         "bias": "left",
         "priority": 1
       },
@@ -202,37 +202,6 @@
     "omissions": {
       "left": 50,
       "left-center": 50
-    }
-  },
-  {
-    "id": 1529352,
-    "date": "2026-07-23",
-    "topic": "Tropical Storm Bertha Landfall Gulf Coast",
-    "match_score": 0.4,
-    "cluster_size": 4,
-    "articles": {
-      "left-center": {
-        "title": "Tropical Storm Bertha makes landfall on Gulf Coast. See its path.",
-        "url": "https://www.cbsnews.com/news/tropical-storm-bertha-gulf-coast-maps-path/",
-        "source": "CBS News",
-        "bias": "left-center",
-        "priority": 8
-      },
-      "center": {
-        "title": "News Wrap: Tropical Storm Bertha makes landfall in Louisiana",
-        "url": "https://www.pbs.org/newshour/show/news-wrap-tropical-storm-bertha-makes-landfall-in-louisiana",
-        "source": "PBS",
-        "bias": "center",
-        "priority": 4
-      }
-    },
-    "farLeftText": "No article found in this category for this topic.",
-    "centerLeftText": "Tropical Storm Bertha made landfall in St. Bernard Parish, Louisiana, on Wednesday. The storm is bringing rain to a large swath of the northern Gulf Coast, with a series of watches and warnings issued along its path.\n\nBertha is crawling westward \"with little acceleration,\" the National Hurricane Center said. Forecasters said the storm would move over the New Orleans area overnight Wednesday and continue on toward Houston before dissipating by the end of the week.\n\nBeaches were closed from Florida to Mississippi as Bertha's tropical-storm-force winds reached more than 100 miles outward from its center.\n\nMap shows projected path\n\nBertha, the second named storm of the Atlantic hurricane season, is forecast to stick close to the coast. The Miami-based hurricane center said it expects the system to continue gradually weakening as it moves along the northern Gulf Coast over the next couple of days.\n\nAs of the center's latest update early Thursday, the storm had maximum sustained winds of 45 mph after gradually decreasing since Tuesday night.\n\nCBS News\n\nLouisiana Gov. Jeff Landry urged residents not to be <span class='highlight-bias highlight-bias-left'>complacent</span> about the potential flooding threat.\n\n\"It doesn't take a major hurricane to do major damage to communities in Louisiana,\" Landry said at a news conference Wednesday.\n\nLouisiana state climatologist Jay Grymes said he expected some pockets of flooding, but added, \"With luck, this will be an in-and-out kind of situation.\"\n\nRobbie Berg, a warning coordination meteorologist at the hurricane center, told The Associated Press that the storm's landfall itself shouldn't be too much of a concern.\n\n\"Landfall really doesn't have a whole lot of meaning in this particular case,\" Berg said.\n\nCandice Henderson, who manages a beachside restaurant called the Crab Trap in Pensacola, told The AP that, for local residents, \"this is just another storm.\" But officials in Florida, Louisiana and Mississippi still opened sites where people could acquire sandbags, while some beaches were closed to swimmers.\n\nWarnings and watches in effect\n\nTropical storm watches were expanded Wednesday to include coastal parts of southwestern Louisiana and northeastern Texas as the storm traveled in their direction. Tropical storm warnings were in effect for west of Cameron, Louisiana, to Sargent, Texas, as well as the area of New Orleans and Lake Pontchartrain.\n\nA tropical storm watch was also posted for the area west of Cameron to Sargent, Texas.\n\n\"Tropical storm conditions are possible within the watch area in Louisiana by tonight and along the upper Texas coast by Thursday or Thursday night,\" the hurricane center said Wednesday.\n\nThe storm was expected to produce 1 to 4 inches of rain, with isolated totals of 6 inches in some areas through Thursday. \"This rainfall may produce isolated flash flooding, especially in urban areas,\" the hurricane center warned.\n\nThe system could also produce storm surge, raising waters up to 3 feet in some locations along the coast.\n\nBertha comes weeks after the 2026 hurricane season's first named storm, Tropical Storm Arthur, which made landfall in June along the Gulf Coast of Texas.",
-    "centerText": "In our news wrap Wednesday, Tropical Storm Bertha made landfall on the coast of Louisiana about 40 miles east of New Orleans, this year's cyclosporiasis outbreak in the U.S. is officially the worst on record and OpenAI says it's investigating an \"unprecedented cyber incident\" after one of its AI models went rogue and hacked another company.\n\nNotice: Transcripts are machine and human generated and lightly edited for accuracy. They may contain errors.\n\nAmna Nawaz:\n\nIn the day's other news: Tropical Storm Bertha made landfall on the southern coast of Louisiana this afternoon about 40 miles east of New Orleans.\n\nSatellite imagery shows the sheer size of the storm, with winds stretching as far as 100 miles from its center. Officials are warning of dangerous storm surge and damaging wind, even as Bertha weakens moving westward across the Gulf Coast. In a press conference today, Louisiana's governor said the state is prepared for the worst, though the storm is not expected to cause major damage.\n\nGov. Jeff Landry (R-LA):\n\nToday's forecast is encouraging, but it doesn't mean that we should be <span class='highlight-bias highlight-bias-center'>complacent</span>. I expect every level of government to stay focused on, and that's its core responsibility of protecting people and maintaining the critical infrastructure.\n\nAmna Nawaz:\n\nMeantime, flash flooding has swamped homes and businesses in West Virginia, with up to seven inches of rain falling in some areas. Governor Patrick Morrisey declared a state of emergency for all counties and sent more than 300 National Guard troops to affected areas.\n\nEmergency crews on the other side of the Atlantic are battling conditions of a different extreme. Wildfire has engulfed entire homes in Turkey, while, in the mountains of Sicily, towns were surrounded by a wall of smoke. In Spain, a fire in Guadalajara, north of Madrid, has burned some 80,000 acres and forced more than 1,200 people to evacuate. It's now the country's second largest wildfire on record.\n\nToday, Spain's prime minister visited the fire zone. He said, compared to this time last year, the number of wildfires in Spain has quadrupled.\n\nPedro Sanchez, Spanish Prime Minister (through translator):\n\nSpain needs a major state pact against the climate emergency, because we cannot only think about wildfires when they occur. We have to act beforehand. This is not about politics. It is not about <span class='highlight-bias highlight-bias-center'>ideology</span>. It is science.\n\nAmna Nawaz:\n\nThe fires come in the middle of a still sweltering summer across Europe. In France, public health officials say there were upwards of 5,700 more deaths than usual during a record-setting heat wave last month.\n\nThis year's cyclosporiasis outbreak in the U.S. is officially the worst on record, as the CDC says there are more than 4,100 confirmed cases across 41 states. The agency is aware of 7,400 additional cases that have not been confirmed. No deaths have been reported.\n\nHealth Secretary Robert F. Kennedy Jr. told ABC News yesterday that the outbreak is -- quote -- \"under control.\" Officials are still investigating iceberg lettuce from Taylor Farms as a potential source of the outbreak and say the number of cases could rise further.\n\nOn Capitol Hill today, the House passed a flurry of Republican-led measures, including the GOP's $95 billion budget proposal that would further fund the Iran war.\n\nWoman:\n\nThe concurrent resolution is adopted.\n\nAmna Nawaz:\n\nThe tally was 216 to 214, with all Democrats opposed. The vast majority of the funds would go towards the Pentagon and other national security needs. The rest would help farmers struggling under President Trump's tariffs and pay for voting law changes that he's pushing.\n\nThe measure faces an uphill battle in the Senate, but House Speaker Mike Johnson touted it and other bills passed today as a win.\n\nRep. Mike Johnson (R-LA):\n\nThis was obviously a consequential week for House Republicans, but it was a very consequential week for the American people.\n\nAmna Nawaz:\n\nThe House also approved measures that would ban insider trading for lawmakers and officially renamed the Defense Department as the Department of War.\n\nOpenAI says it's investigating what is called an unprecedented cyber incident after one of its A.I. models went rogue and hacked another company. The ChatGPT maker says the breach happened last week while OpenAI was testing the cybersecurity capabilities of its systems.\n\nThe head of the hacked company, Hugging Face, called the attack mind-blowing, but said there was -- quote -- \"no malicious intent.\" The incident has raised concerns about the growing capabilities of A.I. and the need for guardrails to keep the technology in check.\n\nOn Wall Street today, stocks ended a bit lower as oil prices spiked. The Dow Jones industrial average lost just six points, so basically flat. The Nasdaq fell nearly 150 points. The S&P 500 also closed the day in negative territory.\n\nAnd we have two passings to acknowledge this evening, starting with the death of former CIA Director James Woolsey. His tenure under President Bill Clinton was a rocky one, marked by the 1994 arrest of CIA case officer Aldrich Ames, who sold secrets to the Soviet Union for nearly a decade.\n\nWoolsey's decision to not fire or demote anyone in the wake of the scandal cast a shadow over his time at the CIA. His politics tilted to the right over the years. In 2016, he joined Donald Trump's presidential campaign as a senior adviser. And he continued to defend America's 2003 invasion of Iraq, which he spoke about on this program in 2016.\n\nJames Woolsey, Former CIA Director:\n\nTwo of the three weapons of mass destruction, biological and chemical, were in the hands of Saddam the whole time. It was the third kind that everybody's particularly worried about, nuclear, that was lied about and so forth. But two-thirds of the types of weapons of mass destruction were in fact in Iraq.\n\nAmna Nawaz:\n\nHis wife says James Woolsey died at his home in Washington from a stroke. He was 84 years old.\n\nAnd celebrated saxophonist Plas Johnson has died. He's best known for his playful musical turn on one of the most recognizable movie themes in history. Johnson's recording for composer Henry Mancini's \"The Pink Panther\" helped the song to win three Grammys and an Oscar nomination.\n\nThe Louisiana native was also a prolific session musician, recording alongside the likes of Frank Sinatra, Ella Fitzgerald, and the Beach Boys, among many others. Johnson's family says he died last week at his home in Los Angeles. Plas Johnson was 94 years old.",
-    "centerRightText": "No article found in this category for this topic.",
-    "farRightText": "No article found in this category for this topic.",
-    "omissions": {
-      "left-center": 84
     }
   },
   {
@@ -267,7 +236,7 @@
     }
   },
   {
-    "id": 9053941,
+    "id": 765888,
     "date": "2026-07-23",
     "topic": "Police Madison Wisconsin Sparking Protests Officer",
     "match_score": 0.4,
@@ -276,7 +245,7 @@
       "left": {
         "title": "Police officer fatally shoots man in Madison, Wisconsin, sparking protests",
         "url": "https://www.theguardian.com/us-news/2026/jul/22/madison-wisconsin-police-shooting",
-        "source": "The Guardian (US)",
+        "source": "The Guardian (World)",
         "bias": "left",
         "priority": 1
       },
@@ -296,6 +265,37 @@
     "omissions": {
       "left": 50,
       "left-center": 50
+    }
+  },
+  {
+    "id": 6762966,
+    "date": "2026-07-23",
+    "topic": "Tropical Storm Bertha Louisiana Moves Heads",
+    "match_score": 0.4,
+    "cluster_size": 3,
+    "articles": {
+      "left-center": {
+        "title": "Tropical Storm Bertha moves into Louisiana, heads for Texas. See its path.",
+        "url": "https://www.cbsnews.com/news/tropical-storm-bertha-gulf-coast-maps-path/",
+        "source": "CBS News",
+        "bias": "left-center",
+        "priority": 8
+      },
+      "center": {
+        "title": "News Wrap: Tropical Storm Bertha makes landfall in Louisiana",
+        "url": "https://www.pbs.org/newshour/show/news-wrap-tropical-storm-bertha-makes-landfall-in-louisiana",
+        "source": "PBS",
+        "bias": "center",
+        "priority": 4
+      }
+    },
+    "farLeftText": "No article found in this category for this topic.",
+    "centerLeftText": "Tropical Storm Bertha was turning toward Texas early Thursday after making landfall over Louisiana on Wednesday, then heading offshore again. It continued to bring rain to a large swath of the northern Gulf Coast.\n\nBertha was moving westward off the Louisiana coast and \"is expected to make landfall along the northwestern Gulf Coast today,\" the National Hurricane Center said, adding that the storm was traveling at 13 mph.\n\n\"Bertha is forecast to maintain tropical storm intensity up until it reaches the upper Texas coast later today,\" then \"is expected to dissipate inland over Texas by tonight or Friday,\" the Miami-based center said.\n\nMap shows projected path\n\nBertha, the second named storm of the Atlantic hurricane season, had maximum sustained winds of 45 mph after a gradual decrease since Tuesday night.\n\nCBS News\n\n\"On the forecast track, the center of Bertha will move near or along the Louisiana and upper Texas coasts through this afternoon, and then move farther inland into Texas this evening and tonight,\" the center said.\n\nLouisiana state climatologist Jay Grymes said Wednesday he expected some pockets of flooding, but added, \"With luck, this will be an in-and-out kind of situation.\" It appears to have been.\n\nWarnings in effect\n\nA tropical storm warning is posted for the Gulf Coast from the Terrebonne/Lafourche Parish line in Louisiana to Sargent, Texas.\n\n\"Bertha is expected to produce total rainfall amounts of 2 to 4 inches with isolated totals to 6 inches through tonight along the Texas Gulf Coast and South Texas. This rainfall may produce isolated flash flooding, especially in urban areas,\" the center cautioned.\n\nThe system could also produce storm surge, raising waters up to 3 feet in some locations along the coast.\n\nBertha comes weeks after the 2026 hurricane season's first named storm, Tropical Storm Arthur, which made landfall in June along the Gulf Coast of Texas.",
+    "centerText": "In our news wrap Wednesday, Tropical Storm Bertha made landfall on the coast of Louisiana about 40 miles east of New Orleans, this year's cyclosporiasis outbreak in the U.S. is officially the worst on record and OpenAI says it's investigating an \"unprecedented cyber incident\" after one of its AI models went rogue and hacked another company.\n\nNotice: Transcripts are machine and human generated and lightly edited for accuracy. They may contain errors.\n\nAmna Nawaz:\n\nIn the day's other news: Tropical Storm Bertha made landfall on the southern coast of Louisiana this afternoon about 40 miles east of New Orleans.\n\nSatellite imagery shows the sheer size of the storm, with winds stretching as far as 100 miles from its center. Officials are warning of dangerous storm surge and damaging wind, even as Bertha weakens moving westward across the Gulf Coast. In a press conference today, Louisiana's governor said the state is prepared for the worst, though the storm is not expected to cause major damage.\n\nGov. Jeff Landry (R-LA):\n\nToday's forecast is encouraging, but it doesn't mean that we should be <span class='highlight-bias highlight-bias-center'>complacent</span>. I expect every level of government to stay focused on, and that's its core responsibility of protecting people and maintaining the critical infrastructure.\n\nAmna Nawaz:\n\nMeantime, flash flooding has swamped homes and businesses in West Virginia, with up to seven inches of rain falling in some areas. Governor Patrick Morrisey declared a state of emergency for all counties and sent more than 300 National Guard troops to affected areas.\n\nEmergency crews on the other side of the Atlantic are battling conditions of a different extreme. Wildfire has engulfed entire homes in Turkey, while, in the mountains of Sicily, towns were surrounded by a wall of smoke. In Spain, a fire in Guadalajara, north of Madrid, has burned some 80,000 acres and forced more than 1,200 people to evacuate. It's now the country's second largest wildfire on record.\n\nToday, Spain's prime minister visited the fire zone. He said, compared to this time last year, the number of wildfires in Spain has quadrupled.\n\nPedro Sanchez, Spanish Prime Minister (through translator):\n\nSpain needs a major state pact against the climate emergency, because we cannot only think about wildfires when they occur. We have to act beforehand. This is not about politics. It is not about <span class='highlight-bias highlight-bias-center'>ideology</span>. It is science.\n\nAmna Nawaz:\n\nThe fires come in the middle of a still sweltering summer across Europe. In France, public health officials say there were upwards of 5,700 more deaths than usual during a record-setting heat wave last month.\n\nThis year's cyclosporiasis outbreak in the U.S. is officially the worst on record, as the CDC says there are more than 4,100 confirmed cases across 41 states. The agency is aware of 7,400 additional cases that have not been confirmed. No deaths have been reported.\n\nHealth Secretary Robert F. Kennedy Jr. told ABC News yesterday that the outbreak is -- quote -- \"under control.\" Officials are still investigating iceberg lettuce from Taylor Farms as a potential source of the outbreak and say the number of cases could rise further.\n\nOn Capitol Hill today, the House passed a flurry of Republican-led measures, including the GOP's $95 billion budget proposal that would further fund the Iran war.\n\nWoman:\n\nThe concurrent resolution is adopted.\n\nAmna Nawaz:\n\nThe tally was 216 to 214, with all Democrats opposed. The vast majority of the funds would go towards the Pentagon and other national security needs. The rest would help farmers struggling under President Trump's tariffs and pay for voting law changes that he's pushing.\n\nThe measure faces an uphill battle in the Senate, but House Speaker Mike Johnson touted it and other bills passed today as a win.\n\nRep. Mike Johnson (R-LA):\n\nThis was obviously a consequential week for House Republicans, but it was a very consequential week for the American people.\n\nAmna Nawaz:\n\nThe House also approved measures that would ban insider trading for lawmakers and officially renamed the Defense Department as the Department of War.\n\nOpenAI says it's investigating what is called an unprecedented cyber incident after one of its A.I. models went rogue and hacked another company. The ChatGPT maker says the breach happened last week while OpenAI was testing the cybersecurity capabilities of its systems.\n\nThe head of the hacked company, Hugging Face, called the attack mind-blowing, but said there was -- quote -- \"no malicious intent.\" The incident has raised concerns about the growing capabilities of A.I. and the need for guardrails to keep the technology in check.\n\nOn Wall Street today, stocks ended a bit lower as oil prices spiked. The Dow Jones industrial average lost just six points, so basically flat. The Nasdaq fell nearly 150 points. The S&P 500 also closed the day in negative territory.\n\nAnd we have two passings to acknowledge this evening, starting with the death of former CIA Director James Woolsey. His tenure under President Bill Clinton was a rocky one, marked by the 1994 arrest of CIA case officer Aldrich Ames, who sold secrets to the Soviet Union for nearly a decade.\n\nWoolsey's decision to not fire or demote anyone in the wake of the scandal cast a shadow over his time at the CIA. His politics tilted to the right over the years. In 2016, he joined Donald Trump's presidential campaign as a senior adviser. And he continued to defend America's 2003 invasion of Iraq, which he spoke about on this program in 2016.\n\nJames Woolsey, Former CIA Director:\n\nTwo of the three weapons of mass destruction, biological and chemical, were in the hands of Saddam the whole time. It was the third kind that everybody's particularly worried about, nuclear, that was lied about and so forth. But two-thirds of the types of weapons of mass destruction were in fact in Iraq.\n\nAmna Nawaz:\n\nHis wife says James Woolsey died at his home in Washington from a stroke. He was 84 years old.\n\nAnd celebrated saxophonist Plas Johnson has died. He's best known for his playful musical turn on one of the most recognizable movie themes in history. Johnson's recording for composer Henry Mancini's \"The Pink Panther\" helped the song to win three Grammys and an Oscar nomination.\n\nThe Louisiana native was also a prolific session musician, recording alongside the likes of Frank Sinatra, Ella Fitzgerald, and the Beach Boys, among many others. Johnson's family says he died last week at his home in Los Angeles. Plas Johnson was 94 years old.",
+    "centerRightText": "No article found in this category for this topic.",
+    "farRightText": "No article found in this category for this topic.",
+    "omissions": {
+      "left-center": 88
     }
   },
   {
@@ -393,7 +393,7 @@
     }
   },
   {
-    "id": 9061254,
+    "id": 1316041,
     "date": "2026-07-23",
     "topic": "Hitlers Birthplace Police Station Austria Opens",
     "match_score": 0.4,
@@ -455,7 +455,7 @@
     }
   },
   {
-    "id": 9436141,
+    "id": 6170102,
     "date": "2026-07-23",
     "topic": "North Carolina Illegal Hitandrun Urges Keep",
     "match_score": 0.4,
@@ -487,7 +487,7 @@
     }
   },
   {
-    "id": 3994716,
+    "id": 1012378,
     "date": "2026-07-23",
     "topic": "Urges Charges Jack Smith Republican Lawmaker",
     "match_score": 0.4,
@@ -496,7 +496,7 @@
       "left-center": {
         "title": "Republican Lawmaker Urges Charges Against Jack Smith",
         "url": "https://www.nytimes.com/2026/07/22/us/politics/jack-smith-jim-jordan-charges.html",
-        "source": "NYT Politics",
+        "source": "NYT US",
         "bias": "left-center",
         "priority": 7
       },
